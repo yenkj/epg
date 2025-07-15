@@ -436,9 +436,9 @@
   "403626":["USA-Network_East"],
   "403653":["VH1_East"],
   "403761":["VICE"],
-  "":["WABC-New-York-ABC-East"],
-  "":["WCBS-New-York-CBS-East"],
-  "":["WE-tv"],
-  "":["WNBC-New-York-NBC-East"],
-  "":["WNYW-New-York-FOX-East"]
+  "403805":["ABC-NY"],
+  "403849":["CBS-NY"],
+  "406040":["WE-TV_East"],
+  "403619":["NBC-NY"],
+  "403858":["FOX-NY"]
 }
