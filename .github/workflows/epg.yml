@@ -2,9 +2,8 @@ name: Generate EPG XML
 
 on:
   schedule:
-    # 每天凌晨2点执行一次（UTC）
-    - cron: '0 2 * * *'
-  workflow_dispatch: # 支持手动触发
+    - cron: '0 16 * * *'  # 每天凌晨2点执行（UTC）
+  workflow_dispatch:     # 支持手动触发
 
 jobs:
   build:
@@ -13,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
