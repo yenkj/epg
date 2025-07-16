@@ -1,6 +1,14 @@
+import os
+import json
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
+from xml.etree.ElementTree import Element, SubElement, ElementTree
 
+# 加载本地频道映射文件（只使用左边中文名）
+with open('epg/channel-map.json', encoding='utf-8') as f:
+    channel_map = json.load(f)
+
+# 自定义要生成 EPG 的频道（只填中文名）
 channels = [
   "凤凰中文",
   "凤凰资讯",
@@ -411,40 +419,68 @@ channels = [
   "npr|News&Culture"
 ]
 
-base_url = "https://epg.199301.dpdns.org"
-today = datetime.utcnow().strftime("%Y-%m-%d")
-date_tag = datetime.utcnow().strftime("%Y%m%d")
+# 当前日期（北京时间）
+today = datetime.utcnow() + timedelta(hours=8)
+date_str = today.strftime('%Y%m%d')
 
-epg = ['<?xml version="1.0" encoding="UTF-8"?>', '<tv>']
+# XML 根节点
+tv = Element('tv')
 
-for ch_name in channels:
-    epg.append(f'<channel id="{ch_name}"><display-name>{ch_name}</display-name></channel>')
+# 用于格式化时间
+def format_time(dt_str):
+    return dt_str[:8] + ' ' + dt_str[8:10] + ':' + dt_str[10:12] + ':' + dt_str[12:14]
 
-    url = f"{base_url}/?ch={ch_name}&date={today}"
-    print(f"Fetching {ch_name} ...")
+# 拉取 EPG
+def fetch_epg(channel_id, date_str):
+    url = f"https://epg.pw/api/epg.xml?lang=zh-hans&timezone=QXNpYS9TaGFuZ2hhaQ==&date={date_str}&channel_id={channel_id}"
+    res = requests.get(url)
+    res.raise_for_status()
+    return res.text
+
+# 解析 XML 字符串提取节目
+def parse_epg(xml, date_prefix):
+    from xml.etree import ElementTree as ET
+    root = ET.fromstring(xml)
+    programmes = []
+    for prog in root.findall('programme'):
+        start = prog.attrib.get('start', '')
+        stop = prog.attrib.get('stop', '')
+        if not start.startswith(date_prefix):
+            continue
+        title = prog.findtext('title') or ''
+        desc = prog.findtext('desc') or ''
+        programmes.append((start, stop, title, desc))
+    return programmes
+
+# 遍历频道
+for name in channels:
+    # 找到 channel id
+    real_id = None
+    for cid, names in channel_map.items():
+        if name in names:
+            real_id = cid
+            break
+    if not real_id:
+        continue
+
+    # 添加 channel 元素
+    channel_el = SubElement(tv, 'channel', id=real_id)
+    display_name = SubElement(channel_el, 'display-name')
+    display_name.text = name
 
     try:
-        res = requests.get(url)
-        data = res.json()
-
-        for item in data.get("epg_data", []):
-            start = f"{date_tag}{item['start'].replace(':', '')} +0000"
-            end = f"{date_tag}{item['end'].replace(':', '')} +0000"
-            title = item['title'].replace("&", "&amp;").strip()
-            desc = item.get('desc', '').replace("&", "&amp;").strip()
-
-            epg.append(f'''
-<programme start="{start}" stop="{end}" channel="{ch_name}">
-  <title>{title}</title>
-  <desc>{desc}</desc>
-</programme>''')
-
+        xml_raw = fetch_epg(real_id, date_str)
+        progs = parse_epg(xml_raw, date_str)
+        for start, stop, title, desc in progs:
+            programme = SubElement(tv, 'programme', start=start, stop=stop, channel=real_id)
+            title_el = SubElement(programme, 'title')
+            title_el.text = title
+            if desc:
+                desc_el = SubElement(programme, 'desc')
+                desc_el.text = desc
     except Exception as e:
-        print(f"Failed for {ch_name}: {e}")
+        print(f"[错误] 获取频道 {name} 失败：{e}")
 
-epg.append('</tv>')
-
-with open("epg.xml", "w", encoding="utf-8") as f:
-    f.write("\n".join(epg))
-
-print("EPG XML generated as epg.xml")
+# 写入 epg.xml
+tree = ElementTree(tv)
+tree.write('epg.xml', encoding='utf-8', xml_declaration=True)
