@@ -30,7 +30,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add epg.xml
-          git commit -m "自动更新 epg.xml"
+          git diff --quiet --cached || git commit -m "自动更新 epg.xml"
           git push
         env:
           # 如果你用的是默认的 GitHub token，这里自动注入了
