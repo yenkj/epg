@@ -1,0 +1,38 @@
+name: Generate EPG XML
+
+on:
+  schedule:
+    # 每天凌晨2点执行一次（UTC）
+    - cron: '0 2 * * *'
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate EPG XML
+        run: python epg.py
+
+      - name: Commit and Push epg.xml
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add epg.xml
+          git commit -m "自动更新 epg.xml"
+          git push
+        env:
+          # 如果你用的是默认的 GitHub token，这里自动注入了
+          # 如果需要用 PAT，设置下面的环境变量 GITHUB_TOKEN
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
