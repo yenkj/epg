@@ -422,13 +422,10 @@ channels = [
 # 当前日期（北京时间）
 today = datetime.utcnow() + timedelta(hours=8)
 date_str = today.strftime('%Y%m%d')
+yesterday_str = (today - timedelta(days=1)).strftime('%Y%m%d')
 
 # XML 根节点
 tv = Element('tv')
-
-# 用于格式化时间
-def format_time(dt_str):
-    return dt_str[:8] + ' ' + dt_str[8:10] + ':' + dt_str[10:12] + ':' + dt_str[12:14]
 
 # 拉取 EPG
 def fetch_epg(channel_id, date_str):
@@ -437,15 +434,17 @@ def fetch_epg(channel_id, date_str):
     res.raise_for_status()
     return res.text
 
-# 解析 XML 字符串提取节目
-def parse_epg(xml, date_prefix):
+# 解析 XML 字符串提取节目（只要指定日期的）
+def parse_epg(xml, date_prefix, mode='today'):
     from xml.etree import ElementTree as ET
     root = ET.fromstring(xml)
     programmes = []
     for prog in root.findall('programme'):
         start = prog.attrib.get('start', '')
         stop = prog.attrib.get('stop', '')
-        if not start.startswith(date_prefix):
+        if mode == 'today' and not start.startswith(date_prefix):
+            continue
+        if mode == 'carry' and not stop.startswith(date_prefix):
             continue
         title = prog.findtext('title') or ''
         desc = prog.findtext('desc') or ''
@@ -469,15 +468,34 @@ for name in channels:
     display_name.text = name
 
     try:
-        xml_raw = fetch_epg(real_id, date_str)
-        progs = parse_epg(xml_raw, date_str)
-        for start, stop, title, desc in progs:
+        # 获取今天和昨天的节目数据
+        xml_today = fetch_epg(real_id, date_str)
+        xml_yesterday = fetch_epg(real_id, yesterday_str)
+
+        today_programmes = parse_epg(xml_today, date_str, mode='today')
+        carryover_programmes = parse_epg(xml_yesterday, date_str, mode='carry')
+
+        # 判断是否需要补全 00:00 节目
+        if today_programmes:
+            first_start = today_programmes[0][0]
+            if not first_start.endswith("0000"):  # 如果不是 00:00 开始
+                if carryover_programmes:
+                    last_prog = carryover_programmes[-1]
+                    carry_start = date_str + "000000"
+                    carry_end = first_start
+                    title, desc = last_prog[2], last_prog[3]
+                    # 插入补全节目到最前
+                    today_programmes.insert(0, (carry_start, carry_end, title, desc))
+
+        # 添加到 XML
+        for start, stop, title, desc in today_programmes:
             programme = SubElement(tv, 'programme', start=start, stop=stop, channel=real_id)
             title_el = SubElement(programme, 'title')
             title_el.text = title
             if desc:
                 desc_el = SubElement(programme, 'desc')
                 desc_el.text = desc
+
     except Exception as e:
         print(f"[错误] 获取频道 {name} 失败：{e}")
 
