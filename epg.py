@@ -14,7 +14,9 @@ channels = [
   "凤凰资讯",
   "凤凰香港"
   "A&E_East",
-  "ACC-Network"
+  "ACC-Network",
+  "AMC_East",
+  "American-Heroes-Channel"
 ]
 
 # 当前日期（北京时间）
