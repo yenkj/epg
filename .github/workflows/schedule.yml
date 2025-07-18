@@ -20,7 +20,7 @@ jobs:
         python-version: "3.11"
 
     - name: Install dependencies
-      run: pip install demjson3
+      run: pip install requests demjson3
 
     - name: Run fetch_schedule.py
       run: python fetch_schedule.py
