@@ -8,6 +8,11 @@ def parse_tvking_programmes(channel_id="108"):
     url = f"https://tvking.funorange.com.tw/channel/{channel_id}"
     res = requests.get(url)
     res.raise_for_status()
+
+    # ⬇️ 加上这段来保存网页内容到 debug.html
+    with open("debug.html", "w", encoding="utf-8") as f:
+        f.write(res.text)
+
     soup = BeautifulSoup(res.text, "html.parser")
 
     programmes = {}
