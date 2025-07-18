@@ -509,6 +509,11 @@ def fetch_ltv_programmes():
             start_epg, end_epg = parse_time_range(date_part, time_range)
             if start_epg and end_epg:
                 all_programmes[cid].append((start_epg, end_epg, title, desc))
+
+    # ✅ 对每个频道的节目按开始时间排序
+    for cid in all_programmes:
+        all_programmes[cid].sort(key=lambda x: x[0])
+
     return all_programmes
 
 # === 创建 epg.xml ===
