@@ -2,7 +2,7 @@ name: 生成 EPG XML
 
 on:
   schedule:
-    - cron: '2 16 * * *'  # 每天北京时间 00:00（UTC+8 → UTC 16:00）
+    - cron: '2 16 * * *'  # 每天北京时间 00:00
   workflow_dispatch:      # 支持手动触发
 
 jobs:
@@ -19,20 +19,22 @@ jobs:
           python-version: '3.x'
 
       - name: 安装依赖
-        run: pip install --upgrade pip requests beautifulsoup4
+        run: pip install --upgrade pip requests beautifulsoup4 lxml
 
-      - name: 生成 epg.xml 和 boss.xml
+      - name: 设置 Git 身份（防止推送失败）
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: 运行 epg.py
         run: python epg.py
 
       - name: 提交并推送更新
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
           git add epg.xml boss.xml
           if ! git diff --cached --quiet; then
-            git commit -m "📺 自动更新 epg.xml & boss.xml"
-            git pull --rebase
+            git commit -m "📺 自動更新 epg.xml & boss.xml"
+            git pull --rebase --autostash
             git push
           else
-            echo "No changes to commit"
-          fi
+            echo "✅ 沒有變更，跳過提交"
