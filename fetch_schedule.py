@@ -9,22 +9,30 @@ CHANNEL_ID = "tvking.108"
 CHANNEL_NAME = "TVKing 108"
 OUTPUT = "schedule.xml"
 
-
 def fetch_vue_data():
     res = requests.get(URL)
     res.raise_for_status()
+    html = res.text
 
-    # 匹配 createApp 中的 data()
-    match = re.search(r"createApp\(\s*{\s*data\(\)\s*{\s*return\s*({.*?})\s*}\s*}\s*\)", res.text, re.DOTALL)
+    # 精确提取 scheduleList
+    match = re.search(r"scheduleList:\s*(\[\{.*?\}\])\s*[,}]", html, re.DOTALL)
     if not match:
-        raise ValueError("未找到 Vue 数据")
+        raise ValueError("未找到 scheduleList")
 
-    js_obj = match.group(1)
-    js_obj = re.sub(r'(\w+):', r'"\1":', js_obj)  # key 加引号
-    js_obj = js_obj.replace("undefined", "null")
+    schedule_list_raw = match.group(1)
+    # 替换 JS 中的属性名，确保 JSON 能解析
+    schedule_list_json = re.sub(r'(\w+):', r'"\1":', schedule_list_raw)
+    schedule_list_json = schedule_list_json.replace("undefined", "null")
 
-    data = json.loads(js_obj)
-    return data
+    schedule_list = json.loads(schedule_list_json)
+
+    return {
+        "channel": {
+            "id": 108,
+            "name": "TVKing 108"
+        },
+        "scheduleList": schedule_list
+    }
 
 
 def generate_xmltv(data):
