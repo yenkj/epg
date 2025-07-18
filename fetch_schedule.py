@@ -27,32 +27,31 @@ def fetch_schedule_list():
     # 解析为 Python 对象
     return json.loads(raw_json)
 
-def generate_epg(schedule_list):
-    tv = ET.Element("tv")
-    channel = ET.SubElement(tv, "channel", id=CHANNEL_ID)
-    ET.SubElement(channel, "display-name").text = CHANNEL_NAME
+def generate_epg(schedule_list, channel_id="tvking.108", channel_name="TVKing 108"):
+    tv = ET.Element('tv')
+    channel = ET.SubElement(tv, 'channel', id=channel_id)
+    ET.SubElement(channel, 'display-name').text = channel_name
 
     for day in schedule_list:
-        date = day["date"]  # e.g. 2025-07-18
-        for prog in day["programList"]:
-            title = prog.get("program", "").strip()
-            if not title:
+        date = day["date"]
+        for prog in day['programList']:
+            if 'timeS' not in prog or 'timeE' not in prog:
                 continue
 
             start_time = f"{date} {prog['timeS']}"
             end_time = f"{date} {prog['timeE']}"
 
-            # 解决跨午夜问题
-            dt_start = datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S")
-            dt_end = datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S")
-            if dt_end <= dt_start:
-                dt_end += timedelta(days=1)
+            # 处理时间跨天
+            start_dt = datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S")
+            end_dt = datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S")
+            if end_dt <= start_dt:
+                end_dt += timedelta(days=1)
 
-            start_str = dt_start.strftime("%Y%m%d%H%M%S") + " +0800"
-            end_str = dt_end.strftime("%Y%m%d%H%M%S") + " +0800"
-
-            programme = ET.SubElement(tv, "programme", start=start_str, stop=end_str, channel=CHANNEL_ID)
-            ET.SubElement(programme, "title", lang="zh").text = title
+            programme = ET.SubElement(tv, 'programme',
+                                      start=start_dt.strftime("%Y%m%d%H%M%S") + " +0800",
+                                      stop=end_dt.strftime("%Y%m%d%H%M%S") + " +0800",
+                                      channel=channel_id)
+            ET.SubElement(programme, 'title', lang="zh").text = prog["program"]
 
     tree = ET.ElementTree(tv)
     tree.write("tvking_epg.xml", encoding="utf-8", xml_declaration=True)
