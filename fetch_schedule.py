@@ -1,45 +1,72 @@
 import requests
+import re
+import json
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 
-URL = "https://tvking.funorange.com.tw/channel/108"  # 把这里改成你的数据接口地址
+URL = "https://tvking.funorange.com.tw/channel/108"
+CHANNEL_ID = "tvking.108"
+CHANNEL_NAME = "TVKing 108"
+OUTPUT = "schedule.xml"
 
-def fetch_schedule():
+
+def fetch_vue_data():
     resp = requests.get(URL)
     resp.raise_for_status()
-    data = resp.json()
-    return data
 
-def build_xml(data):
-    tv = ET.Element("tv")
+    # 匹配 window.createApp({...}) 中的内容
+    match = re.search(r"createApp\(\s*{\s*data\(\)\s*{\s*return\s*({.*?})\s*}\s*}\s*\)", resp.text, re.DOTALL)
+    if not match:
+        raise ValueError("未找到 Vue 数据块")
 
-    # 加频道信息
-    channel = data.get("channel", {})
-    chan_el = ET.SubElement(tv, "channel", id=str(channel.get("id", "unknown")))
-    ET.SubElement(chan_el, "display-name").text = channel.get("name", "Unknown Channel")
+    js_obj_str = match.group(1)
 
-    # 加节目表
-    for day in data.get("scheduleList", []):
-        date_str = day.get("date", "")
-        for prog in day.get("programList", []):
-            if prog.get("program") == "ads":  # 跳过广告
-                continue
+    # 修复 JSON 格式：将 JavaScript 的单引号、None、True/False 替换为 JSON 格式
+    js_obj_str = js_obj_str.replace("undefined", "null")
+    js_obj_str = re.sub(r'(\w+):', r'"\1":', js_obj_str)  # 对 key 加引号
+    js_obj_str = re.sub(r'\'', '"', js_obj_str)
 
-            prog_el = ET.SubElement(tv, "programme")
-            prog_el.set("start", f"{date_str.replace('-', '')}{prog.get('timeS', '').replace(':', '')}00 +0800")
-            prog_el.set("stop",  f"{date_str.replace('-', '')}{prog.get('timeE', '').replace(':', '')}00 +0800")
-            prog_el.set("channel", str(channel.get("id", "unknown")))
+    # 转为 Python 字典
+    vue_data = json.loads(js_obj_str)
+    return vue_data
 
-            title_el = ET.SubElement(prog_el, "title")
-            title_el.text = prog.get("program", "Unknown Program")
 
-    return ET.ElementTree(tv)
+def generate_xmltv(data):
+    root = ET.Element("tv")
 
-def main():
-    data = fetch_schedule()
-    tree = build_xml(data)
-    tree.write("schedule.xml", encoding="utf-8", xml_declaration=True)
-    print("节目单生成完毕: schedule.xml")
+    # 添加频道信息
+    channel = ET.SubElement(root, "channel", id=CHANNEL_ID)
+    ET.SubElement(channel, "display-name").text = CHANNEL_NAME
+
+    for day in data["scheduleList"]:
+        date = day["date"]
+        for program in day["programList"]:
+            title = program["program"]
+            if title.lower() == "ads":
+                continue  # 跳过广告
+
+            start_time = f"{date} {program['timeS']}"
+            end_time = f"{date} {program['timeE']}"
+
+            start_dt = datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S")
+            end_dt = datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S")
+
+            # 处理跨天（end < start）
+            if end_dt <= start_dt:
+                end_dt += timedelta(days=1)
+
+            start_str = start_dt.strftime("%Y%m%d%H%M%S +0800")
+            end_str = end_dt.strftime("%Y%m%d%H%M%S +0800")
+
+            prog = ET.SubElement(root, "programme", start=start_str, stop=end_str, channel=CHANNEL_ID)
+            ET.SubElement(prog, "title", lang="zh").text = title
+
+    # 写入文件
+    tree = ET.ElementTree(root)
+    tree.write(OUTPUT, encoding="utf-8", xml_declaration=True)
+
 
 if __name__ == "__main__":
-    main()
+    data = fetch_vue_data()
+    generate_xmltv(data)
+    print(f"✅ 已生成：{OUTPUT}")
