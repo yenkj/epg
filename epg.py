@@ -187,6 +187,7 @@ def fetch_ls_time_programmes():
                     print(f"[時間錯誤] {prog.get('program')} 日期解析失敗: {time_err}")
                     continue
 
+                # 原始節目
                 programmes.append({
                     "channel": ch_id,
                     "title": prog["program"],
@@ -194,6 +195,18 @@ def fetch_ls_time_programmes():
                     "end": end_dt,
                     "desc": ""
                 })
+
+                # 如果節目跨天，補一段次日 00:00 起的副本
+                if start_dt.date() != end_dt.date():
+                    next_day_start = datetime.combine(end_dt.date(), datetime.min.time())
+                    if next_day_start < end_dt:
+                        programmes.append({
+                            "channel": ch_id,
+                            "title": prog["program"],
+                            "start": next_day_start,
+                            "end": end_dt,
+                            "desc": ""
+                        })
 
         # 排序（確保跨天後節目順序正確）
         programmes.sort(key=lambda x: x['start'])
