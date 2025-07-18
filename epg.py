@@ -125,7 +125,7 @@ for cid, name in boss_channels.items():
 
                 for root in [tv_all, tv_boss]:
                     p = SubElement(root, 'programme', start=start_str, stop=stop_str, channel=cid)
-                    SubElement(p, 'title', lang="zh").text = prog["program"]
+                    SubElement(p, 'title').text = prog["program"]
 
     except Exception as e:
         print(f"[错误] 抓取额外频道 {name} 失败：{e}")
