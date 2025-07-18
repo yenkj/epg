@@ -368,25 +368,35 @@ def main():
     tv_epg = Element("tv")
 
     # API频道
+from xml.etree.ElementTree import SubElement
 from datetime import datetime
 
-def parse_xmltv_time(s):
-    # 按你时间字符串格式改这里，这个例子是 '20250719000000+0800'
-    return datetime.strptime(s, "%Y%m%d%H%M%S%z")
+def parse_xmltv_time(timestr):
+    # 假设时间格式为 '20250719000000 +0800' 或 '20250719000000+0800'，空格都兼容
+    timestr = timestr.replace(" ", "")  # 去掉空格
+    return datetime.strptime(timestr, "%Y%m%d%H%M%S%z")
 
 # ...
 
+# 生成 epg_by_channel 字典的代码保持不变
+epg_by_channel = {}
+for p in epg_programmes:
+    epg_by_channel.setdefault(p['channel'], []).append(p)
+
+# 下面开始输出频道和节目
 for name in channels_api:
     real_id = next(
         (cid for cid, names in channel_map.items()
          if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)),
         None
     )
+
     if real_id:
+        # <channel>
         ch_el = SubElement(tv_epg, "channel", id=real_id)
         SubElement(ch_el, "display-name").text = name
 
-        # **修改这里的排序，改用 datetime 解析时间**
+        # --- 修改这里，排序用 datetime 解析的时间 ---
         for p in sorted(epg_by_channel.get(real_id, []), key=lambda x: parse_xmltv_time(x['start'])):
             prog_el = SubElement(tv_epg, "programme",
                                  start=p['start'],
