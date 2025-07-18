@@ -159,11 +159,30 @@ def fetch_ls_time_programmes():
         schedule_list = json.loads(raw_json)
         for day in schedule_list:
             date = day["date"]
-            for prog in day.get('programList', []):
+            prog_list = day.get('programList', [])
+            fixed_list = []
+
+            # 补全 00:00:00 缺失节目
+            if prog_list:
+                first_time = prog_list[0].get("timeS", "")
+                if first_time != "00:00:00":
+                    fixed_list.append({
+                        "program": "無節目資料",
+                        "timeS": "00:00:00",
+                        "timeE": first_time
+                    })
+
+            fixed_list.extend(prog_list)
+
+            for prog in fixed_list:
                 if 'timeS' not in prog or 'timeE' not in prog:
                     continue
-                start_dt = datetime.strptime(f"{date} {prog['timeS']}", "%Y-%m-%d %H:%M:%S")
-                end_dt = datetime.strptime(f"{date} {prog['timeE']}", "%Y-%m-%d %H:%M:%S")
+                try:
+                    start_dt = datetime.strptime(f"{date} {prog['timeS']}", "%Y-%m-%d %H:%M:%S")
+                    end_dt = datetime.strptime(f"{date} {prog['timeE']}", "%Y-%m-%d %H:%M:%S")
+                except Exception as time_err:
+                    print(f"[時間錯誤] {prog.get('program')} 日期解析失敗: {time_err}")
+                    continue
                 if end_dt <= start_dt:
                     end_dt += timedelta(days=1)
                 programmes.append({
