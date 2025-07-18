@@ -1,13 +1,12 @@
 import requests
-from bs4 import BeautifulSoup
 import re
 import json
 from datetime import datetime, timedelta
 import xml.etree.ElementTree as ET
 
 URL = "https://tvking.funorange.com.tw/channel/108"
-CHANNEL_ID = "tvking.108"
-CHANNEL_NAME = "TVKing 108"
+CHANNEL_ID = "LS-Time"
+CHANNEL_NAME = "LS-Time電影台"
 
 def fetch_schedule_list():
     res = requests.get(URL)
@@ -27,21 +26,20 @@ def fetch_schedule_list():
     # 解析为 Python 对象
     return json.loads(raw_json)
 
-def generate_epg(schedule_list, channel_id="tvking.108", channel_name="TVKing 108"):
+def generate_epg(schedule_list, channel_id=CHANNEL_ID, channel_name=CHANNEL_NAME):
     tv = ET.Element('tv')
     channel = ET.SubElement(tv, 'channel', id=channel_id)
     ET.SubElement(channel, 'display-name').text = channel_name
 
     for day in schedule_list:
         date = day["date"]
-        for prog in day['programList']:
+        for prog in day.get('programList', []):
             if 'timeS' not in prog or 'timeE' not in prog:
                 continue
 
             start_time = f"{date} {prog['timeS']}"
             end_time = f"{date} {prog['timeE']}"
 
-            # 处理时间跨天
             start_dt = datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S")
             end_dt = datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S")
             if end_dt <= start_dt:
@@ -51,7 +49,8 @@ def generate_epg(schedule_list, channel_id="tvking.108", channel_name="TVKing 10
                                       start=start_dt.strftime("%Y%m%d%H%M%S") + " +0800",
                                       stop=end_dt.strftime("%Y%m%d%H%M%S") + " +0800",
                                       channel=channel_id)
-            ET.SubElement(programme, 'title', lang="zh").text = prog["program"]
+            ET.SubElement(programme, 'title').text = prog["program"]  # 无 lang 属性
+            ET.SubElement(programme, 'desc').text = ""  # 空描述
 
     tree = ET.ElementTree(tv)
     tree.write("tvking_epg.xml", encoding="utf-8", xml_declaration=True)
