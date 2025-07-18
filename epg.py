@@ -109,80 +109,101 @@ def fetch_ltv_programmes():
         all_programmes[cid].sort(key=lambda x: x[0])
     return all_programmes
 
-def fetch_json_schedule():
+def fetch_json_schedule(channels_json):
     programmes = []
+
     for ch_id, info in channels_json.items():
         try:
             data = requests.get(info['url'], timeout=10).json()
-            for i_day, day in enumerate(data['list']):
+            raw_schedule = []
+
+            all_days = data['list']
+            for i_day, day in enumerate(all_days):
                 programme_list = day['values']
-
-                # 如果第一个节目时间不是00:00，插入無節目資料，结束时间为第一个节目开始时间
-                if programme_list and programme_list[0]['time'] != "00:00":
-                    first_start_dt = datetime.strptime(f"{programme_list[0]['date']} {programme_list[0]['time']}", "%Y-%m-%d %H:%M")
-                    programme_list.insert(0, {
-                        "name": "無節目資料",
-                        "date": day['key'],
-                        "time": "00:00"
-                    })
-
-                # 预先计算下一天第一个节目的开始时间
-                next_day_start = None
-                if i_day + 1 < len(data['list']):
-                    next_day = data['list'][i_day + 1]
-                    next_prog_list = next_day['values']
-                    if next_prog_list:
-                        first_prog = next_prog_list[0]
-                        next_day_start = datetime.strptime(f"{first_prog['date']} {first_prog['time']}", "%Y-%m-%d %H:%M")
-
                 for i, p in enumerate(programme_list):
                     start = datetime.strptime(f"{p['date']} {p['time']}", "%Y-%m-%d %H:%M")
+                    raw_schedule.append({
+                        "channel": ch_id,
+                        "title": p['name'],
+                        "start": start,
+                        "desc": ""
+                    })
 
-                    if i + 1 < len(programme_list):
-                        next_p = programme_list[i + 1]
-                        end = datetime.strptime(f"{next_p['date']} {next_p['time']}", "%Y-%m-%d %H:%M")
-                    else:
-                        # 最后一个节目，优先用下一天第一个节目开始时间作为结束时间
-                        if next_day_start and next_day_start > start:
-                            end = next_day_start
-                        else:
-                            end = start + timedelta(hours=2)
+            # 排序
+            raw_schedule.sort(key=lambda x: x['start'])
 
-                    if end <= start:
-                        end += timedelta(days=1)
+            # 生成节目区间（含跨天拆解）
+            cleaned_schedule = []
+            for i, prog in enumerate(raw_schedule):
+                start = prog["start"]
+                if i + 1 < len(raw_schedule):
+                    end = raw_schedule[i + 1]["start"]
+                else:
+                    end = start + timedelta(hours=2)
 
-                    # 处理跨天拆分
-                    if end.date() > start.date():
-                        midnight = datetime.combine(end.date(), datetime.min.time())  # 次日 00:00:00
-                        # 第一段：当天结束到午夜
-                        programmes.append({
+                if end <= start:
+                    end += timedelta(days=1)
+
+                # 如果跨天，则拆成两段
+                if end.date() > start.date():
+                    midnight = datetime.combine(end.date(), datetime.min.time())
+                    cleaned_schedule.append({
+                        "channel": ch_id,
+                        "title": prog["title"],
+                        "start": start,
+                        "end": midnight,
+                        "desc": ""
+                    })
+                    cleaned_schedule.append({
+                        "channel": ch_id,
+                        "title": prog["title"],
+                        "start": midnight,
+                        "end": end,
+                        "desc": ""
+                    })
+                else:
+                    cleaned_schedule.append({
+                        "channel": ch_id,
+                        "title": prog["title"],
+                        "start": start,
+                        "end": end,
+                        "desc": ""
+                    })
+
+            # 插入「無節目資料」
+            final_schedule = []
+            for i, prog in enumerate(cleaned_schedule):
+                if i == 0:
+                    day_start = datetime.combine(prog['start'].date(), datetime.min.time())
+                    if prog['start'] > day_start:
+                        final_schedule.append({
                             "channel": ch_id,
-                            "title": p['name'],
-                            "start": start,
-                            "end": midnight,
+                            "title": "無節目資料",
+                            "start": day_start,
+                            "end": prog['start'],
                             "desc": ""
                         })
-                        # 第二段：午夜到结束时间
-                        programmes.append({
+                    final_schedule.append(prog)
+                else:
+                    prev = cleaned_schedule[i - 1]
+                    if prog['start'] > prev['end']:
+                        # 中间补空
+                        final_schedule.append({
                             "channel": ch_id,
-                            "title": p['name'],
-                            "start": midnight,
-                            "end": end,
+                            "title": "無節目資料",
+                            "start": prev['end'],
+                            "end": prog['start'],
                             "desc": ""
                         })
-                    else:
-                        programmes.append({
-                            "channel": ch_id,
-                            "title": p['name'],
-                            "start": start,
-                            "end": end,
-                            "desc": ""
-                        })
+                    final_schedule.append(prog)
+
+            programmes.extend(final_schedule)
 
         except Exception as e:
             print(f"[錯誤] 無法抓取 {ch_id}：{e}")
 
-    programmes.sort(key=lambda x: x['start'])
+    # 最终排序
+    programmes.sort(key=lambda x: (x['channel'], x['start']))
     return programmes
 
 def fetch_ls_time_programmes():
