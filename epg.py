@@ -3,35 +3,32 @@ import json
 import requests
 from datetime import datetime, timedelta
 from xml.etree.ElementTree import Element, SubElement, ElementTree
-from ltv_parser import fetch_ltv_programs  # 假设你把之前的 LTV 抓取逻辑封装进此函数
+from bs4 import BeautifulSoup
 
-# 加载本地频道映射文件（只使用左边中文名）
+# === 频道配置 ===
 with open('epg/channel-map.json', encoding='utf-8') as f:
     channel_map = json.load(f)
 
-# 自定义要生成 EPG 的频道（只填中文名）
-channels = [
-  "凤凰中文",
-  "凤凰资讯",
-  "凤凰香港"
-]
+channels_fh = ["凤凰中文", "凤凰资讯", "凤凰香港"]
 
-# 当前日期（北京时间）
-today = datetime.utcnow() + timedelta(hours=8)
-date_str = today.strftime('%Y%m%d')
-yesterday_str = (today - timedelta(days=1)).strftime('%Y%m%d')
+channels_ltv = {
+    "ott-animation": "龍華卡通台",
+    "ott-motion": "龍華日韓台"
+}
 
-# XML 根节点
-tv = Element('tv')
+# === 时间设置 ===
+now = datetime.utcnow() + timedelta(hours=8)
+date_str_api = now.strftime('%Y%m%d')       # 凤凰台接口日期格式
+yesterday_str_api = (now - timedelta(days=1)).strftime('%Y%m%d')
+date_str_html = now.strftime('%Y-%m-%d')     # LTV 页面日期格式
 
-# 拉取 EPG
+# === 函数定义 ===
 def fetch_epg(channel_id, date_str):
     url = f"https://epg.pw/api/epg.xml?lang=zh-hans&timezone=QXNpYS9TaGFuZ2hhaQ==&date={date_str}&channel_id={channel_id}"
     res = requests.get(url)
     res.raise_for_status()
     return res.text
 
-# 解析 XML 字符串提取节目（只要指定日期的）
 def parse_epg(xml, date_prefix, mode='today'):
     from xml.etree import ElementTree as ET
     root = ET.fromstring(xml)
@@ -48,82 +45,118 @@ def parse_epg(xml, date_prefix, mode='today'):
         programmes.append((start, stop, title, desc))
     return programmes
 
-# 遍历频道
-for name in channels:
-    print(f"📡 正在抓取 {name} 节目表...")
+def parse_time_range(date_prefix, time_range_str):
+    try:
+        start_str, end_str = [t.strip() for t in time_range_str.split('-')]
+        start_dt = datetime.strptime(f"{date_prefix} {start_str}", "%Y-%m-%d %H:%M")
+        end_dt = datetime.strptime(f"{date_prefix} {end_str}", "%Y-%m-%d %H:%M")
+        if end_dt <= start_dt:
+            end_dt += timedelta(days=1)
+        start_epg = start_dt.strftime("%Y%m%d%H%M%S") + " +0800"
+        end_epg = end_dt.strftime("%Y%m%d%H%M%S") + " +0800"
+        return start_epg, end_epg
+    except Exception as e:
+        print(f"[錯誤] 時間解析失敗: {time_range_str}")
+        return None, None
+
+def fetch_ltv_programmes():
+    url = "https://www.ltv.com.tw/ott%e7%af%80%e7%9b%ae%e8%a1%a8/"
+    res = requests.get(url)
+    res.raise_for_status()
+    soup = BeautifulSoup(res.text, 'html.parser')
+
+    all_programmes = {}
+    for cid in channels_ltv:
+        all_programmes[cid] = []
+        div = soup.find("div", id=cid)
+        if not div:
+            print(f"[警告] 找不到频道 {cid} 的节目区块")
+            continue
+        items = div.select(".timetable-item")
+        for item in items:
+            title_tag = item.select_one(".timetable-name")
+            time_tag = item.select_one(".timetable-time")
+            desc_tag = item.select_one(".timetable-desc")
+            if not title_tag or not time_tag:
+                continue
+            title = title_tag.get_text(strip=True)
+            time_range = time_tag.get_text(strip=True)
+            desc = desc_tag.get_text(strip=True) if desc_tag else ""
+            start_epg, end_epg = parse_time_range(date_str_html, time_range)
+            if start_epg and end_epg:
+                all_programmes[cid].append((start_epg, end_epg, title, desc))
+    return all_programmes
+
+# === 创建 epg.xml ===
+tv_epg = Element('tv')
+
+# 凤凰台写入
+for name in channels_fh:
     real_id = None
     for cid, names in channel_map.items():
         if name in names:
             real_id = cid
             break
     if not real_id:
-        print(f"⚠️ 未找到频道 ID: {name}")
         continue
 
-    channel_el = SubElement(tv, 'channel', id=real_id)
+    channel_el = SubElement(tv_epg, 'channel', id=real_id)
     display_name = SubElement(channel_el, 'display-name')
     display_name.text = name
 
     try:
-        xml_today = fetch_epg(real_id, date_str)
-        xml_yesterday = fetch_epg(real_id, yesterday_str)
-
-        today_programmes = parse_epg(xml_today, date_str, mode='today')
-        carryover_programmes = parse_epg(xml_yesterday, date_str, mode='carry')
+        xml_today = fetch_epg(real_id, date_str_api)
+        xml_yesterday = fetch_epg(real_id, yesterday_str_api)
+        today_programmes = parse_epg(xml_today, date_str_api, mode='today')
+        carryover_programmes = parse_epg(xml_yesterday, date_str_api, mode='carry')
 
         if today_programmes:
             first_start = today_programmes[0][0]
             if not first_start.endswith("0000"):
                 if carryover_programmes:
                     last_prog = carryover_programmes[-1]
-                    carry_start = date_str + "000000"
+                    carry_start = date_str_api + "000000"
                     carry_end = first_start
                     title, desc = last_prog[2], last_prog[3]
                     today_programmes.insert(0, (carry_start, carry_end, title, desc))
 
         for start, stop, title, desc in today_programmes:
-            programme = SubElement(tv, 'programme', start=start, stop=stop, channel=real_id)
-            title_el = SubElement(programme, 'title')
-            title_el.text = title
+            programme = SubElement(tv_epg, 'programme', start=start, stop=stop, channel=real_id)
+            SubElement(programme, 'title').text = title
             if desc:
-                desc_el = SubElement(programme, 'desc')
-                desc_el.text = desc
-
+                SubElement(programme, 'desc').text = desc
     except Exception as e:
         print(f"[错误] 获取频道 {name} 失败：{e}")
 
-# 加入 LTV 節目表
-print("📺 正在抓取龙华卡通与日韩频道节目...")
-ltv_channels, ltv_programs = fetch_ltv_programs()
-for ch_id, ch_name in ltv_channels.items():
-    channel_el = SubElement(tv, 'channel', id=ch_id)
-    display_name = SubElement(channel_el, 'display-name')
-    display_name.text = ch_name
+# LTV节目信息
+ltv_data = fetch_ltv_programmes()
 
-for prog in ltv_programs:
-    programme = SubElement(tv, 'programme', start=prog['start'], stop=prog['stop'], channel=prog['channel_id'])
-    title_el = SubElement(programme, 'title')
-    title_el.text = prog['title']
-    desc_el = SubElement(programme, 'desc')
-    desc_el.text = prog['desc']
+# LTV写入 epg.xml
+for cid, cname in channels_ltv.items():
+    channel_el = SubElement(tv_epg, 'channel', id=cid)
+    SubElement(channel_el, 'display-name').text = cname
 
-# 写入 epg.xml
-ElementTree(tv).write('epg.xml', encoding='utf-8', xml_declaration=True)
+    for start, stop, title, desc in ltv_data.get(cid, []):
+        programme = SubElement(tv_epg, 'programme', start=start, stop=stop, channel=cid)
+        SubElement(programme, 'title').text = title
+        if desc:
+            SubElement(programme, 'desc').text = desc
 
-# 另存 boss.xml
-boss_tv = Element('tv')
-for ch_id, ch_name in ltv_channels.items():
-    channel_el = SubElement(boss_tv, 'channel', id=ch_id)
-    display_name = SubElement(channel_el, 'display-name')
-    display_name.text = ch_name
+# 写入 epg.xml 文件
+ElementTree(tv_epg).write('epg.xml', encoding='utf-8', xml_declaration=True)
+print("✅ epg.xml 生成成功！")
 
-for prog in ltv_programs:
-    programme = SubElement(boss_tv, 'programme', start=prog['start'], stop=prog['stop'], channel=prog['channel_id'])
-    title_el = SubElement(programme, 'title')
-    title_el.text = prog['title']
-    desc_el = SubElement(programme, 'desc')
-    desc_el.text = prog['desc']
+# === 创建 boss.xml（仅 LTV）===
+tv_boss = Element('tv')
+for cid, cname in channels_ltv.items():
+    channel_el = SubElement(tv_boss, 'channel', id=cid)
+    SubElement(channel_el, 'display-name').text = cname
 
-ElementTree(boss_tv).write('boss.xml', encoding='utf-8', xml_declaration=True)
+    for start, stop, title, desc in ltv_data.get(cid, []):
+        programme = SubElement(tv_boss, 'programme', start=start, stop=stop, channel=cid)
+        SubElement(programme, 'title').text = title
+        if desc:
+            SubElement(programme, 'desc').text = desc
 
-print("✅ epg.xml 和 boss.xml 生成完成！")
+ElementTree(tv_boss).write('boss.xml', encoding='utf-8', xml_declaration=True)
+print("✅ boss.xml (LTV專用) 生成成功！")
