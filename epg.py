@@ -11,8 +11,6 @@ with open('epg/channel-map.json', encoding='utf-8') as f:
 
 channels_api = [
   "凤凰中文",
-  "凤凰资讯",
-  "凤凰香港",
   "A&E_East",
   "ACC-Network",
   "AMC_East",
@@ -41,7 +39,7 @@ yesterday_str_api = (now - timedelta(days=1)).strftime('%Y%m%d')
 date_str_html = now.strftime('%Y-%m-%d')
 
 def fetch_epg(channel_id, date_str):
-    url = f"https://epg.pw/api/epg.xml?lang=zh-hans&timezone=QXNpYS9TaGFuZ2hhaQ==&date={date_str}&channel_id={channel_id}"
+    url = f"https://epg.pw/api/epg.xml?channel_id={channel_id}"
     res = requests.get(url)
     res.raise_for_status()
     return res.text
@@ -51,15 +49,24 @@ def parse_epg(xml, date_prefix, mode='today'):
     root = ET.fromstring(xml)
     programmes = []
     for prog in root.findall('programme'):
-        start = prog.attrib.get('start', '')
-        stop = prog.attrib.get('stop', '')
-        if mode == 'today' and not start.startswith(date_prefix):
+        start_raw = prog.attrib.get('start', '')
+        stop_raw = prog.attrib.get('stop', '')
+        if not start_raw or not stop_raw:
             continue
-        if mode == 'carry' and not stop.startswith(date_prefix):
+        try:
+            start_dt = datetime.strptime(start_raw, "%Y%m%d%H%M%S %z").astimezone(timezone(timedelta(hours=8)))
+            stop_dt = datetime.strptime(stop_raw, "%Y%m%d%H%M%S %z").astimezone(timezone(timedelta(hours=8)))
+        except Exception:
             continue
+
+        if mode == 'today' and start_dt.strftime("%Y%m%d") != date_prefix:
+            continue
+        if mode == 'carry' and stop_dt.strftime("%Y%m%d") != date_prefix:
+            continue
+
         title = prog.findtext('title') or ''
         desc = prog.findtext('desc') or ''
-        programmes.append((start, stop, title, desc))
+        programmes.append((start_dt, stop_dt, title, desc))
     return programmes
 
 def parse_time_range(date_str_slash, time_range_str):
@@ -330,18 +337,18 @@ def main():
             carryover_programmes = parse_epg(xml_yesterday, date_str_api, mode='carry')
             if today_programmes:
                 first_start = today_programmes[0][0]
-                if not first_start.endswith("0000"):
+                if not first_start.strftime('%H%M') == '0000':
                     if carryover_programmes:
                         last_prog = carryover_programmes[-1]
-                        carry_start = date_str_api + "000000"
+                        carry_start = datetime.combine(first_start.date(), datetime.min.time()).replace(tzinfo=timezone(timedelta(hours=8)))
                         carry_end = first_start
                         title, desc = last_prog[2], last_prog[3]
                         today_programmes.insert(0, (carry_start, carry_end, title, desc))
-            for start, stop, title, desc in today_programmes:
+            for start_dt, stop_dt, title, desc in today_programmes:
                 epg_programmes.append({
                     "channel": real_id,
-                    "start": start,
-                    "stop": stop,
+                    "start": fmt(start_dt),
+                    "stop": fmt(stop_dt),
                     "title": title,
                     "desc": desc
                 })
