@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: 安装依赖
-        run: pip install --upgrade pip requests
+        run: pip install --upgrade pip requests beautifulsoup4
 
       - name: 生成 epg.xml 和 boss.xml
         run: python epg.py
