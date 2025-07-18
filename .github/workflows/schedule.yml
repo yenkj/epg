@@ -1,19 +1,17 @@
-name: TVKing EPG Generator
+name: Generate EPG
 
 on:
   workflow_dispatch:
   push:
     paths:
       - fetch_schedule.py
-  schedule:
-    - cron: "0 2 * * *"  # 每日 10:00（UTC+8）执行一次
 
 jobs:
-  generate:
+  epg:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
+    - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Set up Python
@@ -22,13 +20,13 @@ jobs:
         python-version: "3.11"
 
     - name: Install dependencies
-      run: pip install requests
+      run: pip install demjson3
 
-    - name: Run script
+    - name: Run fetch_schedule.py
       run: python fetch_schedule.py
 
-    - name: Upload schedule.xml
+    - name: Upload XML artifact
       uses: actions/upload-artifact@v4
       with:
-        name: tvking-epg
-        path: schedule.xml
+        name: tvking_epg
+        path: tvking_epg.xml
