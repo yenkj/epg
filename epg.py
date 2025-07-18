@@ -116,7 +116,11 @@ def fetch_json_schedule():
             data = requests.get(info['url'], timeout=10).json()
             for i_day, day in enumerate(data['list']):
                 programme_list = day['values']
-                fixed_programmes = []
+
+                # 记录第一节目时间（后面再补空）
+                real_first_start = None
+                if programme_list:
+                    real_first_start = datetime.strptime(f"{programme_list[0]['date']} {programme_list[0]['time']}", "%Y-%m-%d %H:%M")
 
                 # 预先计算下一天第一个节目的开始时间
                 next_day_start = None
@@ -134,6 +138,7 @@ def fetch_json_schedule():
                         next_p = programme_list[i + 1]
                         end = datetime.strptime(f"{next_p['date']} {next_p['time']}", "%Y-%m-%d %H:%M")
                     else:
+                        # 最后一个节目，优先用下一天第一个节目开始时间作为结束时间
                         if next_day_start and next_day_start > start:
                             end = next_day_start
                         else:
@@ -142,16 +147,19 @@ def fetch_json_schedule():
                     if end <= start:
                         end += timedelta(days=1)
 
+                    # 处理跨天拆分
                     if end.date() > start.date():
-                        midnight = datetime.combine(end.date(), datetime.min.time())
-                        fixed_programmes.append({
+                        midnight = datetime.combine(end.date(), datetime.min.time())  # 次日 00:00:00
+                        # 第一段：当天结束到午夜
+                        programmes.append({
                             "channel": ch_id,
                             "title": p['name'],
                             "start": start,
                             "end": midnight,
                             "desc": ""
                         })
-                        fixed_programmes.append({
+                        # 第二段：午夜到结束时间
+                        programmes.append({
                             "channel": ch_id,
                             "title": p['name'],
                             "start": midnight,
@@ -159,7 +167,7 @@ def fetch_json_schedule():
                             "desc": ""
                         })
                     else:
-                        fixed_programmes.append({
+                        programmes.append({
                             "channel": ch_id,
                             "title": p['name'],
                             "start": start,
@@ -167,19 +175,17 @@ def fetch_json_schedule():
                             "desc": ""
                         })
 
-                # 插入 00:00 無節目資料（僅在有節目且第一個節目不在00:00時）
-                if fixed_programmes:
-                    day_start = datetime.combine(fixed_programmes[0]['start'].date(), datetime.min.time())
-                    if fixed_programmes[0]['start'] > day_start:
+                # 插入 00:00 的無節目資料（避免與跨天節目重疊）
+                if real_first_start:
+                    day_start = datetime.combine(real_first_start.date(), datetime.min.time())
+                    if real_first_start > day_start:
                         programmes.append({
                             "channel": ch_id,
                             "title": "無節目資料",
                             "start": day_start,
-                            "end": fixed_programmes[0]['start'],
+                            "end": real_first_start,
                             "desc": ""
                         })
-
-                programmes.extend(fixed_programmes)
 
         except Exception as e:
             print(f"[錯誤] 無法抓取 {ch_id}：{e}")
