@@ -362,21 +362,34 @@ def main():
     tv_epg = Element("tv")
 
     # API频道
-# API频道
-    epg_by_channel = {}
-    for p in epg_programmes:
-        epg_by_channel.setdefault(p['channel'], []).append(p)
+# 先根据 epg_programmes 按频道分类
+epg_by_channel = {}
+for p in epg_programmes:
+    epg_by_channel.setdefault(p['channel'], []).append(p)
 
-    for name in channels_api:   
-        real_id = next((cid for cid, names in channel_map.items()
-                        if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)), None)
-        if real_id:
-            ch_el = SubElement(tv_epg, "channel", id=real_id)
-            SubElement(ch_el, "display-name").text = name
-            for p in sorted(epg_by_channel.get(real_id, []), key=lambda x: x['start']):
-                prog_el = SubElement(tv_epg, "programme", start=p['start'], stop=p['stop'], channel=p['channel'])
-                SubElement(prog_el, "title").text = p['title']
-                SubElement(prog_el, "desc").text = p['desc']
+# 遍历 channels_api 里的频道，输出频道和对应节目信息
+for name in channels_api:
+    # 找到频道的真实ID
+    real_id = next(
+        (cid for cid, names in channel_map.items()
+         if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)),
+        None
+    )
+
+    if real_id:
+        # 写入频道节点
+        ch_el = SubElement(tv_epg, "channel", id=real_id)
+        SubElement(ch_el, "display-name").text = name
+
+        # 取出该频道的节目列表，排序后逐个写入节目节点
+        programmes = epg_by_channel.get(real_id, [])
+        for p in sorted(programmes, key=lambda x: x['start']):
+            prog_el = SubElement(tv_epg, "programme",
+                                 start=p['start'],
+                                 stop=p['stop'],
+                                 channel=p['channel'])
+            SubElement(prog_el, "title").text = p['title']
+            SubElement(prog_el, "desc").text = p['desc']
 
     # LTV
     for cid, cname in channels_ltv.items():
