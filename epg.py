@@ -149,7 +149,6 @@ channels_api = [
   "TraceSports",
   "CatchPlay電影台",
   "影迷數位電影台",
-  "LS-Time電影台",
   "經典電影台",
   "HBO_TW",
   "好萊塢電影台",
