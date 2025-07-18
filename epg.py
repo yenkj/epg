@@ -10,9 +10,9 @@ with open('epg/channel-map.json', encoding='utf-8') as f:
     channel_map = json.load(f)
 
 channels_api = [
-  "凤凰中文",
-  "凤凰资讯",
-  "凤凰香港"
+    "凤凰中文",
+    "凤凰资讯",
+    "凤凰香港"
 ]
 
 channels_ltv = {
@@ -36,11 +36,13 @@ date_str_api = now.strftime('%Y%m%d')
 yesterday_str_api = (now - timedelta(days=1)).strftime('%Y%m%d')
 date_str_html = now.strftime('%Y-%m-%d')
 
+
 def fetch_epg(channel_id, date_str):
     url = f"https://epg.pw/api/epg.xml?lang=zh-hans&timezone=QXNpYS9TaGFuZ2hhaQ==&date={date_str}&channel_id={channel_id}"
     res = requests.get(url)
     res.raise_for_status()
     return res.text
+
 
 def parse_epg(xml, date_prefix, mode='today'):
     from xml.etree import ElementTree as ET
@@ -58,6 +60,7 @@ def parse_epg(xml, date_prefix, mode='today'):
         programmes.append((start, stop, title, desc))
     return programmes
 
+
 def parse_time_range(date_str_slash, time_range_str):
     try:
         start_str, end_str = [t.strip() for t in time_range_str.split('-')]
@@ -71,6 +74,7 @@ def parse_time_range(date_str_slash, time_range_str):
         return start_epg, end_epg
     except Exception:
         return None, None
+
 
 def fetch_ltv_programmes():
     url = "https://www.ltv.com.tw/ott%e7%af%80%e7%9b%ae%e8%a1%a8/"
@@ -112,6 +116,7 @@ def fetch_ltv_programmes():
 
     return all_programmes
 
+
 def fetch_json_schedule():
     programmes = []
     for ch_id, info in channels_json.items():
@@ -145,8 +150,31 @@ def fetch_json_schedule():
             print(f"[錯誤] 無法抓取 {ch_id}：{e}")
     return programmes
 
+
 def fmt(dt):
     return dt.strftime("%Y%m%d%H%M%S") + " +0800"
+
+
+def indent(elem, level=0):
+    i = "\n" + level * "\t"
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "\t"
+        for child in elem:
+            indent(child, level + 1)
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+    else:
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+
+
+def write_xml(element, file_path):
+    indent(element)
+    tree = ElementTree(element)
+    with open(file_path, 'wb') as f:
+        tree.write(f, encoding='utf-8', xml_declaration=True, short_empty_elements=False)
+
 
 def main():
     epg_programmes = []
@@ -208,13 +236,13 @@ def main():
         SubElement(ch_el, "display-name").text = info['name']
     for prog in json_programmes:
         p = SubElement(tv_epg, "programme",
-                      start=fmt(prog['start']),
-                      stop=fmt(prog['end']),
-                      channel=prog['channel'])
+                       start=fmt(prog['start']),
+                       stop=fmt(prog['end']),
+                       channel=prog['channel'])
         SubElement(p, "title").text = prog['title']
         SubElement(p, "desc").text = prog['desc']
 
-    ElementTree(tv_epg).write("epg.xml", encoding="utf-8", xml_declaration=True)
+    write_xml(tv_epg, "epg.xml")
 
     # === boss.xml（无描述，仅LTV+JSON） ===
     tv_boss = Element("tv")
@@ -232,13 +260,14 @@ def main():
         SubElement(ch_el, "display-name").text = info['name']
     for prog in json_programmes:
         p = SubElement(tv_boss, "programme",
-                      start=fmt(prog['start']),
-                      stop=fmt(prog['end']),
-                      channel=prog['channel'])
+                       start=fmt(prog['start']),
+                       stop=fmt(prog['end']),
+                       channel=prog['channel'])
         SubElement(p, "title").text = prog['title']
         SubElement(p, "desc").text = ""
 
-    ElementTree(tv_boss).write("boss.xml", encoding="utf-8", xml_declaration=True)
+    write_xml(tv_boss, "boss.xml")
+
 
 if __name__ == "__main__":
     main()
