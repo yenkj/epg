@@ -1,30 +1,26 @@
 import requests
 import re
-import json
 import xml.etree.ElementTree as ET
+import demjson3
 from datetime import datetime, timedelta
 
 URL = "https://tvking.funorange.com.tw/channel/108"
-CHANNEL_ID = "tvking.108"
-CHANNEL_NAME = "TVKing 108"
-OUTPUT = "schedule.xml"
 
 def fetch_vue_data():
     res = requests.get(URL)
     res.raise_for_status()
     html = res.text
 
-    # 精确提取 scheduleList
-    match = re.search(r"scheduleList:\s*(\[\{.*?\}\])\s*[,}]", html, re.DOTALL)
+    match = re.search(r'scheduleList\s*:\s*(\[\s*\{.*?\}\s*\])\s*[,\}]', html, re.DOTALL)
     if not match:
         raise ValueError("未找到 scheduleList")
 
     schedule_list_raw = match.group(1)
-    # 替换 JS 中的属性名，确保 JSON 能解析
-    schedule_list_json = re.sub(r'(\w+):', r'"\1":', schedule_list_raw)
-    schedule_list_json = schedule_list_json.replace("undefined", "null")
 
-    schedule_list = json.loads(schedule_list_json)
+    try:
+        schedule_list = demjson3.decode(schedule_list_raw)
+    except demjson3.JSONDecodeError as e:
+        raise ValueError(f"解析 scheduleList 出错: {e}")
 
     return {
         "channel": {
@@ -34,38 +30,44 @@ def fetch_vue_data():
         "scheduleList": schedule_list
     }
 
+def generate_epg(vue_data, filename="tvking_epg.xml"):
+    tv = ET.Element("tv")
+    channel_id = f"tvking.{vue_data['channel']['id']}"
 
-def generate_xmltv(data):
-    root = ET.Element("tv")
-    channel = ET.SubElement(root, "channel", id=CHANNEL_ID)
-    ET.SubElement(channel, "display-name").text = CHANNEL_NAME
+    # 添加频道信息
+    channel = ET.SubElement(tv, "channel", id=channel_id)
+    display_name = ET.SubElement(channel, "display-name")
+    display_name.text = vue_data["channel"]["name"]
 
-    for day in data["scheduleList"]:
+    for day in vue_data["scheduleList"]:
         date = day["date"]
         for prog in day["programList"]:
-            title = prog["program"]
-            if title.lower() == "ads":
+            if prog.get("program") == "ads":
+                continue  # 跳过广告
+
+            time_start = prog.get("timeS")
+            time_end = prog.get("timeE")
+            if not time_start or not time_end:
                 continue
 
-            try:
-                start = datetime.strptime(f"{date} {prog['timeS']}", "%Y-%m-%d %H:%M:%S")
-                end = datetime.strptime(f"{date} {prog['timeE']}", "%Y-%m-%d %H:%M:%S")
-                if end <= start:
-                    end += timedelta(days=1)
-            except KeyError:
-                continue  # 无时间的广告等跳过
+            start_dt = datetime.strptime(f"{date} {time_start}", "%Y-%m-%d %H:%M:%S")
+            end_dt = datetime.strptime(f"{date} {time_end}", "%Y-%m-%d %H:%M:%S")
 
-            start_str = start.strftime("%Y%m%d%H%M%S +0800")
-            end_str = end.strftime("%Y%m%d%H%M%S +0800")
+            # 若结束时间在第二天
+            if end_dt < start_dt:
+                end_dt += timedelta(days=1)
 
-            p = ET.SubElement(root, "programme", start=start_str, stop=end_str, channel=CHANNEL_ID)
-            ET.SubElement(p, "title", lang="zh").text = title
+            start_str = start_dt.strftime("%Y%m%d%H%M%S +0000")
+            end_str = end_dt.strftime("%Y%m%d%H%M%S +0000")
 
-    tree = ET.ElementTree(root)
-    tree.write(OUTPUT, encoding="utf-8", xml_declaration=True)
+            programme = ET.SubElement(tv, "programme", start=start_str, stop=end_str, channel=channel_id)
+            title = ET.SubElement(programme, "title", lang="zh")
+            title.text = prog["program"]
 
+    tree = ET.ElementTree(tv)
+    tree.write(filename, encoding="utf-8", xml_declaration=True)
+    print(f"✅ EPG written to: {filename}")
 
 if __name__ == "__main__":
     vue_data = fetch_vue_data()
-    generate_xmltv(vue_data)
-    print(f"✅ XMLTV 已生成：{OUTPUT}")
+    generate_epg(vue_data)
