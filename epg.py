@@ -368,25 +368,32 @@ def main():
     tv_epg = Element("tv")
 
     # API频道
-# 2. 根据 epg_programmes 构建 epg_by_channel 以方便按频道处理
-    epg_by_channel = {}
-    for p in epg_programmes:
-        epg_by_channel.setdefault(p['channel'], []).append(p)
+from datetime import datetime
 
-    # 3. 输出频道和对应的节目（节目按开始时间排序）
-    for name in channels_api:
-        real_id = next((cid for cid, names in channel_map.items()
-                        if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)), None)
-        if real_id:
-            ch_el = SubElement(tv_epg, "channel", id=real_id)
-            SubElement(ch_el, "display-name").text = name
-            for p in sorted(epg_by_channel.get(real_id, []), key=lambda x: x['start']):
-                prog_el = SubElement(tv_epg, "programme",
-                                     start=p['start'],
-                                     stop=p['stop'],
-                                     channel=p['channel'])
-                SubElement(prog_el, "title").text = p['title']
-                SubElement(prog_el, "desc").text = p['desc']
+def parse_xmltv_time(s):
+    # 按你时间字符串格式改这里，这个例子是 '20250719000000+0800'
+    return datetime.strptime(s, "%Y%m%d%H%M%S%z")
+
+# ...
+
+for name in channels_api:
+    real_id = next(
+        (cid for cid, names in channel_map.items()
+         if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)),
+        None
+    )
+    if real_id:
+        ch_el = SubElement(tv_epg, "channel", id=real_id)
+        SubElement(ch_el, "display-name").text = name
+
+        # **修改这里的排序，改用 datetime 解析时间**
+        for p in sorted(epg_by_channel.get(real_id, []), key=lambda x: parse_xmltv_time(x['start'])):
+            prog_el = SubElement(tv_epg, "programme",
+                                 start=p['start'],
+                                 stop=p['stop'],
+                                 channel=p['channel'])
+            SubElement(prog_el, "title").text = p['title']
+            SubElement(prog_el, "desc").text = p['desc']
 
     # LTV
     for cid, cname in channels_ltv.items():
