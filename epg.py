@@ -10,6 +10,9 @@ with open('epg/channel-map.json', encoding='utf-8') as f:
     channel_map = json.load(f)
 
 channels_api = [
+  "凤凰中文",
+  "凤凰资讯",
+  "凤凰香港",
   "北京卫视",
   "湖南卫视",
   "江苏卫视",
