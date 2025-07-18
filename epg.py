@@ -157,12 +157,13 @@ def fetch_ls_time_programmes():
         raw_json = match.group(1)
         raw_json = re.sub(r'{\s*"program"\s*:\s*"ads"\s*}', '{"program": "[廣告]"}', raw_json)
         schedule_list = json.loads(raw_json)
-        for day in schedule_list:
+
+        for i, day in enumerate(schedule_list):
             date = day["date"]
             prog_list = day.get('programList', [])
             fixed_list = []
 
-            # 补全 00:00:00 缺失节目
+            # 補 00:00:00 節目
             if prog_list:
                 first_time = prog_list[0].get("timeS", "")
                 if first_time != "00:00:00":
@@ -174,17 +175,18 @@ def fetch_ls_time_programmes():
 
             fixed_list.extend(prog_list)
 
-            for prog in fixed_list:
+            for j, prog in enumerate(fixed_list):
                 if 'timeS' not in prog or 'timeE' not in prog:
                     continue
                 try:
                     start_dt = datetime.strptime(f"{date} {prog['timeS']}", "%Y-%m-%d %H:%M:%S")
                     end_dt = datetime.strptime(f"{date} {prog['timeE']}", "%Y-%m-%d %H:%M:%S")
+                    if end_dt <= start_dt:
+                        end_dt += timedelta(days=1)
                 except Exception as time_err:
                     print(f"[時間錯誤] {prog.get('program')} 日期解析失敗: {time_err}")
                     continue
-                if end_dt <= start_dt:
-                    end_dt += timedelta(days=1)
+
                 programmes.append({
                     "channel": ch_id,
                     "title": prog["program"],
@@ -192,15 +194,19 @@ def fetch_ls_time_programmes():
                     "end": end_dt,
                     "desc": ""
                 })
+
+        # 排序（確保跨天後節目順序正確）
+        programmes.sort(key=lambda x: x['start'])
+
         return {
             "id": ch_id,
             "name": ch_name,
             "programmes": programmes
         }
+
     except Exception as e:
         print(f"[錯誤] 抓取 LS-Time 失敗：{e}")
         return None
-
 def fmt(dt):
     return dt.strftime("%Y%m%d%H%M%S") + " +0800"
 
