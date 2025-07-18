@@ -323,6 +323,13 @@ def write_xml(root_element, filepath):
     with open(filepath, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True, short_empty_elements=False)
 
+from xml.etree.ElementTree import Element, SubElement
+from datetime import datetime, timezone, timedelta
+
+def parse_xmltv_time(timestr):
+    timestr = timestr.replace(" ", "")  # 去掉空格
+    return datetime.strptime(timestr, "%Y%m%d%H%M%S%z")
+
 def main():
     epg_programmes = []
 
@@ -338,7 +345,6 @@ def main():
             today_programmes = parse_epg(xml_today, date_str_api, mode='today')
             carryover_programmes = parse_epg(xml_yesterday, date_str_api, mode='carry')
 
-            # 如果今天第一个节目不是 00:00，且昨天有尾节目，插入“补足”节目段
             if today_programmes:
                 first_start = today_programmes[0][0]
                 if not first_start.strftime('%H%M') == '0000':
@@ -349,7 +355,6 @@ def main():
                         title, desc = last_prog[2], last_prog[3]
                         today_programmes.insert(0, (carry_start, carry_end, title, desc))
 
-            # 把所有今天的节目加入 epg_programmes
             for start_dt, stop_dt, title, desc in today_programmes:
                 epg_programmes.append({
                     "channel": real_id,
@@ -361,49 +366,40 @@ def main():
         except Exception as e:
             print(f"[錯誤] {name} 失敗：{e}")
 
+    # 这里继续处理其他来源的节目，例如：
     ltv_programmes = fetch_ltv_programmes()
     json_programmes = fetch_json_schedule()
     ls_time = fetch_ls_time_programmes()
 
     tv_epg = Element("tv")
 
-    # API频道
-from xml.etree.ElementTree import SubElement
-from datetime import datetime
+    # --- 生成 epg_by_channel 字典 ---
+    epg_by_channel = {}
+    for p in epg_programmes:
+        epg_by_channel.setdefault(p['channel'], []).append(p)
 
-def parse_xmltv_time(timestr):
-    # 假设时间格式为 '20250719000000 +0800' 或 '20250719000000+0800'，空格都兼容
-    timestr = timestr.replace(" ", "")  # 去掉空格
-    return datetime.strptime(timestr, "%Y%m%d%H%M%S%z")
+    # 输出API频道的channel和programme，按时间排序
+    for name in channels_api:
+        real_id = next(
+            (cid for cid, names in channel_map.items()
+             if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)),
+            None
+        )
+        if real_id:
+            ch_el = SubElement(tv_epg, "channel", id=real_id)
+            SubElement(ch_el, "display-name").text = name
 
-# ...
+            for p in sorted(epg_by_channel.get(real_id, []), key=lambda x: parse_xmltv_time(x['start'])):
+                prog_el = SubElement(tv_epg, "programme",
+                                     start=p['start'],
+                                     stop=p['stop'],
+                                     channel=p['channel'])
+                SubElement(prog_el, "title").text = p['title']
+                SubElement(prog_el, "desc").text = p['desc']
 
-# 生成 epg_by_channel 字典的代码保持不变
-epg_by_channel = {}
-for p in epg_programmes:
-    epg_by_channel.setdefault(p['channel'], []).append(p)
-
-# 下面开始输出频道和节目
-for name in channels_api:
-    real_id = next(
-        (cid for cid, names in channel_map.items()
-         if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)),
-        None
-    )
-
-    if real_id:
-        # <channel>
-        ch_el = SubElement(tv_epg, "channel", id=real_id)
-        SubElement(ch_el, "display-name").text = name
-
-        # --- 修改这里，排序用 datetime 解析的时间 ---
-        for p in sorted(epg_by_channel.get(real_id, []), key=lambda x: parse_xmltv_time(x['start'])):
-            prog_el = SubElement(tv_epg, "programme",
-                                 start=p['start'],
-                                 stop=p['stop'],
-                                 channel=p['channel'])
-            SubElement(prog_el, "title").text = p['title']
-            SubElement(prog_el, "desc").text = p['desc']
+    # 你可以在这里继续写保存xml的代码，比如：
+    # tree = ElementTree(tv_epg)
+    # tree.write('epg.xml', encoding='utf-8')
 
     # LTV
     for cid, cname in channels_ltv.items():
