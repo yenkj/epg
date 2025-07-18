@@ -192,7 +192,7 @@ def fetch_ls_time_programmes():
 
             fixed_list.extend(prog_list)
 
-            for j, prog in enumerate(fixed_list):
+            for prog in fixed_list:
                 if 'timeS' not in prog or 'timeE' not in prog:
                     continue
                 try:
@@ -204,26 +204,34 @@ def fetch_ls_time_programmes():
                     print(f"[時間錯誤] {prog.get('program')} 日期解析失敗: {time_err}")
                     continue
 
-                programmes.append({
-                    "channel": ch_id,
-                    "title": prog["program"],
-                    "start": start_dt,
-                    "end": end_dt,
-                    "desc": ""
-                })
-
-                # 若跨天，補一個副本從00:00開始
+                # 如果跨天，先生成第一段到 00:00，再補第二天副本
                 if end_dt.date() > start_dt.date():
-                    next_day = end_dt.strftime("%Y-%m-%d")
-                    next_start = datetime.strptime(f"{next_day} 00:00:00", "%Y-%m-%d %H:%M:%S")
-                    if next_start < end_dt:
-                        programmes.append({
-                            "channel": ch_id,
-                            "title": prog["program"],
-                            "start": next_start,
-                            "end": end_dt,
-                            "desc": ""
-                        })
+                    midnight = datetime.combine(end_dt.date(), datetime.min.time())  # 次日 00:00:00
+                    # 第一天节目（结尾为 00:00:00）
+                    programmes.append({
+                        "channel": ch_id,
+                        "title": prog["program"],
+                        "start": start_dt,
+                        "end": midnight,
+                        "desc": ""
+                    })
+                    # 第二天补上副本
+                    programmes.append({
+                        "channel": ch_id,
+                        "title": prog["program"],
+                        "start": midnight,
+                        "end": end_dt,
+                        "desc": ""
+                    })
+                else:
+                    # 非跨天，正常添加
+                    programmes.append({
+                        "channel": ch_id,
+                        "title": prog["program"],
+                        "start": start_dt,
+                        "end": end_dt,
+                        "desc": ""
+                    })
 
         # 確保順序正確
         programmes.sort(key=lambda x: x["start"])
