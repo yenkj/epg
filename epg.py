@@ -584,13 +584,26 @@ def fetch_ls_time_programmes():
                     continue
                 if end_dt <= start_dt:
                     end_dt += timedelta(days=1)
-                programmes.append({
-                    "channel": ch_id,
-                    "title": prog["program"],
-                    "start": start_dt,
-                    "end": end_dt,
-                    "desc": ""
-                })
+                 # 主段：原始跨天节目
+programmes.append({
+    "channel": ch_id,
+    "title": prog["program"],
+    "start": start_dt,
+    "end": end_dt,
+    "desc": ""
+})
+
+# 如果節目跨天，複製一份從隔天00:00開始的
+if start_dt.date() != end_dt.date():
+    next_day_start = datetime.combine(end_dt.date(), datetime.min.time())
+    if next_day_start < end_dt:
+        programmes.append({
+            "channel": ch_id,
+            "title": prog["program"],
+            "start": next_day_start,
+            "end": end_dt,
+            "desc": ""
+        })
         return {
             "id": ch_id,
             "name": ch_name,
