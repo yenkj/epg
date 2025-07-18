@@ -163,15 +163,32 @@ def fetch_ls_time_programmes():
             prog_list = day.get('programList', [])
             fixed_list = []
 
-            # 補 00:00:00 節目
+            # 檢查是否需要補00:00節目
             if prog_list:
                 first_time = prog_list[0].get("timeS", "")
                 if first_time != "00:00:00":
-                    fixed_list.append({
-                        "program": "無節目資料",
-                        "timeS": "00:00:00",
-                        "timeE": first_time
-                    })
+                    need_patch = True
+                    if i > 0:
+                        prev_day = schedule_list[i - 1]
+                        prev_list = prev_day.get('programList', [])
+                        if prev_list:
+                            last_prog = prev_list[-1]
+                            try:
+                                prev_start = datetime.strptime(f"{prev_day['date']} {last_prog['timeS']}", "%Y-%m-%d %H:%M:%S")
+                                prev_end = datetime.strptime(f"{prev_day['date']} {last_prog['timeE']}", "%Y-%m-%d %H:%M:%S")
+                                if prev_end <= prev_start:
+                                    prev_end += timedelta(days=1)
+                                today_start = datetime.strptime(f"{date} 00:00:00", "%Y-%m-%d %H:%M:%S")
+                                if prev_end > today_start:
+                                    need_patch = False
+                            except:
+                                pass
+                    if need_patch:
+                        fixed_list.append({
+                            "program": "無節目資料",
+                            "timeS": "00:00:00",
+                            "timeE": first_time
+                        })
 
             fixed_list.extend(prog_list)
 
@@ -187,7 +204,6 @@ def fetch_ls_time_programmes():
                     print(f"[時間錯誤] {prog.get('program')} 日期解析失敗: {time_err}")
                     continue
 
-                # 原始節目
                 programmes.append({
                     "channel": ch_id,
                     "title": prog["program"],
@@ -196,20 +212,21 @@ def fetch_ls_time_programmes():
                     "desc": ""
                 })
 
-                # 如果節目跨天，補一段次日 00:00 起的副本
-                if start_dt.date() != end_dt.date():
-                    next_day_start = datetime.combine(end_dt.date(), datetime.min.time())
-                    if next_day_start < end_dt:
+                # 若跨天，補一個副本從00:00開始
+                if end_dt.date() > start_dt.date():
+                    next_day = end_dt.strftime("%Y-%m-%d")
+                    next_start = datetime.strptime(f"{next_day} 00:00:00", "%Y-%m-%d %H:%M:%S")
+                    if next_start < end_dt:
                         programmes.append({
                             "channel": ch_id,
                             "title": prog["program"],
-                            "start": next_day_start,
+                            "start": next_start,
                             "end": end_dt,
                             "desc": ""
                         })
 
-        # 排序（確保跨天後節目順序正確）
-        programmes.sort(key=lambda x: x['start'])
+        # 確保順序正確
+        programmes.sort(key=lambda x: x["start"])
 
         return {
             "id": ch_id,
