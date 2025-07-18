@@ -1,0 +1,34 @@
+name: Generate TVKing EPG
+
+on:
+  workflow_dispatch:  # 手动触发
+  push:
+    paths:
+      - 'epg_generator.py'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4
+
+    - name: Run EPG generator
+      run: |
+        python epg_generator.py
+
+    - name: Upload EPG XML
+      uses: actions/upload-artifact@v3
+      with:
+        name: epg_tvking
+        path: epg_tvking_108.xml
