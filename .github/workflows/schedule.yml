@@ -1,4 +1,4 @@
-name: Generate EPG
+name: Generate TVKing EPG
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
       - fetch_schedule.py
 
 jobs:
-  epg:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,12 +20,12 @@ jobs:
         python-version: "3.11"
 
     - name: Install dependencies
-      run: pip install requests demjson3
+      run: pip install requests beautifulsoup4
 
     - name: Run fetch_schedule.py
       run: python fetch_schedule.py
 
-    - name: Upload XML artifact
+    - name: Upload generated XML
       uses: actions/upload-artifact@v4
       with:
         name: tvking_epg
