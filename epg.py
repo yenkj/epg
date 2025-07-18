@@ -362,32 +362,21 @@ def main():
     tv_epg = Element("tv")
 
     # API频道
-# 整理 epg_programmes 为按频道分组的字典
-epg_by_channel = {}
-for p in epg_programmes:
-    epg_by_channel.setdefault(p['channel'], []).append(p)
+# API频道
+    epg_by_channel = {}
+    for p in epg_programmes:
+        epg_by_channel.setdefault(p['channel'], []).append(p)
 
-# 输出每个频道和其节目
-for name in channels_api:
-    real_id = next(
-        (cid for cid, names in channel_map.items()
-         if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)),
-        None
-    )
-
-    if real_id:
-        # <channel>
-        ch_el = SubElement(tv_epg, "channel", id=real_id)
-        SubElement(ch_el, "display-name").text = name
-
-        # <programme> 列表（按时间排序）
-        for p in sorted(epg_by_channel.get(real_id, []), key=lambda x: x['start']):
-            prog_el = SubElement(tv_epg, "programme",
-                                 start=p['start'],
-                                 stop=p['stop'],
-                                 channel=p['channel'])
-            SubElement(prog_el, "title").text = p['title']
-            SubElement(prog_el, "desc").text = p['desc']
+    for name in channels_api:   
+        real_id = next((cid for cid, names in channel_map.items()
+                        if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)), None)
+        if real_id:
+            ch_el = SubElement(tv_epg, "channel", id=real_id)
+            SubElement(ch_el, "display-name").text = name
+            for p in sorted(epg_by_channel.get(real_id, []), key=lambda x: x['start']):
+                prog_el = SubElement(tv_epg, "programme", start=p['start'], stop=p['stop'], channel=p['channel'])
+                SubElement(prog_el, "title").text = p['title']
+                SubElement(prog_el, "desc").text = p['desc']
 
     # LTV
     for cid, cname in channels_ltv.items():
