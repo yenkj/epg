@@ -53,7 +53,7 @@ def generate_epg(schedule_list, channel_id=CHANNEL_ID, channel_name=CHANNEL_NAME
             ET.SubElement(programme, 'desc').text = ""  # 空描述
 
     tree = ET.ElementTree(tv)
-    tree.write("tvking_epg.xml", encoding="utf-8", xml_declaration=True)
+    tree.write("tvking_epg.xml", encoding="utf-8", xml_declaration=True, short_empty_elements=False)
 
 if __name__ == "__main__":
     schedule_list = fetch_schedule_list()
