@@ -21,14 +21,14 @@ jobs:
       - name: 安装依赖
         run: pip install requests
 
-      - name: 生成 epg.xml
+      - name: 生成 epg.xml 和 boss.xml
         run: python epg.py
 
-      - name: 自动提交并推送 epg.xml
+      - name: 提交并推送更新
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add epg.xml
-          git diff --quiet --cached || git commit -m "自动更新 epg.xml"
+          git add epg.xml boss.xml
+          git diff --quiet --cached || git commit -m "📺 自动更新 epg.xml & boss.xml"
           git pull --rebase
           git push
