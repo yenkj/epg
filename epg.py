@@ -594,6 +594,7 @@ def main():
 
     ltv_programmes = fetch_ltv_programmes()
     json_programmes = fetch_json_schedule()
+    ls_time = fetch_ls_time_programmes()
 
     # === epg.xml ===
     tv_epg = Element("tv")
@@ -623,7 +624,7 @@ def main():
             SubElement(p, "title").text = title
             SubElement(p, "desc").text = desc
 
-    # JSON 頻道 + 節目（分組）
+    # JSON 頻道 + 節目
     json_by_channel = {}
     for p in json_programmes:
         json_by_channel.setdefault(p['channel'], []).append(p)
@@ -639,9 +640,21 @@ def main():
             SubElement(prog_el, "title").text = p['title']
             SubElement(prog_el, "desc").text = p['desc']
 
+    # LS-Time 加入 epg.xml
+    if ls_time:
+        ch_el = SubElement(tv_epg, "channel", id=ls_time["id"])
+        SubElement(ch_el, "display-name").text = ls_time["name"]
+        for p in sorted(ls_time["programmes"], key=lambda x: x['start']):
+            prog_el = SubElement(tv_epg, "programme",
+                                 start=fmt(p['start']),
+                                 stop=fmt(p['end']),
+                                 channel=ls_time["id"])
+            SubElement(prog_el, "title").text = p['title']
+            SubElement(prog_el, "desc").text = p['desc']
+
     write_xml(tv_epg, "epg.xml")
 
-    # === boss.xml（无描述，仅LTV+JSON） ===
+    # === boss.xml（無描述） ===
     tv_boss = Element("tv")
 
     for cid, cname in channels_ltv.items():
@@ -660,6 +673,17 @@ def main():
                                  start=fmt(p['start']),
                                  stop=fmt(p['end']),
                                  channel=ch_id)
+            SubElement(prog_el, "title").text = p['title']
+            SubElement(prog_el, "desc").text = ""
+
+    if ls_time:
+        ch_el = SubElement(tv_boss, "channel", id=ls_time["id"])
+        SubElement(ch_el, "display-name").text = ls_time["name"]
+        for p in sorted(ls_time["programmes"], key=lambda x: x['start']):
+            prog_el = SubElement(tv_boss, "programme",
+                                 start=fmt(p['start']),
+                                 stop=fmt(p['end']),
+                                 channel=ls_time["id"])
             SubElement(prog_el, "title").text = p['title']
             SubElement(prog_el, "desc").text = ""
 
