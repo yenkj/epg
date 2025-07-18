@@ -454,7 +454,7 @@ def parse_epg(xml, date_prefix, mode='today'):
 def parse_time_range(date_str_slash, time_range_str):
     try:
         start_str, end_str = [t.strip() for t in time_range_str.split('-')]
-        date_prefix = date_str_slash.replace('/', '-')  # "2025/07/17" -> "2025-07-17"
+        date_prefix = date_str_slash.replace('/', '-')
         start_dt = datetime.strptime(f"{date_prefix} {start_str}", "%Y-%m-%d %H:%M")
         end_dt = datetime.strptime(f"{date_prefix} {end_str}", "%Y-%m-%d %H:%M")
         if end_dt <= start_dt:
@@ -504,7 +504,7 @@ def fetch_ltv_programmes():
                 print(f"[警告] popup {popup_id} 中找不到時間")
                 continue
             time_info = time_info_tag.get_text(strip=True)
-            date_part = time_info.split()[0].strip()  # e.g., "2025/07/17"
+            date_part = time_info.split()[0].strip()
 
             start_epg, end_epg = parse_time_range(date_part, time_range)
             if start_epg and end_epg:
@@ -514,7 +514,7 @@ def fetch_ltv_programmes():
 # === 创建 epg.xml ===
 tv_epg = Element('tv')
 
-# epg.pw的api写入（保持不变）
+# epg.pw的api写入
 for name in channels_api:
     real_id = None
     for cid, names in channel_map.items():
@@ -525,8 +525,7 @@ for name in channels_api:
         continue
 
     channel_el = SubElement(tv_epg, 'channel', id=real_id)
-    display_name = SubElement(channel_el, 'display-name')
-    display_name.text = name
+    SubElement(channel_el, 'display-name').text = name
 
     try:
         xml_today = fetch_epg(real_id, date_str_api)
@@ -555,32 +554,32 @@ for name in channels_api:
 # LTV节目信息
 ltv_data = fetch_ltv_programmes()
 
-# LTV写入 epg.xml （改为无论desc是否为空都写空的desc标签）
+# === 写入 LTV 节目到 epg.xml（强制清空 desc） ===
 for cid, cname in channels_ltv.items():
     channel_el = SubElement(tv_epg, 'channel', id=cid)
     SubElement(channel_el, 'display-name').text = cname
 
-    for start, stop, title, desc in ltv_data.get(cid, []):
+    for start, stop, title, _ in ltv_data.get(cid, []):
         programme = SubElement(tv_epg, 'programme', start=start, stop=stop, channel=cid)
         SubElement(programme, 'title').text = title
         desc_el = SubElement(programme, 'desc')
-        desc_el.text = desc or ""
+        desc_el.text = ""  # ⛔ 强制留空描述
 
 # 写入 epg.xml 文件
 ElementTree(tv_epg).write('epg.xml', encoding='utf-8', xml_declaration=True)
 print("✅ epg.xml 生成成功！")
 
-# === 创建 boss.xml（仅 LTV）===
+# === 创建 boss.xml（仅 LTV）===（也强制清空 desc）
 tv_boss = Element('tv')
 for cid, cname in channels_ltv.items():
     channel_el = SubElement(tv_boss, 'channel', id=cid)
     SubElement(channel_el, 'display-name').text = cname
 
-    for start, stop, title, desc in ltv_data.get(cid, []):
+    for start, stop, title, _ in ltv_data.get(cid, []):
         programme = SubElement(tv_boss, 'programme', start=start, stop=stop, channel=cid)
         SubElement(programme, 'title').text = title
         desc_el = SubElement(programme, 'desc')
-        desc_el.text = desc or ""
+        desc_el.text = ""  # ⛔ 强制留空描述
 
 ElementTree(tv_boss).write('boss.xml', encoding='utf-8', xml_declaration=True)
 print("✅ boss.xml (LTV專用) 生成成功！")
