@@ -109,60 +109,48 @@ def fetch_ltv_programmes():
         all_programmes[cid].sort(key=lambda x: x[0])
     return all_programmes
 
-from datetime import datetime, timedelta
-import requests
-
-def fetch_json_schedule(channels_json):
+def fetch_json_schedule():
     programmes = []
     for ch_id, info in channels_json.items():
         try:
             data = requests.get(info['url'], timeout=10).json()
-            for i, day in enumerate(data['list']):
+            for i_day, day in enumerate(data['list']):
                 programme_list = day['values']
-
-                # 判断是否需要插入“無節目資料”
-                need_patch = False
-                if programme_list:
-                    first_prog_time = programme_list[0]['time']
-                    if first_prog_time != "00:00":
-                        need_patch = True
-                        if i > 0:
-                            prev_day = data['list'][i - 1]
-                            prev_programmes = prev_day['values']
-                            if prev_programmes:
-                                last_prog = prev_programmes[-1]
-                                prev_start = datetime.strptime(f"{prev_day['key']} {last_prog['time']}", "%Y-%m-%d %H:%M")
-                                prev_end = prev_start + timedelta(hours=2)
-                                today_0 = datetime.strptime(f"{day['key']} 00:00", "%Y-%m-%d %H:%M")
-                                if prev_end > today_0:
-                                    need_patch = False
-                else:
-                    need_patch = True
-
-                if need_patch:
+                if programme_list and programme_list[0]['time'] != "00:00":
                     programme_list.insert(0, {
                         "name": "無節目資料",
                         "date": day['key'],
                         "time": "00:00"
                     })
 
-                for idx, p in enumerate(programme_list):
-                    start = datetime.strptime(f"{p['date']} {p['time']}", "%Y-%m-%d %H:%M")
+                # 预先计算下一天第一个节目的开始时间，用于跨天结尾衔接
+                next_day_start = None
+                if i_day + 1 < len(data['list']):
+                    next_day = data['list'][i_day + 1]
+                    next_prog_list = next_day['values']
+                    if next_prog_list:
+                        first_prog = next_prog_list[0]
+                        next_day_start = datetime.strptime(f"{first_prog['date']} {first_prog['time']}", "%Y-%m-%d %H:%M")
 
-                    if idx + 1 < len(programme_list):
-                        next_p = programme_list[idx + 1]
+                for i, p in enumerate(programme_list):
+                    start = datetime.strptime(f"{p['date']} {p['time']}", "%Y-%m-%d %H:%M")
+                    if i + 1 < len(programme_list):
+                        next_p = programme_list[i + 1]
                         end = datetime.strptime(f"{next_p['date']} {next_p['time']}", "%Y-%m-%d %H:%M")
                     else:
-                        end = start + timedelta(hours=2)
+                        # 用下一天第一个节目的开始时间作为结束时间（如果跨天）
+                        if next_day_start and next_day_start > start:
+                            end = next_day_start
+                        else:
+                            end = start + timedelta(hours=2)
 
-                    # 处理跨天，拆分成两段
                     if end <= start:
                         end += timedelta(days=1)
 
+                    # 跨天拆分
                     if end.date() > start.date():
-                        # 第一天部分，结束时间到当天23:59:59（这里用0点更统一）
-                        midnight = datetime.combine(end.date(), datetime.min.time())
-                        # 添加第一段（开始->当天0点）
+                        midnight = datetime.combine(end.date(), datetime.min.time())  # 次日 00:00:00
+                        # 第一段，直到当天午夜
                         programmes.append({
                             "channel": ch_id,
                             "title": p['name'],
@@ -170,11 +158,7 @@ def fetch_json_schedule(channels_json):
                             "end": midnight,
                             "desc": ""
                         })
-                        # 添加第二段（当天0点->结束时间）
-                        # 第二段开始时间是结束日当天0点
-                        # 第二段结束时间是下一节目开始时间，如果跨多天，暂时用原结束时间即可
-                        # 这里查找第二天该频道对应节目开始时间
-                        # 但因为是单天数据，第二天的数据后面会遍历到，暂时用end替代
+                        # 第二段，午夜到结束时间
                         programmes.append({
                             "channel": ch_id,
                             "title": p['name'],
@@ -194,7 +178,7 @@ def fetch_json_schedule(channels_json):
         except Exception as e:
             print(f"[錯誤] 無法抓取 {ch_id}：{e}")
 
-    programmes.sort(key=lambda x: x["start"])
+    programmes.sort(key=lambda x: x['start'])
     return programmes
 
 def fetch_ls_time_programmes():
