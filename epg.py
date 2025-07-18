@@ -3,438 +3,39 @@ import json
 import requests
 from datetime import datetime, timedelta
 from xml.etree.ElementTree import Element, SubElement, ElementTree
+from html.parser import HTMLParser
+import urllib.request
+import re
 
-# 加载本地频道映射文件（只使用左边中文名）
+# 频道映射加载
 with open('epg/channel-map.json', encoding='utf-8') as f:
     channel_map = json.load(f)
 
-# 自定义要生成 EPG 的频道（只填中文名）
 channels = [
   "凤凰中文",
   "凤凰资讯",
-  "凤凰香港",
-  "北京卫视",
-  "湖南卫视",
-  "江苏卫视",
-  "东方卫视",
-  "浙江卫视",
-  "湖北卫视",
-  "天津卫视",
-  "山东卫视",
-  "辽宁卫视",
-  "安徽卫视",
-  "黑龙江卫视",
-  "贵州卫视",
-  "东南卫视",
-  "重庆卫视",
-  "江西卫视",
-  "广东卫视",
-  "河北卫视",
-  "深圳卫视",
-  "吉林卫视",
-  "河南卫视",
-  "四川卫视",
-  "广西卫视",
-  "陕西卫视",
-  "山西卫视",
-  "内蒙古卫视",
-  "青海卫视",
-  "海南卫视",
-  "宁夏卫视",
-  "西藏卫视",
-  "新疆卫视",
-  "甘肃卫视",
-  "云南卫视",
-  "海峡卫视",
-  "CCTV1",
-  "CCTV2",
-  "CCTV3",
-  "CCTV4",
-  "CCTV5",
-  "CCTV5+",
-  "CCTV6",
-  "CCTV7",
-  "CCTV8",
-  "CCTV9",
-  "CCTV10",
-  "CCTV11",
-  "CCTV12",
-  "CCTV13",
-  "CCTV14",
-  "CCTV15",
-  "CCTV16",
-  "CCTV17",
-  "CGTN",
-  "CGTN纪录",
-  "民視",
-  "民視第一台",
-  "民視新聞台",
-  "民視台灣台",
-  "民視影劇台",
-  "民視旅遊台",
-  "民視綜藝台",
-  "中視",
-  "中視新聞台",
-  "中視經典台",
-  "中視菁采台",
-  "中天新聞台",
-  "中天娛樂台",
-  "中天綜合台",
-  "中天亞洲台",
-  "華視",
-  "華視新聞",
-  "靖天綜合台",
-  "靖天國際台",
-  "靖天戲劇台",
-  "靖天日本台",
-  "靖天映畫台",
-  "靖天卡通台",
-  "靖天育樂台",
-  "靖天資訊台",
-  "靖天電影台",
-  "靖天歡樂台",
-  "龍華洋片台",
-  "龍華偶像台",
-  "龍華卡通台",
-  "龍華戲劇台",
-  "龍華日韓台",
-  "龍華經典台",
-  "龍華電影台",
-  "靖洋戲劇台",
-  "靖洋卡通Nice-Bingo",
-  "寰宇新聞台",
-  "寰宇新聞台灣台",
-  "寰宇財經台",
-  "TVBS",
-  "TVBS新聞台",
-  "TVBS綜藝台",
-  "TVBS歡樂台",
-  "TVBS精采台",
-  "TVBS台劇台",
-  "八大第一台",
-  "八大綜合台",
-  "八大戲劇台",
-  "八大精彩台",
-  "八大綜藝台",
-  "三立台灣台",
-  "三立戲劇台",
-  "三立綜合台",
-  "三立財經新聞台",
-  "台視",
-  "台視新聞台",
-  "台視綜合台",
-  "台視財經台",
-  "博斯運動一台",
-  "博斯運動二台",
-  "博斯無限台",
-  "博斯無限二台",
-  "博斯網球台",
-  "博斯高球台",
-  "博斯高球二台",
-  "博斯魅力台",
-  "愛爾達體育2台",
-  "愛爾達體育3台",
-  "愛爾達體育4台",
-  "愛爾達影劇台",
-  "愛爾達娛樂台",
-  "愛爾達生活旅遊台",
-  "東森綜合",
-  "東森洋片",
-  "東森戲劇",
-  "東森幼幼",
-  "東森新聞",
-  "東森財經新聞",
-  "緯來日本台",
-  "緯來電影台",
-  "緯來體育台",
-  "緯來綜合台",
-  "智林體育台",
-  "TraceSports",
-  "CatchPlay電影台",
-  "影迷數位電影台",
-  "LS-Time電影台",
-  "經典電影台",
-  "HBO_TW",
-  "好萊塢電影台",
-  "CINEMAX_TW",
-  "AXN_TW",
-  "AMC電影台",
-  "My-Cinema-Europe-HD我的歐洲電影",
-  "CinemaWorld",
-  "Rock-Action",
-  "Rock-Entertainment",
-  "HITS頻道",
-  "Lifetime娛樂頻道",
-  "MTV-90's",
-  "MTV綜合台",
-  "MTV-Live-HD音樂頻道",
-  "Trace-Urban",
-  "Fun探索娛樂台",
-  "Mezzo-Live",
-  "Classica古典樂",
-  "電影原聲台CMusic",
-  "豬哥亮歌廳秀",
-  "韓國娛樂台",
-  "時尚運動X",
-  "LUXE-TV",
-  "INULTRA_TW",
-  "BBC-Lifestyle",
-  "TV5MONDE-Style",
-  "Pet-Club-TV",
-  "幸福空間居家台",
-  "車迷TV",
-  "DMAX",
-  "亞洲旅遊台",
-  "TLC旅遊生活頻道",
-  "亞洲美食",
-  "美食星球",
-  "EYE-TV旅遊台",
-  "Global-Trekker",
-  "動物星球",
-  "Discovery_Asia",
-  "BBC-Earth",
-  "Magellan-TV",
-  "影迷數位紀實台",
-  "Love-Nature",
-  "Smart知識台",
-  "History歷史頻道",
-  "CI罪案偵查頻道",
-  "滾動力Rollor",
-  "視納華仁紀實頻道",
-  "原住民族電視台",
-  "客家電視台",
-  "國會頻道1",
-  "國會頻道2",
-  "華藝中文台",
-  "EYE-TV戲劇台",
-  "公視戲劇台",
-  "采昌影劇台",
-  "台灣戲劇台",
-  "戲劇免費看1台",
-  "GINX-Esports-TV",
-  "DreamWorks夢工廠動畫",
-  "卡通頻道",
-  "尼克兒童頻道",
-  "Nick-Jr.兒童頻道",
-  "精選動漫台",
-  "經典卡通台",
-  "達文西頻道",
-  "MOMO親子台",
-  "LiveABC互動英語台",
-  "ELTV生活英語台",
-  "金光布袋戲",
-  "霹靂布袋戲",
-  "非凡新聞台",
-  "非凡商業台",
-  "年代新聞台",
-  "鏡電視新聞台",
-  "SBN全球財經台",
-  "半島國際新聞台",
-  "第1商業台",
-  "CNBC-Asia財經台",
-  "Bloomberg-TV",
-  "France24",
-  "VOA美國之音",
-  "DW德國之聲",
-  "Arirang-TV",
-  "東森購物一台",
-  "東森購物二台",
-  "東森購物三台",
-  "東森購物四台",
-  "人間衛視",
-  "好消息",
-  "好消息2台",
-  "大愛電視",
-  "大愛電視2",
-  "翡翠台4K",
-  "翡翠台",
-  "华丽翡翠台",
-  "TVB星河",
-  "明珠台",
-  "TVB-Plus",
-  "無綫新聞台",
-  "娛樂新聞台",
-  "ViuTV",
-  "ViuTVsix",
-  "港台电视31",
-  "港台电视32",
-  "千禧經典台",
-  "美亞電影台",
-  "天映頻道",
-  "天映經典頻道",
-  "鳳凰衛視中文台",
-  "鳳凰衛視資訊台",
-  "鳳凰衛視香港台",
-  "八度空间",
-  "Astro-AOD",
-  "Astro-AEC",
-  "Astro全佳台",
-  "Astro欢喜台",
-  "A&E_East",
-  "ACC-Network",
-  "AMC_East",
-  "American-Heroes-Channel",
-  "Animal-Planet_East",
-  "BBC-America_East",
-  "BBC-World-News_North",
-  "BET_East",
-  "BET-Her",
-  "Bloomberg-TV",
-  "Boomerang",
-  "Bravo_East",
-  "Cartoon-Network_East",
-  "CBS-Sports-Network",
-  "Cinemax_East",
-  "CMT_East",
-  "CNBC",
-  "CNN",
-  "Comedy-Central_East",
-  "Cooking-Channel",
-  "Crime&Investigation",
-  "CSPAN",
-  "CSPAN-2",
-  "Destination-America",
-  "Discovery-Channel_East",
-  "Discovery-Family-Channel",
-  "Discovery-Life",
-  "Disney_East",
-  "Disney-Junior_East",
-  "Disney-XD_East",
-  "E!_East",
-  "ESPN",
-  "ESPN-2",
-  "ESPN-News",
-  "ESPN-U",
-  "Food-Network_East",
-  "Fox-Business-Network",
-  "Fox-News-Channel",
-  "Fox-Sports-1",
-  "Fox-Sports-2",
-  "Freeform_East",
-  "Fuse_East",
-  "FX_Networks_East",
-  "FX-Movie",
-  "FXX_East",
-  "FYI_East",
-  "Golf-Channel",
-  "Hallmark_East",
-  "Hallmark-Drama",
-  "Hallmark-Mysteries_East",
-  "HBO_East",
-  "HBO-2_East",
-  "HBO-Comedy_East",
-  "HBO-Family_East",
-  "HBO-Signature_East",
-  "HBO-Zone_East",
-  "HGTV_East",
-  "History_East",
-  "HLN",
-  "IFC",
-  "Investigation-Discovery",
-  "ION_East",
-  "Lifetime_East",
-  "Lifetime-Movies_East",
-  "Logo",
-  "MLB-Network",
-  "MoreMAX_East",
-  "Motor-Trend",
-  "MovieMAX_East",
-  "MSNBC",
-  "MTV_East",
-  "National-Geographic_East",
-  "National-Geographic-Wild",
-  "NBA-TV",
-  "NFL-Network",
-  "NHL-Network",
-  "Nick-Jr._East",
-  "Nickelodeon_East",
-  "Nicktoons_East",
-  "Outdoor-Channel",
-  "OWN_East",
-  "Oxygen_East",
-  "PBS-NY",
-  "ReelzChannel",
-  "Science",
-  "Showtime-Extreme_East",
-  "Showtime-2_East",
-  "STARZ_East",
-  "Sundance-TV_East",
-  "SYFY_East",
-  "TBS_East",
-  "TCM",
-  "TeenNick_East",
-  "Telemundo_East",
-  "Tennis-Channel",
-  "WPIX-New-York",
-  "The-Movie-Channel_East",
-  "The-Weather-Channel",
-  "TLC_East",
-  "TNT_East",
-  "Travel-Channel_East",
-  "truTV_East",
-  "TV-One",
-  "Universal-Kids",
-  "Univision_East",
-  "USA-Network_East",
-  "VH1_East",
-  "VICE",
-  "ABC-NY",
-  "CBS-NY",
-  "WE-TV_East",
-  "NBC-NY",
-  "FOX-NY",
-  "CCTV4K",
-  "CCTV16",
-  "北京IPTV-4K",
-  "北京纪实科教8K",
-  "Love-Nature-4K",
-  "Loupe-4K",
-  "Fashion-One",
-  "咪咕4K-1",
-  "咪咕4K-2",
-  "EZ-FM",
-  "KEXP",
-  "NTS-Radio-1",
-  "NTS-Radio-2",
-  "HIT-FM",
-  "摩登音乐台",
-  "宁波音乐广播",
-  "深圳飞扬971",
-  "中廣音樂網",
-  "浙江交通之声",
-  "BBC-Radio-1",
-  "BBC-Radio-1-Dance",
-  "BBC-Radio-2",
-  "BBC-Radio-3",
-  "BBC-Radio-4",
-  "BBC-Radio-4-Extra",
-  "BBC-Radio-5",
-  "BBC-Radio-6",
-  "RNE-Radio-3",
-  "KISS-FM",
-  "法国国际广播电台",
-  "美国之音",
-  "自由亚洲电台",
-  "BBC-World-Service",
-  "npr|News&Culture"
+  "凤凰香港"
 ]
 
-# 当前日期（北京时间）
 today = datetime.utcnow() + timedelta(hours=8)
 date_str = today.strftime('%Y%m%d')
 yesterday_str = (today - timedelta(days=1)).strftime('%Y%m%d')
 
-# XML 根节点
-tv = Element('tv')
+# 创建根节点（epg.xml）
+tv_epg = Element('tv')
+added_channels_epg = set()
 
-# 拉取 EPG
+# 创建根节点（boss.xml）
+tv_boss = Element('tv')
+added_channels_boss = set()
+
+# --------- 原有拉取EPG部分 ---------
 def fetch_epg(channel_id, date_str):
     url = f"https://epg.pw/api/epg.xml?lang=zh-hans&timezone=QXNpYS9TaGFuZ2hhaQ==&date={date_str}&channel_id={channel_id}"
     res = requests.get(url)
     res.raise_for_status()
     return res.text
 
-# 解析 XML 字符串提取节目（只要指定日期的）
 def parse_epg(xml, date_prefix, mode='today'):
     from xml.etree import ElementTree as ET
     root = ET.fromstring(xml)
@@ -451,9 +52,7 @@ def parse_epg(xml, date_prefix, mode='today'):
         programmes.append((start, stop, title, desc))
     return programmes
 
-# 遍历频道
 for name in channels:
-    # 找到 channel id
     real_id = None
     for cid, names in channel_map.items():
         if name in names:
@@ -462,34 +61,33 @@ for name in channels:
     if not real_id:
         continue
 
-    # 添加 channel 元素
-    channel_el = SubElement(tv, 'channel', id=real_id)
-    display_name = SubElement(channel_el, 'display-name')
-    display_name.text = name
+    # 写入 epg.xml 的频道
+    if real_id not in added_channels_epg:
+        channel_el = SubElement(tv_epg, 'channel', id=real_id)
+        display_name = SubElement(channel_el, 'display-name')
+        display_name.text = name
+        added_channels_epg.add(real_id)
 
     try:
-        # 获取今天和昨天的节目数据
         xml_today = fetch_epg(real_id, date_str)
         xml_yesterday = fetch_epg(real_id, yesterday_str)
 
         today_programmes = parse_epg(xml_today, date_str, mode='today')
         carryover_programmes = parse_epg(xml_yesterday, date_str, mode='carry')
 
-        # 判断是否需要补全 00:00 节目
         if today_programmes:
             first_start = today_programmes[0][0]
-            if not first_start.endswith("0000"):  # 如果不是 00:00 开始
+            if not first_start.endswith("0000"):
                 if carryover_programmes:
                     last_prog = carryover_programmes[-1]
                     carry_start = date_str + "000000"
                     carry_end = first_start
                     title, desc = last_prog[2], last_prog[3]
-                    # 插入补全节目到最前
                     today_programmes.insert(0, (carry_start, carry_end, title, desc))
 
-        # 添加到 XML
+        # 写入 epg.xml 的节目
         for start, stop, title, desc in today_programmes:
-            programme = SubElement(tv, 'programme', start=start, stop=stop, channel=real_id)
+            programme = SubElement(tv_epg, 'programme', start=start, stop=stop, channel=real_id)
             title_el = SubElement(programme, 'title')
             title_el.text = title
             if desc:
@@ -499,6 +97,200 @@ for name in channels:
     except Exception as e:
         print(f"[错误] 获取频道 {name} 失败：{e}")
 
-# 写入 epg.xml
-tree = ElementTree(tv)
-tree.write('epg.xml', encoding='utf-8', xml_declaration=True)
+# --------- LTV 解析部分 ---------
+URL = "https://www.ltv.com.tw/ott%e7%af%80%e7%9b%ae%e8%a1%a8/"
+
+class LtvParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_column = None
+        self.timetable_column_id = None
+        self.channels = {}
+        self.in_item = False
+        self.in_name = False
+        self.in_time = False
+        self.in_desc = False
+        self.buffer = ''
+        self.current_program = {}
+        self.programs = []
+        self.in_popup = False
+        self.current_popup_id = None
+        self.popups = {}
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'div' and 'class' in attrs:
+            if 'timetable-column' in attrs['class']:
+                self.timetable_column_id = attrs.get('id','')
+                if self.timetable_column_id == 'ott-animation':
+                    self.in_column = 'ott-animation'
+                    self.channels['ott-animation'] = '龍華卡通台'
+                elif self.timetable_column_id == 'ott-motion':
+                    self.in_column = 'ott-motion'
+                    self.channels['ott-motion'] = '龍華日韓台'
+                else:
+                    self.in_column = None
+
+            if 'timetable-popup' in attrs.get('class',''):
+                self.in_popup = True
+                self.current_popup_id = attrs.get('id','')
+                self.popups[self.current_popup_id] = {'desc': '', 'time': ''}
+
+        if tag == 'a' and self.in_column and 'class' in attrs and 'timetable-title' in attrs['class']:
+            self.in_item = True
+            href = attrs.get('href','')
+            popup_id = href.replace('#','') if href.startswith('#') else ''
+            self.current_program = {
+                'channel': self.in_column,
+                'popup_id': popup_id,
+                'title': '',
+                'time_str': '',
+                'desc': ''
+            }
+            self.buffer = ''
+
+        if self.in_item and tag == 'div' and 'class' in attrs:
+            if attrs['class'] == 'timetable-name':
+                self.in_name = True
+                self.buffer = ''
+            elif attrs['class'] == 'timetable-time':
+                self.in_time = True
+                self.buffer = ''
+
+        if self.in_popup and tag == 'div' and 'class' in attrs:
+            if attrs['class'] == 'timetable-time':
+                self.in_time = True
+                self.buffer = ''
+            elif attrs['class'] == 'timetable-desc':
+                self.in_desc = True
+                self.buffer = ''
+
+    def handle_endtag(self, tag):
+        if self.in_name and tag == 'div':
+            self.in_name = False
+            self.current_program['title'] = self.buffer.strip()
+
+        if self.in_time and tag == 'div':
+            self.in_time = False
+            if self.in_popup and self.current_popup_id:
+                self.popups[self.current_popup_id]['time'] = self.buffer.strip()
+            else:
+                self.current_program['time_str'] = self.buffer.strip()
+
+        if self.in_desc and tag == 'div':
+            self.in_desc = False
+            if self.in_popup and self.current_popup_id:
+                self.popups[self.current_popup_id]['desc'] = self.buffer.strip()
+
+        if self.in_item and tag == 'a':
+            pid = self.current_program.get('popup_id','')
+            if pid and pid in self.popups:
+                if self.popups[pid]['time']:
+                    self.current_program['time_str'] = self.popups[pid]['time']
+                if self.popups[pid]['desc']:
+                    self.current_program['desc'] = self.popups[pid]['desc']
+            if self.current_program.get('title',''):
+                self.programs.append(self.current_program)
+            self.in_item = False
+            self.current_program = {}
+
+        if self.in_popup and tag == 'div':
+            self.in_popup = False
+            self.current_popup_id = None
+
+    def handle_data(self, data):
+        if self.in_name or self.in_time or self.in_desc:
+            self.buffer += data
+
+def parse_time_range(date_str, time_range_str):
+    try:
+        start_str, end_str = [t.strip() for t in time_range_str.split('-')]
+    except:
+        return None, None
+    dt_format = "%Y/%m/%d %H:%M"
+
+    start_dt = datetime.strptime(f"{date_str} {start_str}", dt_format)
+    end_dt = datetime.strptime(f"{date_str} {end_str}", dt_format)
+    if end_dt <= start_dt:
+        end_dt += timedelta(days=1)
+    return start_dt, end_dt
+
+def format_xml_datetime(dt):
+    return dt.strftime('%Y%m%d%H%M%S') + " +0800"
+
+# 抓取并添加LTV节目到两个tv根节点
+def add_ltv_programmes():
+    print("抓取LTV节目单中...")
+    resp = urllib.request.urlopen(URL)
+    html = resp.read().decode('utf-8')
+    parser = LtvParser()
+    parser.feed(html)
+
+    today_date = datetime.now().strftime('%Y/%m/%d')
+
+    # 先加入频道
+    for ch_id, ch_name in parser.channels.items():
+        # epg.xml频道添加
+        if ch_id not in added_channels_epg:
+            ch_el = SubElement(tv_epg, 'channel', id=ch_id)
+            dn_el = SubElement(ch_el, 'display-name')
+            dn_el.text = ch_name
+            added_channels_epg.add(ch_id)
+
+        # boss.xml频道添加
+        if ch_id not in added_channels_boss:
+            ch_el_boss = SubElement(tv_boss, 'channel', id=ch_id)
+            dn_el_boss = SubElement(ch_el_boss, 'display-name')
+            dn_el_boss.text = ch_name
+            added_channels_boss.add(ch_id)
+
+    for p in parser.programs:
+        timestr = p.get('time_str', '')
+        m = re.search(r'(\d{4}/\d{2}/\d{2})\s*(\d{2}:\d{2}\s*-\s*\d{2}:\d{2})', timestr)
+        if m:
+            date_str = m.group(1)
+            time_range = m.group(2)
+        else:
+            date_str = today_date
+            time_range = timestr
+
+        start_dt, end_dt = parse_time_range(date_str, time_range)
+        if start_dt and end_dt:
+            start = format_xml_datetime(start_dt)
+            stop = format_xml_datetime(end_dt)
+        else:
+            start = ''
+            stop = ''
+
+        ch_id = p.get('channel','')
+
+        # epg.xml 节目添加
+        prog_el = SubElement(tv_epg, 'programme', start=start, stop=stop, channel=ch_id)
+        title_el = SubElement(prog_el, 'title')
+        title_el.text = p.get('title','')
+        desc_text = p.get('desc','')
+        if desc_text:
+            desc_el = SubElement(prog_el, 'desc')
+            desc_el.text = desc_text
+
+        # boss.xml 节目添加
+        prog_el_boss = SubElement(tv_boss, 'programme', start=start, stop=stop, channel=ch_id)
+        title_el_boss = SubElement(prog_el_boss, 'title')
+        title_el_boss.text = p.get('title','')
+        if desc_text:
+            desc_el_boss = SubElement(prog_el_boss, 'desc')
+            desc_el_boss.text = desc_text
+
+    print("LTV节目单添加完成。")
+
+add_ltv_programmes()
+
+# 写入 epg.xml (所有频道)
+tree_epg = ElementTree(tv_epg)
+tree_epg.write('epg.xml', encoding='utf-8', xml_declaration=True)
+
+# 写入 boss.xml (仅LTV频道)
+tree_boss = ElementTree(tv_boss)
+tree_boss.write('boss.xml', encoding='utf-8', xml_declaration=True)
+
+print("epg.xml 和 boss.xml 已生成。")
