@@ -109,33 +109,60 @@ def fetch_ltv_programmes():
         all_programmes[cid].sort(key=lambda x: x[0])
     return all_programmes
 
-def fetch_json_schedule():
+from datetime import datetime, timedelta
+import requests
+
+def fetch_json_schedule(channels_json):
     programmes = []
     for ch_id, info in channels_json.items():
         try:
             data = requests.get(info['url'], timeout=10).json()
-            for day in data['list']:
+            for i, day in enumerate(data['list']):
                 programme_list = day['values']
-                if programme_list and programme_list[0]['time'] != "00:00":
+
+                # 判断是否需要插入“無節目資料”
+                need_patch = False
+                if programme_list:
+                    first_prog_time = programme_list[0]['time']
+                    if first_prog_time != "00:00":
+                        need_patch = True
+                        if i > 0:
+                            prev_day = data['list'][i - 1]
+                            prev_programmes = prev_day['values']
+                            if prev_programmes:
+                                last_prog = prev_programmes[-1]
+                                prev_start = datetime.strptime(f"{prev_day['key']} {last_prog['time']}", "%Y-%m-%d %H:%M")
+                                prev_end = prev_start + timedelta(hours=2)
+                                today_0 = datetime.strptime(f"{day['key']} 00:00", "%Y-%m-%d %H:%M")
+                                if prev_end > today_0:
+                                    need_patch = False
+                else:
+                    need_patch = True
+
+                if need_patch:
                     programme_list.insert(0, {
                         "name": "無節目資料",
                         "date": day['key'],
                         "time": "00:00"
                     })
-                for i, p in enumerate(programme_list):
+
+                for idx, p in enumerate(programme_list):
                     start = datetime.strptime(f"{p['date']} {p['time']}", "%Y-%m-%d %H:%M")
-                    if i + 1 < len(programme_list):
-                        next_p = programme_list[i + 1]
+
+                    if idx + 1 < len(programme_list):
+                        next_p = programme_list[idx + 1]
                         end = datetime.strptime(f"{next_p['date']} {next_p['time']}", "%Y-%m-%d %H:%M")
                     else:
                         end = start + timedelta(hours=2)
+
+                    # 处理跨天，拆分成两段
                     if end <= start:
                         end += timedelta(days=1)
 
-                    # 处理跨天拆分
                     if end.date() > start.date():
-                        midnight = datetime.combine(end.date(), datetime.min.time())  # 次日 00:00:00
-                        # 第一段，直到当天午夜
+                        # 第一天部分，结束时间到当天23:59:59（这里用0点更统一）
+                        midnight = datetime.combine(end.date(), datetime.min.time())
+                        # 添加第一段（开始->当天0点）
                         programmes.append({
                             "channel": ch_id,
                             "title": p['name'],
@@ -143,7 +170,11 @@ def fetch_json_schedule():
                             "end": midnight,
                             "desc": ""
                         })
-                        # 第二段，午夜到结束时间
+                        # 添加第二段（当天0点->结束时间）
+                        # 第二段开始时间是结束日当天0点
+                        # 第二段结束时间是下一节目开始时间，如果跨多天，暂时用原结束时间即可
+                        # 这里查找第二天该频道对应节目开始时间
+                        # 但因为是单天数据，第二天的数据后面会遍历到，暂时用end替代
                         programmes.append({
                             "channel": ch_id,
                             "title": p['name'],
@@ -159,9 +190,11 @@ def fetch_json_schedule():
                             "end": end,
                             "desc": ""
                         })
+
         except Exception as e:
             print(f"[錯誤] 無法抓取 {ch_id}：{e}")
-    programmes.sort(key=lambda x: x['start'])
+
+    programmes.sort(key=lambda x: x["start"])
     return programmes
 
 def fetch_ls_time_programmes():
