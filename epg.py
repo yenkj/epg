@@ -23,6 +23,7 @@ channels_ltv = {
 now = datetime.utcnow() + timedelta(hours=8)
 date_str_api = now.strftime('%Y%m%d')       # 凤凰台接口日期格式
 yesterday_str_api = (now - timedelta(days=1)).strftime('%Y%m%d')
+date_str_html = now.strftime('%Y-%m-%d')     # LTV 页面日期格式
 
 # === 函数定义 ===
 def fetch_epg(channel_id, date_str):
@@ -49,8 +50,8 @@ def parse_epg(xml, date_prefix, mode='today'):
 
 def parse_time_range(date_str_slash, time_range_str):
     try:
-        date_prefix = date_str_slash.replace('/', '-')
         start_str, end_str = [t.strip() for t in time_range_str.split('-')]
+        date_prefix = date_str_slash.replace('/', '-')  # "2025/07/17" -> "2025-07-17"
         start_dt = datetime.strptime(f"{date_prefix} {start_str}", "%Y-%m-%d %H:%M")
         end_dt = datetime.strptime(f"{date_prefix} {end_str}", "%Y-%m-%d %H:%M")
         if end_dt <= start_dt:
@@ -59,7 +60,7 @@ def parse_time_range(date_str_slash, time_range_str):
         end_epg = end_dt.strftime("%Y%m%d%H%M%S") + " +0800"
         return start_epg, end_epg
     except Exception as e:
-        print(f"[錯誤] 時間解析失敗: {time_range_str}")
+        print(f"[錯誤] 時間解析失敗: {date_str_slash} {time_range_str}")
         return None, None
 
 def fetch_ltv_programmes():
@@ -75,44 +76,42 @@ def fetch_ltv_programmes():
         if not div:
             print(f"[警告] 找不到频道 {cid} 的节目区块")
             continue
-
         items = div.select(".timetable-item")
         for item in items:
             title_tag = item.select_one(".timetable-name")
+            time_tag = item.select_one(".timetable-time")
+            desc_tag = item.select_one(".timetable-desc")
             popup_href = item.select_one("a")["href"] if item.select_one("a") else None
-            popup_id = popup_href.lstrip("#") if popup_href else None
-            popup = soup.find("div", id=popup_id) if popup_id else None
 
-            if not title_tag or not popup:
-                continue
-
-            # 获取日期和时间范围
-            time_info_tag = popup.select_one(".timetable-time")
-            if not time_info_tag:
-                continue
-
-            time_info = time_info_tag.get_text(strip=True)
-            try:
-                date_part = time_info.split()[0]  # 2025/07/17
-                time_range = time_info.split()[-1]  # 23:30 - 00:00
-            except Exception as e:
-                print(f"[錯誤] 時間格式錯誤: {time_info}")
+            if not title_tag or not time_tag or not popup_href:
                 continue
 
             title = title_tag.get_text(strip=True)
-            desc_tag = popup.select_one(".timetable-desc")
-            desc = desc_tag.get_text(strip=True).replace("\xa0", " ") if desc_tag else ""
+            time_range = time_tag.get_text(strip=True)
+            desc = desc_tag.get_text(strip=True) if desc_tag else ""
+
+            # 从弹窗中取出真实日期
+            popup_id = popup_href.lstrip("#")
+            popup = soup.find("div", id=popup_id)
+            if not popup:
+                print(f"[警告] 找不到 popup：{popup_id}")
+                continue
+            time_info_tag = popup.select_one(".timetable-time")
+            if not time_info_tag:
+                print(f"[警告] popup {popup_id} 中找不到時間")
+                continue
+            time_info = time_info_tag.get_text(strip=True)
+            date_part = time_info.split()[0].strip()  # e.g., "2025/07/17"
 
             start_epg, end_epg = parse_time_range(date_part, time_range)
             if start_epg and end_epg:
                 all_programmes[cid].append((start_epg, end_epg, title, desc))
-
     return all_programmes
 
 # === 创建 epg.xml ===
 tv_epg = Element('tv')
 
-# 凤凰台写入
+# 凤凰台写入（无变化）
 for name in channels_fh:
     real_id = None
     for cid, names in channel_map.items():
