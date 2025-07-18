@@ -34,7 +34,7 @@ def parse_tvking_programmes(channel_id="108"):
             continue
         date_str = date_map[index]
         programme_list = []
-        rows = slide.select(".row.mt-2")
+        rows = slide.select("div.mt-2")
         for i, row in enumerate(rows):
             time_tag = row.select_one('.col-3 span')
             title_tag = row.select_one('.card-body')
