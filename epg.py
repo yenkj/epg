@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 with open('epg/channel-map.json', encoding='utf-8') as f:
     channel_map = json.load(f)
 
-channels_fh = [
+channels_api = [
   "凤凰中文",
   "凤凰资讯",
   "凤凰香港",
@@ -424,7 +424,7 @@ channels_ltv = {
 
 # === 时间设置 ===
 now = datetime.utcnow() + timedelta(hours=8)
-date_str_api = now.strftime('%Y%m%d')       # 凤凰台接口日期格式
+date_str_api = now.strftime('%Y%m%d')       # epg.pw的api接口日期格式
 yesterday_str_api = (now - timedelta(days=1)).strftime('%Y%m%d')
 date_str_html = now.strftime('%Y-%m-%d')     # LTV 页面日期格式
 
@@ -514,8 +514,8 @@ def fetch_ltv_programmes():
 # === 创建 epg.xml ===
 tv_epg = Element('tv')
 
-# 凤凰台写入（无变化）
-for name in channels_fh:
+# epg.pw的api写入（保持不变）
+for name in channels_api:
     real_id = None
     for cid, names in channel_map.items():
         if name in names:
@@ -555,7 +555,7 @@ for name in channels_fh:
 # LTV节目信息
 ltv_data = fetch_ltv_programmes()
 
-# LTV写入 epg.xml
+# LTV写入 epg.xml （改为无论desc是否为空都写空的desc标签）
 for cid, cname in channels_ltv.items():
     channel_el = SubElement(tv_epg, 'channel', id=cid)
     SubElement(channel_el, 'display-name').text = cname
@@ -563,8 +563,8 @@ for cid, cname in channels_ltv.items():
     for start, stop, title, desc in ltv_data.get(cid, []):
         programme = SubElement(tv_epg, 'programme', start=start, stop=stop, channel=cid)
         SubElement(programme, 'title').text = title
-        if desc:
-            SubElement(programme, 'desc').text = desc
+        desc_el = SubElement(programme, 'desc')
+        desc_el.text = desc or ""
 
 # 写入 epg.xml 文件
 ElementTree(tv_epg).write('epg.xml', encoding='utf-8', xml_declaration=True)
@@ -579,8 +579,8 @@ for cid, cname in channels_ltv.items():
     for start, stop, title, desc in ltv_data.get(cid, []):
         programme = SubElement(tv_boss, 'programme', start=start, stop=stop, channel=cid)
         SubElement(programme, 'title').text = title
-        if desc:
-            SubElement(programme, 'desc').text = desc
+        desc_el = SubElement(programme, 'desc')
+        desc_el.text = desc or ""
 
 ElementTree(tv_boss).write('boss.xml', encoding='utf-8', xml_declaration=True)
 print("✅ boss.xml (LTV專用) 生成成功！")
