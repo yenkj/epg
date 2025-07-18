@@ -20,13 +20,22 @@ channels_ltv = {
     "ott-motion": "龍華日韓台"
 }
 
-# === 时间设置 ===
-now = datetime.utcnow() + timedelta(hours=8)
-date_str_api = now.strftime('%Y%m%d')       # epg.pw的api接口日期格式
-yesterday_str_api = (now - timedelta(days=1)).strftime('%Y%m%d')
-date_str_html = now.strftime('%Y-%m-%d')     # LTV 页面日期格式
+channels_json = {
+    "meya-movie-hd": {
+        "name": "美亞電影HD",
+        "url": "https://xn--i0yt6h0rn.tw/channel/美亞電影HD/index.json"
+    },
+    "elta-sports-2": {
+        "name": "愛爾達體育2台",
+        "url": "https://節目表.tw/channel/愛爾達體育2台/index.json"
+    }
+}
 
-# === 函数定义 ===
+now = datetime.utcnow() + timedelta(hours=8)
+date_str_api = now.strftime('%Y%m%d')
+yesterday_str_api = (now - timedelta(days=1)).strftime('%Y%m%d')
+date_str_html = now.strftime('%Y-%m-%d')
+
 def fetch_epg(channel_id, date_str):
     url = f"https://epg.pw/api/epg.xml?lang=zh-hans&timezone=QXNpYS9TaGFuZ2hhaQ==&date={date_str}&channel_id={channel_id}"
     res = requests.get(url)
@@ -60,8 +69,7 @@ def parse_time_range(date_str_slash, time_range_str):
         start_epg = start_dt.strftime("%Y%m%d%H%M%S") + " +0800"
         end_epg = end_dt.strftime("%Y%m%d%H%M%S") + " +0800"
         return start_epg, end_epg
-    except Exception as e:
-        print(f"[錯誤] 時間解析失敗: {date_str_slash} {time_range_str}")
+    except Exception:
         return None, None
 
 def fetch_ltv_programmes():
@@ -69,13 +77,11 @@ def fetch_ltv_programmes():
     res = requests.get(url)
     res.raise_for_status()
     soup = BeautifulSoup(res.text, 'html.parser')
-
     all_programmes = {}
     for cid in channels_ltv:
         all_programmes[cid] = []
         div = soup.find("div", id=cid)
         if not div:
-            print(f"[警告] 找不到频道 {cid} 的节目区块")
             continue
         items = div.select(".timetable-item")
         for item in items:
@@ -83,101 +89,151 @@ def fetch_ltv_programmes():
             time_tag = item.select_one(".timetable-time")
             desc_tag = item.select_one(".timetable-desc")
             popup_href = item.select_one("a")["href"] if item.select_one("a") else None
-
             if not title_tag or not time_tag or not popup_href:
                 continue
-
             title = title_tag.get_text(strip=True)
             time_range = time_tag.get_text(strip=True)
             desc = desc_tag.get_text(strip=True) if desc_tag else ""
-
-            # 从弹窗中取出真实日期
             popup_id = popup_href.lstrip("#")
             popup = soup.find("div", id=popup_id)
             if not popup:
-                print(f"[警告] 找不到 popup：{popup_id}")
                 continue
             time_info_tag = popup.select_one(".timetable-time")
             if not time_info_tag:
-                print(f"[警告] popup {popup_id} 中找不到時間")
                 continue
-            time_info = time_info_tag.get_text(strip=True)
-            date_part = time_info.split()[0].strip()
-
+            date_part = time_info_tag.get_text(strip=True).split()[0].strip()
             start_epg, end_epg = parse_time_range(date_part, time_range)
             if start_epg and end_epg:
                 all_programmes[cid].append((start_epg, end_epg, title, desc))
     return all_programmes
 
-# === 创建 epg.xml ===
-tv_epg = Element('tv')
+def fetch_json_schedule():
+    programmes = []
+    for ch_id, info in channels_json.items():
+        try:
+            data = requests.get(info['url'], timeout=10).json()
+            for day in data['list']:
+                programme_list = day['values']
+                if programme_list and programme_list[0]['time'] != "00:00":
+                    programme_list.insert(0, {
+                        "name": "無節目資料",
+                        "date": day['key'],
+                        "time": "00:00"
+                    })
+                for i, p in enumerate(programme_list):
+                    start = datetime.strptime(f"{p['date']} {p['time']}", "%Y-%m-%d %H:%M")
+                    if i + 1 < len(programme_list):
+                        next_p = programme_list[i+1]
+                        end = datetime.strptime(f"{next_p['date']} {next_p['time']}", "%Y-%m-%d %H:%M")
+                    else:
+                        end = start + timedelta(hours=2)
+                    if end <= start:
+                        end += timedelta(days=1)
+                    programmes.append({
+                        "channel": ch_id,
+                        "title": p['name'],
+                        "start": start,
+                        "end": end,
+                        "desc": ""
+                    })
+        except Exception as e:
+            print(f"[錯誤] 無法抓取 {ch_id}：{e}")
+    return programmes
 
-# epg.pw的api写入
-for name in channels_api:
-    real_id = None
-    for cid, names in channel_map.items():
-        if name in names:
-            real_id = cid
-            break
-    if not real_id:
-        continue
+def fmt(dt):
+    return dt.strftime("%Y%m%d%H%M%S") + " +0800"
 
-    channel_el = SubElement(tv_epg, 'channel', id=real_id)
-    SubElement(channel_el, 'display-name').text = name
+def main():
+    epg_programmes = []
+    for name in channels_api:
+        real_id = next((cid for cid, names in channel_map.items()
+                        if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)), None)
+        if not real_id:
+            continue
+        try:
+            xml_today = fetch_epg(real_id, date_str_api)
+            xml_yesterday = fetch_epg(real_id, yesterday_str_api)
+            today_programmes = parse_epg(xml_today, date_str_api, mode='today')
+            carryover_programmes = parse_epg(xml_yesterday, date_str_api, mode='carry')
+            if today_programmes:
+                first_start = today_programmes[0][0]
+                if not first_start.endswith("0000"):
+                    if carryover_programmes:
+                        last_prog = carryover_programmes[-1]
+                        carry_start = date_str_api + "000000"
+                        carry_end = first_start
+                        title, desc = last_prog[2], last_prog[3]
+                        today_programmes.insert(0, (carry_start, carry_end, title, desc))
+            epg_programmes.extend(today_programmes)
+        except Exception as e:
+            print(f"[錯誤] {name} 失敗：{e}")
 
-    try:
-        xml_today = fetch_epg(real_id, date_str_api)
-        xml_yesterday = fetch_epg(real_id, yesterday_str_api)
-        today_programmes = parse_epg(xml_today, date_str_api, mode='today')
-        carryover_programmes = parse_epg(xml_yesterday, date_str_api, mode='carry')
+    ltv_programmes = fetch_ltv_programmes()
+    json_programmes = fetch_json_schedule()
 
-        if today_programmes:
-            first_start = today_programmes[0][0]
-            if not first_start.endswith("0000"):
-                if carryover_programmes:
-                    last_prog = carryover_programmes[-1]
-                    carry_start = date_str_api + "000000"
-                    carry_end = first_start
-                    title, desc = last_prog[2], last_prog[3]
-                    today_programmes.insert(0, (carry_start, carry_end, title, desc))
+    # === epg.xml ===
+    tv_epg = Element("tv")
+    for ch in channels_api:
+        real_id = next((cid for cid, names in channel_map.items()
+                        if (isinstance(names, list) and ch in names) or (isinstance(names, str) and ch == names)), None)
+        if real_id:
+            ch_el = SubElement(tv_epg, "channel", id=real_id)
+            SubElement(ch_el, "display-name").text = ch
 
-        for start, stop, title, desc in today_programmes:
-            programme = SubElement(tv_epg, 'programme', start=start, stop=stop, channel=real_id)
-            SubElement(programme, 'title').text = title
-            if desc:
-                SubElement(programme, 'desc').text = desc
-    except Exception as e:
-        print(f"[错误] 获取频道 {name} 失败：{e}")
+    for start, stop, title, desc in epg_programmes:
+        real_id = next((cid for cid, names in channel_map.items()
+                        if (isinstance(names, list) and title in names) or (isinstance(names, str) and title == names)), None)
+        if not real_id:
+            real_id = "unknown"
+        p = SubElement(tv_epg, "programme", start=start, stop=stop, channel=real_id)
+        SubElement(p, "title").text = title
+        SubElement(p, "desc").text = desc
 
-# LTV节目信息
-ltv_data = fetch_ltv_programmes()
+    for cid, cname in channels_ltv.items():
+        ch_el = SubElement(tv_epg, "channel", id=cid)
+        SubElement(ch_el, "display-name").text = cname
+        if cid in ltv_programmes:
+            for start, stop, title, desc in ltv_programmes[cid]:
+                p = SubElement(tv_epg, "programme", start=start, stop=stop, channel=cid)
+                SubElement(p, "title").text = title
+                SubElement(p, "desc").text = desc
 
-# === 写入 LTV 节目到 epg.xml（强制清空 desc） ===
-for cid, cname in channels_ltv.items():
-    channel_el = SubElement(tv_epg, 'channel', id=cid)
-    SubElement(channel_el, 'display-name').text = cname
+    for ch_id, info in channels_json.items():
+        ch_el = SubElement(tv_epg, "channel", id=ch_id)
+        SubElement(ch_el, "display-name").text = info['name']
+    for prog in json_programmes:
+        p = SubElement(tv_epg, "programme",
+                      start=fmt(prog['start']),
+                      stop=fmt(prog['end']),
+                      channel=prog['channel'])
+        SubElement(p, "title").text = prog['title']
+        SubElement(p, "desc").text = prog['desc']
 
-    for start, stop, title, _ in ltv_data.get(cid, []):
-        programme = SubElement(tv_epg, 'programme', start=start, stop=stop, channel=cid)
-        SubElement(programme, 'title').text = title
-        desc_el = SubElement(programme, 'desc')
-        desc_el.text = ""  # ⛔ 强制留空描述
+    ElementTree(tv_epg).write("epg.xml", encoding="utf-8", xml_declaration=True)
 
-# 写入 epg.xml 文件
-ElementTree(tv_epg).write('epg.xml', encoding='utf-8', xml_declaration=True)
-print("✅ epg.xml 生成成功！")
+    # === boss.xml（无描述，仅LTV+JSON） ===
+    tv_boss = Element("tv")
+    for cid, cname in channels_ltv.items():
+        ch_el = SubElement(tv_boss, "channel", id=cid)
+        SubElement(ch_el, "display-name").text = cname
+        if cid in ltv_programmes:
+            for start, stop, title, _ in ltv_programmes[cid]:
+                p = SubElement(tv_boss, "programme", start=start, stop=stop, channel=cid)
+                SubElement(p, "title").text = title
+                SubElement(p, "desc").text = ""
 
-# === 创建 boss.xml（仅 LTV）===（也强制清空 desc）
-tv_boss = Element('tv')
-for cid, cname in channels_ltv.items():
-    channel_el = SubElement(tv_boss, 'channel', id=cid)
-    SubElement(channel_el, 'display-name').text = cname
+    for ch_id, info in channels_json.items():
+        ch_el = SubElement(tv_boss, "channel", id=ch_id)
+        SubElement(ch_el, "display-name").text = info['name']
+    for prog in json_programmes:
+        p = SubElement(tv_boss, "programme",
+                      start=fmt(prog['start']),
+                      stop=fmt(prog['end']),
+                      channel=prog['channel'])
+        SubElement(p, "title").text = prog['title']
+        SubElement(p, "desc").text = ""
 
-    for start, stop, title, _ in ltv_data.get(cid, []):
-        programme = SubElement(tv_boss, 'programme', start=start, stop=stop, channel=cid)
-        SubElement(programme, 'title').text = title
-        desc_el = SubElement(programme, 'desc')
-        desc_el.text = ""  # ⛔ 强制留空描述
+    ElementTree(tv_boss).write("boss.xml", encoding="utf-8", xml_declaration=True)
 
-ElementTree(tv_boss).write('boss.xml', encoding='utf-8', xml_declaration=True)
-print("✅ boss.xml (LTV專用) 生成成功！")
+if __name__ == "__main__":
+    main()
