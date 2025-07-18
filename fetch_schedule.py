@@ -11,62 +11,53 @@ OUTPUT = "schedule.xml"
 
 
 def fetch_vue_data():
-    resp = requests.get(URL)
-    resp.raise_for_status()
+    res = requests.get(URL)
+    res.raise_for_status()
 
-    # 匹配 window.createApp({...}) 中的内容
-    match = re.search(r"createApp\(\s*{\s*data\(\)\s*{\s*return\s*({.*?})\s*}\s*}\s*\)", resp.text, re.DOTALL)
+    # 匹配 createApp 中的 data()
+    match = re.search(r"createApp\(\s*{\s*data\(\)\s*{\s*return\s*({.*?})\s*}\s*}\s*\)", res.text, re.DOTALL)
     if not match:
-        raise ValueError("未找到 Vue 数据块")
+        raise ValueError("未找到 Vue 数据")
 
-    js_obj_str = match.group(1)
+    js_obj = match.group(1)
+    js_obj = re.sub(r'(\w+):', r'"\1":', js_obj)  # key 加引号
+    js_obj = js_obj.replace("undefined", "null")
 
-    # 修复 JSON 格式：将 JavaScript 的单引号、None、True/False 替换为 JSON 格式
-    js_obj_str = js_obj_str.replace("undefined", "null")
-    js_obj_str = re.sub(r'(\w+):', r'"\1":', js_obj_str)  # 对 key 加引号
-    js_obj_str = re.sub(r'\'', '"', js_obj_str)
-
-    # 转为 Python 字典
-    vue_data = json.loads(js_obj_str)
-    return vue_data
+    data = json.loads(js_obj)
+    return data
 
 
 def generate_xmltv(data):
     root = ET.Element("tv")
-
-    # 添加频道信息
     channel = ET.SubElement(root, "channel", id=CHANNEL_ID)
     ET.SubElement(channel, "display-name").text = CHANNEL_NAME
 
     for day in data["scheduleList"]:
         date = day["date"]
-        for program in day["programList"]:
-            title = program["program"]
+        for prog in day["programList"]:
+            title = prog["program"]
             if title.lower() == "ads":
-                continue  # 跳过广告
+                continue
 
-            start_time = f"{date} {program['timeS']}"
-            end_time = f"{date} {program['timeE']}"
+            try:
+                start = datetime.strptime(f"{date} {prog['timeS']}", "%Y-%m-%d %H:%M:%S")
+                end = datetime.strptime(f"{date} {prog['timeE']}", "%Y-%m-%d %H:%M:%S")
+                if end <= start:
+                    end += timedelta(days=1)
+            except KeyError:
+                continue  # 无时间的广告等跳过
 
-            start_dt = datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S")
-            end_dt = datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S")
+            start_str = start.strftime("%Y%m%d%H%M%S +0800")
+            end_str = end.strftime("%Y%m%d%H%M%S +0800")
 
-            # 处理跨天（end < start）
-            if end_dt <= start_dt:
-                end_dt += timedelta(days=1)
+            p = ET.SubElement(root, "programme", start=start_str, stop=end_str, channel=CHANNEL_ID)
+            ET.SubElement(p, "title", lang="zh").text = title
 
-            start_str = start_dt.strftime("%Y%m%d%H%M%S +0800")
-            end_str = end_dt.strftime("%Y%m%d%H%M%S +0800")
-
-            prog = ET.SubElement(root, "programme", start=start_str, stop=end_str, channel=CHANNEL_ID)
-            ET.SubElement(prog, "title", lang="zh").text = title
-
-    # 写入文件
     tree = ET.ElementTree(root)
     tree.write(OUTPUT, encoding="utf-8", xml_declaration=True)
 
 
 if __name__ == "__main__":
-    data = fetch_vue_data()
-    generate_xmltv(data)
-    print(f"✅ 已生成：{OUTPUT}")
+    vue_data = fetch_vue_data()
+    generate_xmltv(vue_data)
+    print(f"✅ XMLTV 已生成：{OUTPUT}")
