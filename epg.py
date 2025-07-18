@@ -110,7 +110,6 @@ def fetch_ltv_programmes():
             if start_epg and end_epg:
                 all_programmes[cid].append((start_epg, end_epg, title, desc))
 
-    # ✅ 按 start_epg 时间排序
     for cid in all_programmes:
         all_programmes[cid].sort(key=lambda x: x[0])
 
@@ -133,7 +132,7 @@ def fetch_json_schedule():
                 for i, p in enumerate(programme_list):
                     start = datetime.strptime(f"{p['date']} {p['time']}", "%Y-%m-%d %H:%M")
                     if i + 1 < len(programme_list):
-                        next_p = programme_list[i+1]
+                        next_p = programme_list[i + 1]
                         end = datetime.strptime(f"{next_p['date']} {next_p['time']}", "%Y-%m-%d %H:%M")
                     else:
                         end = start + timedelta(hours=2)
@@ -155,24 +154,9 @@ def fmt(dt):
     return dt.strftime("%Y%m%d%H%M%S") + " +0800"
 
 
-def indent(elem, level=0):
-    i = "\n" + level * "\t"
-    if len(elem):
-        if not elem.text or not elem.text.strip():
-            elem.text = i + "\t"
-        for child in elem:
-            indent(child, level + 1)
-        if not elem.tail or not elem.tail.strip():
-            elem.tail = i
-    else:
-        if not elem.tail or not elem.tail.strip():
-            elem.tail = i
-
-
-def write_xml(element, file_path):
-    indent(element)
-    tree = ElementTree(element)
-    with open(file_path, 'wb') as f:
+def write_xml(root_element, filepath):
+    tree = ElementTree(root_element)
+    with open(filepath, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True, short_empty_elements=False)
 
 
