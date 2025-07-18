@@ -366,7 +366,7 @@ def main():
     for p in epg_programmes:
         epg_by_channel.setdefault(p['channel'], []).append(p)
 
-    for name in channels_api:
+ for name in channels_api:
     real_id = next((cid for cid, names in channel_map.items()
                     if (isinstance(names, list) and name in names) or (isinstance(names, str) and name == names)), None)
     if real_id:
