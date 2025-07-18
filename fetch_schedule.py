@@ -2,7 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-URL = "https://example.com/api/schedule"  # 把这里改成你的数据接口地址
+URL = "https://tvking.funorange.com.tw/channel/108"  # 把这里改成你的数据接口地址
 
 def fetch_schedule():
     resp = requests.get(URL)
