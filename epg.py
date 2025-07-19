@@ -361,27 +361,27 @@ def fetch_celestial_programmes():
             time_str = item.select_one(".schedule-time")
             if not time_str:
                 continue
-            time_str = time_str.text.strip()
-            # 时间格式示例: 23:30
+            time_str = time_str.text.strip().lower().replace(" ", "")
             if not time_str or len(time_str) < 4:
                 continue
 
-            # 频道节目名
             prog_name = item.select_one(".schedule-title")
             prog_name = prog_name.text.strip() if prog_name else "無節目資料"
 
-            # 当前节目日期推断
-            # schedule-items里时间顺序是顺序，跨天逻辑需要：
-            # 如果当前节目时间 < 上一个节目时间，说明跨天了，日期 +1
-            time_obj = datetime.strptime(time_str, "%H:%M").time()
+            try:
+                if "am" in time_str or "pm" in time_str:
+                    time_obj = datetime.strptime(time_str, "%I:%M%p").time()
+                else:
+                    time_obj = datetime.strptime(time_str, "%H:%M").time()
+            except ValueError:
+                print(f"[錯誤] 無法解析時間：{time_str}")
+                continue
 
             if last_date is None:
-                # 用今天日期开始
                 last_date = datetime.now().date()
                 last_time_obj = time_obj
             else:
                 if time_obj < last_time_obj:
-                    # 跨天
                     last_date += timedelta(days=1)
                 last_time_obj = time_obj
 
