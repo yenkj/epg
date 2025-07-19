@@ -1,0 +1,24 @@
+name: Test Celestial XML Output
+
+on:
+  push:
+    paths:
+      - 'fetch_celestial.py'
+      - '.github/workflows/test_celestial.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install beautifulsoup4 requests
+      - name: Run script and generate XML
+        run: python fetch_celestial.py
+      - name: Show generated XML
+        run: cat celestial.xml
