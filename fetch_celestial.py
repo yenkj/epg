@@ -121,7 +121,7 @@ def write_xmltv(programmes, channels, output_path):
     pretty_xml = parsed.toprettyxml(indent="", newl="")
 
     with open(output_path, "w", encoding="utf-8") as f:
-        f.write(pretty_xml))
+        f.write(pretty_xml)
 
 
 if __name__ == "__main__":
