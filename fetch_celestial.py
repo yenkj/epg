@@ -78,7 +78,7 @@ def write_xml(channels: list, filename="celestial.xml"):
         f.write("\n".join(xml))
 
 if __name__ == "__main__":
-    all_channels = [
+    raw_channels = [
         fetch_channel(
             "celestial-movies-hd",
             "天映頻道",
@@ -90,5 +90,8 @@ if __name__ == "__main__":
             "https://www.cmclassic.tv/schedule.php?lang=tc"
         )
     ]
+
+    # 只保留非空的有效频道
+    all_channels = [ch for ch in raw_channels if isinstance(ch, dict) and ch.get("programmes")]
 
     write_xml(all_channels, "celestial.xml")
