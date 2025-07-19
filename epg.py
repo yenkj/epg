@@ -435,7 +435,7 @@ channels_celestial = {
     },
     "celestial-classic-hd": {
         "name": "天映經典台",
-        "url": "https://www.cmclassic.tv/schedule.php?lang=tc"
+        "url": "https://www.cmclassic.tv/schedule.php?location/MY"
     }
 }
 
