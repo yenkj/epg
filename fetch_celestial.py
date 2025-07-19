@@ -111,9 +111,8 @@ def write_xmltv(programmes, channels, output_path):
             })
             title_elem = ET.SubElement(p_elem, "title")
             title_elem.text = prog["title"]
-            if prog.get("desc"):
-                desc_elem = ET.SubElement(p_elem, "desc")
-                desc_elem.text = prog.get("desc", "")
+            desc_elem = ET.SubElement(p_elem, "desc")
+            desc_elem.text = prog.get("desc", "")
 
     tree = ET.ElementTree(tv)
     tree.write(output_path, encoding="utf-8", xml_declaration=True)
