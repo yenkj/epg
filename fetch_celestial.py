@@ -89,34 +89,35 @@ def fetch_celestial_generic(name, url, ch_id):
         return []
 
 def write_xmltv(programmes, channels, output_path):
-tv = ET.Element("tv")
+    import xml.etree.ElementTree as ET
 
-for ch in channels:
-    # 写当前频道的 <channel> 标签
-    ch_elem = ET.SubElement(tv, "channel", id=ch["id"])
-    name_elem = ET.SubElement(ch_elem, "display-name")
-    name_elem.text = ch["name"]
+    tv = ET.Element("tv")
 
-    # 选出该频道的所有节目，排序后写入 <programme>
-    ch_programmes = [p for p in programmes if p["channel"] == ch["id"]]
-    ch_programmes.sort(key=lambda x: x["start"])
+    for ch in channels:
+        # 写当前频道的 <channel> 标签
+        ch_elem = ET.SubElement(tv, "channel", id=ch["id"])
+        name_elem = ET.SubElement(ch_elem, "display-name")
+        name_elem.text = ch["name"]
 
-    for prog in ch_programmes:
-        p_elem = ET.SubElement(tv, "programme", attrib={
-            "start": prog["start"].strftime("%Y%m%d%H%M%S +0800"),
-            "stop": prog["end"].strftime("%Y%m%d%H%M%S +0800"),
-            "channel": prog["channel"]
-        })
-        title_elem = ET.SubElement(p_elem, "title")
-        title_elem.text = prog["title"]
-        if prog["desc"]:
-            desc_elem = ET.SubElement(p_elem, "desc")
-            desc_elem.text = prog["desc"]
+        # 选出该频道的所有节目，排序后写入 <programme>
+        ch_programmes = [p for p in programmes if p["channel"] == ch["id"]]
+        ch_programmes.sort(key=lambda x: x["start"])
 
-
+        for prog in ch_programmes:
+            p_elem = ET.SubElement(tv, "programme", attrib={
+                "start": prog["start"].strftime("%Y%m%d%H%M%S +0800"),
+                "stop": prog["end"].strftime("%Y%m%d%H%M%S +0800"),
+                "channel": prog["channel"]
+            })
+            title_elem = ET.SubElement(p_elem, "title")
+            title_elem.text = prog["title"]
+            if prog.get("desc"):
+                desc_elem = ET.SubElement(p_elem, "desc")
+                desc_elem.text = prog["desc"]
 
     tree = ET.ElementTree(tv)
     tree.write(output_path, encoding="utf-8", xml_declaration=True)
+
 
 if __name__ == "__main__":
     channels = [
