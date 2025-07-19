@@ -434,90 +434,6 @@ def fetch_celestial_programmes():
 
     return celestial_by_channel
 
-    programmes = []
-    try:
-        res = requests.get(url, timeout=10)
-        res.raise_for_status()
-        soup = BeautifulSoup(res.text, "html.parser")
-
-        items = soup.select("div.schedule-item")
-        now_date = datetime.now() + timedelta(hours=8)
-        today_str = now_date.strftime("%Y-%m-%d")
-
-        for i, item in enumerate(items):
-            time_str = item.select_one(".schedule-time").get_text(strip=True)
-            title_tag = item.select_one(".programme-title")
-            desc_tag = item.select_one(".schedule-description")
-
-            title = title_tag.get_text(strip=True) if title_tag else "無標題"
-            desc = desc_tag.get_text(strip=True) if desc_tag else ""
-
-            try:
-                start = datetime.strptime(f"{today_str} {time_str}", "%Y-%m-%d %I:%M%p")
-            except:
-                continue
-
-            if i + 1 < len(items):
-                next_time_str = items[i + 1].select_one(".schedule-time").get_text(strip=True)
-                try:
-                    end = datetime.strptime(f"{today_str} {next_time_str}", "%Y-%m-%d %I:%M%p")
-                    if end <= start:
-                        end += timedelta(days=1)
-                except:
-                    end = start + timedelta(hours=2)
-            else:
-                end = start + timedelta(hours=2)
-
-            # 跨天拆分
-            if end.date() > start.date():
-                midnight = datetime.combine(end.date(), datetime.min.time())
-                programmes.append({
-                    "channel": ch_id,
-                    "start": start,
-                    "end": midnight,
-                    "title": title,
-                    "desc": desc,
-                    "name": name
-                })
-                programmes.append({
-                    "channel": ch_id,
-                    "start": midnight,
-                    "end": end,
-                    "title": title,
-                    "desc": desc,
-                    "name": name
-                })
-            else:
-                programmes.append({
-                    "channel": ch_id,
-                    "start": start,
-                    "end": end,
-                    "title": title,
-                    "desc": desc,
-                    "name": name
-                })
-
-        # 若第一个节目不是00:00补無節目資料
-        if programmes:
-            programmes.sort(key=lambda x: x["start"])
-            first_start = programmes[0]["start"]
-            day_start = datetime.combine(first_start.date(), datetime.min.time())
-            if first_start > day_start:
-                programmes.insert(0, {
-                    "channel": ch_id,
-                    "start": day_start,
-                    "end": first_start,
-                    "title": "無節目資料",
-                    "desc": "",
-                    "name": name
-                })
-
-        return programmes
-
-    except Exception as e:
-        print(f"[錯誤] 抓取 {name} 失敗：{e}")
-        return []
-
 def fmt(dt):
     return dt.strftime("%Y%m%d%H%M%S") + " +0800"
 
@@ -575,8 +491,7 @@ def main():
     ls_time = fetch_ls_time_programmes()
 
     # --- 新增 天映頻道和 天映經典台 ---
-    celestial_hd = fetch_celestial_schedules()
-    celestial_classic = fetch_celestial_generic()
+    celestial_programmes = fetch_celestial_programmes()
 
     tv_epg = Element("tv")
 
@@ -642,23 +557,28 @@ def main():
             SubElement(prog_el, "desc").text = p['desc']
 
     # --- 新增 天映頻道数据 ---
-    if celestial_hd:
+    if "celestial-movies-hd" in celestial_programmes:
         ch_el = SubElement(tv_epg, "channel", id="celestial-movies-hd")
         SubElement(ch_el, "display-name").text = "天映頻道"
-        for p in celestial_hd:
+        for p in celestial_programmes["celestial-movies-hd"]:
             prog_el = SubElement(tv_epg, "programme",
-                                 start=p['start'], stop=p['end'], channel="celestial-movies-hd")
+                                 start=p['start'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 stop=p['end'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 channel="celestial-movies-hd")
             SubElement(prog_el, "title").text = p['title']
-            SubElement(prog_el, "desc").text = p['desc']
+            SubElement(prog_el, "desc").text = p['title']
 
-    if celestial_classic:
+
+    if "celestial-classic-hd" in celestial_programmes:
         ch_el = SubElement(tv_epg, "channel", id="celestial-classic-hd")
         SubElement(ch_el, "display-name").text = "天映經典台"
-        for p in celestial_classic:
+        for p in celestial_programmes["celestial-classic-hd"]:
             prog_el = SubElement(tv_epg, "programme",
-                                 start=p['start'], stop=p['end'], channel="celestial-classic-hd")
+                                 start=p['start'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 stop=p['end'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 channel="celestial-classic-hd")
             SubElement(prog_el, "title").text = p['title']
-            SubElement(prog_el, "desc").text = p['desc']
+            SubElement(prog_el, "desc").text = p['title']
 
     write_xml(tv_epg, "epg.xml")
 
@@ -696,21 +616,25 @@ def main():
             SubElement(prog_el, "desc").text = ""
 
     # boss.xml加上天映频道
-    if celestial_hd:
+    if "celestial-movies-hd" in celestial_programmes:
         ch_el = SubElement(tv_boss, "channel", id="celestial-movies-hd")
         SubElement(ch_el, "display-name").text = "天映頻道"
-        for p in celestial_hd:
+        for p in celestial_programmes["celestial-movies-hd"]:
             prog_el = SubElement(tv_boss, "programme",
-                                 start=p['start'], stop=p['end'], channel="celestial-movies-hd")
+                                 start=p['start'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 stop=p['end'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 channel="celestial-movies-hd")
             SubElement(prog_el, "title").text = p['title']
             SubElement(prog_el, "desc").text = ""
 
-    if celestial_classic:
+    if "celestial-classic-hd" in celestial_programmes:
         ch_el = SubElement(tv_boss, "channel", id="celestial-classic-hd")
         SubElement(ch_el, "display-name").text = "天映經典台"
-        for p in celestial_classic:
+        for p in celestial_programmes["celestial-classic-hd"]:
             prog_el = SubElement(tv_boss, "programme",
-                                 start=p['start'], stop=p['end'], channel="celestial-classic-hd")
+                                 start=p['start'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 stop=p['end'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 channel="celestial-classic-hd")
             SubElement(prog_el, "title").text = p['title']
             SubElement(prog_el, "desc").text = ""
 
