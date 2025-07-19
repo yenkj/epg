@@ -107,10 +107,10 @@ def write_xmltv(programmes, channels, output_path):
                 "stop": prog["end"].strftime("%Y%m%d%H%M%S +0800"),
                 "channel": prog["channel"]
             })
-            title_elem = ET.SubElement(p_elem, "title", lang="zh")
+            title_elem = ET.SubElement(p_elem, "title")
             title_elem.text = prog["title"]
             if prog["desc"]:
-                desc_elem = ET.SubElement(p_elem, "desc", lang="zh")
+                desc_elem = ET.SubElement(p_elem, "desc")
                 desc_elem.text = prog["desc"]
 
     tree = ET.ElementTree(tv)
