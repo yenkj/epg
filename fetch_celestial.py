@@ -89,7 +89,7 @@ def fetch_celestial_generic(name, url, ch_id):
         return []
 
 def write_xmltv(programmes, channels, output_path):
-    tv = ET.Element("tv", attrib={"generator-info-name": "celestial-fetcher"})
+    tv = ET.Element("tv")
 
     # 先写 channel 顺序
     for ch in channels:
