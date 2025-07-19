@@ -90,16 +90,15 @@ def fetch_celestial_generic(name, url, ch_id):
 
 def write_xmltv(programmes, channels, output_path):
     import xml.etree.ElementTree as ET
+    import xml.dom.minidom
 
     tv = ET.Element("tv")
 
     for ch in channels:
-        # 写当前频道的 <channel> 标签
         ch_elem = ET.SubElement(tv, "channel", id=ch["id"])
         name_elem = ET.SubElement(ch_elem, "display-name")
         name_elem.text = ch["name"]
 
-        # 选出该频道的所有节目，排序后写入 <programme>
         ch_programmes = [p for p in programmes if p["channel"] == ch["id"]]
         ch_programmes.sort(key=lambda x: x["start"])
 
@@ -111,11 +110,18 @@ def write_xmltv(programmes, channels, output_path):
             })
             title_elem = ET.SubElement(p_elem, "title")
             title_elem.text = prog["title"]
+
+            # 始终写入 <desc>，即使是空的
             desc_elem = ET.SubElement(p_elem, "desc")
             desc_elem.text = prog.get("desc", "")
 
-    tree = ET.ElementTree(tv)
-    tree.write(output_path, encoding="utf-8", xml_declaration=True)
+    # 使用 minidom 美化格式并展开空标签
+    xml_str = ET.tostring(tv, encoding="utf-8")
+    parsed = xml.dom.minidom.parseString(xml_str)
+    pretty_xml = parsed.toprettyxml(indent="", newl="")
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(pretty_xml))
 
 
 if __name__ == "__main__":
