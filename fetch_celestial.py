@@ -89,7 +89,7 @@ def fetch_celestial_generic(name, url, ch_id):
         return []
 
 def write_xmltv(programmes, channels, output_path):
-    tv = ET.Element("tv")
+tv = ET.Element("tv")
 
 for ch in channels:
     # 写当前频道的 <channel> 标签
@@ -112,6 +112,7 @@ for ch in channels:
         if prog["desc"]:
             desc_elem = ET.SubElement(p_elem, "desc")
             desc_elem.text = prog["desc"]
+
 
 
     tree = ET.ElementTree(tv)
