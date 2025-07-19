@@ -341,96 +341,103 @@ def fetch_celestial_programmes():
 
     celestial_by_channel = {}
 
-    for ch_name, url, ch_id in channels:
+    for name, url, ch_id in channels:
         try:
-            resp = requests.get(url, timeout=10)
-            resp.raise_for_status()
-            html = resp.text
-        except Exception as e:
-            print(f"获取 {ch_name} 节目失败: {e}")
-            celestial_by_channel[ch_id] = []
-            continue
+            res = requests.get(url, timeout=10)
+            res.raise_for_status()
+            soup = BeautifulSoup(res.text, "html.parser")
 
-        soup = BeautifulSoup(html, "html.parser")
-        schedule_items = soup.select("div.schedule-item")
+            items = soup.select("div.schedule-item")
+            now_date = datetime.now() + timedelta(hours=8)  # +8 时区偏移
+            today_str = now_date.strftime("%Y-%m-%d")
 
-        programmes = []
-        last_date = None
+            programmes = []
+            for i, item in enumerate(items):
+                time_tag = item.select_one(".schedule-time")
+                if not time_tag:
+                    continue
+                time_str = time_tag.get_text(strip=True).lower().replace(" ", "")
+                
+                title_tag = item.select_one(".programme-title")
+                desc_tag = item.select_one(".schedule-description")
+                
+                title = title_tag.get_text(strip=True) if title_tag else "無節目資料"
+                desc = desc_tag.get_text(strip=True) if desc_tag else ""
 
-        for item in schedule_items:
-            time_str = item.select_one(".schedule-time")
-            if not time_str:
-                continue
-            time_str = time_str.text.strip().lower().replace(" ", "")
-            if not time_str or len(time_str) < 4:
-                continue
+                # 解析时间
+                try:
+                    if "am" in time_str or "pm" in time_str:
+                        start = datetime.strptime(f"{today_str} {time_str}", "%Y-%m-%d%I:%M%p")
+                    else:
+                        start = datetime.strptime(f"{today_str} {time_str}", "%Y-%m-%d%H:%M")
+                except Exception:
+                    print(f"[錯誤] 無法解析時間：{time_str}（频道：{name}）")
+                    continue
 
-            prog_name = item.select_one(".schedule-title")
-            prog_name = prog_name.text.strip() if prog_name else "無節目資料"
-
-            try:
-                if "am" in time_str or "pm" in time_str:
-                    time_obj = datetime.strptime(time_str, "%I:%M%p").time()
+                # 计算结束时间
+                if i + 1 < len(items):
+                    next_time_str = items[i + 1].select_one(".schedule-time").get_text(strip=True).lower().replace(" ", "")
+                    try:
+                        if "am" in next_time_str or "pm" in next_time_str:
+                            end = datetime.strptime(f"{today_str} {next_time_str}", "%Y-%m-%d%I:%M%p")
+                        else:
+                            end = datetime.strptime(f"{today_str} {next_time_str}", "%Y-%m-%d%H:%M")
+                        if end <= start:
+                            end += timedelta(days=1)
+                    except Exception:
+                        end = start + timedelta(hours=2)
                 else:
-                    time_obj = datetime.strptime(time_str, "%H:%M").time()
-            except ValueError:
-                print(f"[錯誤] 無法解析時間：{time_str}")
-                continue
+                    end = start + timedelta(hours=2)
 
-            if last_date is None:
-                last_date = datetime.now().date()
-                last_time_obj = time_obj
-            else:
-                if time_obj < last_time_obj:
-                    last_date += timedelta(days=1)
-                last_time_obj = time_obj
+                # 跨天拆分
+                if end.date() > start.date():
+                    midnight = datetime.combine(end.date(), datetime.min.time())
+                    programmes.append({
+                        "channel": ch_id,
+                        "start": start,
+                        "end": midnight,
+                        "title": title,
+                        "desc": desc,
+                        "name": name,
+                    })
+                    programmes.append({
+                        "channel": ch_id,
+                        "start": midnight,
+                        "end": end,
+                        "title": title,
+                        "desc": desc,
+                        "name": name,
+                    })
+                else:
+                    programmes.append({
+                        "channel": ch_id,
+                        "start": start,
+                        "end": end,
+                        "title": title,
+                        "desc": desc,
+                        "name": name,
+                    })
 
-            start_dt = datetime.combine(last_date, time_obj)
-            programmes.append({"start": start_dt, "title": prog_name})
+            # 补 00:00 无节目资料
+            if programmes:
+                programmes.sort(key=lambda x: x["start"])
+                first_start = programmes[0]["start"]
+                day_start = datetime.combine(first_start.date(), datetime.min.time())
+                if first_start > day_start:
+                    programmes.insert(0, {
+                        "channel": ch_id,
+                        "start": day_start,
+                        "end": first_start,
+                        "title": "無節目資料",
+                        "desc": "",
+                        "name": name,
+                    })
 
-        # 补充结束时间和拆分跨天节目逻辑
-        processed_programmes = []
-        for i, prog in enumerate(programmes):
-            start = prog["start"]
-            title = prog["title"]
-            if i + 1 < len(programmes):
-                end = programmes[i + 1]["start"]
-            else:
-                # 最后一个节目默认2小时结束
-                end = start + timedelta(hours=2)
+            celestial_by_channel[ch_id] = programmes
 
-            # 如果跨天，拆分为两条
-            if end.date() > start.date():
-                midnight = datetime.combine(start.date() + timedelta(days=1), datetime.min.time())
-                processed_programmes.append({
-                    "start": start,
-                    "end": midnight,
-                    "title": title,
-                })
-                processed_programmes.append({
-                    "start": midnight,
-                    "end": end,
-                    "title": title,
-                })
-            else:
-                processed_programmes.append({
-                    "start": start,
-                    "end": end,
-                    "title": title,
-                })
-
-        # 补 00:00 无节目数据
-        if processed_programmes and processed_programmes[0]["start"].time() != datetime.min.time():
-            processed_programmes.insert(0, {
-                "start": datetime.combine(processed_programmes[0]["start"].date(), datetime.min.time()),
-                "end": processed_programmes[0]["start"],
-                "title": "無節目資料",
-            })
-
-        # 按开始时间排序
-        processed_programmes.sort(key=lambda x: x["start"])
-
-        celestial_by_channel[ch_id] = processed_programmes
+        except Exception as e:
+            print(f"[錯誤] 抓取 {name} 失敗：{e}")
+            celestial_by_channel[ch_id] = []
 
     return celestial_by_channel
 
