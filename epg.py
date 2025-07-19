@@ -356,7 +356,7 @@ def fetch_celestial_programmes():
                 time_tag = item.select_one(".schedule-time")
                 if not time_tag:
                     continue
-                time_str = time_tag.get_text(strip=True).lower().replace(" ", "")
+                time_str = time_tag.get_text(strip=True)
                 
                 title_tag = item.select_one(".programme-title")
                 desc_tag = item.select_one(".schedule-description")
@@ -366,22 +366,22 @@ def fetch_celestial_programmes():
 
                 # 解析时间
                 try:
-                    if "am" in time_str or "pm" in time_str:
-                        start = datetime.strptime(f"{today_str} {time_str}", "%Y-%m-%d%I:%M%p")
+                    if "am" in time_str.lower() or "pm" in time_str.lower():
+                        start = datetime.strptime(f"{today_str} {time_str}", "%Y-%m-%d %I:%M%p")
                     else:
-                        start = datetime.strptime(f"{today_str} {time_str}", "%Y-%m-%d%H:%M")
+                        start = datetime.strptime(f"{today_str} {time_str}", "%Y-%m-%d %H:%M")
                 except Exception:
                     print(f"[錯誤] 無法解析時間：{time_str}（频道：{name}）")
                     continue
 
                 # 计算结束时间
                 if i + 1 < len(items):
-                    next_time_str = items[i + 1].select_one(".schedule-time").get_text(strip=True).lower().replace(" ", "")
+                    next_time_str = items[i + 1].select_one(".schedule-time").get_text(strip=True)
                     try:
-                        if "am" in next_time_str or "pm" in next_time_str:
-                            end = datetime.strptime(f"{today_str} {next_time_str}", "%Y-%m-%d%I:%M%p")
+                        if "am" in next_time_str.lower() or "pm" in next_time_str.lower():
+                            end = datetime.strptime(f"{today_str} {next_time_str}", "%Y-%m-%d %I:%M%p")
                         else:
-                            end = datetime.strptime(f"{today_str} {next_time_str}", "%Y-%m-%d%H:%M")
+                            end = datetime.strptime(f"{today_str} {next_time_str}", "%Y-%m-%d %H:%M")
                         if end <= start:
                             end += timedelta(days=1)
                     except Exception:
