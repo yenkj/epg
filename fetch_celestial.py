@@ -113,7 +113,8 @@ def write_xmltv(programmes, channels, output_path):
 
             # 始终写入 <desc>，即使是空的
             desc_elem = ET.SubElement(p_elem, "desc")
-            desc_elem.text = prog.get("desc", "")
+            desc_text = prog.get("desc", "")
+            desc_elem.text = desc_text if desc_text.strip() else " "
 
     # 使用 minidom 美化格式并展开空标签
     xml_str = ET.tostring(tv, encoding="utf-8")
@@ -121,7 +122,7 @@ def write_xmltv(programmes, channels, output_path):
     pretty_xml = parsed.toprettyxml(indent="", newl="")
 
     with open(output_path, "w", encoding="utf-8") as f:
-        f.write(pretty_xml)
+       f.write(pretty_xml.replace("<desc> </desc>", "<desc></desc>"))
 
 
 if __name__ == "__main__":
