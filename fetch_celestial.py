@@ -491,8 +491,7 @@ def main():
     ls_time = fetch_ls_time_programmes()
 
     # --- 新增 天映頻道和 天映經典台 ---
-    celestial_hd = fetch_celestial_schedules()
-    celestial_classic = fetch_celestial_generic()
+    celestial_programmes = fetch_celestial_programmes()
 
     tv_epg = Element("tv")
 
@@ -558,23 +557,28 @@ def main():
             SubElement(prog_el, "desc").text = p['desc']
 
     # --- 新增 天映頻道数据 ---
-    if celestial_hd:
+    if "celestial-movies-hd" in celestial_programmes:
         ch_el = SubElement(tv_epg, "channel", id="celestial-movies-hd")
         SubElement(ch_el, "display-name").text = "天映頻道"
-        for p in celestial_hd:
+        for p in celestial_programmes["celestial-movies-hd"]:
             prog_el = SubElement(tv_epg, "programme",
-                                 start=p['start'], stop=p['end'], channel="celestial-movies-hd")
+                                 start=p['start'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 stop=p['end'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 channel="celestial-movies-hd")
             SubElement(prog_el, "title").text = p['title']
-            SubElement(prog_el, "desc").text = p['desc']
+            SubElement(prog_el, "desc").text = p['title']
 
-    if celestial_classic:
+
+    if "celestial-classic-hd" in celestial_programmes:
         ch_el = SubElement(tv_epg, "channel", id="celestial-classic-hd")
         SubElement(ch_el, "display-name").text = "天映經典台"
-        for p in celestial_classic:
+        for p in celestial_programmes["celestial-classic-hd"]:
             prog_el = SubElement(tv_epg, "programme",
-                                 start=p['start'], stop=p['end'], channel="celestial-classic-hd")
+                                 start=p['start'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 stop=p['end'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 channel="celestial-classic-hd")
             SubElement(prog_el, "title").text = p['title']
-            SubElement(prog_el, "desc").text = p['desc']
+            SubElement(prog_el, "desc").text = p['title']
 
     write_xml(tv_epg, "epg.xml")
 
@@ -612,21 +616,25 @@ def main():
             SubElement(prog_el, "desc").text = ""
 
     # boss.xml加上天映频道
-    if celestial_hd:
+    if "celestial-movies-hd" in celestial_programmes:
         ch_el = SubElement(tv_boss, "channel", id="celestial-movies-hd")
         SubElement(ch_el, "display-name").text = "天映頻道"
-        for p in celestial_hd:
+        for p in celestial_programmes["celestial-movies-hd"]:
             prog_el = SubElement(tv_boss, "programme",
-                                 start=p['start'], stop=p['end'], channel="celestial-movies-hd")
+                                 start=p['start'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 stop=p['end'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 channel="celestial-movies-hd")
             SubElement(prog_el, "title").text = p['title']
             SubElement(prog_el, "desc").text = ""
 
-    if celestial_classic:
+    if "celestial-classic-hd" in celestial_programmes:
         ch_el = SubElement(tv_boss, "channel", id="celestial-classic-hd")
         SubElement(ch_el, "display-name").text = "天映經典台"
-        for p in celestial_classic:
+        for p in celestial_programmes["celestial-classic-hd"]:
             prog_el = SubElement(tv_boss, "programme",
-                                 start=p['start'], stop=p['end'], channel="celestial-classic-hd")
+                                 start=p['start'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 stop=p['end'].strftime("%Y%m%d%H%M%S") + " +0800",
+                                 channel="celestial-classic-hd")
             SubElement(prog_el, "title").text = p['title']
             SubElement(prog_el, "desc").text = ""
 
