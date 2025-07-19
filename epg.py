@@ -12,406 +12,7 @@ with open('epg/channel-map.json', encoding='utf-8') as f:
 channels_api = [
   "凤凰中文",
   "凤凰资讯",
-  "凤凰香港",
-  "北京卫视",
-  "湖南卫视",
-  "江苏卫视",
-  "东方卫视",
-  "浙江卫视",
-  "湖北卫视",
-  "天津卫视",
-  "山东卫视",
-  "辽宁卫视",
-  "安徽卫视",
-  "黑龙江卫视",
-  "贵州卫视",
-  "东南卫视",
-  "重庆卫视",
-  "江西卫视",
-  "广东卫视",
-  "河北卫视",
-  "深圳卫视",
-  "吉林卫视",
-  "河南卫视",
-  "四川卫视",
-  "广西卫视",
-  "陕西卫视",
-  "山西卫视",
-  "内蒙古卫视",
-  "青海卫视",
-  "海南卫视",
-  "宁夏卫视",
-  "西藏卫视",
-  "新疆卫视",
-  "甘肃卫视",
-  "云南卫视",
-  "海峡卫视",
-  "CCTV1",
-  "CCTV2",
-  "CCTV3",
-  "CCTV4",
-  "CCTV5",
-  "CCTV5+",
-  "CCTV6",
-  "CCTV7",
-  "CCTV8",
-  "CCTV9",
-  "CCTV10",
-  "CCTV11",
-  "CCTV12",
-  "CCTV13",
-  "CCTV14",
-  "CCTV15",
-  "CCTV16",
-  "CCTV17",
-  "CGTN",
-  "CGTN纪录",
-  "民視",
-  "民視第一台",
-  "民視新聞台",
-  "民視台灣台",
-  "民視影劇台",
-  "民視旅遊台",
-  "民視綜藝台",
-  "中視",
-  "中視新聞台",
-  "中視經典台",
-  "中視菁采台",
-  "中天新聞台",
-  "中天娛樂台",
-  "中天綜合台",
-  "中天亞洲台",
-  "華視",
-  "華視新聞",
-  "靖天綜合台",
-  "靖天國際台",
-  "靖天戲劇台",
-  "靖天日本台",
-  "靖天映畫台",
-  "靖天卡通台",
-  "靖天育樂台",
-  "靖天資訊台",
-  "靖天電影台",
-  "靖天歡樂台",
-  "龍華洋片台",
-  "龍華偶像台",
-  "龍華戲劇台",
-  "龍華經典台",
-  "龍華電影台",
-  "靖洋戲劇台",
-  "靖洋卡通Nice-Bingo",
-  "寰宇新聞台",
-  "寰宇新聞台灣台",
-  "寰宇財經台",
-  "TVBS",
-  "TVBS新聞台",
-  "TVBS綜藝台",
-  "TVBS歡樂台",
-  "TVBS精采台",
-  "TVBS台劇台",
-  "八大第一台",
-  "八大綜合台",
-  "八大戲劇台",
-  "八大精彩台",
-  "八大綜藝台",
-  "三立台灣台",
-  "三立戲劇台",
-  "三立綜合台",
-  "三立財經新聞台",
-  "台視",
-  "台視新聞台",
-  "台視綜合台",
-  "台視財經台",
-  "博斯運動一台",
-  "博斯運動二台",
-  "博斯無限台",
-  "博斯無限二台",
-  "博斯網球台",
-  "博斯高球台",
-  "博斯高球二台",
-  "博斯魅力台",
-  "愛爾達體育3台",
-  "愛爾達體育4台",
-  "愛爾達影劇台",
-  "愛爾達娛樂台",
-  "愛爾達生活旅遊台",
-  "東森綜合",
-  "東森洋片",
-  "東森戲劇",
-  "東森幼幼",
-  "東森新聞",
-  "東森財經新聞",
-  "緯來日本台",
-  "緯來電影台",
-  "緯來體育台",
-  "緯來綜合台",
-  "智林體育台",
-  "TraceSports",
-  "CatchPlay電影台",
-  "影迷數位電影台",
-  "經典電影台",
-  "HBO_TW",
-  "好萊塢電影台",
-  "CINEMAX_TW",
-  "AXN_TW",
-  "AMC電影台",
-  "My-Cinema-Europe-HD我的歐洲電影",
-  "CinemaWorld",
-  "Rock-Action",
-  "Rock-Entertainment",
-  "HITS頻道",
-  "Lifetime娛樂頻道",
-  "MTV-90's",
-  "MTV綜合台",
-  "MTV-Live-HD音樂頻道",
-  "Trace-Urban",
-  "Fun探索娛樂台",
-  "Mezzo-Live",
-  "Classica古典樂",
-  "電影原聲台CMusic",
-  "豬哥亮歌廳秀",
-  "韓國娛樂台",
-  "時尚運動X",
-  "LUXE-TV",
-  "INULTRA_TW",
-  "BBC-Lifestyle",
-  "TV5MONDE-Style",
-  "Pet-Club-TV",
-  "幸福空間居家台",
-  "車迷TV",
-  "DMAX",
-  "亞洲旅遊台",
-  "TLC旅遊生活頻道",
-  "亞洲美食",
-  "美食星球",
-  "EYE-TV旅遊台",
-  "Global-Trekker",
-  "動物星球",
-  "Discovery_Asia",
-  "BBC-Earth",
-  "Magellan-TV",
-  "影迷數位紀實台",
-  "Love-Nature",
-  "Smart知識台",
-  "History歷史頻道",
-  "CI罪案偵查頻道",
-  "滾動力Rollor",
-  "視納華仁紀實頻道",
-  "原住民族電視台",
-  "客家電視台",
-  "國會頻道1",
-  "國會頻道2",
-  "華藝中文台",
-  "EYE-TV戲劇台",
-  "公視戲劇台",
-  "采昌影劇台",
-  "台灣戲劇台",
-  "戲劇免費看1台",
-  "GINX-Esports-TV",
-  "DreamWorks夢工廠動畫",
-  "卡通頻道",
-  "尼克兒童頻道",
-  "Nick-Jr.兒童頻道",
-  "精選動漫台",
-  "經典卡通台",
-  "達文西頻道",
-  "MOMO親子台",
-  "LiveABC互動英語台",
-  "ELTV生活英語台",
-  "金光布袋戲",
-  "霹靂布袋戲",
-  "非凡新聞台",
-  "非凡商業台",
-  "年代新聞台",
-  "鏡電視新聞台",
-  "SBN全球財經台",
-  "半島國際新聞台",
-  "第1商業台",
-  "CNBC-Asia財經台",
-  "Bloomberg-TV",
-  "France24",
-  "VOA美國之音",
-  "DW德國之聲",
-  "Arirang-TV",
-  "東森購物一台",
-  "東森購物二台",
-  "東森購物三台",
-  "東森購物四台",
-  "人間衛視",
-  "好消息",
-  "好消息2台",
-  "大愛電視",
-  "大愛電視2",
-  "翡翠台4K",
-  "翡翠台",
-  "华丽翡翠台",
-  "TVB星河",
-  "明珠台",
-  "TVB-Plus",
-  "無綫新聞台",
-  "娛樂新聞台",
-  "ViuTV",
-  "ViuTVsix",
-  "港台电视31",
-  "港台电视32",
-  "千禧經典台",
-  "天映頻道",
-  "天映經典頻道",
-  "鳳凰衛視中文台",
-  "鳳凰衛視資訊台",
-  "鳳凰衛視香港台",
-  "八度空间",
-  "Astro-AOD",
-  "Astro-AEC",
-  "Astro全佳台",
-  "Astro欢喜台",
-  "A&E_East",
-  "ACC-Network",
-  "AMC_East",
-  "American-Heroes-Channel",
-  "Animal-Planet_East",
-  "BBC-America_East",
-  "BBC-World-News_North",
-  "BET_East",
-  "BET-Her",
-  "Bloomberg-TV",
-  "Boomerang",
-  "Bravo_East",
-  "Cartoon-Network_East",
-  "CBS-Sports-Network",
-  "Cinemax_East",
-  "CMT_East",
-  "CNBC",
-  "CNN",
-  "Comedy-Central_East",
-  "Cooking-Channel",
-  "Crime&Investigation",
-  "CSPAN",
-  "CSPAN-2",
-  "Destination-America",
-  "Discovery-Channel_East",
-  "Discovery-Family-Channel",
-  "Discovery-Life",
-  "Disney_East",
-  "Disney-Junior_East",
-  "Disney-XD_East",
-  "E!_East",
-  "ESPN",
-  "ESPN-2",
-  "ESPN-News",
-  "ESPN-U",
-  "Food-Network_East",
-  "Fox-Business-Network",
-  "Fox-News-Channel",
-  "Fox-Sports-1",
-  "Fox-Sports-2",
-  "Freeform_East",
-  "Fuse_East",
-  "FX_Networks_East",
-  "FX-Movie",
-  "FXX_East",
-  "FYI_East",
-  "Golf-Channel",
-  "Hallmark_East",
-  "Hallmark-Drama",
-  "Hallmark-Mysteries_East",
-  "HBO_East",
-  "HBO-2_East",
-  "HBO-Comedy_East",
-  "HBO-Family_East",
-  "HBO-Signature_East",
-  "HBO-Zone_East",
-  "HGTV_East",
-  "History_East",
-  "HLN",
-  "IFC",
-  "Investigation-Discovery",
-  "ION_East",
-  "Lifetime_East",
-  "Lifetime-Movies_East",
-  "Logo",
-  "MLB-Network",
-  "MoreMAX_East",
-  "Motor-Trend",
-  "MovieMAX_East",
-  "MSNBC",
-  "MTV_East",
-  "National-Geographic_East",
-  "National-Geographic-Wild",
-  "NBA-TV",
-  "NFL-Network",
-  "NHL-Network",
-  "Nick-Jr._East",
-  "Nickelodeon_East",
-  "Nicktoons_East",
-  "Outdoor-Channel",
-  "OWN_East",
-  "Oxygen_East",
-  "PBS-NY",
-  "ReelzChannel",
-  "Science",
-  "Showtime-Extreme_East",
-  "Showtime-2_East",
-  "STARZ_East",
-  "Sundance-TV_East",
-  "SYFY_East",
-  "TBS_East",
-  "TCM",
-  "TeenNick_East",
-  "Telemundo_East",
-  "Tennis-Channel",
-  "WPIX-New-York",
-  "The-Movie-Channel_East",
-  "The-Weather-Channel",
-  "TLC_East",
-  "TNT_East",
-  "Travel-Channel_East",
-  "truTV_East",
-  "TV-One",
-  "Universal-Kids",
-  "Univision_East",
-  "USA-Network_East",
-  "VH1_East",
-  "VICE",
-  "ABC-NY",
-  "CBS-NY",
-  "WE-TV_East",
-  "NBC-NY",
-  "FOX-NY",
-  "CCTV4K",
-  "CCTV16",
-  "北京IPTV-4K",
-  "北京纪实科教8K",
-  "Love-Nature-4K",
-  "Loupe-4K",
-  "Fashion-One",
-  "咪咕4K-1",
-  "咪咕4K-2",
-  "EZ-FM",
-  "KEXP",
-  "NTS-Radio-1",
-  "NTS-Radio-2",
-  "HIT-FM",
-  "摩登音乐台",
-  "宁波音乐广播",
-  "深圳飞扬971",
-  "中廣音樂網",
-  "浙江交通之声",
-  "BBC-Radio-1",
-  "BBC-Radio-1-Dance",
-  "BBC-Radio-2",
-  "BBC-Radio-3",
-  "BBC-Radio-4",
-  "BBC-Radio-4-Extra",
-  "BBC-Radio-5",
-  "BBC-Radio-6",
-  "RNE-Radio-3",
-  "KISS-FM",
-  "法国国际广播电台",
-  "美国之音",
-  "自由亚洲电台",
-  "BBC-World-Service",
-  "npr|News&Culture"
+  "凤凰香港"
 ]
 
 channels_ltv = {
@@ -427,6 +28,17 @@ channels_json = {
     "elta-sports-2": {
         "name": "愛爾達體育2台",
         "url": "https://節目表.tw/channel/愛爾達體育2台/index.json"
+    }
+}
+
+channels_celestial = {
+    "celestial-movies-hd": {
+        "name": "天映頻道",
+        "url": "https://www.celestialmovies.com/schedule.php?lang=tc"
+    },
+    "celestial-classic-hd": {
+        "name": "天映經典台",
+        "url": "https://www.cmclassic.tv/schedule.php?lang=tc"
     }
 }
 
@@ -712,6 +324,200 @@ def fetch_ls_time_programmes():
     except Exception as e:
         print(f"[錯誤] 抓取 LS-Time 失敗：{e}")
         return None
+def fetch_celestial_programmes():
+    """
+    抓取两个 Celestial 频道（天映頻道 和 天映經典台）的节目，
+    解析 HTML，处理跨天和补 00:00 无节目数据，
+    返回格式为 {channel_id: [节目列表]} 的字典。
+    """
+    from bs4 import BeautifulSoup
+    import requests
+    from datetime import datetime, timedelta
+
+    channels = [
+        ("天映頻道", "https://www.celestialmovies.com/schedule.php?lang=tc", "celestial-movies-hd"),
+        ("天映經典台", "https://www.cmclassic.tv/schedule.php?lang=tc", "celestial-classic-hd"),
+    ]
+
+    celestial_by_channel = {}
+
+    for ch_name, url, ch_id in channels:
+        try:
+            resp = requests.get(url, timeout=10)
+            resp.raise_for_status()
+            html = resp.text
+        except Exception as e:
+            print(f"获取 {ch_name} 节目失败: {e}")
+            celestial_by_channel[ch_id] = []
+            continue
+
+        soup = BeautifulSoup(html, "html.parser")
+        schedule_items = soup.select("div.schedule-item")
+
+        programmes = []
+        last_date = None
+
+        for item in schedule_items:
+            time_str = item.select_one(".schedule-time")
+            if not time_str:
+                continue
+            time_str = time_str.text.strip()
+            # 时间格式示例: 23:30
+            if not time_str or len(time_str) < 4:
+                continue
+
+            # 频道节目名
+            prog_name = item.select_one(".schedule-title")
+            prog_name = prog_name.text.strip() if prog_name else "無節目資料"
+
+            # 当前节目日期推断
+            # schedule-items里时间顺序是顺序，跨天逻辑需要：
+            # 如果当前节目时间 < 上一个节目时间，说明跨天了，日期 +1
+            time_obj = datetime.strptime(time_str, "%H:%M").time()
+
+            if last_date is None:
+                # 用今天日期开始
+                last_date = datetime.now().date()
+                last_time_obj = time_obj
+            else:
+                if time_obj < last_time_obj:
+                    # 跨天
+                    last_date += timedelta(days=1)
+                last_time_obj = time_obj
+
+            start_dt = datetime.combine(last_date, time_obj)
+            programmes.append({"start": start_dt, "title": prog_name})
+
+        # 补充结束时间和拆分跨天节目逻辑
+        processed_programmes = []
+        for i, prog in enumerate(programmes):
+            start = prog["start"]
+            title = prog["title"]
+            if i + 1 < len(programmes):
+                end = programmes[i + 1]["start"]
+            else:
+                # 最后一个节目默认2小时结束
+                end = start + timedelta(hours=2)
+
+            # 如果跨天，拆分为两条
+            if end.date() > start.date():
+                midnight = datetime.combine(start.date() + timedelta(days=1), datetime.min.time())
+                processed_programmes.append({
+                    "start": start,
+                    "end": midnight,
+                    "title": title,
+                })
+                processed_programmes.append({
+                    "start": midnight,
+                    "end": end,
+                    "title": title,
+                })
+            else:
+                processed_programmes.append({
+                    "start": start,
+                    "end": end,
+                    "title": title,
+                })
+
+        # 补 00:00 无节目数据
+        if processed_programmes and processed_programmes[0]["start"].time() != datetime.min.time():
+            processed_programmes.insert(0, {
+                "start": datetime.combine(processed_programmes[0]["start"].date(), datetime.min.time()),
+                "end": processed_programmes[0]["start"],
+                "title": "無節目資料",
+            })
+
+        # 按开始时间排序
+        processed_programmes.sort(key=lambda x: x["start"])
+
+        celestial_by_channel[ch_id] = processed_programmes
+
+    return celestial_by_channel
+
+    programmes = []
+    try:
+        res = requests.get(url, timeout=10)
+        res.raise_for_status()
+        soup = BeautifulSoup(res.text, "html.parser")
+
+        items = soup.select("div.schedule-item")
+        now_date = datetime.now() + timedelta(hours=8)
+        today_str = now_date.strftime("%Y-%m-%d")
+
+        for i, item in enumerate(items):
+            time_str = item.select_one(".schedule-time").get_text(strip=True)
+            title_tag = item.select_one(".programme-title")
+            desc_tag = item.select_one(".schedule-description")
+
+            title = title_tag.get_text(strip=True) if title_tag else "無標題"
+            desc = desc_tag.get_text(strip=True) if desc_tag else ""
+
+            try:
+                start = datetime.strptime(f"{today_str} {time_str}", "%Y-%m-%d %I:%M%p")
+            except:
+                continue
+
+            if i + 1 < len(items):
+                next_time_str = items[i + 1].select_one(".schedule-time").get_text(strip=True)
+                try:
+                    end = datetime.strptime(f"{today_str} {next_time_str}", "%Y-%m-%d %I:%M%p")
+                    if end <= start:
+                        end += timedelta(days=1)
+                except:
+                    end = start + timedelta(hours=2)
+            else:
+                end = start + timedelta(hours=2)
+
+            # 跨天拆分
+            if end.date() > start.date():
+                midnight = datetime.combine(end.date(), datetime.min.time())
+                programmes.append({
+                    "channel": ch_id,
+                    "start": start,
+                    "end": midnight,
+                    "title": title,
+                    "desc": desc,
+                    "name": name
+                })
+                programmes.append({
+                    "channel": ch_id,
+                    "start": midnight,
+                    "end": end,
+                    "title": title,
+                    "desc": desc,
+                    "name": name
+                })
+            else:
+                programmes.append({
+                    "channel": ch_id,
+                    "start": start,
+                    "end": end,
+                    "title": title,
+                    "desc": desc,
+                    "name": name
+                })
+
+        # 若第一个节目不是00:00补無節目資料
+        if programmes:
+            programmes.sort(key=lambda x: x["start"])
+            first_start = programmes[0]["start"]
+            day_start = datetime.combine(first_start.date(), datetime.min.time())
+            if first_start > day_start:
+                programmes.insert(0, {
+                    "channel": ch_id,
+                    "start": day_start,
+                    "end": first_start,
+                    "title": "無節目資料",
+                    "desc": "",
+                    "name": name
+                })
+
+        return programmes
+
+    except Exception as e:
+        print(f"[錯誤] 抓取 {name} 失敗：{e}")
+        return []
+
 def fmt(dt):
     return dt.strftime("%Y%m%d%H%M%S") + " +0800"
 
@@ -768,6 +574,10 @@ def main():
     json_programmes = fetch_json_schedule()
     ls_time = fetch_ls_time_programmes()
 
+    # --- 新增 天映頻道和 天映經典台 ---
+    celestial_hd = fetch_celestial_schedules()
+    celestial_classic = fetch_celestial_generic()
+
     tv_epg = Element("tv")
 
     # --- 生成 epg_by_channel 字典 ---
@@ -793,10 +603,6 @@ def main():
                                      channel=p['channel'])
                 SubElement(prog_el, "title").text = p['title']
                 SubElement(prog_el, "desc").text = p['desc']
-
-    # 你可以在这里继续写保存xml的代码，比如：
-    # tree = ElementTree(tv_epg)
-    # tree.write('epg.xml', encoding='utf-8')
 
     # LTV
     for cid, cname in channels_ltv.items():
@@ -835,9 +641,28 @@ def main():
             SubElement(prog_el, "title").text = p['title']
             SubElement(prog_el, "desc").text = p['desc']
 
+    # --- 新增 天映頻道数据 ---
+    if celestial_hd:
+        ch_el = SubElement(tv_epg, "channel", id="celestial-movies-hd")
+        SubElement(ch_el, "display-name").text = "天映頻道"
+        for p in celestial_hd:
+            prog_el = SubElement(tv_epg, "programme",
+                                 start=p['start'], stop=p['end'], channel="celestial-movies-hd")
+            SubElement(prog_el, "title").text = p['title']
+            SubElement(prog_el, "desc").text = p['desc']
+
+    if celestial_classic:
+        ch_el = SubElement(tv_epg, "channel", id="celestial-classic-hd")
+        SubElement(ch_el, "display-name").text = "天映經典台"
+        for p in celestial_classic:
+            prog_el = SubElement(tv_epg, "programme",
+                                 start=p['start'], stop=p['end'], channel="celestial-classic-hd")
+            SubElement(prog_el, "title").text = p['title']
+            SubElement(prog_el, "desc").text = p['desc']
+
     write_xml(tv_epg, "epg.xml")
 
-    # boss.xml（只有 LTV、JSON、LS-Time）
+    # boss.xml（只有 LTV、JSON、LS-Time 和天映频道）
     tv_boss = Element("tv")
 
     for cid, cname in channels_ltv.items():
@@ -870,7 +695,27 @@ def main():
             SubElement(prog_el, "title").text = p['title']
             SubElement(prog_el, "desc").text = ""
 
+    # boss.xml加上天映频道
+    if celestial_hd:
+        ch_el = SubElement(tv_boss, "channel", id="celestial-movies-hd")
+        SubElement(ch_el, "display-name").text = "天映頻道"
+        for p in celestial_hd:
+            prog_el = SubElement(tv_boss, "programme",
+                                 start=p['start'], stop=p['end'], channel="celestial-movies-hd")
+            SubElement(prog_el, "title").text = p['title']
+            SubElement(prog_el, "desc").text = ""
+
+    if celestial_classic:
+        ch_el = SubElement(tv_boss, "channel", id="celestial-classic-hd")
+        SubElement(ch_el, "display-name").text = "天映經典台"
+        for p in celestial_classic:
+            prog_el = SubElement(tv_boss, "programme",
+                                 start=p['start'], stop=p['end'], channel="celestial-classic-hd")
+            SubElement(prog_el, "title").text = p['title']
+            SubElement(prog_el, "desc").text = ""
+
     write_xml(tv_boss, "boss.xml")
+
 
 if __name__ == "__main__":
     main()
