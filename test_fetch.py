@@ -1,17 +1,8 @@
-"""
-fetch.py - 抓取天映頻道與天映經典台的 EPG 節目表
-"""
-
 from bs4 import BeautifulSoup
 import requests
 from datetime import datetime, timedelta
 
 def fetch_celestial_programmes():
-    """
-    抓取两个 Celestial 频道（天映頻道 和 天映經典台）的节目，
-    解析 HTML，处理跨天和补 00:00 无节目数据，
-    返回格式为 {channel_id: [节目列表]} 的字典。
-    """
     channels = [
         ("天映頻道", "https://www.celestialmovies.com/schedule.php?lang=tc", "celestial-movies-hd"),
         ("天映經典台", "https://www.cmclassic.tv/schedule.php?lang=tc", "celestial-classic-hd"),
@@ -26,7 +17,7 @@ def fetch_celestial_programmes():
             soup = BeautifulSoup(res.text, "html.parser")
 
             items = soup.select("div.schedule-item")
-            now_date = datetime.now() + timedelta(hours=8)  # +8 时区偏移
+            now_date = datetime.now() + timedelta(hours=8)
             today_str = now_date.strftime("%Y-%m-%d")
 
             programmes = []
@@ -42,7 +33,6 @@ def fetch_celestial_programmes():
                 title = title_tag.get_text(strip=True) if title_tag else "無節目資料"
                 desc = desc_tag.get_text(strip=True) if desc_tag else ""
 
-                # 解析时间
                 try:
                     if "am" in time_str or "pm" in time_str:
                         start = datetime.strptime(f"{today_str} {time_str}", "%Y-%m-%d%I:%M%p")
@@ -52,7 +42,6 @@ def fetch_celestial_programmes():
                     print(f"[錯誤] 無法解析時間：{time_str}（频道：{name}）")
                     continue
 
-                # 计算结束时间
                 if i + 1 < len(items):
                     next_time_str = items[i + 1].select_one(".schedule-time").get_text(strip=True).lower().replace(" ", "")
                     try:
@@ -67,7 +56,6 @@ def fetch_celestial_programmes():
                 else:
                     end = start + timedelta(hours=2)
 
-                # 跨天拆分
                 if end.date() > start.date():
                     midnight = datetime.combine(end.date(), datetime.min.time())
                     programmes.append({
@@ -96,7 +84,6 @@ def fetch_celestial_programmes():
                         "name": name,
                     })
 
-            # 补 00:00 无节目资料
             if programmes:
                 programmes.sort(key=lambda x: x["start"])
                 first_start = programmes[0]["start"]
@@ -118,3 +105,17 @@ def fetch_celestial_programmes():
             celestial_by_channel[ch_id] = []
 
     return celestial_by_channel
+
+
+# ==== 以下是测试代码 ====
+
+if __name__ == "__main__":
+    print("📡 開始抓取 Celestial 節目表...\n")
+    data = fetch_celestial_programmes()
+
+    for channel_id, programmes in data.items():
+        print(f"📺 頻道 ID：{channel_id}")
+        print(f"📝 節目數量：{len(programmes)}")
+        for p in programmes[:5]:
+            print(f"⏰ {p['start']} ~ {p['end']}｜{p['title']}")
+        print("-" * 60)
