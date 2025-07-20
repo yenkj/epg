@@ -1,0 +1,41 @@
+name: 更新 EPG
+
+on:
+  schedule:
+    - cron: '2 16 * * *'  # 每天北京时间 00:00（UTC+8 → UTC 16:00）
+  workflow_dispatch:      # 支持手动触发
+
+permissions:
+  contents: write   # ⬅️ 关键：授权 GitHub Actions 推送代码
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v3
+
+      - name: 安装 Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: 安装依赖
+        run: pip install --upgrade pip requests beautifulsoup4
+
+      - name: 生成 epg.xml 和 boss.xml
+        run: python epg.py
+
+      - name: 提交并推送更新
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add epg.xml boss.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "📺 自动更新 epg.xml & boss.xml"
+            git pull --rebase
+            git push
+          else
+            echo "No changes to commit"
+          fi
