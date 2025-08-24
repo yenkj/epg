@@ -1,6 +1,10 @@
 {
     "cache_time": 9200,
     "api_site": {
+        "jys": {
+            "api": "http://us.199301.xyz:4567/vod1/-",
+            "name": "蕉影视2"
+        },
         "jiaoyingshi": {
             "api": "https://vod.199301.xyz/vod1/",
             "name": "蕉影视"
