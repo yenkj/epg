@@ -900,13 +900,13 @@ def p_time(p):
     return p['start'] if isinstance(p['start'], datetime) else parse_xmltv_time(p['start'])
 
 def write_channel_and_programmes(xml_root, ch_id, ch_name, programmes, with_desc=True):
-    ch_el = SubElement(xml_root, "channel", id=ch_id)
+    ch_el = SubElement(xml_root, "channel", id=ch_name)
     SubElement(ch_el, "display-name").text = ch_name
     for p in sorted(programmes, key=lambda x: p_time(x)):
         prog_el = SubElement(xml_root, "programme",
                              start=fmt(p['start']),
                              stop=fmt(p['end']),
-                             channel=ch_id)
+                             channel=ch_name)
         SubElement(prog_el, "title").text = p['title']
         SubElement(prog_el, "desc").text = p['desc'] if with_desc else ""
 
