@@ -161,7 +161,7 @@ channels_api = [
   "Rock-Entertainment",
   "HITS頻道",
   "Lifetime娛樂頻道",
-  "MTV-90's",
+  "MTV-90s",
   "MTV綜合台",
   "MTV-Live-HD音樂頻道",
   "Trace-Urban",
