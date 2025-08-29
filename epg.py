@@ -975,7 +975,12 @@ def main():
         write_channel_and_programmes(tv_epg, ch_id, ch_name, programmes, with_desc)
 
     for ch_id, ch_name, programmes, with_desc in all_channels:
-        if ch_id not in epg_by_channel:
+        if (
+            ch_id in channels_ltv
+            or ch_id in channels_json
+            or ch_id == "LS-Time"
+            or ch_id in celestial_programmes
+        ):
             write_channel_and_programmes(tv_boss, ch_id, ch_name, programmes, with_desc)
 
     write_xml(tv_epg, "epg.xml")
