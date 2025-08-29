@@ -881,7 +881,20 @@ def fmt(dt):
         return dt
     return dt.strftime("%Y%m%d%H%M%S") + " +0800"
 
+def indent(elem, level=0):
+    i = "\n" + level * "  "
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "  "
+        for child in elem:
+            indent(child, level + 1)
+        if not child.tail or not child.tail.strip():
+            child.tail = i
+    if level and (not elem.tail or not elem.tail.strip()):
+        elem.tail = i
+        
 def write_xml(root_element, filepath):
+    indent(root_element)
     tree = ElementTree(root_element)
     with open(filepath, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True, short_empty_elements=False)
