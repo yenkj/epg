@@ -6,7 +6,7 @@
             "name": "test"
         },
         "test2": {
-            "api": "https://vod.199301.xyz",
+            "api": "http://us.199301.xyz:4567/vod1",
             "name": "test2"
         },
         "dyttzy": {
