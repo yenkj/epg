@@ -1,7 +1,7 @@
 [
 	{
 	  "id":"test",
-      "url": "https://vod.199301.xyz/api.php/provide/vod",
+      "url": "https://vod.199301.xyz",
       "name": "test",
 	  "isEnabled":true
     },
@@ -177,5 +177,6 @@
     }
 
 ]
+
 
 
