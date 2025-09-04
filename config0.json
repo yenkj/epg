@@ -5,6 +5,10 @@
             "api": "https://vod.199301.xyz/vod1/",
             "name": "test"
         },
+        "test2": {
+            "api": "https://vod-api.vercel.app/vod1/",
+            "name": "test2"
+        },
         "dyttzy": {
             "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
             "name": "电影天堂",
