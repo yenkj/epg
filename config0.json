@@ -2,7 +2,7 @@
     "cache_time": 7200,
     "api_site": {
         "test": {
-            "api": "https://vod.199301.xyz/vod1",
+            "api": "https://vod.199301.xyz/vod1/",
             "name": "蕉影视"
         },
         "dyttzy": {
