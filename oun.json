@@ -3,7 +3,7 @@
       "id":"dyttzy",
 	  "name": "电影天堂",
       "url": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "detail": "http://caiji.dyttzyapi.com",
+      "detailUrl": "http://caiji.dyttzyapi.com",
 	  "isEnabled":true
     },
     { 
@@ -28,7 +28,7 @@
       "id":"ffzy",
 	  "name": "非凡影视",
       "url": "https://api.ffzyapi.com/api.php/provide/vod",
-      "detail": "http://ffzy5.tv",
+      "detailUrl": "http://ffzy5.tv",
 	  "isEnabled":true
     },
     { 
@@ -53,7 +53,7 @@
       "id":"jisu",
 	  "name":"极速资源",
       "url": "https://jszyapi.com/api.php/provide/vod",
-      "detail": "https://jszyapi.com",
+      "detailUrl": "https://jszyapi.com",
 	  "isEnabled":true
     },
     { 
@@ -126,28 +126,28 @@
       "id":"ckzy",
 	  "name":"CK资源",
       "url": "https://ckzy.me/api.php/provide/vod", 
-      "detail": "https://ckzy.me",
+      "detailUrl": "https://ckzy.me",
 	  "isEnabled":true
     },
     { 
       "id":"ukuapi",
 	  "name":"U酷资源",
       "url": "https://api.ukuapi.com/api.php/provide/vod",
-	  "detail": "https://api.ukuapi.com",
+	  "detailUrl": "https://api.ukuapi.com",
 	  "isEnabled":true
     },
     { 
       "id":"1080zyk",
 	  "name":"1080资源",
       "url": "https://api.1080zyku.com/inc/apijson.php/", 
-	  "detail": "https://api.1080zyku.com",
+	  "detailUrl": "https://api.1080zyku.com",
 	  "isEnabled":true
     },
     { 
       "id":"hhzyapi",
 	  "name":"豪华资源",
       "url": "https://hhzyapi.com/api.php/provide/vod",
-      "detail": "https://hhzyapi.com",  
+      "detailUrl": "https://hhzyapi.com",  
 	  "isEnabled":true
     },
     { 
@@ -160,8 +160,9 @@
       "id":"p2100",
 	  "name":"飘零资源",
       "url": "https://p2100.net/api.php/provide/vod",
-      "detail": "https://p2100.net",
+      "detailUrl": "https://p2100.net",
 	  "isEnabled":true
     }
 
 ]
+
