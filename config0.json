@@ -14,10 +14,6 @@
             "name": "电影天堂",
             "detail": "http://caiji.dyttzyapi.com"
         },
-        "ruyi": {
-            "api": "http://cj.rycjapi.com/api.php/provide/vod",
-            "name": "如意资源"
-        },
         "bfzy": {
             "api": "https://bfzyapi.com/api.php/provide/vod",
             "name": "暴风资源"
@@ -124,17 +120,6 @@
             "api": "https://p2100.net/api.php/provide/vod",
             "name": "飘零资源",
             "detail": "https://p2100.net"
-        }
-    },
-    "lives": {
-        "yang-1989": {
-            "name": "YanG",
-            "url": "https://tv-1.iill.top/m3u/Gather"
-        },
-        "Mursor": {
-            "name": "Mursor",
-            "url": "https://sub.ottiptv.cc/iptv.m3u",
-            "ua": "okHttp/Mod-1.1.0"
         }
     }
 }
