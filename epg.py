@@ -93,12 +93,6 @@ channels_api = [
   "靖天資訊台",
   "靖天電影台",
   "靖天歡樂台",
-  "龍華洋片台",
-  "龍華偶像台",
-  "龍華戲劇台",
-  "龍華經典台",
-  "龍華電影台",
-  "靖洋戲劇台",
   "靖洋卡通Nice-Bingo",
   "寰宇新聞台",
   "寰宇新聞台灣台",
@@ -192,7 +186,6 @@ channels_api = [
   "Magellan-TV",
   "影迷數位紀實台",
   "Love-Nature",
-  "Smart知識台",
   "History歷史頻道",
   "CI罪案偵查頻道",
   "滾動力Rollor",
@@ -413,11 +406,18 @@ channels_api = [
   "npr|News&Culture"
 ]
 
-channels_ltv = {
+channels_ottltv = {
     "ott-animation": "龍華卡通台",
-    "ott-motion": "龍華日韓台"
+    "ott-motion": "龍華日韓台",
+    "ott-idol": "龍華偶像台"
 }
-
+channels_modltv = {
+    "western": "龍華洋片台",
+    "drama": "龍華戲劇台",
+    "classic"： "龍華經典台",
+    "movie"： "龍華電影台",
+    "knowledge": "Smart知識台"
+}
 channels_json = {
     "meya-movie-hd": {
         "name": "美亞電影HD",
@@ -533,13 +533,54 @@ def parse_time_range(date_str_slash, time_range_str):
     except Exception:
         return None, None
 
-def fetch_ltv_programmes():
+def fetch_ottltv_programmes():
     url = "https://www.ltv.com.tw/ott%e7%af%80%e7%9b%ae%e8%a1%a8/"
     res = requests.get(url)
     res.raise_for_status()
     soup = BeautifulSoup(res.text, 'html.parser')
     all_programmes = {}
-    for cid in channels_ltv:
+    for cid in channels_ottltv:
+        all_programmes[cid] = []
+        div = soup.find("div", id=cid)
+        if not div:
+            continue
+        items = div.select(".timetable-item")
+        for item in items:
+            title_tag = item.select_one(".timetable-name")
+            time_tag = item.select_one(".timetable-time")
+            popup_href = item.select_one("a")["href"] if item.select_one("a") else None
+            if not title_tag or not time_tag or not popup_href:
+                continue
+            title = title_tag.get_text(strip=True)
+            time_range = time_tag.get_text(strip=True)
+            popup_id = popup_href.lstrip("#")
+            popup = soup.find("div", id=popup_id)
+            if not popup:
+                continue
+            time_info_tag = popup.select_one(".timetable-time")
+            if not time_info_tag:
+                continue
+            date_part = time_info_tag.get_text(strip=True).split()[0].strip()
+            start_epg, end_epg = parse_time_range(date_part, time_range)
+            if start_epg and end_epg:
+                all_programmes[cid].append({
+                    "channel": cid,
+                    "start": start_epg,
+                    "end": end_epg,
+                    "title": title,
+                    "desc": ""  # 精简内容明确 with_desc=False，这里留空
+                })
+    for cid in all_programmes:
+        all_programmes[cid].sort(key=lambda x: x["start"])
+    return all_programmes
+
+def fetch_modltv_programmes():
+    url = "https://www.ltv.com.tw/mod%e7%af%80%e7%9b%ae%e8%a1%a8/"
+    res = requests.get(url)
+    res.raise_for_status()
+    soup = BeautifulSoup(res.text, 'html.parser')
+    all_programmes = {}
+    for cid in channels_modltv:
         all_programmes[cid] = []
         div = soup.find("div", id=cid)
         if not div:
@@ -925,7 +966,8 @@ def write_channel_and_programmes(xml_root, ch_id, ch_name, programmes, with_desc
 
 def main():
     epg_programmes = fetch_api_programmes(channels_api, channel_map, date_str_api, yesterday_str_api)
-    ltv_programmes = fetch_ltv_programmes()
+    ottltv_programmes = fetch_ottltv_programmes()
+    modltv_programmes = fetch_modltv_programmes()
     json_programmes = fetch_json_schedule()
     ls_time = fetch_ls_time_programmes()
     celestial_programmes = fetch_celestial_programmes()
@@ -954,10 +996,14 @@ def main():
         programmes = epg_by_channel.get(real_id, [])
         all_channels.append((real_id, name, programmes, True))
 
-    for cid, cname in channels_ltv.items():
-        programmes = ltv_programmes.get(cid, [])
+    for cid, cname in channels_ottltv.items():
+        programmes = ottltv_programmes.get(cid, [])
         all_channels.append((cid, cname, programmes, False))
-
+        
+    for cid, cname in channels_modltv.items():
+        programmes = modltv_programmes.get(cid, [])
+        all_channels.append((cid, cname, programmes, False))
+        
     for ch_id, info in channels_json.items():
         programmes = json_by_channel.get(ch_id, [])
         all_channels.append((ch_id, info['name'], programmes, True))
@@ -976,7 +1022,8 @@ def main():
 
     for ch_id, ch_name, programmes, with_desc in all_channels:
         if (
-            ch_id in channels_ltv
+            ch_id in channels_ottltv
+            or ch_id in channels_modltv
             or ch_id in channels_json
             or ch_id == "LS-Time"
             or ch_id in celestial_programmes
