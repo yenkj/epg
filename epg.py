@@ -93,6 +93,7 @@ channels_api = [
   "靖天資訊台",
   "靖天電影台",
   "靖天歡樂台",
+  "靖洋戲劇台",
   "靖洋卡通Nice-Bingo",
   "寰宇新聞台",
   "寰宇新聞台灣台",
@@ -414,8 +415,8 @@ channels_ottltv = {
 channels_modltv = {
     "western": "龍華洋片台",
     "drama": "龍華戲劇台",
-    "classic"： "龍華經典台",
-    "movie"： "龍華電影台",
+    "classic": "龍華經典台",
+    "movie": "龍華電影台",
     "knowledge": "Smart知識台"
 }
 channels_json = {
