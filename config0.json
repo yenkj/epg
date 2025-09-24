@@ -120,6 +120,34 @@
             "api": "https://p2100.net/api.php/provide/vod",
             "name": "飘零资源",
             "detail": "https://p2100.net"
+        },
+        "aqyzy": {
+            "api": "https://iqiyizyapi.com/api.php/provide/vod",
+            "name": "爱奇艺",
+            "detail": "https://iqiyizyapi.com"
+        },
+        "yzzy": {
+            "api": "https://api.yzzy-api.com/inc/apijson.php",
+            "name": "优质资源"
+        },
+        "myzy": {
+            "api": "https://api.maoyanapi.top/api.php/provide/vod",
+            "name": "猫眼资源",
+            "detail": "https://www.maoyanzy.com"
+        },
+        "rycj": {
+            "api": "https://cj.rycjapi.com/api.php/provide/vod",
+            "name": "如意资源"
+        },
+        "jinyingzy": {
+            "name": "金鹰点播",
+            "api": "https://jinyingzy.com/api.php/provide/vod",
+            "detail": "https://jinyingzy.com"
+        },
+        "guangsuapi": {
+            "api": "https://api.guangsuapi.com/api.php/provide/vod",
+            "name": "光速资源",
+            "detail": "https://api.guangsuapi.com"
         }
     }
 }
