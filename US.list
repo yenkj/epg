@@ -8,6 +8,10 @@ DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,amp-api.apps.apple.com
 DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN-SUFFIX,podcast.apple.com
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,wa.me
