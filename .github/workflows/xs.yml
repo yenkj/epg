@@ -1,0 +1,59 @@
+name: Update xiaosa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 19 */2 * *" #每2天在国际标准时间19点30分(北京时间+8，即 03:30)
+  #push:
+    #branches:
+      #- main
+    #paths:
+      #- "xiaosa/**" # 仅监控仓库根目录下的 xiaosa 目录及其子文件 才能触发推送
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Update xiaosa
+        run: |
+          # 使用绝对路径进入项目根目录
+          cd "$GITHUB_WORKSPACE"
+
+          # 如果 xiaosa 文件夹不存在，则创建它
+          if [ ! -d "xiaosa" ]; then
+            mkdir xiaosa
+          fi
+
+          # 进入 xiaosa 目录
+          cd xiaosa
+
+          # 清空 xiaosa 目录，但保留 README.md
+          if [ -d "." ]; then
+            find . ! -name "README.md" -type f -exec rm -f {} +
+          fi
+
+          # 下载并解压文件
+          wget -q https://gitee.com/PizazzXS/another-d/raw/master/单线路.zip -O xiaosa.zip
+          unzip -q xiaosa.zip
+
+          # 将 TVBoxOSC/tvbox/ 下的文件复制到 xiaosa/ 目录中
+          cp -rf TVBoxOSC/tvbox/* ./
+
+          # 清理临时文件和目录
+          rm -rf xiaosa.zip TVBoxOSC
+        shell: bash
+
+      - name: Git push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "2015888+github-actions[bot]@users.noreply.github.com"
+          git add .
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "潇洒更新 $(date +%Y%m%d%H%M)"
+            git push -f origin main
+          else
+            echo "没有文件更新，不执行 git push"
+          fi
