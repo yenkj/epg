@@ -6,7 +6,7 @@
             "name": "香蕉"
         },
         "test2": {
-            "api": "http://us.199301.xyz:4567/vod",
+            "api": "http://us.199301.xyz:4567/vod1/-",
             "name": "test2"
         },
         "dyttzy": {
