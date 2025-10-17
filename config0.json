@@ -2,11 +2,11 @@
     "cache_time": 7200,
     "api_site": {
         "banana": {
-            "api": "https://vod.199301.xyz/api.php/provide/vod",
+            "api": "https://vod.199301.xyz",
             "name": "香蕉"
         },
         "test2": {
-            "api": "https://vod1.yankj.workers.dev",
+            "api": "https://vod1.yankj.workers.dev/api.php/provide/vod",
             "name": "test2"
         },
         "dyttzy": {
