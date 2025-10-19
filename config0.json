@@ -6,7 +6,7 @@
             "name": "香蕉"
         },
         "test2": {
-            "api": "http://192.168.2.189:4000",
+            "api": "https://vod.yankj.workers.dev",
             "name": "test2"
         },
         "dyttzy": {
