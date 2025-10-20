@@ -2,11 +2,11 @@
     "cache_time": 7200,
     "api_site": {
         "banana": {
-            "api": "https://vod.199301.xyz",
+            "api": "http://us.199301.xyz:4000",
             "name": "香蕉"
         },
         "test2": {
-            "api": "http://us.199301.xyz:4000",
+            "api": "https://vod.199301.xyz",
             "name": "test2"
         },
         "dyttzy": {
