@@ -148,6 +148,10 @@
         "test2": {
             "api": "https://vod.199301.xyz",
             "name": "test2"
+        },
+        "test3": {
+            "api": "https://vod302.199301.xyz",
+            "name": "test3"
         }
     }
 }
