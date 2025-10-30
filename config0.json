@@ -144,6 +144,14 @@
         "banana": {
             "api": "http://us.199301.xyz:4000",
             "name": "香蕉"
+        },
+        "test2": {
+            "api": "https://vod.199301.xyz",
+            "name": "test2"
+        },
+        "test3": {
+            "api": "https://vod302.199301.xyz",
+            "name": "test3"
         }
     }
 }
