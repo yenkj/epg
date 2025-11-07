@@ -3,740 +3,612 @@
   <channel id="龍華卡通台">
     <display-name>龍華卡通台</display-name>
   </channel>
-  <programme start="20251106233000 +0800" stop="20251107000000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107000000 +0800" stop="20251107003000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107003000 +0800" stop="20251107010000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107010000 +0800" stop="20251107013000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107013000 +0800" stop="20251107020000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107020000 +0800" stop="20251107023000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107023000 +0800" stop="20251107030000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107030000 +0800" stop="20251107033000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107033000 +0800" stop="20251107040000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107040000 +0800" stop="20251107043000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107043000 +0800" stop="20251107050000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107050000 +0800" stop="20251107053000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107053000 +0800" stop="20251107060000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107060000 +0800" stop="20251107063000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107063000 +0800" stop="20251107070000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107070000 +0800" stop="20251107073000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107073000 +0800" stop="20251107080000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107080000 +0800" stop="20251107083000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107083000 +0800" stop="20251107090000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107090000 +0800" stop="20251107093000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107093000 +0800" stop="20251107100000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107100000 +0800" stop="20251107103000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107103000 +0800" stop="20251107110000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107110000 +0800" stop="20251107113000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107113000 +0800" stop="20251107120000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107120000 +0800" stop="20251107123000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107123000 +0800" stop="20251107130000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107130000 +0800" stop="20251107133000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107133000 +0800" stop="20251107140000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107140000 +0800" stop="20251107143000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107143000 +0800" stop="20251107150000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107150000 +0800" stop="20251107153000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107153000 +0800" stop="20251107160000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107160000 +0800" stop="20251107163000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107163000 +0800" stop="20251107170000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107170000 +0800" stop="20251107173000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107173000 +0800" stop="20251107180000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107180000 +0800" stop="20251107183000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107183000 +0800" stop="20251107190000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S4</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107190000 +0800" stop="20251107193000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107193000 +0800" stop="20251107200000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107200000 +0800" stop="20251107203000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107203000 +0800" stop="20251107210000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107210000 +0800" stop="20251107213000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S3(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107213000 +0800" stop="20251107220000 +0800" channel="龍華卡通台">
-    <title>百變校巴之超學先鋒S4</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107220000 +0800" stop="20251107223000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107223000 +0800" stop="20251107230000 +0800" channel="龍華卡通台">
-    <title>王國戰隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107230000 +0800" stop="20251107233000 +0800" channel="龍華卡通台">
-    <title>巨神戰擊隊-軌道先鋒</title>
-    <desc></desc>
-  </programme>
   <programme start="20251107233000 +0800" stop="20251108000000 +0800" channel="龍華卡通台">
     <title>巨神戰擊隊-軌道先鋒</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108000000 +0800" stop="20251108003000 +0800" channel="龍華卡通台">
+    <title>SOS！小仙女曼曼</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108003000 +0800" stop="20251108010000 +0800" channel="龍華卡通台">
+    <title>SOS！小仙女曼曼</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108010000 +0800" stop="20251108013000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108013000 +0800" stop="20251108020000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108020000 +0800" stop="20251108023000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108023000 +0800" stop="20251108030000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108030000 +0800" stop="20251108033000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108033000 +0800" stop="20251108040000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108040000 +0800" stop="20251108043000 +0800" channel="龍華卡通台">
+    <title>奇怪妙妙屋S2(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108043000 +0800" stop="20251108050000 +0800" channel="龍華卡通台">
+    <title>夢怪護衛隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108050000 +0800" stop="20251108053000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108053000 +0800" stop="20251108060000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108060000 +0800" stop="20251108063000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108063000 +0800" stop="20251108070000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108070000 +0800" stop="20251108073000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108073000 +0800" stop="20251108080000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108080000 +0800" stop="20251108083000 +0800" channel="龍華卡通台">
+    <title>SOS！小仙女曼曼</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108083000 +0800" stop="20251108090000 +0800" channel="龍華卡通台">
+    <title>SOS！小仙女曼曼</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108090000 +0800" stop="20251108093000 +0800" channel="龍華卡通台">
+    <title>奇怪妙妙屋S2(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108093000 +0800" stop="20251108100000 +0800" channel="龍華卡通台">
+    <title>夢怪護衛隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108100000 +0800" stop="20251108103000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108103000 +0800" stop="20251108110000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108110000 +0800" stop="20251108113000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108113000 +0800" stop="20251108120000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108120000 +0800" stop="20251108123000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108123000 +0800" stop="20251108130000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108130000 +0800" stop="20251108133000 +0800" channel="龍華卡通台">
+    <title>SOS！小仙女曼曼</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108133000 +0800" stop="20251108140000 +0800" channel="龍華卡通台">
+    <title>SOS！小仙女曼曼</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108140000 +0800" stop="20251108143000 +0800" channel="龍華卡通台">
+    <title>奇怪妙妙屋S2(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108143000 +0800" stop="20251108150000 +0800" channel="龍華卡通台">
+    <title>夢怪護衛隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108150000 +0800" stop="20251108153000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108153000 +0800" stop="20251108160000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108160000 +0800" stop="20251108163000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108163000 +0800" stop="20251108170000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108170000 +0800" stop="20251108173000 +0800" channel="龍華卡通台">
+    <title>奇怪妙妙屋S2(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108173000 +0800" stop="20251108180000 +0800" channel="龍華卡通台">
+    <title>夢怪護衛隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108180000 +0800" stop="20251108183000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108183000 +0800" stop="20251108190000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108190000 +0800" stop="20251108193000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108193000 +0800" stop="20251108200000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108200000 +0800" stop="20251108203000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108203000 +0800" stop="20251108210000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108210000 +0800" stop="20251108213000 +0800" channel="龍華卡通台">
+    <title>SOS！小仙女曼曼</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108213000 +0800" stop="20251108220000 +0800" channel="龍華卡通台">
+    <title>SOS！小仙女曼曼</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108220000 +0800" stop="20251108223000 +0800" channel="龍華卡通台">
+    <title>奇怪妙妙屋S2(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108223000 +0800" stop="20251108230000 +0800" channel="龍華卡通台">
+    <title>夢怪護衛隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108230000 +0800" stop="20251108233000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108233000 +0800" stop="20251109000000 +0800" channel="龍華卡通台">
+    <title>冒險心星球</title>
     <desc></desc>
   </programme>
   <channel id="龍華日韓台">
     <display-name>龍華日韓台</display-name>
   </channel>
-  <programme start="20251106230000 +0800" stop="20251107000000 +0800" channel="龍華日韓台">
-    <title>生活家</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107000000 +0800" stop="20251107020000 +0800" channel="龍華日韓台">
-    <title>燦爛的遺產</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107020000 +0800" stop="20251107030000 +0800" channel="龍華日韓台">
-    <title>我親愛的朋友們</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107030000 +0800" stop="20251107040000 +0800" channel="龍華日韓台">
-    <title>生活家</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107040000 +0800" stop="20251107060000 +0800" channel="龍華日韓台">
-    <title>味之道</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107060000 +0800" stop="20251107080000 +0800" channel="龍華日韓台">
-    <title>不像三兄弟</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107080000 +0800" stop="20251107100000 +0800" channel="龍華日韓台">
-    <title>味之道</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107100000 +0800" stop="20251107120000 +0800" channel="龍華日韓台">
-    <title>我親愛的朋友們</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107120000 +0800" stop="20251107140000 +0800" channel="龍華日韓台">
-    <title>不像三兄弟</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107140000 +0800" stop="20251107160000 +0800" channel="龍華日韓台">
-    <title>燦爛的遺產</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107160000 +0800" stop="20251107170000 +0800" channel="龍華日韓台">
-    <title>生活家</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107170000 +0800" stop="20251107190000 +0800" channel="龍華日韓台">
-    <title>味之道</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107190000 +0800" stop="20251107200000 +0800" channel="龍華日韓台">
-    <title>我親愛的朋友們</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107200000 +0800" stop="20251107220000 +0800" channel="龍華日韓台">
-    <title>不像三兄弟</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107220000 +0800" stop="20251107230000 +0800" channel="龍華日韓台">
-    <title>我親愛的朋友們</title>
-    <desc></desc>
-  </programme>
   <programme start="20251107230000 +0800" stop="20251108000000 +0800" channel="龍華日韓台">
     <title>生活家</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108000000 +0800" stop="20251108010000 +0800" channel="龍華日韓台">
+    <title>只屬於我的你(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108010000 +0800" stop="20251108030000 +0800" channel="龍華日韓台">
+    <title>逆轉女王</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108030000 +0800" stop="20251108040000 +0800" channel="龍華日韓台">
+    <title>檢索愛情(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108040000 +0800" stop="20251108050000 +0800" channel="龍華日韓台">
+    <title>紙之月</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108050000 +0800" stop="20251108070000 +0800" channel="龍華日韓台">
+    <title>陷入純情</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108070000 +0800" stop="20251108100000 +0800" channel="龍華日韓台">
+    <title>絕妙的遺產</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108100000 +0800" stop="20251108120000 +0800" channel="龍華日韓台">
+    <title>紙之月</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108120000 +0800" stop="20251108140000 +0800" channel="龍華日韓台">
+    <title>陷入純情</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108140000 +0800" stop="20251108170000 +0800" channel="龍華日韓台">
+    <title>逆轉女王</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108170000 +0800" stop="20251108200000 +0800" channel="龍華日韓台">
+    <title>絕妙的遺產</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108200000 +0800" stop="20251108220000 +0800" channel="龍華日韓台">
+    <title>陷入純情</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108220000 +0800" stop="20251109000000 +0800" channel="龍華日韓台">
+    <title>紙之月</title>
     <desc></desc>
   </programme>
   <channel id="龍華偶像台">
     <display-name>龍華偶像台</display-name>
   </channel>
-  <programme start="20251106220000 +0800" stop="20251107000000 +0800" channel="龍華偶像台">
-    <title>君九齡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107000000 +0800" stop="20251107020000 +0800" channel="龍華偶像台">
-    <title>善德女王</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107020000 +0800" stop="20251107030000 +0800" channel="龍華偶像台">
-    <title>壞記憶橡皮擦</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107030000 +0800" stop="20251107040000 +0800" channel="龍華偶像台">
-    <title>兩個人的小森林</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107040000 +0800" stop="20251107060000 +0800" channel="龍華偶像台">
-    <title>善德女王</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107060000 +0800" stop="20251107080000 +0800" channel="龍華偶像台">
-    <title>君九齡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107080000 +0800" stop="20251107090000 +0800" channel="龍華偶像台">
-    <title>壞記憶橡皮擦</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107090000 +0800" stop="20251107110000 +0800" channel="龍華偶像台">
-    <title>善德女王</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107110000 +0800" stop="20251107120000 +0800" channel="龍華偶像台">
-    <title>兩個人的小森林</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107120000 +0800" stop="20251107140000 +0800" channel="龍華偶像台">
-    <title>君九齡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107140000 +0800" stop="20251107150000 +0800" channel="龍華偶像台">
-    <title>壞記憶橡皮擦</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107150000 +0800" stop="20251107160000 +0800" channel="龍華偶像台">
-    <title>壞記憶橡皮擦</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107160000 +0800" stop="20251107180000 +0800" channel="龍華偶像台">
-    <title>善德女王</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107180000 +0800" stop="20251107200000 +0800" channel="龍華偶像台">
-    <title>君九齡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107200000 +0800" stop="20251107210000 +0800" channel="龍華偶像台">
-    <title>壞記憶橡皮擦</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107210000 +0800" stop="20251107220000 +0800" channel="龍華偶像台">
-    <title>兩個人的小森林</title>
-    <desc></desc>
-  </programme>
   <programme start="20251107220000 +0800" stop="20251108000000 +0800" channel="龍華偶像台">
     <title>君九齡</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108000000 +0800" stop="20251108020000 +0800" channel="龍華偶像台">
+    <title>我的野蠻王妃</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108020000 +0800" stop="20251108040000 +0800" channel="龍華偶像台">
+    <title>極速悖論</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108040000 +0800" stop="20251108060000 +0800" channel="龍華偶像台">
+    <title>暖陽之下</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108060000 +0800" stop="20251108083000 +0800" channel="龍華偶像台">
+    <title>先熱情地打掃吧</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108083000 +0800" stop="20251108100000 +0800" channel="龍華偶像台">
+    <title>落花時節又逢君</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108100000 +0800" stop="20251108120000 +0800" channel="龍華偶像台">
+    <title>暖陽之下</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108120000 +0800" stop="20251108140000 +0800" channel="龍華偶像台">
+    <title>我的野蠻王妃</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108140000 +0800" stop="20251108150000 +0800" channel="龍華偶像台">
+    <title>極速悖論(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108150000 +0800" stop="20251108160000 +0800" channel="龍華偶像台">
+    <title>裝腔啟示錄</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108160000 +0800" stop="20251108173000 +0800" channel="龍華偶像台">
+    <title>落花時節又逢君</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108173000 +0800" stop="20251108203000 +0800" channel="龍華偶像台">
+    <title>先熱情地打掃吧</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108203000 +0800" stop="20251108220000 +0800" channel="龍華偶像台">
+    <title>落花時節又逢君</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108220000 +0800" stop="20251109000000 +0800" channel="龍華偶像台">
+    <title>暖陽之下</title>
     <desc></desc>
   </programme>
   <channel id="龍華洋片台">
     <display-name>龍華洋片台</display-name>
   </channel>
-  <programme start="20251106225500 +0800" stop="20251107003500 +0800" channel="龍華洋片台">
-    <title>鯊魚困鬥</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107003500 +0800" stop="20251107020500 +0800" channel="龍華洋片台">
-    <title>惡靈20</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107020500 +0800" stop="20251107034000 +0800" channel="龍華洋片台">
-    <title>辦公弒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107034000 +0800" stop="20251107052500 +0800" channel="龍華洋片台">
-    <title>NY單身日記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107052500 +0800" stop="20251107072000 +0800" channel="龍華洋片台">
-    <title>把妹哪有這麼難</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107072000 +0800" stop="20251107085000 +0800" channel="龍華洋片台">
-    <title>血色風暴</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107085000 +0800" stop="20251107103000 +0800" channel="龍華洋片台">
-    <title>疑雲密佈</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107103000 +0800" stop="20251107121000 +0800" channel="龍華洋片台">
-    <title>水星任務</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107121000 +0800" stop="20251107135000 +0800" channel="龍華洋片台">
-    <title>雙面遊戲</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107135000 +0800" stop="20251107154000 +0800" channel="龍華洋片台">
-    <title>我要活下去</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107154000 +0800" stop="20251107172000 +0800" channel="龍華洋片台">
-    <title>泳不放棄</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107172000 +0800" stop="20251107190000 +0800" channel="龍華洋片台">
-    <title>笑笑羊大電影：外星人來了</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107190000 +0800" stop="20251107210000 +0800" channel="龍華洋片台">
-    <title>藥命效應</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107210000 +0800" stop="20251107225000 +0800" channel="龍華洋片台">
-    <title>天罡星下凡</title>
-    <desc></desc>
-  </programme>
   <programme start="20251107225000 +0800" stop="20251108005000 +0800" channel="龍華洋片台">
     <title>叛諜檔案</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108005000 +0800" stop="20251108024000 +0800" channel="龍華洋片台">
+    <title>卓婭：游擊女英雄</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108024000 +0800" stop="20251108042000 +0800" channel="龍華洋片台">
+    <title>超電網戰將</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108042000 +0800" stop="20251108060000 +0800" channel="龍華洋片台">
+    <title>血戰狼人堡</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108060000 +0800" stop="20251108080000 +0800" channel="龍華洋片台">
+    <title>好萊塢現場直擊(新)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108080000 +0800" stop="20251108095000 +0800" channel="龍華洋片台">
+    <title>龍轉戰局</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108095000 +0800" stop="20251108113000 +0800" channel="龍華洋片台">
+    <title>獵捕行動</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108113000 +0800" stop="20251108135000 +0800" channel="龍華洋片台">
+    <title>孤狼特警</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108135000 +0800" stop="20251108153000 +0800" channel="龍華洋片台">
+    <title>極限遊戲</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108153000 +0800" stop="20251108172000 +0800" channel="龍華洋片台">
+    <title>311：東京大震盪</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108172000 +0800" stop="20251108190000 +0800" channel="龍華洋片台">
+    <title>森林特攻隊：大腳丫家族</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108190000 +0800" stop="20251108210000 +0800" channel="龍華洋片台">
+    <title>神鬼獵殺</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108210000 +0800" stop="20251108231500 +0800" channel="龍華洋片台">
+    <title>安娜</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108231500 +0800" stop="20251109012500 +0800" channel="龍華洋片台">
+    <title>鋼鐵勳章</title>
     <desc></desc>
   </programme>
   <channel id="龍華戲劇台">
     <display-name>龍華戲劇台</display-name>
   </channel>
-  <programme start="20251106220000 +0800" stop="20251107000000 +0800" channel="龍華戲劇台">
-    <title>錦衣之下</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107000000 +0800" stop="20251107020000 +0800" channel="龍華戲劇台">
-    <title>阿麥從軍</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107020000 +0800" stop="20251107040000 +0800" channel="龍華戲劇台">
-    <title>母儀天下</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107040000 +0800" stop="20251107060000 +0800" channel="龍華戲劇台">
-    <title>班淑傳奇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107060000 +0800" stop="20251107080000 +0800" channel="龍華戲劇台">
-    <title>花甲少年趣旅行S5</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107080000 +0800" stop="20251107100000 +0800" channel="龍華戲劇台">
-    <title>秦時明月心</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107100000 +0800" stop="20251107120000 +0800" channel="龍華戲劇台">
-    <title>武媚娘傳奇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107120000 +0800" stop="20251107140000 +0800" channel="龍華戲劇台">
-    <title>阿麥從軍</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107140000 +0800" stop="20251107160000 +0800" channel="龍華戲劇台">
-    <title>錦衣之下</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107160000 +0800" stop="20251107180000 +0800" channel="龍華戲劇台">
-    <title>武媚娘傳奇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107180000 +0800" stop="20251107200000 +0800" channel="龍華戲劇台">
-    <title>阿麥從軍(新)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107200000 +0800" stop="20251107220000 +0800" channel="龍華戲劇台">
-    <title>秦時明月心(首)</title>
-    <desc></desc>
-  </programme>
   <programme start="20251107220000 +0800" stop="20251108000000 +0800" channel="龍華戲劇台">
     <title>錦衣之下</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108000000 +0800" stop="20251108020000 +0800" channel="龍華戲劇台">
+    <title>鳳囚凰</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108020000 +0800" stop="20251108040000 +0800" channel="龍華戲劇台">
+    <title>末代廚娘</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108040000 +0800" stop="20251108060000 +0800" channel="龍華戲劇台">
+    <title>末代廚娘</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108060000 +0800" stop="20251108080000 +0800" channel="龍華戲劇台">
+    <title>花甲少年趣旅行S6</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108080000 +0800" stop="20251108100000 +0800" channel="龍華戲劇台">
+    <title>李祘</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108100000 +0800" stop="20251108120000 +0800" channel="龍華戲劇台">
+    <title>李祘</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108120000 +0800" stop="20251108140000 +0800" channel="龍華戲劇台">
+    <title>鳳囚凰</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108140000 +0800" stop="20251108160000 +0800" channel="龍華戲劇台">
+    <title>鳳囚凰</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108160000 +0800" stop="20251108180000 +0800" channel="龍華戲劇台">
+    <title>李祘</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108180000 +0800" stop="20251108200000 +0800" channel="龍華戲劇台">
+    <title>李祘</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108200000 +0800" stop="20251108213000 +0800" channel="龍華戲劇台">
+    <title>台灣傳奇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108213000 +0800" stop="20251108220000 +0800" channel="龍華戲劇台">
+    <title>Talk一杯</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108220000 +0800" stop="20251109000000 +0800" channel="龍華戲劇台">
+    <title>鳳囚凰</title>
     <desc></desc>
   </programme>
   <channel id="龍華經典台">
     <display-name>龍華經典台</display-name>
   </channel>
-  <programme start="20251106225000 +0800" stop="20251107001500 +0800" channel="龍華經典台">
-    <title>外太空九號計畫</title>
+  <programme start="20251107235000 +0800" stop="20251108020000 +0800" channel="龍華經典台">
+    <title>老娘叫譚雅</title>
     <desc></desc>
   </programme>
-  <programme start="20251107001500 +0800" stop="20251107020000 +0800" channel="龍華經典台">
-    <title>國家寶庫：黃金權杖</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107020000 +0800" stop="20251107060000 +0800" channel="龍華經典台">
+  <programme start="20251108020000 +0800" stop="20251108060000 +0800" channel="龍華經典台">
     <title>收播</title>
     <desc></desc>
   </programme>
-  <programme start="20251107060000 +0800" stop="20251107080000 +0800" channel="龍華經典台">
-    <title>天地民心(23-24)</title>
+  <programme start="20251108060000 +0800" stop="20251108082500 +0800" channel="龍華經典台">
+    <title>2001太空漫遊</title>
     <desc></desc>
   </programme>
-  <programme start="20251107080000 +0800" stop="20251107100000 +0800" channel="龍華經典台">
-    <title>朋友再見</title>
+  <programme start="20251108082500 +0800" stop="20251108102000 +0800" channel="龍華經典台">
+    <title>師弟出馬</title>
     <desc></desc>
   </programme>
-  <programme start="20251107100000 +0800" stop="20251107121500 +0800" channel="龍華經典台">
-    <title>玻璃樽</title>
+  <programme start="20251108102000 +0800" stop="20251108121000 +0800" channel="龍華經典台">
+    <title>荒野大鏢客</title>
     <desc></desc>
   </programme>
-  <programme start="20251107121500 +0800" stop="20251107151000 +0800" channel="龍華經典台">
-    <title>血染雪山堡</title>
+  <programme start="20251108121000 +0800" stop="20251108145000 +0800" channel="龍華經典台">
+    <title>越南大戰</title>
     <desc></desc>
   </programme>
-  <programme start="20251107151000 +0800" stop="20251107172000 +0800" channel="龍華經典台">
-    <title>爆破死亡谷</title>
+  <programme start="20251108145000 +0800" stop="20251108165000 +0800" channel="龍華經典台">
+    <title>瞞天機密</title>
     <desc></desc>
   </programme>
-  <programme start="20251107172000 +0800" stop="20251107190000 +0800" channel="龍華經典台">
-    <title>老人與槍</title>
+  <programme start="20251108165000 +0800" stop="20251108193000 +0800" channel="龍華經典台">
+    <title>孤雛淚</title>
     <desc></desc>
   </programme>
-  <programme start="20251107190000 +0800" stop="20251107210000 +0800" channel="龍華經典台">
-    <title>天地民心(23-24)</title>
+  <programme start="20251108193000 +0800" stop="20251108210000 +0800" channel="龍華經典台">
+    <title>新流星蝴蝶劍</title>
     <desc></desc>
   </programme>
-  <programme start="20251107210000 +0800" stop="20251107235000 +0800" channel="龍華經典台">
-    <title>藍徽特攻隊</title>
+  <programme start="20251108210000 +0800" stop="20251108222500 +0800" channel="龍華經典台">
+    <title>奇門異人</title>
     <desc></desc>
   </programme>
-  <programme start="20251107235000 +0800" stop="20251108020000 +0800" channel="龍華經典台">
-    <title>老娘叫譚雅</title>
+  <programme start="20251108222500 +0800" stop="20251109001000 +0800" channel="龍華經典台">
+    <title>太空英雌</title>
     <desc></desc>
   </programme>
   <channel id="龍華電影台">
     <display-name>龍華電影台</display-name>
   </channel>
-  <programme start="20251106234000 +0800" stop="20251107014000 +0800" channel="龍華電影台">
-    <title>洗黑錢</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107014000 +0800" stop="20251107034000 +0800" channel="龍華電影台">
-    <title>見鬼2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107034000 +0800" stop="20251107054000 +0800" channel="龍華電影台">
-    <title>執法先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107054000 +0800" stop="20251107080000 +0800" channel="龍華電影台">
-    <title>哪啊哪啊神去村</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107080000 +0800" stop="20251107090000 +0800" channel="龍華電影台">
-    <title>神鵰俠侶(47完)(首)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107090000 +0800" stop="20251107115500 +0800" channel="龍華電影台">
-    <title>歲月風雲之上海皇帝</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107115500 +0800" stop="20251107140000 +0800" channel="龍華電影台">
-    <title>上海皇帝之雄霸天下</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107140000 +0800" stop="20251107162000 +0800" channel="龍華電影台">
-    <title>十面埋伏</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107162000 +0800" stop="20251107184500 +0800" channel="龍華電影台">
-    <title>我吃了那男孩一整年的早餐</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107184500 +0800" stop="20251107210000 +0800" channel="龍華電影台">
-    <title>鹿鼎記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107210000 +0800" stop="20251107225000 +0800" channel="龍華電影台">
-    <title>黃飛鴻對黃飛鴻(首)</title>
-    <desc></desc>
-  </programme>
   <programme start="20251107225000 +0800" stop="20251108005000 +0800" channel="龍華電影台">
     <title>出埃及記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108005000 +0800" stop="20251108033500 +0800" channel="龍華電影台">
+    <title>第一爐香</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108033500 +0800" stop="20251108060000 +0800" channel="龍華電影台">
+    <title>危城</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108060000 +0800" stop="20251108085500 +0800" channel="龍華電影台">
+    <title>痞子英雄首部曲：全面開戰</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108085500 +0800" stop="20251108113500 +0800" channel="龍華電影台">
+    <title>五億探長雷洛傳I：雷老虎</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108113500 +0800" stop="20251108135500 +0800" channel="龍華電影台">
+    <title>五億探長雷洛傳II：父子情仇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108135500 +0800" stop="20251108155000 +0800" channel="龍華電影台">
+    <title>少林寺之得寶傳奇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108155000 +0800" stop="20251108182500 +0800" channel="龍華電影台">
+    <title>雞排英雄</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108182500 +0800" stop="20251108210000 +0800" channel="龍華電影台">
+    <title>龍馬精神</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108210000 +0800" stop="20251108235500 +0800" channel="龍華電影台">
+    <title>七劍</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108235500 +0800" stop="20251109015500 +0800" channel="龍華電影台">
+    <title>天師鬥殭屍</title>
     <desc></desc>
   </programme>
   <channel id="Smart知識台">
     <display-name>Smart知識台</display-name>
   </channel>
-  <programme start="20251106230000 +0800" stop="20251107000000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107000000 +0800" stop="20251107010000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107010000 +0800" stop="20251107020000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107020000 +0800" stop="20251107030000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107030000 +0800" stop="20251107040000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107040000 +0800" stop="20251107050000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107050000 +0800" stop="20251107060000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107060000 +0800" stop="20251107063000 +0800" channel="Smart知識台">
-    <title>療癒畫畫看【首】</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107063000 +0800" stop="20251107070000 +0800" channel="Smart知識台">
-    <title>療癒畫畫看【首】</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107070000 +0800" stop="20251107080000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107080000 +0800" stop="20251107090000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107090000 +0800" stop="20251107100000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107100000 +0800" stop="20251107110000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107110000 +0800" stop="20251107120000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107120000 +0800" stop="20251107130000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107130000 +0800" stop="20251107140000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107140000 +0800" stop="20251107150000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107150000 +0800" stop="20251107160000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107160000 +0800" stop="20251107170000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107170000 +0800" stop="20251107180000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107180000 +0800" stop="20251107190000 +0800" channel="Smart知識台">
-    <title>健康2.0</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107190000 +0800" stop="20251107200000 +0800" channel="Smart知識台">
-    <title>全民星攻略【首】</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107200000 +0800" stop="20251107210000 +0800" channel="Smart知識台">
-    <title>政治狠狠問【新】</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107210000 +0800" stop="20251107220000 +0800" channel="Smart知識台">
-    <title>台灣啟示錄【首】</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107220000 +0800" stop="20251107230000 +0800" channel="Smart知識台">
-    <title>全民星攻略</title>
-    <desc></desc>
-  </programme>
   <programme start="20251107230000 +0800" stop="20251108000000 +0800" channel="Smart知識台">
     <title>健康2.0</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108000000 +0800" stop="20251108020000 +0800" channel="Smart知識台">
+    <title>花甲少年趣旅行S6</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108020000 +0800" stop="20251108030000 +0800" channel="Smart知識台">
+    <title>全民星攻略</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108030000 +0800" stop="20251108040000 +0800" channel="Smart知識台">
+    <title>非洲動物不思議</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108040000 +0800" stop="20251108060000 +0800" channel="Smart知識台">
+    <title>花甲少年趣旅行S6</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108060000 +0800" stop="20251108070000 +0800" channel="Smart知識台">
+    <title>全民星攻略</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108070000 +0800" stop="20251108080000 +0800" channel="Smart知識台">
+    <title>非洲動物不思議</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108080000 +0800" stop="20251108100000 +0800" channel="Smart知識台">
+    <title>花甲少年趣旅行S6</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108100000 +0800" stop="20251108110000 +0800" channel="Smart知識台">
+    <title>全民星攻略</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108110000 +0800" stop="20251108120000 +0800" channel="Smart知識台">
+    <title>非洲動物不思議</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108120000 +0800" stop="20251108140000 +0800" channel="Smart知識台">
+    <title>花甲少年趣旅行S6</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108140000 +0800" stop="20251108150000 +0800" channel="Smart知識台">
+    <title>全民星攻略</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108150000 +0800" stop="20251108160000 +0800" channel="Smart知識台">
+    <title>非洲動物不思議</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108160000 +0800" stop="20251108180000 +0800" channel="Smart知識台">
+    <title>花甲少年趣旅行S6</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108180000 +0800" stop="20251108190000 +0800" channel="Smart知識台">
+    <title>全民星攻略</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108190000 +0800" stop="20251108200000 +0800" channel="Smart知識台">
+    <title>論政天下之鬥而不破</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108200000 +0800" stop="20251108220000 +0800" channel="Smart知識台">
+    <title>花甲少年趣旅行S6(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108220000 +0800" stop="20251108230000 +0800" channel="Smart知識台">
+    <title>全民星攻略</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251108230000 +0800" stop="20251109000000 +0800" channel="Smart知識台">
+    <title>非洲動物不思議</title>
     <desc></desc>
   </programme>
   <channel id="美亞電影HD">
     <display-name>美亞電影HD</display-name>
   </channel>
-  <programme start="20251106000000 +0800" stop="20251106001500 +0800" channel="美亞電影HD">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106001500 +0800" stop="20251106015000 +0800" channel="美亞電影HD">
-    <title>鐵三角(輔12)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106015000 +0800" stop="20251106035000 +0800" channel="美亞電影HD">
-    <title>游龍戲鳳(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106035000 +0800" stop="20251106053000 +0800" channel="美亞電影HD">
-    <title>笑拳怪招(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106053000 +0800" stop="20251106071000 +0800" channel="美亞電影HD">
-    <title>瘋狂大老千(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106071000 +0800" stop="20251106084500 +0800" channel="美亞電影HD">
-    <title>五爪十八翻(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106084500 +0800" stop="20251106102500 +0800" channel="美亞電影HD">
-    <title>少林寺十八銅人(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106102500 +0800" stop="20251106120000 +0800" channel="美亞電影HD">
-    <title>老虎出更(護)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106120000 +0800" stop="20251106125000 +0800" channel="美亞電影HD">
-    <title>巨塔之后 #24(24)(護)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106125000 +0800" stop="20251106134000 +0800" channel="美亞電影HD">
-    <title>還珠格格2 # 1(1)(護)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106134000 +0800" stop="20251106153500 +0800" channel="美亞電影HD">
-    <title>我們的故事1(護)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106153500 +0800" stop="20251106172000 +0800" channel="美亞電影HD">
-    <title>小爸爸的天空(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106172000 +0800" stop="20251106185000 +0800" channel="美亞電影HD">
-    <title>甜言蜜語(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106185000 +0800" stop="20251106210000 +0800" channel="美亞電影HD">
-    <title>破風(護)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106210000 +0800" stop="20251106215000 +0800" channel="美亞電影HD">
-    <title>還珠格格2 # 2(2)(護)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106215000 +0800" stop="20251106233000 +0800" channel="美亞電影HD">
-    <title>龍拳(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106233000 +0800" stop="20251107000000 +0800" channel="美亞電影HD">
-    <title>巨塔之后 #24(24)(護)</title>
-    <desc></desc>
-  </programme>
   <programme start="20251107000000 +0800" stop="20251107002000 +0800" channel="美亞電影HD">
-    <title>巨塔之后 #24(24)(護)</title>
+    <title>無節目資料</title>
     <desc></desc>
   </programme>
   <programme start="20251107002000 +0800" stop="20251107015500 +0800" channel="美亞電影HD">
@@ -1119,87 +991,83 @@
     <title>麻雀樂團 #3(3)(護)</title>
     <desc></desc>
   </programme>
-  <programme start="20251113000000 +0800" stop="20251113013500 +0800" channel="美亞電影HD">
+  <programme start="20251113000000 +0800" stop="20251113002000 +0800" channel="美亞電影HD">
     <title>麻雀樂團 #3(3)(護)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113002000 +0800" stop="20251113014500 +0800" channel="美亞電影HD">
+    <title>點只捉賊咁簡單(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113014500 +0800" stop="20251113032500 +0800" channel="美亞電影HD">
+    <title>我在黑社會的日子(輔12)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113032500 +0800" stop="20251113052500 +0800" channel="美亞電影HD">
+    <title>武俠(護)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113052500 +0800" stop="20251113072500 +0800" channel="美亞電影HD">
+    <title>惡女列傳(護)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113072500 +0800" stop="20251113090500 +0800" channel="美亞電影HD">
+    <title>長短腳之戀(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113090500 +0800" stop="20251113104000 +0800" channel="美亞電影HD">
+    <title>中國鐵人(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113104000 +0800" stop="20251113121000 +0800" channel="美亞電影HD">
+    <title>算死草(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113121000 +0800" stop="20251113125500 +0800" channel="美亞電影HD">
+    <title>麻雀樂團 #4(4)(護)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113125500 +0800" stop="20251113134500 +0800" channel="美亞電影HD">
+    <title>還珠格格2 # 6(6)(護)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113134500 +0800" stop="20251113152000 +0800" channel="美亞電影HD">
+    <title>白色酢漿草(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113152000 +0800" stop="20251113173000 +0800" channel="美亞電影HD">
+    <title>奇蹟(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113173000 +0800" stop="20251113191000 +0800" channel="美亞電影HD">
+    <title>衝上雲霄(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113191000 +0800" stop="20251113210000 +0800" channel="美亞電影HD">
+    <title>龍虎風雲(護)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113210000 +0800" stop="20251113215000 +0800" channel="美亞電影HD">
+    <title>還珠格格2 # 7(7)(護)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113215000 +0800" stop="20251113235500 +0800" channel="美亞電影HD">
+    <title>無間道II(輔12)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113235500 +0800" stop="20251114000000 +0800" channel="美亞電影HD">
+    <title>麻雀樂團 #4(4)(護)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251114000000 +0800" stop="20251114015500 +0800" channel="美亞電影HD">
+    <title>麻雀樂團 #4(4)(護)</title>
     <desc></desc>
   </programme>
   <channel id="愛爾達體育2台">
     <display-name>愛爾達體育2台</display-name>
   </channel>
-  <programme start="20251106000000 +0800" stop="20251106010000 +0800" channel="愛爾達體育2台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106010000 +0800" stop="20251106013500 +0800" channel="愛爾達體育2台">
-    <title>體壇最前線 11/5(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106013500 +0800" stop="20251106035000 +0800" channel="愛爾達體育2台">
-    <title>LIVE UEFA歐冠 帕弗斯 VS 比利亞雷爾 第4比賽日(原音)(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106035000 +0800" stop="20251106060500 +0800" channel="愛爾達體育2台">
-    <title>LIVE UEFA歐冠 布魯日 VS 巴塞隆納 第4比賽日(原音)(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106060500 +0800" stop="20251106063000 +0800" channel="愛爾達體育2台">
-    <title>體壇最前線 11/5(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106063000 +0800" stop="20251106070000 +0800" channel="愛爾達體育2台">
-    <title>歐冠足球誌#9(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106070000 +0800" stop="20251106080000 +0800" channel="愛爾達體育2台">
-    <title>溫網 第11日精華 7/11(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106080000 +0800" stop="20251106090000 +0800" channel="愛爾達體育2台">
-    <title>歐冠精華 第四比賽日 11/5(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106090000 +0800" stop="20251106113000 +0800" channel="愛爾達體育2台">
-    <title>MLB季後賽經典 水手 VS 藍鳥 美聯冠軍賽G7(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106113000 +0800" stop="20251106123000 +0800" channel="愛爾達體育2台">
-    <title>歐冠精華 第四比賽日 11/5(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106123000 +0800" stop="20251106133000 +0800" channel="愛爾達體育2台">
-    <title>溫網 第12日精華 7/12(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106133000 +0800" stop="20251106143000 +0800" channel="愛爾達體育2台">
-    <title>溫網 第13日精華 7/13(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106143000 +0800" stop="20251106150000 +0800" channel="愛爾達體育2台">
-    <title>體壇最前線 11/5(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106150000 +0800" stop="20251106180000 +0800" channel="愛爾達體育2台">
-    <title>MLB 水手 VS 藍鳥 美聯冠軍賽G2 10/14(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106180000 +0800" stop="20251106210000 +0800" channel="愛爾達體育2台">
-    <title>MLB季後賽經典 釀酒人 VS 道奇 國聯冠軍賽G4(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106210000 +0800" stop="20251106220000 +0800" channel="愛爾達體育2台">
-    <title>歐冠精華 第四比賽日 11/6(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106220000 +0800" stop="20251106223000 +0800" channel="愛爾達體育2台">
-    <title>LIVE 體壇最前線 11/6(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251106223000 +0800" stop="20251107000000 +0800" channel="愛爾達體育2台">
-    <title>MLB季後賽經典 水手 VS 藍鳥 美聯冠軍賽G7(普)</title>
-    <desc></desc>
-  </programme>
   <programme start="20251107000000 +0800" stop="20251107013000 +0800" channel="愛爾達體育2台">
-    <title>MLB季後賽經典 水手 VS 藍鳥 美聯冠軍賽G7(普)</title>
+    <title>無節目資料</title>
     <desc></desc>
   </programme>
   <programme start="20251107013000 +0800" stop="20251107020000 +0800" channel="愛爾達體育2台">
@@ -1514,16 +1382,16 @@
     <title>體壇最前線 11/10(普)</title>
     <desc></desc>
   </programme>
-  <programme start="20251111023000 +0800" stop="20251111053000 +0800" channel="愛爾達體育2台">
+  <programme start="20251111023000 +0800" stop="20251111050000 +0800" channel="愛爾達體育2台">
     <title>NFL 突擊者 VS 野馬 例行賽第十週 11/7(普)</title>
     <desc></desc>
   </programme>
-  <programme start="20251111053000 +0800" stop="20251111060000 +0800" channel="愛爾達體育2台">
-    <title>體壇最前線 11/10(普)</title>
+  <programme start="20251111050000 +0800" stop="20251111053000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 世界大賽(普)</title>
     <desc></desc>
   </programme>
-  <programme start="20251111060000 +0800" stop="20251111063000 +0800" channel="愛爾達體育2台">
-    <title>MLB 季後賽回顧 世界大賽(普)</title>
+  <programme start="20251111053000 +0800" stop="20251111063000 +0800" channel="愛爾達體育2台">
+    <title>英超精華 第11輪(普)</title>
     <desc></desc>
   </programme>
   <programme start="20251111063000 +0800" stop="20251111083000 +0800" channel="愛爾達體育2台">
@@ -1539,27 +1407,27 @@
     <desc></desc>
   </programme>
   <programme start="20251111090000 +0800" stop="20251111093000 +0800" channel="愛爾達體育2台">
-    <title>MLB 季後賽回顧 美聯冠軍賽(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251111093000 +0800" stop="20251111100000 +0800" channel="愛爾達體育2台">
-    <title>MLB 季後賽回顧 國聯冠軍賽(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251111100000 +0800" stop="20251111103000 +0800" channel="愛爾達體育2台">
-    <title>MLB 季後賽回顧 世界大賽(普)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251111103000 +0800" stop="20251111110000 +0800" channel="愛爾達體育2台">
     <title>體壇最前線 11/10(普)</title>
     <desc></desc>
   </programme>
-  <programme start="20251111110000 +0800" stop="20251111123000 +0800" channel="愛爾達體育2台">
+  <programme start="20251111093000 +0800" stop="20251111110000 +0800" channel="愛爾達體育2台">
     <title>F1 巴西站 排位賽(普)</title>
     <desc></desc>
   </programme>
-  <programme start="20251111123000 +0800" stop="20251111143000 +0800" channel="愛爾達體育2台">
+  <programme start="20251111110000 +0800" stop="20251111130000 +0800" channel="愛爾達體育2台">
     <title>F1 巴西站 正賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251111130000 +0800" stop="20251111133000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 美聯冠軍賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251111133000 +0800" stop="20251111140000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 國聯冠軍賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251111140000 +0800" stop="20251111143000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 世界大賽(普)</title>
     <desc></desc>
   </programme>
   <programme start="20251111143000 +0800" stop="20251111150000 +0800" channel="愛爾達體育2台">
@@ -1694,63 +1562,119 @@
     <title>MLB 季後賽回顧 世界大賽(普)</title>
     <desc></desc>
   </programme>
-  <programme start="20251113000000 +0800" stop="20251113013000 +0800" channel="愛爾達體育2台">
+  <programme start="20251113000000 +0800" stop="20251113000000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 世界大賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113000000 +0800" stop="20251113010000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 美聯外卡賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113010000 +0800" stop="20251113020000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 國聯外卡賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113020000 +0800" stop="20251113050000 +0800" channel="愛爾達體育2台">
+    <title>NFL 老鷹 VS 包裝工 例行賽第十週 11/11(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113050000 +0800" stop="20251113060000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 美聯分區賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113060000 +0800" stop="20251113070000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 國聯分區賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113070000 +0800" stop="20251113073000 +0800" channel="愛爾達體育2台">
+    <title>體壇最前線 11/12(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113073000 +0800" stop="20251113080000 +0800" channel="愛爾達體育2台">
+    <title>歐冠足球誌#10(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113080000 +0800" stop="20251113081500 +0800" channel="愛爾達體育2台">
+    <title>世界盃歐洲區會外賽精華 10/14(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113081500 +0800" stop="20251113083000 +0800" channel="愛爾達體育2台">
+    <title>世界盃歐洲區會外賽精華 10/15(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113083000 +0800" stop="20251113090000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 美聯冠軍賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113090000 +0800" stop="20251113093000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 國聯冠軍賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113093000 +0800" stop="20251113100000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 世界大賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113100000 +0800" stop="20251113103000 +0800" channel="愛爾達體育2台">
+    <title>體壇最前線 11/12(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113103000 +0800" stop="20251113120000 +0800" channel="愛爾達體育2台">
+    <title>F1 巴西站 衝刺賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113120000 +0800" stop="20251113123000 +0800" channel="愛爾達體育2台">
+    <title>體壇最前線 11/12(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113123000 +0800" stop="20251113143000 +0800" channel="愛爾達體育2台">
+    <title>英超 曼城 VS 利物浦 第11輪(數據視角中文)(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113143000 +0800" stop="20251113150000 +0800" channel="愛爾達體育2台">
+    <title>體壇最前線 11/12(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113150000 +0800" stop="20251113180000 +0800" channel="愛爾達體育2台">
+    <title>NFL 老鷹 VS 包裝工 例行賽第十週 11/11(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113180000 +0800" stop="20251113210000 +0800" channel="愛爾達體育2台">
+    <title>MLB 藍鳥 VS 道奇 世界大賽G4 10/29(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113210000 +0800" stop="20251113213000 +0800" channel="愛爾達體育2台">
+    <title>體壇面對面 - 2025台鋼雄鷹野手年度回顧(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113213000 +0800" stop="20251113220000 +0800" channel="愛爾達體育2台">
+    <title>體壇面對面 - 2025台鋼雄鷹投手年度回顧(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113220000 +0800" stop="20251113223000 +0800" channel="愛爾達體育2台">
+    <title>LIVE 體壇最前線 11/13(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113223000 +0800" stop="20251113230000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 美聯冠軍賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113230000 +0800" stop="20251113233000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 國聯冠軍賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113233000 +0800" stop="20251114000000 +0800" channel="愛爾達體育2台">
+    <title>MLB 季後賽回顧 世界大賽(普)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251114000000 +0800" stop="20251114013000 +0800" channel="愛爾達體育2台">
     <title>MLB 季後賽回顧 世界大賽(普)</title>
     <desc></desc>
   </programme>
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20251107000000 +0800" stop="20251107011000 +0800" channel="LS-Time電影台">
+  <programme start="20251108000000 +0800" stop="20251108012000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107011000 +0800" stop="20251107032000 +0800" channel="LS-Time電影台">
-    <title>我要富貴</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107032000 +0800" stop="20251107053500 +0800" channel="LS-Time電影台">
-    <title>東京攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107053500 +0800" stop="20251107075000 +0800" channel="LS-Time電影台">
-    <title>電車男</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107075000 +0800" stop="20251107100000 +0800" channel="LS-Time電影台">
-    <title>合家歡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107100000 +0800" stop="20251107121000 +0800" channel="LS-Time電影台">
-    <title>嫁個有錢人</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107121000 +0800" stop="20251107141500 +0800" channel="LS-Time電影台">
-    <title>情義我心知</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107141500 +0800" stop="20251107164500 +0800" channel="LS-Time電影台">
-    <title>紫雨風暴</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107164500 +0800" stop="20251107184500 +0800" channel="LS-Time電影台">
-    <title>老鼠愛上貓</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107184500 +0800" stop="20251107210000 +0800" channel="LS-Time電影台">
-    <title>威龍闖天關</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107210000 +0800" stop="20251107230500 +0800" channel="LS-Time電影台">
-    <title>不可思異</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251107235000 +0800" stop="20251108000000 +0800" channel="LS-Time電影台">
-    <title>毒戰</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251108000000 +0800" stop="20251108020500 +0800" channel="LS-Time電影台">
-    <title>毒戰</title>
     <desc></desc>
   </programme>
   <programme start="20251108012000 +0800" stop="20251108032000 +0800" channel="LS-Time電影台">
@@ -1937,67 +1861,163 @@
     <title>看見天空</title>
     <desc></desc>
   </programme>
+  <programme start="20251111231000 +0800" stop="20251112000000 +0800" channel="LS-Time電影台">
+    <title>野獸刑警</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112000000 +0800" stop="20251112013000 +0800" channel="LS-Time電影台">
+    <title>野獸刑警</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112005500 +0800" stop="20251112035000 +0800" channel="LS-Time電影台">
+    <title>風雲雄霸天下</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112035000 +0800" stop="20251112065000 +0800" channel="LS-Time電影台">
+    <title>權力殺機</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112065000 +0800" stop="20251112083000 +0800" channel="LS-Time電影台">
+    <title>街角的小王子</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112083000 +0800" stop="20251112102500 +0800" channel="LS-Time電影台">
+    <title>猛鬼駕到</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112102500 +0800" stop="20251112122500 +0800" channel="LS-Time電影台">
+    <title>唬人專家</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112122500 +0800" stop="20251112142000 +0800" channel="LS-Time電影台">
+    <title>狗急跳牆</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112142000 +0800" stop="20251112163500 +0800" channel="LS-Time電影台">
+    <title>傲氣雄鷹</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112163500 +0800" stop="20251112184500 +0800" channel="LS-Time電影台">
+    <title>東京攻略</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112184500 +0800" stop="20251112210000 +0800" channel="LS-Time電影台">
+    <title>練愛iNG</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112210000 +0800" stop="20251112231000 +0800" channel="LS-Time電影台">
+    <title>超跑斯特拉</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251112233500 +0800" stop="20251113000000 +0800" channel="LS-Time電影台">
+    <title>水玲瓏</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113000000 +0800" stop="20251113013500 +0800" channel="LS-Time電影台">
+    <title>水玲瓏</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113013000 +0800" stop="20251113032500 +0800" channel="LS-Time電影台">
+    <title>人海孤鴻</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113032500 +0800" stop="20251113052500 +0800" channel="LS-Time電影台">
+    <title>新仙鶴神針</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113052500 +0800" stop="20251113073500 +0800" channel="LS-Time電影台">
+    <title>倫文敘老點柳先開</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113073500 +0800" stop="20251113094000 +0800" channel="LS-Time電影台">
+    <title>魔翡翠</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113094000 +0800" stop="20251113114500 +0800" channel="LS-Time電影台">
+    <title>鐵血騎警</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113114500 +0800" stop="20251113140000 +0800" channel="LS-Time電影台">
+    <title>賭神3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113140000 +0800" stop="20251113161000 +0800" channel="LS-Time電影台">
+    <title>威龍闖天關</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113161000 +0800" stop="20251113180500 +0800" channel="LS-Time電影台">
+    <title>富貴兵團</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113180500 +0800" stop="20251113210000 +0800" channel="LS-Time電影台">
+    <title>出神入化2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251113210000 +0800" stop="20251113233500 +0800" channel="LS-Time電影台">
+    <title>花木蘭</title>
+    <desc></desc>
+  </programme>
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20251107000000 +0800" stop="20251107004000 +0800" channel="天映頻道">
+  <programme start="20251108000000 +0800" stop="20251108004000 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20251107004000 +0800" stop="20251107022000 +0800" channel="天映頻道">
-    <title>見鬼2</title>
-    <desc>失戀的嘉文自殺未遂，正打算重新開始卻發現自己懷孕，但不敢告訴前男友。嘉文同時亦發覺常被一個神秘女人跟蹤，更不斷遇見各種恐怖幻象，精神面臨崩潰。幸得一寺院主持指點，嘉文為了胎兒決定消除心魔，找出真相…</desc>
+  <programme start="20251108004000 +0800" stop="20251108023000 +0800" channel="天映頻道">
+    <title>偷天特務</title>
+    <desc>城中巨富隱藏他的真正身份與國際刑警探員合作，一起保護一項新發明「上帝的種子」，免於落入國際犯罪集團手中。</desc>
   </programme>
-  <programme start="20251107022000 +0800" stop="20251107041000 +0800" channel="天映頻道">
-    <title>不日成婚</title>
-    <desc>阿佳與可怡在一個婚禮上相識，兩人一拍即合，相愛五年，終於迎來最大的感情危機－「結婚」！女方視結婚為愛的證明，男方則視結婚為愛的墳墓。二人能否解決雙方在結婚問題的矛盾? 最後又能否成婚?</desc>
+  <programme start="20251108023000 +0800" stop="20251108042000 +0800" channel="天映頻道">
+    <title>白日之下</title>
+    <desc>故事改編自真實事件。報社接獲一宗有關殘疾院舍「彩橋之家」虐待院友的線報，偵查小組為揭露殘疾院舍監管問題，派記者曉琪潛入院舍，揭發內裡的非人道生活，尋找日光之下的殘酷真相。</desc>
   </programme>
-  <programme start="20251107041000 +0800" stop="20251107055000 +0800" channel="天映頻道">
-    <title>多樂路</title>
-    <desc>東北某小城，一家麻辣湯館每天都迎來不同的客人。這些客人中有如膠似漆的小情侶，兩名放蕩不羈的青年和一位的士司機。他們本是毫無交集的人，卻因為一場交通事故牽扯在一起…</desc>
+  <programme start="20251108042000 +0800" stop="20251108060000 +0800" channel="天映頻道">
+    <title>P風暴</title>
+    <desc>廖雨萍向廉政公署舉報一個富二代在監獄中行賄懲教人員，以包庇他和其團夥在獄中的惡行。廉政公署首席調查主任陸志廉以囚犯的臥底身份入獄調查。儘管監獄危機四伏，陸志廉決定在獄友王藍祿的幫助下，完成他的任務。</desc>
   </programme>
-  <programme start="20251107055000 +0800" stop="20251107075500 +0800" channel="天映頻道">
-    <title>麥路人</title>
-    <desc>曾是一位金融才俊的阿博，終日在24小時速食店借宿。店內有不少同路人為伍，各人互相扶持，希望能盡力幫助彼此走過人生低谷。</desc>
+  <programme start="20251108060000 +0800" stop="20251108074500 +0800" channel="天映頻道">
+    <title>美女食神</title>
+    <desc>旺角少女蕭阿詩，是砵蘭街老飛瀟灑哥的女兒，自小被溺愛，從未走近廚房，弄一碗即食面，也會不能入口，更被瀟灑哥冠以地獄廚神稱號來取笑她。食品集團太子杜碩堅，英文名S.K. To，自幼在溫室長大，不知人間險惡。S.K.母親杜太乃食品集團主席，為公司舉辦「至尊點心廚神」大賽，S.K.因而初次邂逅了S.K.。在點心大賽中，杜太欲與米家食品集團結盟，拉攏S.K.親近玉瑩，惜二人擦不出任何火花。後來S.K.因被綁架而認識蕭阿詩，二人在幾天的奇遇中更被對方吸引，戀愛起來...</desc>
   </programme>
-  <programme start="20251107075500 +0800" stop="20251107101000 +0800" channel="天映頻道">
-    <title>掃毒3:人在天涯</title>
-    <desc>香港員警張建行一直在康素差販毒集團作臥底，而另一名臥底員警歐志遠在一宗意外中亦取得他們的信任，從此三人情同手足。當康素差的販毒生意被警方查處後，他逃到金三角發展，卻意外發現身邊藏有臥底…</desc>
+  <programme start="20251108074500 +0800" stop="20251108093500 +0800" channel="天映頻道">
+    <title>鸚鵡殺</title>
+    <desc>都市白領週冉在一次網戀中，被騙走了55萬。循著騙子留下的蛛絲馬跡，週冉來到沿海小城，並意外結識了兩名青年。週冉漸漸發現二人身上隱藏著自己受騙的線索，一場復仇之計也由此展開.</desc>
   </programme>
-  <programme start="20251107101000 +0800" stop="20251107120500 +0800" channel="天映頻道">
-    <title>BBS鄉民的正義</title>
-    <desc>記者藍苡晴授命在網路上找新聞，意外闖入超紅的BBS網路論壇。李澄湘是創立夢想板的板主，原意是讓網友們分享彼此的夢想，卻因為一段不該外流的影片而成為人肉搜索的主角。苡晴一路追查下去，發現事實的真相越來越複雜…</desc>
+  <programme start="20251108093500 +0800" stop="20251108111500 +0800" channel="天映頻道">
+    <title>闔家辣</title>
+    <desc>新冠病毒疫情爆發，令Coba在家工作，成天與家人發生爭執。Coba決定將母親的手工辣椒醬變成潮物，企圖轉移家人視線避免爭吵。Coba的父母和姑媽一起製作手工辣椒醬，並在社交平臺上放售，其後辣椒醬大賣，成績更令大家喜出望外。</desc>
   </programme>
-  <programme start="20251107120500 +0800" stop="20251107135000 +0800" channel="天映頻道">
-    <title>我老婆係賭聖</title>
-    <desc>一次偶然的機會，阿輪在沙灘救了患上失憶症的盈盈，並招呼她回家中居住。盈盈不單美麗性感，還身手了得，幫助阿輪收壞脹，把欺負他的女友打走。盈盈心算比計算器還要快，且賭術精湛，麻雀、賭波、賽馬，她無一不精通。阿輪深深的愛上了盈盈，向她求婚，可惜在婚禮舉行前夕，盈盈突然失蹤。當阿輪找到她時，原來她已在參加亞洲賭王大賽，對手是無惡不作的賭場大鱷仇曼聯，她還有一個未婚夫亨利。阿輪呆住了：難道這一趟他又好夢成空？</desc>
+  <programme start="20251108111500 +0800" stop="20251108130000 +0800" channel="天映頻道">
+    <title>緣路山旮旯</title>
+    <desc>28歲的阿厚是一名宅男資訊科技員，雖只有一次戀愛經驗，卻在這一年內分別與五名女子談戀愛，而她們的共通點都是住在香港的偏遠地區。完成五堂愛情速成班後，阿厚最終能否修成正果？</desc>
   </programme>
-  <programme start="20251107135000 +0800" stop="20251107152500 +0800" channel="天映頻道">
-    <title>野蠻秘笈</title>
-    <desc>上官靈鳳（張柏芝 飾）的爸媽每晚睡前都為她講武俠故事。長大後她終於得知原來那些武俠故事是真實存在，父母正是隱居鬧市的江湖高手。而她則有著既定的命運，就是成為武林高手，剷除不守武林規矩、為非作歹的武林敗類！</desc>
+  <programme start="20251108130000 +0800" stop="20251108151500 +0800" channel="天映頻道">
+    <title>湄公河行動</title>
+    <desc>經查明，中國船舶所查獲的毒品是由毒梟糯卡的手下故意栽贓所致。隨後，泰國、寮國、緬甸及中國四國政府迅速成立了聯合專案小組，派遣精英緝毒人員深入金三角地區展開調查，並全力追捕涉案罪犯。</desc>
   </programme>
-  <programme start="20251107152500 +0800" stop="20251107170500 +0800" channel="天映頻道">
-    <title>團圓飯</title>
-    <desc>朝陽和子虹終於到了談婚論嫁的階段，但未造訪彼此家長。在一次客戶的要求下，他們倆必須在年除夕當晚與家人共用團圓飯，以直播方式來推銷客戶的產品。可是朝陽和媽媽關係不好，長年不相往來，於是突發奇想請了一群演員來扮「家人」出席飯局。本該喜氣洋洋的聚會，卻變得啼笑皆非！</desc>
+  <programme start="20251108151500 +0800" stop="20251108171000 +0800" channel="天映頻道">
+    <title>葉問 3</title>
+    <desc>無恥的美藉地產商人指派黑幫武力迫使一所學校賣地，葉問挺身而出與主腦展開對決以保學校。此時，另一詠春傳人張天志又向葉問挑戰「詠春正宗」之名。葉問為了家人朋友和徒弟，只好應戰，並透過武術實踐一代宗師的風範。</desc>
   </programme>
-  <programme start="20251107170500 +0800" stop="20251107185500 +0800" channel="天映頻道">
-    <title>黑白潛行2</title>
-    <desc>在萊咖國政權交替之際，黑幫頭目宋邦企圖藉此洗白身份，欲坐上市長寶座。為了籌措龐大資金，他與官員勾結行賄，卻仍面臨嚴重的資金缺口。於是，宋邦的得力助手鄭吒和打手蘇萬殺人越貨、橫行作惡，逐步幫助他鞏固權力。正當宋邦自以為能坐享其成時，三人的關係卻突然逆轉…</desc>
+  <programme start="20251108171000 +0800" stop="20251108192000 +0800" channel="天映頻道">
+    <title>我們永不言棄</title>
+    <desc>剛刑滿出獄的過氣拳王，無法彌補對亡妻及女兒的傷害，決意洗滌心靈戾氣，做個好爸爸。為鼓勵女兒抵抗血癌，以不放棄的精神面對逆境，也為了完成女兒對他的期盼，他再次重返拳台，用拳頭向女兒證明「永不言棄」！</desc>
   </programme>
-  <programme start="20251107185500 +0800" stop="20251107210000 +0800" channel="天映頻道">
-    <title>但願人長久</title>
-    <desc>新移民圓圓及妹妹兩個人來到香港，面對身份認同及貧窮的問題，還有一個長年吸毒的父親。姊妹倆小時候會試圖討好父親，但到了青春期，她們決定要反抗、掙扎並逃離。即使他們最後徹底掙脫父親，圓圓發現自己喜歡的所有人，原來都帶著父親的影子。</desc>
+  <programme start="20251108192000 +0800" stop="20251108210000 +0800" channel="天映頻道">
+    <title>Z風暴</title>
+    <desc>廉政公署首席調查主任陸志廉接手調查一宗警司貪污案，當調查漸有頭緒時，重要證人一一被殺。但陸志廉並未放棄，追查下發現事件與一個龐大的貪污集團有關，更牽涉香港政府的150億「關懷基金」。廉政公署誓要跟幕後黑手鬥智鬥力，還香港一個廉潔都市的稱號。</desc>
   </programme>
-  <programme start="20251107210000 +0800" stop="20251107230000 +0800" channel="天映頻道">
-    <title>激戰</title>
-    <desc>曾經叱吒世界拳壇的拳王程輝，在澳門遇見了熱血青年思齊。隨著他訓練思齊備戰即將舉行的混合格鬥賽，程輝不僅重燃了對拳擊的熱愛，還重新找回了對生命的熱情，並更加珍惜那些在生命中真正重要的人。</desc>
+  <programme start="20251108210000 +0800" stop="20251108223500 +0800" channel="天映頻道">
+    <title>曾經擁有</title>
+    <desc>港產片影癡吳少金患有阿茲海默症，依靠弟弟撐起兩人合辦的電器維修店。節目監製細姜對吳少金的古靈精怪行為感到好奇，懷疑他可能是個以尖酸刻薄的影評謀利的影評人。於是，細姜假扮朋友接近吳少金和他的家人，卻漸漸發現他的秘密和辛酸故事。</desc>
   </programme>
-  <programme start="20251107230000 +0800" stop="20251108000000 +0800" channel="天映頻道">
-    <title>逃學威龍 2</title>
-    <desc>週星星（週星馳飾）是一名皇家香港警察的精英特警隊（飛虎隊）。自上次的臥底任務成功後，星回到警隊中，因在一次會議期間，與高級官員葉督察（葉德嫻飾）的一句戲言，星被重新分配到交通警察組工作。星在街上執勤時，得知一個恐怖主義組織正要在高中進行一個可怕的任務，於是星匆匆辭去了警察工作到學校調查。星發現調查的事並不容易，當他努力的進行臥底工作， 轉到CID的達（吳孟達）突然出現在學校裡...</desc>
+  <programme start="20251108223500 +0800" stop="20251109000000 +0800" channel="天映頻道">
+    <title>無間一戰</title>
+    <desc>故事圍繞著一對兄弟。弟弟是販毒集團的頭目，哥哥健忠則是緝毒組探員，二人不約而同捲入一場毒梟的地盤鬥爭中。一次，健忠在押送毒販的過程中無意間發現弟弟隱藏著的真正身份。一場無間反轉的正邪交鋒隨即展開。</desc>
   </programme>
-  <programme start="20251108000000 +0800" stop="20251108010000 +0800" channel="天映頻道">
-    <title>逃學威龍 2</title>
-    <desc>週星星（週星馳飾）是一名皇家香港警察的精英特警隊（飛虎隊）。自上次的臥底任務成功後，星回到警隊中，因在一次會議期間，與高級官員葉督察（葉德嫻飾）的一句戲言，星被重新分配到交通警察組工作。星在街上執勤時，得知一個恐怖主義組織正要在高中進行一個可怕的任務，於是星匆匆辭去了警察工作到學校調查。星發現調查的事並不容易，當他努力的進行臥底工作， 轉到CID的達（吳孟達）突然出現在學校裡...</desc>
+  <programme start="20251109000000 +0800" stop="20251109003500 +0800" channel="天映頻道">
+    <title>無間一戰</title>
+    <desc>故事圍繞著一對兄弟。弟弟是販毒集團的頭目，哥哥健忠則是緝毒組探員，二人不約而同捲入一場毒梟的地盤鬥爭中。一次，健忠在押送毒販的過程中無意間發現弟弟隱藏著的真正身份。一場無間反轉的正邪交鋒隨即展開。</desc>
   </programme>
 </tv>
