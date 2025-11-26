@@ -877,7 +877,7 @@ def fetch_celestial_programmes():
                 except Exception:
                     print(f"[錯誤] 無法解析時間：{time_str}（頻道：{name}）")
                     continue
-
+                start = start + timedelta(hours=1)# 将开始时间推迟 1 小时
                 if i + 1 < len(items):
                     next_time_str = items[i + 1].select_one(".schedule-time").get_text(strip=True)
                     try:
@@ -891,7 +891,7 @@ def fetch_celestial_programmes():
                         end = start + timedelta(hours=2)
                 else:
                     end = start + timedelta(hours=2)
-
+                end = end + timedelta(hours=1)# 将结束时间推迟 1 小时
                 if end.date() > start.date():
                     midnight = datetime.combine(end.date(), datetime.min.time())
                     programmes.append({
