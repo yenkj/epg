@@ -264,8 +264,9 @@ def main():
         epg_by_channel.setdefault(p['channel'], []).append(p)
 
     json_by_channel = {}
-    for p in json_programmes:
-        json_by_channel.setdefault(p['channel'], []).append(p)
+    for ch_id, programmes in json_programmes.items():  # 遍历 json_programmes 中的每个频道
+        for p in programmes:  # 每个频道下的节目信息
+            json_by_channel.setdefault(p['channel'], []).append(p)
 
     all_channels = []
 
