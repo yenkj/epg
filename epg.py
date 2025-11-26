@@ -442,7 +442,7 @@ channels_json = {
 channels_celestial = {
     "celestial-movies-hd": {
         "name": "天映頻道",
-        "url": "https://www.celestialmovies.com/schedule.php?lang=tc"
+        "url": "https://www.celestialmovies.com/schedule.php?location/ID"
     }
 }
 
