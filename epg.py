@@ -142,7 +142,108 @@ def fetch_api_programmes(channels_api, channel_map, date_str_api, yesterday_str_
 
     return epg_programmes
 
-# 保持不变的其余代码逻辑
+def fetch_ottltv_programmes():
+    # 这里模拟获取OTT频道节目数据的函数，返回格式应符合其他抓取函数的返回格式
+    ottltv_programmes = {
+        "ott-animation": [
+            {
+                "channel": "ott-animation",
+                "start": datetime(2023, 11, 26, 12, 0, tzinfo=timezone(timedelta(hours=8))),
+                "end": datetime(2023, 11, 26, 14, 0, tzinfo=timezone(timedelta(hours=8))),
+                "title": "卡通节目A",
+                "desc": "这是卡通节目A的描述"
+            }
+        ],
+        "ott-motion": [
+            {
+                "channel": "ott-motion",
+                "start": datetime(2023, 11, 26, 15, 0, tzinfo=timezone(timedelta(hours=8))),
+                "end": datetime(2023, 11, 26, 17, 0, tzinfo=timezone(timedelta(hours=8))),
+                "title": "日韩节目B",
+                "desc": "这是日韩节目B的描述"
+            }
+        ]
+    }
+    return ottltv_programmes
+
+def fetch_modltv_programmes():
+    # 这里模拟获取MOD频道节目数据的函数
+    modltv_programmes = {
+        "western": [
+            {
+                "channel": "western",
+                "start": datetime(2023, 11, 26, 18, 0, tzinfo=timezone(timedelta(hours=8))),
+                "end": datetime(2023, 11, 26, 20, 0, tzinfo=timezone(timedelta(hours=8))),
+                "title": "西部电影C",
+                "desc": "这是西部电影C的描述"
+            }
+        ],
+        "drama": [
+            {
+                "channel": "drama",
+                "start": datetime(2023, 11, 26, 20, 0, tzinfo=timezone(timedelta(hours=8))),
+                "end": datetime(2023, 11, 26, 22, 0, tzinfo=timezone(timedelta(hours=8))),
+                "title": "戏剧节目D",
+                "desc": "这是戏剧节目D的描述"
+            }
+        ]
+    }
+    return modltv_programmes
+
+def fetch_json_schedule():
+    # 模拟获取JSON频道节目数据的函数
+    json_programmes = {
+        "meya-movie-hd": [
+            {
+                "channel": "meya-movie-hd",
+                "start": datetime(2023, 11, 26, 12, 0, tzinfo=timezone(timedelta(hours=8))),
+                "end": datetime(2023, 11, 26, 14, 0, tzinfo=timezone(timedelta(hours=8))),
+                "title": "美亚电影HD节目A",
+                "desc": "这是美亚电影HD节目A的描述"
+            }
+        ],
+        "elta-sports-2": [
+            {
+                "channel": "elta-sports-2",
+                "start": datetime(2023, 11, 26, 15, 0, tzinfo=timezone(timedelta(hours=8))),
+                "end": datetime(2023, 11, 26, 17, 0, tzinfo=timezone(timedelta(hours=8))),
+                "title": "爱尔达体育2台节目B",
+                "desc": "这是爱尔达体育2台节目B的描述"
+            }
+        ]
+    }
+    return json_programmes
+
+def fetch_ls_time_programmes():
+    # 这里模拟获取LS时间频道数据的函数
+    return {
+        "id": "ls-time",
+        "name": "LS-Time频道",
+        "programmes": [
+            {
+                "channel": "ls-time",
+                "start": datetime(2023, 11, 26, 12, 0, tzinfo=timezone(timedelta(hours=8))),
+                "end": datetime(2023, 11, 26, 14, 0, tzinfo=timezone(timedelta(hours=8))),
+                "title": "LS-Time节目A",
+                "desc": "这是LS-Time节目A的描述"
+            }
+        ]
+    }
+
+def fetch_celestial_programmes():
+    # 这里模拟获取天映频道的节目数据
+    celestial_programmes = {
+        "celestial-movies-hd": [
+            {
+                "channel": "celestial-movies-hd",
+                "start": datetime(2023, 11, 26, 16, 0, tzinfo=timezone(timedelta(hours=8))),
+                "end": datetime(2023, 11, 26, 18, 0, tzinfo=timezone(timedelta(hours=8))),
+                "title": "天映电影节目",
+                "desc": "这是天映电影节目的描述"
+            }
+        ]
+    }
+    return celestial_programmes
 
 def main():
     # 获取三天的数据：前一天、今天、后一天
