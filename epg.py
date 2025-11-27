@@ -1012,11 +1012,11 @@ def main():
     epg_by_channel = {}
     for p in epg_programmes:
         epg_by_channel.setdefault(p['channel'], []).append(p)
-"""
-    json_by_channel = {}
-    for p in json_programmes:
-        json_by_channel.setdefault(p['channel'], []).append(p)
-"""
+
+#    json_by_channel = {}
+#    for p in json_programmes:
+#        json_by_channel.setdefault(p['channel'], []).append(p)
+
     all_channels = []
 
     # --- AGGREGATE API CHANNELS ---
