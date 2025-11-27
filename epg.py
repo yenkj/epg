@@ -197,6 +197,7 @@ channels_api = [
   "Magellan-TV",
   "影迷數位紀實台",
   "Love-Nature",
+  "Smart知識台",
   "History歷史頻道",
   "CI罪案偵查頻道",
   "滾動力Rollor",
@@ -422,6 +423,7 @@ channels_ottltv = {
     "ott-motion": "龍華日韓台",
     "ott-idol": "龍華偶像台"
 }
+"""
 channels_modltv = {
     "western": "龍華洋片台",
     "drama": "龍華戲劇台",
@@ -429,7 +431,7 @@ channels_modltv = {
     "movie": "龍華電影台",
     "knowledge": "Smart知識台"
 }
-"""
+
 channels_json = {
     "meya-movie-hd": {
     "name": "美亞電影HD",
@@ -599,7 +601,7 @@ def fetch_ottltv_programmes():
     for cid in all_programmes:
         all_programmes[cid].sort(key=lambda x: x["start"])
     return all_programmes
-
+"""
 def fetch_modltv_programmes():
     url = "https://www.ltv.com.tw/mod%e7%af%80%e7%9b%ae%e8%a1%a8/"
     res = requests.get(url)
@@ -640,7 +642,7 @@ def fetch_modltv_programmes():
     for cid in all_programmes:
         all_programmes[cid].sort(key=lambda x: x["start"])
     return all_programmes
-"""
+
 def fetch_json_schedule():
     programmes = []
     for ch_id, info in channels_json.items():
@@ -999,7 +1001,7 @@ def main():
     # --- FETCH DATA (API now fetches 3 days) ---
     epg_programmes = fetch_api_programmes(channels_api, channel_map, three_day_list)
     ottltv_programmes = fetch_ottltv_programmes()
-    modltv_programmes = fetch_modltv_programmes()
+#    modltv_programmes = fetch_modltv_programmes()
 #    json_programmes = fetch_json_schedule()
     ls_time = fetch_ls_time_programmes()
     celestial_programmes = fetch_celestial_programmes()
@@ -1010,11 +1012,11 @@ def main():
     epg_by_channel = {}
     for p in epg_programmes:
         epg_by_channel.setdefault(p['channel'], []).append(p)
-
+"""
     json_by_channel = {}
     for p in json_programmes:
         json_by_channel.setdefault(p['channel'], []).append(p)
-
+"""
     all_channels = []
 
     # --- AGGREGATE API CHANNELS ---
@@ -1033,15 +1035,15 @@ def main():
     for cid, cname in channels_ottltv.items():
         programmes = ottltv_programmes.get(cid, [])
         all_channels.append((cid, cname, programmes, False))
-        
+"""        
     for cid, cname in channels_modltv.items():
         programmes = modltv_programmes.get(cid, [])
         all_channels.append((cid, cname, programmes, False))
-    """        
+   
     for ch_id, info in channels_json.items():
         programmes = json_by_channel.get(ch_id, [])
         all_channels.append((ch_id, info['name'], programmes, True))
-    """
+"""
     if ls_time:
         all_channels.append((ls_time['id'], ls_time['name'], ls_time['programmes'], True))
 
