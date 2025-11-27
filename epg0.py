@@ -493,11 +493,6 @@ def fetch_api_programmes(channels_api, channel_map, date_list):
             except Exception:
                 continue
 
-            if channel_id == '368371':
-                # Hardcoded time zone adjustment (retained from original)
-                start_dt += timedelta(hours=1)
-                stop_dt += timedelta(hours=1)
-
             title = prog.findtext('title') or ''
             desc = prog.findtext('desc') or ''
             programmes.append((start_dt, stop_dt, title, desc))
@@ -1067,4 +1062,5 @@ def main():
     write_xml(tv_boss, "boss.xml")
     
 if __name__ == "__main__":
+
     main()
