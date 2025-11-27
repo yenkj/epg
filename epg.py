@@ -134,6 +134,7 @@ channels_api = [
   "博斯高球台",
   "博斯高球二台",
   "博斯魅力台",
+  "愛爾達體育2台",    
   "愛爾達體育3台",
   "愛爾達體育4台",
   "愛爾達影劇台",
@@ -428,17 +429,18 @@ channels_modltv = {
     "movie": "龍華電影台",
     "knowledge": "Smart知識台"
 }
+   """
 channels_json = {
     "meya-movie-hd": {
-        "name": "美亞電影HD",
-        "url": "https://xn--i0yt6h0rn.tw/channel/美亞電影HD/index.json"
+    "name": "美亞電影HD",
+    "url": "https://xn--i0yt6h0rn.tw/channel/美亞電影HD/index.json"
     },
     "elta-sports-2": {
-        "name": "愛爾達體育2台",
-        "url": "https://節目表.tw/channel/愛爾達體育2台/index.json"
+    "name": "愛爾達體育2台",
+    "url": "https://節目表.tw/channel/愛爾達體育2台/index.json"
     }
 }
-
+   """
 channels_celestial = {
     "celestial-movies-hd": {
         "name": "天映頻道",
@@ -638,7 +640,7 @@ def fetch_modltv_programmes():
     for cid in all_programmes:
         all_programmes[cid].sort(key=lambda x: x["start"])
     return all_programmes
-    
+    """
 def fetch_json_schedule():
     programmes = []
     for ch_id, info in channels_json.items():
@@ -730,7 +732,7 @@ def fetch_json_schedule():
 
     programmes.sort(key=lambda x: x['start'])
     return programmes
-
+    """
 def fetch_ls_time_programmes():
     url = "https://tvking.funorange.com.tw/channel/108"
     ch_id = "LS-Time"
@@ -998,7 +1000,7 @@ def main():
     epg_programmes = fetch_api_programmes(channels_api, channel_map, three_day_list)
     ottltv_programmes = fetch_ottltv_programmes()
     modltv_programmes = fetch_modltv_programmes()
-    json_programmes = fetch_json_schedule()
+#    json_programmes = fetch_json_schedule()
     ls_time = fetch_ls_time_programmes()
     celestial_programmes = fetch_celestial_programmes()
 
@@ -1035,11 +1037,11 @@ def main():
     for cid, cname in channels_modltv.items():
         programmes = modltv_programmes.get(cid, [])
         all_channels.append((cid, cname, programmes, False))
-        
+    """        
     for ch_id, info in channels_json.items():
         programmes = json_by_channel.get(ch_id, [])
         all_channels.append((ch_id, info['name'], programmes, True))
-
+    """
     if ls_time:
         all_channels.append((ls_time['id'], ls_time['name'], ls_time['programmes'], True))
 
@@ -1057,7 +1059,7 @@ def main():
         if (
             ch_id in channels_ottltv
             or ch_id in channels_modltv
-            or ch_id in channels_json
+   #         or ch_id in channels_json
             or ch_id == "LS-Time"
             or ch_id in celestial_programmes
         ):
