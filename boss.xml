@@ -683,60 +683,64 @@
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20251129000000 +0800" stop="20251129014000 +0800" channel="天映頻道">
+  <programme start="20251129000000 +0800" stop="20251129015800 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20251129014000 +0800" stop="20251129031900 +0800" channel="天映頻道">
-    <title>The Lady Iron Chef</title>
-    <desc>Beer girl and part-time model Ceci has terrible cooking skills. Coming from a well-off family that owns a big culinary business, wealthy SK meets Ceci in a gourmet competition held by his family's company. Despite their different backgrounds, Ceci and SK fall for each other. However, SK's dominating mother disapproves of their relationship. To win over her future mother-in-law, Ceci must beat her rival Jade in a gourmet showdown…</desc>
+  <programme start="20251129015800 +0800" stop="20251129034800 +0800" channel="天映頻道">
+    <title>Coffin Homes</title>
+    <desc>Three bizarre tales intertwine in this horror satire set against the housing crisis of Hong Kong, where soaring property prices have driven dwellers to take every insane effort necessary to secure a cramped space, even if it means sharing the same roof with the dead!</desc>
   </programme>
-  <programme start="20251129031900 +0800" stop="20251129052800 +0800" channel="天映頻道">
-    <title>Mama's Affair</title>
-    <desc>Former talent manager Mei Fung stays home to take care of her husband and son after retirement. She decides to re-enter the entertainment business to find her value in life, and successfully transforms a local restaurant delivery boy, Fong Ching, into a young pop idol. This makes her teenage son, Jonathan, intensely jealous of Fong Ching.</desc>
+  <programme start="20251129034800 +0800" stop="20251129052600 +0800" channel="天映頻道">
+    <title>Treasure Hunt</title>
+    <desc>A commercial director Peggy shoots an ad on a deserted island while some mysterious men with the treasure map are also there to hunt for the hidden Ming Dynasty treasures. However, the map is stolen by Star who lives on the island. Star and Peggy unveil the hidden treasures but end up being chased by the mysterious men…</desc>
   </programme>
-  <programme start="20251129052800 +0800" stop="20251129072200 +0800" channel="天映頻道">
-    <title>Tales from the Occult</title>
-    <desc>The movie consists of three tales about the horrors lurking in dark corners of the city. A young pop star goes back into depression when spooky things happen in her new home; an online influencer performs live in a mall, but it ends up being a livestream of his death; the residents of a tenement building battle a mysterious figure in the stairwell.</desc>
+  <programme start="20251129052600 +0800" stop="20251129072900 +0800" channel="天映頻道">
+    <title>Endgame</title>
+    <desc>A killer and a stage actor accidentally swapped their identities at a bathhouse. The actor must complete the killer’s mission while the killer thinks he is a hopeless actor after losing his memory during the accident. When the killer strives to become a successful stage actor, he also starts to recall what has happened…</desc>
   </programme>
-  <programme start="20251129072200 +0800" stop="20251129090100 +0800" channel="天映頻道">
-    <title>Mr. Possessed</title>
-    <desc>Riley is cursed by an evil spirit to not be able to approach any woman. When he falls in love with Siu Yu, Riley’s mother decides to use her to help him vanquish the evil spirit. On their wedding night, Riley passes out after protecting Siu Yu from the attack of the evil spirit. Can the two finally break the curse?</desc>
+  <programme start="20251129072900 +0800" stop="20251129092000 +0800" channel="天映頻道">
+    <title>A Murder Erased</title>
+    <desc>Police officer Choi is assigned to a death scene investigation where the deceased body had laid undiscovered for eight years.  A prosecutor joins the investigation after Choi has identified the suspect, and finds Choi’s actions suspicious when all manner of inconsistencies come to light from his statement...</desc>
   </programme>
-  <programme start="20251129090100 +0800" stop="20251129111200 +0800" channel="天映頻道">
-    <title>The Goldfinger</title>
-    <desc>Inspired by Hong Kong’s biggest financial scandal in the 1980s, this is a rags to riches story about Ching Yat Yin who is chairman of a listed company. With Ching’s wealth and influence on the rise, ICAC senior investigator Lau Kai Yuen is determined to investigate the case, even if it means spending 15 years in pursuit of the truth.</desc>
+  <programme start="20251129092000 +0800" stop="20251129110400 +0800" channel="天映頻道">
+    <title>Those Were the Days</title>
+    <desc>Director Wong despises Cantonese movies of the 60s, but accidentally travels back in time to that movie set. He meets Director Chu, who tells him he can return to modern time if someone likes the film he makes. Wong meets four classic movie stars and invites them to star in his new film, but it flops unexpectedly. Can Wong return to the present?</desc>
   </programme>
-  <programme start="20251129111200 +0800" stop="20251129131300 +0800" channel="天映頻道">
-    <title>Table for Six</title>
-    <desc>In this comedy, three brothers reside in a home inherited from their late parents. The eldest brother insists they have dinner at home every night as a family, but tensions begin to rise when their girlfriends join in as well. Love, friendship, jealousy and complicated relationships are all on the menu for this table for six!</desc>
+  <programme start="20251129110400 +0800" stop="20251129125700 +0800" channel="天映頻道">
+    <title>The Moon Thieves</title>
+    <desc>A crooked watch dealer assembles a daring crew - a thief, an explosive expert, a lock breaker and a watch connoisseur - to steal three luxury watches in Tokyo. Their mission takes an unexpected turn when they discover the legendary 'Moonwatch.' Pursued by the yakuza, the team must unite to navigate the chaos and pull off their high-stakes heist.</desc>
   </programme>
-  <programme start="20251129131300 +0800" stop="20251129155600 +0800" channel="天映頻道">
-    <title>My Country, My Parents</title>
-    <desc>Set in 4 different eras in China, the 4-part anthology about ‘home and country’ is directed by Wu Jing, Zhang Zi Yi, Xu Zheng and Shen Teng, who also star in their own story. The movie depicts how the ‘fathers’ forge ahead through the struggle of times, defending strong family ties and passing on the ‘fighting’ spirit through generations.</desc>
+  <programme start="20251129125700 +0800" stop="20251129142600 +0800" channel="天映頻道">
+    <title>Unleashed</title>
+    <desc>Fok Kit is the hottest underground boxer with unbeatable records. To save their boxing studio from being sold, he must win the fight against Shaolin who is known as "Killing Machine". Fok Kit is defeated and badly hurt in the fight, which is a set-up by Lok, who wants to take revenge on Fok Kit’s master, Debo.</desc>
   </programme>
-  <programme start="20251129155600 +0800" stop="20251129175100 +0800" channel="天映頻道">
-    <title>Cyber Heist</title>
-    <desc>Hackers have caused a large-scale cyber attack, but luckily cyber security engineer Chun, manages to fend it off with his protective firewall system. To Chun's surprise, his boss is the mastermind of the attack, and when Chun gets trapped in a money laundering operation, he must fight against his boss in the cyber world to prove his innocence.</desc>
+  <programme start="20251129142600 +0800" stop="20251129163600 +0800" channel="天映頻道">
+    <title>One and Only</title>
+    <desc>Veteran street dancer Ding Lei, invites passionate street dancer, Chen Shuo to his dance club. Sparks fly when Chen dances with the club’s top dancers. Chen pursues his dream to perform but discovers that Ding has invited him for another reason. As both of them deal with hard times, can they turn the tide on the challenges that they are facing?</desc>
   </programme>
-  <programme start="20251129175100 +0800" stop="20251129195500 +0800" channel="天映頻道">
-    <title>Life Hotel</title>
-    <desc>Once a gangster, Li struggles to find work to pay for his father’s heart surgery. To earn money, he goes undercover to help shut down Life Hotel for a redevelopment project, but gradually forms bonds with its residents. As Li discovers that the hotel serves as a home for the sick, he grapples with his sense of responsibility and empathy.</desc>
+  <programme start="20251129163600 +0800" stop="20251129180400 +0800" channel="天映頻道">
+    <title>Remember What I Forgot</title>
+    <desc>Struggling with Alzheimer's disease, Hong Kong film buff Kim relies on his brother to manage their appliance repair shop. Kim's quirky behaviour prompts producer Ginger to suspect that he may be a film critic trying to profit from harsh reviews. Posing as a friend, Ginger uncovers Kim's secrets and sorrows as she gets closer to him and his family.</desc>
   </programme>
-  <programme start="20251129195500 +0800" stop="20251129220000 +0800" channel="天映頻道">
-    <title>My Indian Boyfriend</title>
-    <desc>This is a love story between a Hong Kong girl and an Indian boy and is the first Bollywood movie to be made in Hong Kong. It encapsulates the conflicts caused by discrimination as well as differences in social-cultural background, lifestyle and family values between the races. The movie also combines tears, joy and laughter with song and dance.</desc>
+  <programme start="20251129180400 +0800" stop="20251129194000 +0800" channel="天映頻道">
+    <title>Chasing the Dragon (2020)</title>
+    <desc>In 1960s Hong Kong, rookie cop Xu Le cracks a robbery but gets demoted instead, as this offends a corrupt inspector. Xu meets a rich girl Bai who falls instantly in love with him one day. Will he break up with his childhood girlfriend for Bai so as to climb the social ladder, and how does Xu eventually become one of Hong Kong’s legendary detective?</desc>
   </programme>
-  <programme start="20251129220000 +0800" stop="20251129235800 +0800" channel="天映頻道">
-    <title>New Kung Fu Cult Master 2</title>
-    <desc>In this sequel, Zhang Wu Ji successfully rescued the Six Major sects at Dadu. Nevertheless, the quest for the Dragon Sabre continues as Wu Ji and his three girlfriends set sail for Ice Fire Island. After a series of vicious fights, they finally unveil the secret behind the Heaven Sword and Dragon Sabre.</desc>
+  <programme start="20251129194000 +0800" stop="20251129220000 +0800" channel="天映頻道">
+    <title>The Rescue</title>
+    <desc>An emergency occurs on an offshore drilling rig that would cause it to capsize and sink. The Emergency Response Unit races against the clock in a chopper rescue mission amidst dangerous explosions and fire. Captain Gao Qian must work seamlessly with his chopper pilot Zhao Cheng to rescue survivors using the most maverick and dangerous tactics.</desc>
   </programme>
-  <programme start="20251129235800 +0800" stop="20251130000000 +0800" channel="天映頻道">
-    <title>Wu Xia</title>
-    <desc>Martial artist Liu hides his identity and lives in a remote village with his wife Ah Yu and their two sons, but somehow gets embroiled in a bizarre murder case. Constable Xu is a kung fu fanatic, whose curiosity forces Liu into a death duel with the Sect Leader of the 72 Demons, and puts Liu’s family and homeland in a great danger...</desc>
+  <programme start="20251129220000 +0800" stop="20251129235000 +0800" channel="天映頻道">
+    <title>Fox Hunt</title>
+    <desc>Adapted from true events, Fraudster Dai swindled countless victims across China before vanishing without a trace. Seven years later, he resurfaces in Paris. Led by Detective Ye Jun, the Chinese Fox Hunt Team launches a high-stakes cross-border mission to recover the stolen assets and uncovers shocking secrets during the pursuit.</desc>
   </programme>
-  <programme start="20251130000000 +0800" stop="20251130025800 +0800" channel="天映頻道">
-    <title>Wu Xia</title>
-    <desc>Martial artist Liu hides his identity and lives in a remote village with his wife Ah Yu and their two sons, but somehow gets embroiled in a bizarre murder case. Constable Xu is a kung fu fanatic, whose curiosity forces Liu into a death duel with the Sect Leader of the 72 Demons, and puts Liu’s family and homeland in a great danger...</desc>
+  <programme start="20251129235000 +0800" stop="20251130000000 +0800" channel="天映頻道">
+    <title>Tales from the Occult: Ultimate Malevolence</title>
+    <desc>The final chapter of 'Tales From The Occult', the movie features three short stories about two high school friends, a magician undergoing hypnosis to find her missing friend, and a man finding his way out of a mysterious building. The stories reveal the most terrifying and ugly side of human nature, where life and death are just a thought away!</desc>
+  </programme>
+  <programme start="20251130000000 +0800" stop="20251130025000 +0800" channel="天映頻道">
+    <title>Tales from the Occult: Ultimate Malevolence</title>
+    <desc>The final chapter of 'Tales From The Occult', the movie features three short stories about two high school friends, a magician undergoing hypnosis to find her missing friend, and a man finding his way out of a mysterious building. The stories reveal the most terrifying and ugly side of human nature, where life and death are just a thought away!</desc>
   </programme>
 </tv>
