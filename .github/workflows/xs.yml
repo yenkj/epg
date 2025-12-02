@@ -38,7 +38,7 @@ jobs:
           fi
 
           # 下载并解压文件
-          wget -q https://gitee.com/PizazzXS/another-d/raw/master/单线路.zip -O xiaosa.zip
+          wget -q https://raw.githubusercontent.com/PizazzGY/NewTVBox/refs/heads/main/单线路.zip -O xiaosa.zip
           unzip -q xiaosa.zip
 
           # 将 TVBoxOSC/tvbox/ 下的文件复制到 xiaosa/ 目录中
