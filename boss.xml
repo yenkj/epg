@@ -3,381 +3,333 @@
   <channel id="龍華卡通台">
     <display-name>龍華卡通台</display-name>
   </channel>
-  <programme start="20251216233000 +0800" stop="20251217000000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217000000 +0800" stop="20251217003000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217003000 +0800" stop="20251217010000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217010000 +0800" stop="20251217013000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217013000 +0800" stop="20251217020000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217020000 +0800" stop="20251217023000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217023000 +0800" stop="20251217030000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217030000 +0800" stop="20251217033000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217033000 +0800" stop="20251217040000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217040000 +0800" stop="20251217043000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217043000 +0800" stop="20251217050000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217050000 +0800" stop="20251217053000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217053000 +0800" stop="20251217060000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217060000 +0800" stop="20251217063000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217063000 +0800" stop="20251217070000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217070000 +0800" stop="20251217073000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217073000 +0800" stop="20251217080000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217080000 +0800" stop="20251217083000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217083000 +0800" stop="20251217090000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217090000 +0800" stop="20251217093000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217093000 +0800" stop="20251217100000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217100000 +0800" stop="20251217103000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217103000 +0800" stop="20251217110000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217110000 +0800" stop="20251217113000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217113000 +0800" stop="20251217120000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217120000 +0800" stop="20251217123000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217123000 +0800" stop="20251217130000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217130000 +0800" stop="20251217133000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217133000 +0800" stop="20251217140000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217140000 +0800" stop="20251217143000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217143000 +0800" stop="20251217150000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217150000 +0800" stop="20251217153000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217153000 +0800" stop="20251217160000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217160000 +0800" stop="20251217163000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217163000 +0800" stop="20251217170000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217180000 +0800" stop="20251217183000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217183000 +0800" stop="20251217190000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217190000 +0800" stop="20251217193000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217193000 +0800" stop="20251217200000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217200000 +0800" stop="20251217203000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217203000 +0800" stop="20251217210000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217210000 +0800" stop="20251217213000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217213000 +0800" stop="20251217220000 +0800" channel="龍華卡通台">
-    <title>彼得與狼奇遇記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217220000 +0800" stop="20251217223000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217223000 +0800" stop="20251217230000 +0800" channel="龍華卡通台">
-    <title>哈皮樂奇鬧翻天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217230000 +0800" stop="20251217233000 +0800" channel="龍華卡通台">
-    <title>喵咪漂浮歷險</title>
-    <desc></desc>
-  </programme>
   <programme start="20251217233000 +0800" stop="20251218000000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218000000 +0800" stop="20251218003000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218003000 +0800" stop="20251218010000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218010000 +0800" stop="20251218013000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218013000 +0800" stop="20251218020000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218020000 +0800" stop="20251218023000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218023000 +0800" stop="20251218030000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218030000 +0800" stop="20251218033000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218033000 +0800" stop="20251218040000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218040000 +0800" stop="20251218043000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218043000 +0800" stop="20251218050000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218050000 +0800" stop="20251218053000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218053000 +0800" stop="20251218060000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218060000 +0800" stop="20251218063000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218063000 +0800" stop="20251218070000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218070000 +0800" stop="20251218073000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218073000 +0800" stop="20251218080000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218080000 +0800" stop="20251218083000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218083000 +0800" stop="20251218090000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218090000 +0800" stop="20251218093000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218093000 +0800" stop="20251218100000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218100000 +0800" stop="20251218103000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218103000 +0800" stop="20251218110000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218110000 +0800" stop="20251218113000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218113000 +0800" stop="20251218120000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218120000 +0800" stop="20251218123000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218123000 +0800" stop="20251218130000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218130000 +0800" stop="20251218133000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218133000 +0800" stop="20251218140000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218140000 +0800" stop="20251218143000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218143000 +0800" stop="20251218150000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218150000 +0800" stop="20251218153000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218153000 +0800" stop="20251218160000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218160000 +0800" stop="20251218163000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218163000 +0800" stop="20251218170000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218180000 +0800" stop="20251218183000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218183000 +0800" stop="20251218190000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218190000 +0800" stop="20251218193000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218193000 +0800" stop="20251218200000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218200000 +0800" stop="20251218203000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218203000 +0800" stop="20251218210000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218210000 +0800" stop="20251218213000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218213000 +0800" stop="20251218220000 +0800" channel="龍華卡通台">
+    <title>彼得與狼奇遇記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218220000 +0800" stop="20251218223000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218223000 +0800" stop="20251218230000 +0800" channel="龍華卡通台">
+    <title>哈皮樂奇鬧翻天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218230000 +0800" stop="20251218233000 +0800" channel="龍華卡通台">
+    <title>喵咪漂浮歷險</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218233000 +0800" stop="20251219000000 +0800" channel="龍華卡通台">
     <title>喵咪漂浮歷險</title>
     <desc></desc>
   </programme>
   <channel id="龍華日韓台">
     <display-name>龍華日韓台</display-name>
   </channel>
-  <programme start="20251216230000 +0800" stop="20251217000000 +0800" channel="龍華日韓台">
+  <programme start="20251217230000 +0800" stop="20251218000000 +0800" channel="龍華日韓台">
     <title>榴蓮小姐</title>
     <desc></desc>
   </programme>
-  <programme start="20251217000000 +0800" stop="20251217020000 +0800" channel="龍華日韓台">
+  <programme start="20251218000000 +0800" stop="20251218020000 +0800" channel="龍華日韓台">
     <title>我的魯蛇舅舅</title>
     <desc></desc>
   </programme>
-  <programme start="20251217020000 +0800" stop="20251217030000 +0800" channel="龍華日韓台">
-    <title>陌生人(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217030000 +0800" stop="20251217040000 +0800" channel="龍華日韓台">
+  <programme start="20251218030000 +0800" stop="20251218040000 +0800" channel="龍華日韓台">
     <title>榴蓮小姐</title>
     <desc></desc>
   </programme>
-  <programme start="20251217040000 +0800" stop="20251217060000 +0800" channel="龍華日韓台">
+  <programme start="20251218040000 +0800" stop="20251218060000 +0800" channel="龍華日韓台">
     <title>歐若拉公主</title>
     <desc></desc>
   </programme>
-  <programme start="20251217060000 +0800" stop="20251217080000 +0800" channel="龍華日韓台">
+  <programme start="20251218060000 +0800" stop="20251218080000 +0800" channel="龍華日韓台">
     <title>紅色高跟鞋</title>
     <desc></desc>
   </programme>
-  <programme start="20251217080000 +0800" stop="20251217100000 +0800" channel="龍華日韓台">
+  <programme start="20251218080000 +0800" stop="20251218100000 +0800" channel="龍華日韓台">
     <title>歐若拉公主</title>
     <desc></desc>
   </programme>
-  <programme start="20251217100000 +0800" stop="20251217120000 +0800" channel="龍華日韓台">
+  <programme start="20251218100000 +0800" stop="20251218110000 +0800" channel="龍華日韓台">
     <title>陌生人(完)</title>
     <desc></desc>
   </programme>
-  <programme start="20251217120000 +0800" stop="20251217140000 +0800" channel="龍華日韓台">
-    <title>紅色高跟鞋</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217140000 +0800" stop="20251217160000 +0800" channel="龍華日韓台">
-    <title>我的魯蛇舅舅</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217160000 +0800" stop="20251217170000 +0800" channel="龍華日韓台">
-    <title>榴蓮小姐</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217170000 +0800" stop="20251217190000 +0800" channel="龍華日韓台">
-    <title>歐若拉公主</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217190000 +0800" stop="20251217200000 +0800" channel="龍華日韓台">
+  <programme start="20251218110000 +0800" stop="20251218120000 +0800" channel="龍華日韓台">
     <title>金裝律師</title>
     <desc></desc>
   </programme>
-  <programme start="20251217200000 +0800" stop="20251217220000 +0800" channel="龍華日韓台">
+  <programme start="20251218120000 +0800" stop="20251218140000 +0800" channel="龍華日韓台">
     <title>紅色高跟鞋</title>
     <desc></desc>
   </programme>
-  <programme start="20251217230000 +0800" stop="20251218000000 +0800" channel="龍華日韓台">
+  <programme start="20251218140000 +0800" stop="20251218160000 +0800" channel="龍華日韓台">
+    <title>我的魯蛇舅舅</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218160000 +0800" stop="20251218170000 +0800" channel="龍華日韓台">
+    <title>榴蓮小姐</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218170000 +0800" stop="20251218190000 +0800" channel="龍華日韓台">
+    <title>歐若拉公主</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218190000 +0800" stop="20251218200000 +0800" channel="龍華日韓台">
+    <title>金裝律師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218200000 +0800" stop="20251218220000 +0800" channel="龍華日韓台">
+    <title>紅色高跟鞋</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218230000 +0800" stop="20251219000000 +0800" channel="龍華日韓台">
     <title>榴蓮小姐</title>
     <desc></desc>
   </programme>
   <channel id="龍華偶像台">
     <display-name>龍華偶像台</display-name>
   </channel>
-  <programme start="20251216220000 +0800" stop="20251217000000 +0800" channel="龍華偶像台">
+  <programme start="20251217220000 +0800" stop="20251218000000 +0800" channel="龍華偶像台">
     <title>玉面桃花總相逢</title>
     <desc></desc>
   </programme>
-  <programme start="20251217000000 +0800" stop="20251217020000 +0800" channel="龍華偶像台">
+  <programme start="20251218000000 +0800" stop="20251218020000 +0800" channel="龍華偶像台">
     <title>當你沉睡時</title>
     <desc></desc>
   </programme>
-  <programme start="20251217020000 +0800" stop="20251217030000 +0800" channel="龍華偶像台">
-    <title>Remember-兒子的戰爭(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217030000 +0800" stop="20251217040000 +0800" channel="龍華偶像台">
-    <title>好好生活</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217040000 +0800" stop="20251217060000 +0800" channel="龍華偶像台">
-    <title>當你沉睡時</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217060000 +0800" stop="20251217080000 +0800" channel="龍華偶像台">
-    <title>玉面桃花總相逢</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217080000 +0800" stop="20251217090000 +0800" channel="龍華偶像台">
-    <title>Remember-兒子的戰爭(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217090000 +0800" stop="20251217110000 +0800" channel="龍華偶像台">
-    <title>當你沉睡時</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217110000 +0800" stop="20251217120000 +0800" channel="龍華偶像台">
-    <title>好好生活</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217120000 +0800" stop="20251217140000 +0800" channel="龍華偶像台">
-    <title>玉面桃花總相逢</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217140000 +0800" stop="20251217150000 +0800" channel="龍華偶像台">
-    <title>Remember-兒子的戰爭</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217150000 +0800" stop="20251217160000 +0800" channel="龍華偶像台">
-    <title>Remember-兒子的戰爭(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217160000 +0800" stop="20251217180000 +0800" channel="龍華偶像台">
-    <title>當你沉睡時</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217180000 +0800" stop="20251217200000 +0800" channel="龍華偶像台">
-    <title>玉面桃花總相逢</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217200000 +0800" stop="20251217210000 +0800" channel="龍華偶像台">
+  <programme start="20251218020000 +0800" stop="20251218030000 +0800" channel="龍華偶像台">
     <title>紅天機</title>
     <desc></desc>
   </programme>
-  <programme start="20251217210000 +0800" stop="20251217220000 +0800" channel="龍華偶像台">
+  <programme start="20251218030000 +0800" stop="20251218040000 +0800" channel="龍華偶像台">
     <title>好好生活</title>
     <desc></desc>
   </programme>
-  <programme start="20251217220000 +0800" stop="20251218000000 +0800" channel="龍華偶像台">
+  <programme start="20251218040000 +0800" stop="20251218060000 +0800" channel="龍華偶像台">
+    <title>當你沉睡時</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218060000 +0800" stop="20251218080000 +0800" channel="龍華偶像台">
+    <title>玉面桃花總相逢</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218080000 +0800" stop="20251218090000 +0800" channel="龍華偶像台">
+    <title>紅天機</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218090000 +0800" stop="20251218110000 +0800" channel="龍華偶像台">
+    <title>當你沉睡時</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218110000 +0800" stop="20251218120000 +0800" channel="龍華偶像台">
+    <title>好好生活</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218120000 +0800" stop="20251218140000 +0800" channel="龍華偶像台">
+    <title>玉面桃花總相逢</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218140000 +0800" stop="20251218150000 +0800" channel="龍華偶像台">
+    <title>Remember-兒子的戰爭(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218150000 +0800" stop="20251218160000 +0800" channel="龍華偶像台">
+    <title>紅天機</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218160000 +0800" stop="20251218180000 +0800" channel="龍華偶像台">
+    <title>當你沉睡時</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218180000 +0800" stop="20251218200000 +0800" channel="龍華偶像台">
+    <title>玉面桃花總相逢</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218200000 +0800" stop="20251218210000 +0800" channel="龍華偶像台">
+    <title>紅天機</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218210000 +0800" stop="20251218220000 +0800" channel="龍華偶像台">
+    <title>好好生活</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251218220000 +0800" stop="20251219000000 +0800" channel="龍華偶像台">
     <title>玉面桃花總相逢</title>
     <desc></desc>
   </programme>
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20251217000000 +0800" stop="20251217013500 +0800" channel="LS-Time電影台">
+  <programme start="20251218000000 +0800" stop="20251218014500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217013500 +0800" stop="20251217033000 +0800" channel="LS-Time電影台">
-    <title>黑貓2刺客風雲</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217033000 +0800" stop="20251217055500 +0800" channel="LS-Time電影台">
-    <title>月亮的秘密</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217055500 +0800" stop="20251217082500 +0800" channel="LS-Time電影台">
-    <title>魂魄唔齊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217082500 +0800" stop="20251217102500 +0800" channel="LS-Time電影台">
-    <title>全職大盜</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217102500 +0800" stop="20251217123500 +0800" channel="LS-Time電影台">
-    <title>老大人</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217123500 +0800" stop="20251217144000 +0800" channel="LS-Time電影台">
-    <title>漫畫風雲</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217144000 +0800" stop="20251217164000 +0800" channel="LS-Time電影台">
-    <title>兩個只能活一個</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217164000 +0800" stop="20251217183500 +0800" channel="LS-Time電影台">
-    <title>表哥你好</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217183500 +0800" stop="20251217210000 +0800" channel="LS-Time電影台">
-    <title>笑傲江湖2東方不敗</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217210000 +0800" stop="20251217233000 +0800" channel="LS-Time電影台">
-    <title>殭屍家族</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251217232500 +0800" stop="20251218000000 +0800" channel="LS-Time電影台">
-    <title>高校惡靈-富江</title>
-    <desc></desc>
-  </programme>
-  <programme start="20251218000000 +0800" stop="20251218013000 +0800" channel="LS-Time電影台">
-    <title>高校惡靈-富江</title>
     <desc></desc>
   </programme>
   <programme start="20251218014500 +0800" stop="20251218044500 +0800" channel="LS-Time電影台">
@@ -688,67 +640,119 @@
     <title>進擊的巨人2-世界終結</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20251217000000 +0800" stop="20251217013500 +0800" channel="天映頻道">
+  <programme start="20251223235500 +0800" stop="20251224000000 +0800" channel="LS-Time電影台">
+    <title>鐵三角</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251224000000 +0800" stop="20251224020000 +0800" channel="LS-Time電影台">
+    <title>鐵三角</title>
+    <desc></desc>
+  </programme>
+  <programme start="20251224000000 +0800" stop="20251224012000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20251217013500 +0800" stop="20251217033700 +0800" channel="天映頻道">
-    <title>Life Hotel</title>
-    <desc>Once a gangster, Li struggles to find work to pay for his father’s heart surgery. To earn money, he goes undercover to help shut down Life Hotel for a redevelopment project, but gradually forms bonds with its residents. As Li discovers that the hotel serves as a home for the sick, he grapples with his sense of responsibility and empathy.</desc>
+  <programme start="20251224012000 +0800" stop="20251224033500 +0800" channel="LS-Time電影台">
+    <title>英雄向後轉</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217033700 +0800" stop="20251217050600 +0800" channel="天映頻道">
-    <title>Love is Blind, Hate Too</title>
-    <desc>Bo lost her eye sight in a serious car accident a year ago. One day, she is left alone at home when her husband is away on a work trip. An intruder enters Bo's house and takes her hostage. As Bo tries to survive his mental and psychological torture, she discovers her husband's secret which is related to the accident leading to her blindness…</desc>
+  <programme start="20251224033500 +0800" stop="20251224054000 +0800" channel="LS-Time電影台">
+    <title>至尊無上之永霸天下</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217050600 +0800" stop="20251217065200 +0800" channel="天映頻道">
-    <title>One Second</title>
-    <desc>Directed by renowned director Zhang Yimou, the film is set during the Cultural Revolution, where a common man escapes a labour camp to find a newsreel that captures his daughter for one second in a movie. On the way, he encounters an orphan who also seeks the movie reel. Can the man finally pass the reel to a projectionist and screen the movie?</desc>
+  <programme start="20251224054000 +0800" stop="20251224073500 +0800" channel="LS-Time電影台">
+    <title>大事件</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217065200 +0800" stop="20251217083200 +0800" channel="天映頻道">
-    <title>The Locksmith</title>
-    <desc>Locksmith Master Shan suffers from dementia and passes on his skills to Hao Ren, who surpasses him. Detective Liu often seeks Hao Ren's help and they become good friends. When Hao Ren reunites with an old friend one day, he accidentally unfolds the truth behind Shan's wife's disappearance, leading to a chain of mysterious events.</desc>
+  <programme start="20251224073500 +0800" stop="20251224100500 +0800" channel="LS-Time電影台">
+    <title>辣椒教室</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217083200 +0800" stop="20251217102500 +0800" channel="天映頻道">
-    <title>The Moon Thieves</title>
-    <desc>A crooked watch dealer assembles a daring crew - a thief, an explosive expert, a lock breaker and a watch connoisseur - to steal three luxury watches in Tokyo. Their mission takes an unexpected turn when they discover the legendary 'Moonwatch.' Pursued by the yakuza, the team must unite to navigate the chaos and pull off their high-stakes heist.</desc>
+  <programme start="20251224100500 +0800" stop="20251224120000 +0800" channel="LS-Time電影台">
+    <title>和平飯店</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217102500 +0800" stop="20251217121700 +0800" channel="天映頻道">
-    <title>Band Four</title>
-    <desc>An aspiring singer of an indie band called Band Four reunites with her estranged guitarist father following the death of her mother. Together with her half-sister and her nine-year-old son, the newly reunited family come together to support each other through their love and passion for music.</desc>
+  <programme start="20251224120000 +0800" stop="20251224140000 +0800" channel="LS-Time電影台">
+    <title>明月照尖東</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217121700 +0800" stop="20251217135600 +0800" channel="天映頻道">
-    <title>Echoes of the Thunder</title>
-    <desc>Two half-brothers, Nam and Fire, are top racing drivers. In a racing challenge with Japanese driver Kenji, Nam causes a young racing driver to be seriously injured and is depressed. Fire stands up for Nam and decides to compete with Kenji in an illegal street car race. Who will win the race? Can Nam finally bounce back?</desc>
+  <programme start="20251224140000 +0800" stop="20251224163000 +0800" channel="LS-Time電影台">
+    <title>再戰江湖</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217135600 +0800" stop="20251217152600 +0800" channel="天映頻道">
-    <title>City of Desire</title>
-    <desc>Sister 13 returns to Macau after 17 years to succeed her father’s underground empire, the prostitution business. She tries to stop their exploitation of the sex workers, but Macau’s economy flourished after the handover, propelling the prostitution and gambling businesses. The city is blinded by desire and Sister 13 can do nothing to help…</desc>
+  <programme start="20251224163000 +0800" stop="20251224185500 +0800" channel="LS-Time電影台">
+    <title>整人專家</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217152600 +0800" stop="20251217172600 +0800" channel="天映頻道">
-    <title>Wu Xia</title>
-    <desc>Martial artist Liu hides his identity and lives in a remote village with his wife Ah Yu and their two sons, but somehow gets embroiled in a bizarre murder case. Constable Xu is a kung fu fanatic, whose curiosity forces Liu into a death duel with the Sect Leader of the 72 Demons, and puts Liu’s family and homeland in a great danger...</desc>
+  <programme start="20251224185500 +0800" stop="20251224210000 +0800" channel="LS-Time電影台">
+    <title>鬼抓人</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217172600 +0800" stop="20251217194500 +0800" channel="天映頻道">
-    <title>The Sparring Partner</title>
-    <desc>Adapted from a sensational 2013 parricide in Hong Kong, a young man partners with his friend to murder and dismember his parents. Pleading not guilty, the defendants play the devil and idiot game, while the defense attorneys turn on each other. Meanwhile, heated debates emerge inside the jury room, where nine jurors grapple with the truth.</desc>
+  <programme start="20251224210000 +0800" stop="20251224235500 +0800" channel="LS-Time電影台">
+    <title>阿修羅-正邪頑殺</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217194500 +0800" stop="20251217220000 +0800" channel="天映頻道">
-    <title>Only Cloud Knows</title>
-    <desc>This romantic drama is based on the story of a real-life couple. It follows a grieving husband as he journeys to places of significance to his beloved dead wife across their New Zealand homeland.</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20251218000000 +0800" stop="20251218014200 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20251217220000 +0800" stop="20251218000000 +0800" channel="天映頻道">
-    <title>Operation Mekong</title>
-    <desc>After it is discovered that the drugs seized on the Chinese ships had been planted by the henchman of a notorious drug cartel leader named Naw Khar, the governments of Thailand, Laos, Myanmar and China launched a joint task force to apprehend the criminal by sending a band of elite narcotics officers to the Golden Triangle to uncover the truth.</desc>
+  <programme start="20251218014200 +0800" stop="20251218032000 +0800" channel="天映頻道">
+    <title>The Brotherhood of Rebel</title>
+    <desc>Chai, a triad member, helps his childhood friend Meow flee Hong Kong after discovering that Meow attempted to kill his triad boss. 17 years later, Chai becomes a key member of the triad. When he runs into Meow one day, he knows that his gang will kill Meow if they find him. Caught between triad and brotherhood, what will Chai choose?</desc>
   </programme>
-  <programme start="20251218000000 +0800" stop="20251218000800 +0800" channel="天映頻道">
-    <title>Operation Mekong</title>
-    <desc>After it is discovered that the drugs seized on the Chinese ships had been planted by the henchman of a notorious drug cartel leader named Naw Khar, the governments of Thailand, Laos, Myanmar and China launched a joint task force to apprehend the criminal by sending a band of elite narcotics officers to the Golden Triangle to uncover the truth.</desc>
+  <programme start="20251218032000 +0800" stop="20251218052900 +0800" channel="天映頻道">
+    <title>Mama's Affair</title>
+    <desc>Former talent manager Mei Fung stays home to take care of her husband and son after retirement. She decides to re-enter the entertainment business to find her value in life, and successfully transforms a local restaurant delivery boy, Fong Ching, into a young pop idol. This makes her teenage son, Jonathan, intensely jealous of Fong Ching.</desc>
   </programme>
-  <programme start="20251218000800 +0800" stop="20251218030800 +0800" channel="天映頻道">
-    <title>Smashing Frank</title>
-    <desc>Four young thieves wearing bunny masks pull off the heists targeting the rich. Calling themselves "Frank," their mission is less about money and more about exposing corruption through graffiti and viral videos. However, when they collide with a powerful church involved in a money-laundering scheme, their mission spirals into a deadly game.</desc>
+  <programme start="20251218052900 +0800" stop="20251218070700 +0800" channel="天映頻道">
+    <title>Treasure Hunt</title>
+    <desc>A commercial director Peggy shoots an ad on a deserted island while some mysterious men with the treasure map are also there to hunt for the hidden Ming Dynasty treasures. However, the map is stolen by Star who lives on the island. Star and Peggy unveil the hidden treasures but end up being chased by the mysterious men…</desc>
+  </programme>
+  <programme start="20251218070700 +0800" stop="20251218090100 +0800" channel="天映頻道">
+    <title>Song of Spring</title>
+    <desc>An 85-year-old mother lives with her 65-year-old daughter who is suffering from Alzheimer's disease, causing her to suffer a decline in memory, mental confusion and disorientation. Though the elderly mother has to shoulder the burden of a caregiver, she still wants to be with her daughter forever.</desc>
+  </programme>
+  <programme start="20251218090100 +0800" stop="20251218112100 +0800" channel="天映頻道">
+    <title>Detective Chinatown 1900</title>
+    <desc>In 1900s San Francisco, a white woman is murdered in Chinatown, and a Chinese man becomes the prime suspect. The crime sparks public outcry to shut down the district. Amid growing unrest, two Chinese detectives, Qin Fu and Ah Gui, race against time to uncover the true killer before prejudice and danger consume their community.</desc>
+  </programme>
+  <programme start="20251218112100 +0800" stop="20251218130600 +0800" channel="天映頻道">
+    <title>Hand Rolled Cigarette</title>
+    <desc>A retired British-Chinese soldier becomes a target in a triad manhunt when he takes in a young South Asian man who carries a bag of stolen drugs. Forced to live together, the two men transcend conflicts and cultural differences to form a beautiful friendship in this poignant tale of loyalty and brotherhood.</desc>
+  </programme>
+  <programme start="20251218130600 +0800" stop="20251218145300 +0800" channel="天映頻道">
+    <title>Come Back Home</title>
+    <desc>In a chilly winter, De and his family goes on a self-drive tour to Changbai Mountain. The holiday turns tragic when De’s eight-year-old son goes missing. He seeks help from the local police but is unable to find his son. Though the golden hour has passed, De and the rescue team insist on continuing the search. Can they finally rescue the boy?</desc>
+  </programme>
+  <programme start="20251218145300 +0800" stop="20251218164300 +0800" channel="天映頻道">
+    <title>Once Upon a Time in Hong Kong</title>
+    <desc>This is a story of ICAC investigators fighting against rampant corruption in early 1970s’ Hong Kong. A police sergeant teams up with a triad boss to make billions of dollars in bribes. As a lawyer joins his friend in ICAC to investigate their collusion and fight against corruption, the battle between the righteous and the wicked has just begun.</desc>
+  </programme>
+  <programme start="20251218164300 +0800" stop="20251218183900 +0800" channel="天映頻道">
+    <title>The Sunny Side of the Street</title>
+    <desc>Hassan is a Pakistani refugee boy whose father has died in a car accident. A local taxi driver, Yat, then helps him flee Hong Kong. In the process, the two gradually develop a father-son relationship, until Hassan discovers the shocking truth about his father’s death…</desc>
+  </programme>
+  <programme start="20251218183900 +0800" stop="20251218202500 +0800" channel="天映頻道">
+    <title>Detective Vs. Sleuths</title>
+    <desc>Hong Kong is rocked by a series of cold-blooded murders whose victims are runaway suspects of unsolved cases. The group of killers calls themselves “The Chosen Sleuths". Former top detective Lee vows to bring the brutal killers to justice and prove himself to be the real “Chosen Sleuth” instead of a lunatic.</desc>
+  </programme>
+  <programme start="20251218202500 +0800" stop="20251218220000 +0800" channel="天映頻道">
+    <title>Love Punch</title>
+    <desc>Talented boxer Jia Yang is caught in an underground fight to clear her father's debts. She loses her Olympic aspiration and vanishes from the boxing world. 10 years later, Coach Li Yue is determined to help her honour her father's wish by returning to the ring. As passion and obligation collide, can Jia Yang revive her abandoned boxing dream?</desc>
+  </programme>
+  <programme start="20251218220000 +0800" stop="20251219000000 +0800" channel="天映頻道">
+    <title>Moscow Mission</title>
+    <desc>The story is based on a 1993 true event, the "China-Russia Train Robbery" where a gang of criminals commits a heist, stealing cash and goods from the cross border train. A Chinese police officer disguises as a businessman heads the operation to arrest the criminals, but uncovers a bigger conspiracy instead…</desc>
+  </programme>
+  <programme start="20251219000000 +0800" stop="20251219001300 +0800" channel="天映頻道">
+    <title>Moscow Mission</title>
+    <desc>The story is based on a 1993 true event, the "China-Russia Train Robbery" where a gang of criminals commits a heist, stealing cash and goods from the cross border train. A Chinese police officer disguises as a businessman heads the operation to arrest the criminals, but uncovers a bigger conspiracy instead…</desc>
+  </programme>
+  <programme start="20251219001300 +0800" stop="20251219031300 +0800" channel="天映頻道">
+    <title>Confinement</title>
+    <desc>Si Ling, a pregnant painter, moves into her dream home after winning an award and hires a confinement nanny. As she begins her one-month confinement after giving birth to her daughter, inexplicable incidents start happening in the house, threatening both her and her baby…</desc>
   </programme>
 </tv>
