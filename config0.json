@@ -70,8 +70,9 @@
             "name": "iKun资源"
         },
         "lzi": {
-            "api": "https://cj.lziapi.com/api.php/provide/vod",
-            "name": "量子资源"
+            "api": "https://cj.lzcaiji.com/api.php/provide/vod",
+            "name": "量子资源",
+            "detail": "https://cj.lzcaiji.com"
         },
         "bdzy": {
             "api": "https://api.apibdzy.com/api.php/provide/vod",
