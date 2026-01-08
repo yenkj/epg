@@ -2,7 +2,7 @@
     "cache_time": 7200,
     "api_site": {
          "dyttzy": {
-            "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+            "api": "https://corsapi.199301.dpdns.org/?url=https://caiji.dyttzyapi.com/api.php/provide/vod",
             "name": "电影天堂",
             "detail": "https://caiji.dyttzyapi.com"
         },
@@ -15,13 +15,13 @@
             "name": "天涯资源"
         },
         "ffzy": {
-            "api": "https://api.ffzyapi.com/api.php/provide/vod",
+            "api": "https://corsapi.199301.dpdns.org/?url=https://api.ffzyapi.com/api.php/provide/vod",
             "name": "非凡影视",
             "detail": "http://ffzy5.tv"
         },
         "zy360": {
             "api": "https://360zyzz.com/api.php/provide/vod",
-            "name": "360资源"，
+            "name": "360资源",
             "detail": "https://360zy.com"
         },
         "maotaizy": {
@@ -76,7 +76,7 @@
             "detail": "https://cj.lzcaiji.com"
         },
         "bdzy": {
-            "api": "https://api.apibdzy.com/api.php/provide/vod",
+            "api": "https://corsapi.199301.dpdns.org/?url=https://api.apibdzy.com/api.php/provide/vod",
             "name": "百度资源"
         },
         "hongniuzy": {
@@ -103,7 +103,7 @@
             "detail": "https://api.1080zyku.com"
         },
         "hhzyapi": {
-            "api": "https://hhzyapi.com/api.php/provide/vod",
+            "api": "https://corsapi.199301.dpdns.org/?url=https://hhzyapi.com/api.php/provide/vod",
             "name": "豪华资源",
             "detail": "https://hhzyapi.com"
         },
@@ -131,7 +131,7 @@
             "detail": "https://www.maoyanzy.com"
         },
         "rycj": {
-            "api": "https://pz.168188.dpdns.org/?url=https://cj.rycjapi.com/api.php/provide/vod",
+            "api": "https://corsapi.199301.dpdns.org/?url=https://cj.rycjapi.com/api.php/provide/vod",
             "name": "如意资源"，
             "detail": "https://www.ryzyw.com"
         },
