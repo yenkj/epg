@@ -679,68 +679,60 @@
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20260118000000 +0800" stop="20260118014600 +0800" channel="天映頻道">
+  <programme start="20260118000000 +0800" stop="20260118021500 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260118014600 +0800" stop="20260118031400 +0800" channel="天映頻道">
-    <title>City of Desire</title>
-    <desc>Sister 13 returns to Macau after 17 years to succeed her father’s underground empire, the prostitution business. She tries to stop their exploitation of the sex workers, but Macau’s economy flourished after the handover, propelling the prostitution and gambling businesses. The city is blinded by desire and Sister 13 can do nothing to help…</desc>
+  <programme start="20260118021500 +0800" stop="20260118035500 +0800" channel="天映頻道">
+    <title>把幸福拉近一點</title>
+    <desc>被母親拋棄但依然性格開朗的少女小菲，偶遇身患罕見病症、才華橫溢的年輕男子子威，兩人因此結下不解之緣。小菲決心幫助子威尋回失去的愛人，過程中卻發現子威長期等待的治療新藥竟無效。儘管遭受沉重打擊，兩人依然決心攜手，用愛與希望點亮彼此的生命。</desc>
   </programme>
-  <programme start="20260118031400 +0800" stop="20260118045300 +0800" channel="天映頻道">
-    <title>Mr &amp; Mrs Gambler</title>
-    <desc>Manfred and Flora are gambling addicts who have come across each other a few times at the casino, but do not leave impression on each other until they both suffer heavy losses and are held hostage by the loan sharks in Macau. They find themselves falling in love, and decide to get married when they come back to Hong Kong.</desc>
+  <programme start="20260118035500 +0800" stop="20260118055500 +0800" channel="天映頻道">
+    <title>潛行</title>
+    <desc>隱蔽的暗網成為新一代毒品販賣的溫床，並將目光瞄準了位於亞太中心的香港。為找出亞洲其中最有名的暗網大毒梟，警方展開了一項危險的秘密誘捕行動。</desc>
   </programme>
-  <programme start="20260118045300 +0800" stop="20260118064600 +0800" channel="天映頻道">
-    <title>Cyber Heist</title>
-    <desc>Hackers have caused a large-scale cyber attack, but luckily cyber security engineer Chun, manages to fend it off with his protective firewall system. To Chun's surprise, his boss is the mastermind of the attack, and when Chun gets trapped in a money laundering operation, he must fight against his boss in the cyber world to prove his innocence.</desc>
+  <programme start="20260118055500 +0800" stop="20260118074500 +0800" channel="天映頻道">
+    <title>阿索的故事</title>
+    <desc>天生樂觀的阿索與志高已到談婚論嫁，但志高竟與她好友琪琪出軌。分手後，阿索發奮實現夢想，成為巴士司機。一年後，阿索收到志高與琪琪的喜帖，同時琪琪的前男友振民亦找阿索加入他的復仇大計去揭發琪琪是騙子。究竟阿索會否借著復仇機會來個中女大翻新?</desc>
   </programme>
-  <programme start="20260118064600 +0800" stop="20260118082300 +0800" channel="天映頻道">
-    <title>Tales from the Occult: Body and Soul</title>
-    <desc>This horror anthology series returns to feature three spooky crime stories about an ex-hair model, a cat lover and the love triangle between a dental nurse, a dentist and a chef. The stories depict their paths from obsession to madness, eventually tipping them over to the dark side of human nature.</desc>
+  <programme start="20260118074500 +0800" stop="20260118095000 +0800" channel="天映頻道">
+    <title>大上海</title>
+    <desc>黑幫頭目成大器步步攀升至權力巔峰，卻深陷兩名女子的情感糾葛與特務機關的陰謀算計，並在戰爭逼近的威脅下掙扎求生。</desc>
   </programme>
-  <programme start="20260118082300 +0800" stop="20260118101100 +0800" channel="天映頻道">
-    <title>The Hedgehog</title>
-    <desc>Wang's odd behaviour and quirky ideas make him a social outcast. His teenage nephew Zhou, who is ashamed of his stutter, becomes Wang's only friend. Together, these misfits challenge traditional family expectations and social misunderstandings, supporting and inspiring each other as they seek their own paths in life.</desc>
+  <programme start="20260118095000 +0800" stop="20260118122000 +0800" channel="天映頻道">
+    <title>第一爐香</title>
+    <desc>電影由許鞍華導演，改編自張愛玲的首部短篇小說。三十年代，年青女學生葛薇龍離鄉別背井從上海到香港求學，因生活拮據，求助姑媽代交學費，卻被姑媽利用，成為上流社會社交遊戲的誘餌。當她愛上花花公子喬琪喬時，正是她墮落的開始。</desc>
   </programme>
-  <programme start="20260118101100 +0800" stop="20260118115100 +0800" channel="天映頻道">
-    <title>Treasure Hunt</title>
-    <desc>A commercial director Peggy shoots an ad on a deserted island while some mysterious men with the treasure map are also there to hunt for the hidden Ming Dynasty treasures. However, the map is stolen by Star who lives on the island. Star and Peggy unveil the hidden treasures but end up being chased by the mysterious men…</desc>
+  <programme start="20260118122000 +0800" stop="20260118141000 +0800" channel="天映頻道">
+    <title>白晝如焚</title>
+    <desc>探員魏允調查言貞在爆炸中死亡的案件，看似平凡的意外，魏允卻認為疑點重重。直至他看見言貞兒時好友盧子峰的女友林音長得跟言貞十分相像，魏允隨即發現連串撲朔迷離的關係，併合過去及現在的案情細節後，真相更是出人意表。</desc>
   </programme>
-  <programme start="20260118115100 +0800" stop="20260118133300 +0800" channel="天映頻道">
-    <title>Young and Dangerous: Reloaded</title>
-    <desc>In this remake of “Young and Dangerous”, Chan Ho Nam and his three buddies of the Hung Hing triad gang strive to fight for their own justice, further expanding their power in the triad and becoming a new legend...</desc>
+  <programme start="20260118141000 +0800" stop="20260118160500 +0800" channel="天映頻道">
+    <title>急先鋒</title>
+    <desc>商人秦國立在倫敦遭不明人士綁架，秦的女兒Fareeda亦受牽連，被人追殺。危急關頭之際，國際保安團隊「急先鋒」出手救援。「急先鋒」老闆唐煥庭率領一隊精銳部隊，遠徵倫敦、非洲、杜拜等地，展開連場驚險營救。解救人質的過程中，他們竟發現幕後黑手還策劃了一場驚天陰謀！</desc>
   </programme>
-  <programme start="20260118133300 +0800" stop="20260118150800 +0800" channel="天映頻道">
-    <title>Lonely Eighteen</title>
-    <desc>Set in the 1980s Hong Kong, Elaine and her best friend Ying enter the entertainment industry hoping to change their fates from poverty. Ying soon becomes a popular porn star but Elaine is lost between being her true self and an actress. When show business declines after a decade, their choices lead them to two different paths in life.</desc>
+  <programme start="20260118160500 +0800" stop="20260118175500 +0800" channel="天映頻道">
+    <title>大奉打更人之世間無我這般人</title>
+    <desc>司天監三弟子楊千幻，曾是世人眼中的天之驕子。自許七安橫空出世後，他的光芒漸被掩去。面對命運的嘲諷與無力，他苦尋出路，卻終究敵不過那殘酷的真相：天命使然，早已算定。即便如此，他仍在沉淪中奮起，以一股「不信命」的意志逆抗天道。</desc>
   </programme>
-  <programme start="20260118150800 +0800" stop="20260118163700 +0800" channel="天映頻道">
-    <title>Love and Let Love!</title>
-    <desc>Cliff proposes to his girlfriend Terry but is killed in a car accident before she says “yes”. Terry is devastated and inconsolable. When Cliff's ghost returns, they seem to go back to their good old days. However, Cliff is determined to help Terry get over his death and start anew.</desc>
+  <programme start="20260118175500 +0800" stop="20260118202000 +0800" channel="天映頻道">
+    <title>正義迴廊</title>
+    <desc>改編自2013年轟動全港的「逆子弒親案」，一名青年聯同友人殺害並肢解父母，兩人皆否認謀殺，並上演一幕「魔鬼與白癡」戲碼。而分別代表二人的兩位資深大律師，各為其主下也在庭上突襲互攻。另一邊廂，九位陪審員在裁判室展開話語權角力，思辯案情真相。</desc>
   </programme>
-  <programme start="20260118163700 +0800" stop="20260118181400 +0800" channel="天映頻道">
-    <title>Little Red Sweet</title>
-    <desc>A Chinese dessert shop owned by the Chang family in Kowloon City faces upheaval when the mother suffers a devastating stroke. Their daughter sacrifices her dream of becoming a flight attendant to help keep the family business alive, but tensions rise as she clashes with her father. Can they find a way to overcome their struggles and remain united?</desc>
+  <programme start="20260118202000 +0800" stop="20260118220000 +0800" channel="天映頻道">
+    <title>最佳拍檔之醉街拍檔</title>
+    <desc>浩式在父親被美麗的騙子萬玲所殺後，繼承了黑幫之首一職。專業槍手醉槍被安排協助浩式為父報仇，同時萬玲也因騙取了黑幫大哥雷雨揚二百萬元而被追殺。行動中，浩式與醉槍在誤打誤撞下竟擒獲雷雨揚…</desc>
   </programme>
-  <programme start="20260118181400 +0800" stop="20260118194500 +0800" channel="天映頻道">
-    <title>My Kung Fu Sweetheart</title>
-    <desc>Phoenix’s (Cecilia Cheung) parents are martial arts superheroes, who hide their true identities while ferreting out evil martial artists. Phoenix gets the go-ahead to train in the misty mountains, where she learns of her all-important romantic destiny...</desc>
+  <programme start="20260118220000 +0800" stop="20260118233500 +0800" channel="天映頻道">
+    <title>速戰人生</title>
+    <desc>改編自真人真事，影片講述年輕的風為追尋成為汽車修理技師的夢想，不惜與父親決裂離家。與青梅竹馬的雲一同踏上逐夢旅程，在機緣巧合下意外闖入充滿刺激與挑戰的賽車世界，展開一段熱血沸騰的成長冒險。</desc>
   </programme>
-  <programme start="20260118194500 +0800" stop="20260118220000 +0800" channel="天映頻道">
-    <title>Moscow Mission</title>
-    <desc>The story is based on a 1993 true event, the "China-Russia Train Robbery" where a gang of criminals commits a heist, stealing cash and goods from the cross border train. A Chinese police officer disguises as a businessman heads the operation to arrest the criminals, but uncovers a bigger conspiracy instead…</desc>
+  <programme start="20260118233500 +0800" stop="20260119000000 +0800" channel="天映頻道">
+    <title>武替道</title>
+    <desc>因昔日拍檔導演希望完成其人生最後一部作品，過氣動作導演李森重出江湖擔任動作指導。他與一位雄心壯志的年輕動作演員，兩代人為了重振名聲，甘願賠上一切。同時，李森必須克服自己的壞脾氣，面對過去的錯誤，並努力修補與疏離女兒之間破裂的關係。</desc>
   </programme>
-  <programme start="20260118220000 +0800" stop="20260118234300 +0800" channel="天映頻道">
-    <title>The Sorcerer &amp; The White Snake</title>
-    <desc>In this action fantasy movie based on the Chinese legend of the White Snake, a young herbalist falls in love with a thousand-year-old white snake disguised as a woman. When the white snake's true identity is revealed, a sorcerer goes to battle believing that in doing so, he is restoring balance and order between man and the supernatural.</desc>
-  </programme>
-  <programme start="20260118234300 +0800" stop="20260119000000 +0800" channel="天映頻道">
-    <title>Coffin Homes</title>
-    <desc>Three bizarre tales intertwine in this horror satire set against the housing crisis of Hong Kong, where soaring property prices have driven dwellers to take every insane effort necessary to secure a cramped space, even if it means sharing the same roof with the dead!</desc>
-  </programme>
-  <programme start="20260119000000 +0800" stop="20260119024300 +0800" channel="天映頻道">
-    <title>Coffin Homes</title>
-    <desc>Three bizarre tales intertwine in this horror satire set against the housing crisis of Hong Kong, where soaring property prices have driven dwellers to take every insane effort necessary to secure a cramped space, even if it means sharing the same roof with the dead!</desc>
+  <programme start="20260119000000 +0800" stop="20260119023500 +0800" channel="天映頻道">
+    <title>武替道</title>
+    <desc>因昔日拍檔導演希望完成其人生最後一部作品，過氣動作導演李森重出江湖擔任動作指導。他與一位雄心壯志的年輕動作演員，兩代人為了重振名聲，甘願賠上一切。同時，李森必須克服自己的壞脾氣，面對過去的錯誤，並努力修補與疏離女兒之間破裂的關係。</desc>
   </programme>
 </tv>
