@@ -712,7 +712,7 @@ def fetch_celestial_programmes():
     from datetime import datetime, timedelta
 
     channels = [
-        ("天映頻道", "https://www.celestialmovies.com/schedule.php?location/ID", "celestial-movies-hd"),
+        ("天映頻道", "https://www.celestialmovies.com/schedule.php?location/hk&lang=tc", "celestial-movies-hd"),
     ]
 
     celestial_by_channel = {}
