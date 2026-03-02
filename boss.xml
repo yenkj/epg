@@ -3,421 +3,345 @@
   <channel id="龍華卡通台">
     <display-name>龍華卡通台</display-name>
   </channel>
-  <programme start="20260301233000 +0800" stop="20260302000000 +0800" channel="龍華卡通台">
-    <title>魔法小廚師</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302000000 +0800" stop="20260302003000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302003000 +0800" stop="20260302010000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302010000 +0800" stop="20260302013000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S1(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302013000 +0800" stop="20260302020000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302020000 +0800" stop="20260302023000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302023000 +0800" stop="20260302030000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302030000 +0800" stop="20260302033000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302033000 +0800" stop="20260302040000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302040000 +0800" stop="20260302043000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S1(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302043000 +0800" stop="20260302050000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302050000 +0800" stop="20260302053000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302053000 +0800" stop="20260302060000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302060000 +0800" stop="20260302063000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302063000 +0800" stop="20260302070000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302070000 +0800" stop="20260302073000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S1(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302073000 +0800" stop="20260302080000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302080000 +0800" stop="20260302083000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302083000 +0800" stop="20260302090000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302090000 +0800" stop="20260302093000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302093000 +0800" stop="20260302100000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302100000 +0800" stop="20260302103000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S1(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302103000 +0800" stop="20260302110000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302110000 +0800" stop="20260302113000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302113000 +0800" stop="20260302120000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302120000 +0800" stop="20260302123000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302123000 +0800" stop="20260302130000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302130000 +0800" stop="20260302133000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S1(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302133000 +0800" stop="20260302140000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302140000 +0800" stop="20260302143000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302143000 +0800" stop="20260302150000 +0800" channel="龍華卡通台">
-    <title>泡泡灣大冒險(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302150000 +0800" stop="20260302153000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302153000 +0800" stop="20260302160000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302160000 +0800" stop="20260302163000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S1(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302163000 +0800" stop="20260302170000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302170000 +0800" stop="20260302173000 +0800" channel="龍華卡通台">
-    <title>海鸚歷險記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302173000 +0800" stop="20260302180000 +0800" channel="龍華卡通台">
-    <title>海鸚歷險記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302180000 +0800" stop="20260302183000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302183000 +0800" stop="20260302190000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302190000 +0800" stop="20260302193000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302193000 +0800" stop="20260302200000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302200000 +0800" stop="20260302203000 +0800" channel="龍華卡通台">
-    <title>海鸚歷險記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302203000 +0800" stop="20260302210000 +0800" channel="龍華卡通台">
-    <title>海鸚歷險記</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302210000 +0800" stop="20260302213000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302213000 +0800" stop="20260302220000 +0800" channel="龍華卡通台">
-    <title>小浣熊ABC</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302220000 +0800" stop="20260302223000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302223000 +0800" stop="20260302230000 +0800" channel="龍華卡通台">
-    <title>豬豬俠之超星五靈俠S2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302230000 +0800" stop="20260302233000 +0800" channel="龍華卡通台">
-    <title>海鸚歷險記</title>
-    <desc></desc>
-  </programme>
   <programme start="20260302233000 +0800" stop="20260303000000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303000000 +0800" stop="20260303003000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303003000 +0800" stop="20260303010000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303010000 +0800" stop="20260303013000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303013000 +0800" stop="20260303020000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303020000 +0800" stop="20260303023000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303023000 +0800" stop="20260303030000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303030000 +0800" stop="20260303033000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303033000 +0800" stop="20260303040000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303040000 +0800" stop="20260303043000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303043000 +0800" stop="20260303050000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303050000 +0800" stop="20260303053000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303053000 +0800" stop="20260303060000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303060000 +0800" stop="20260303063000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303063000 +0800" stop="20260303070000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303070000 +0800" stop="20260303073000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303073000 +0800" stop="20260303080000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303080000 +0800" stop="20260303083000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303083000 +0800" stop="20260303090000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303090000 +0800" stop="20260303093000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303093000 +0800" stop="20260303100000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303100000 +0800" stop="20260303103000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303103000 +0800" stop="20260303110000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303110000 +0800" stop="20260303113000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303113000 +0800" stop="20260303120000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303120000 +0800" stop="20260303123000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303123000 +0800" stop="20260303130000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303130000 +0800" stop="20260303133000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303133000 +0800" stop="20260303140000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303140000 +0800" stop="20260303143000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303143000 +0800" stop="20260303150000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303150000 +0800" stop="20260303153000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303153000 +0800" stop="20260303160000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303160000 +0800" stop="20260303163000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303163000 +0800" stop="20260303170000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303170000 +0800" stop="20260303173000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303173000 +0800" stop="20260303180000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303180000 +0800" stop="20260303183000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303183000 +0800" stop="20260303190000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303190000 +0800" stop="20260303193000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303193000 +0800" stop="20260303200000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303200000 +0800" stop="20260303203000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303203000 +0800" stop="20260303210000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303210000 +0800" stop="20260303213000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303213000 +0800" stop="20260303220000 +0800" channel="龍華卡通台">
+    <title>小浣熊ABC(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303220000 +0800" stop="20260303223000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303223000 +0800" stop="20260303230000 +0800" channel="龍華卡通台">
+    <title>豬豬俠之超星五靈俠S2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303230000 +0800" stop="20260303233000 +0800" channel="龍華卡通台">
+    <title>海鸚歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303233000 +0800" stop="20260304000000 +0800" channel="龍華卡通台">
     <title>海鸚歷險記</title>
     <desc></desc>
   </programme>
   <channel id="龍華日韓台">
     <display-name>龍華日韓台</display-name>
   </channel>
-  <programme start="20260301220000 +0800" stop="20260302000000 +0800" channel="龍華日韓台">
-    <title>家宴</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302000000 +0800" stop="20260302020000 +0800" channel="龍華日韓台">
-    <title>陷入純情(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302020000 +0800" stop="20260302030000 +0800" channel="龍華日韓台">
-    <title>奶酪陷阱</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302030000 +0800" stop="20260302040000 +0800" channel="龍華日韓台">
+  <programme start="20260302230000 +0800" stop="20260303000000 +0800" channel="龍華日韓台">
     <title>韓國小姐</title>
     <desc></desc>
   </programme>
-  <programme start="20260302040000 +0800" stop="20260302060000 +0800" channel="龍華日韓台">
-    <title>只屬於我的你</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302060000 +0800" stop="20260302080000 +0800" channel="龍華日韓台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302080000 +0800" stop="20260302100000 +0800" channel="龍華日韓台">
-    <title>只屬於我的你</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302100000 +0800" stop="20260302120000 +0800" channel="龍華日韓台">
-    <title>奶酪陷阱</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302120000 +0800" stop="20260302140000 +0800" channel="龍華日韓台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302140000 +0800" stop="20260302160000 +0800" channel="龍華日韓台">
+  <programme start="20260303000000 +0800" stop="20260303020000 +0800" channel="龍華日韓台">
     <title>紙之月</title>
     <desc></desc>
   </programme>
-  <programme start="20260302160000 +0800" stop="20260302170000 +0800" channel="龍華日韓台">
+  <programme start="20260303020000 +0800" stop="20260303030000 +0800" channel="龍華日韓台">
+    <title>奶酪陷阱</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303030000 +0800" stop="20260303040000 +0800" channel="龍華日韓台">
     <title>韓國小姐</title>
     <desc></desc>
   </programme>
-  <programme start="20260302170000 +0800" stop="20260302190000 +0800" channel="龍華日韓台">
+  <programme start="20260303040000 +0800" stop="20260303060000 +0800" channel="龍華日韓台">
     <title>只屬於我的你</title>
     <desc></desc>
   </programme>
-  <programme start="20260302190000 +0800" stop="20260302200000 +0800" channel="龍華日韓台">
-    <title>奶酪陷阱</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302200000 +0800" stop="20260302220000 +0800" channel="龍華日韓台">
+  <programme start="20260303060000 +0800" stop="20260303080000 +0800" channel="龍華日韓台">
     <title>奔跑吧薔薇</title>
     <desc></desc>
   </programme>
-  <programme start="20260302220000 +0800" stop="20260302230000 +0800" channel="龍華日韓台">
+  <programme start="20260303080000 +0800" stop="20260303100000 +0800" channel="龍華日韓台">
+    <title>只屬於我的你</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303100000 +0800" stop="20260303120000 +0800" channel="龍華日韓台">
     <title>奶酪陷阱</title>
     <desc></desc>
   </programme>
-  <programme start="20260302230000 +0800" stop="20260303000000 +0800" channel="龍華日韓台">
+  <programme start="20260303120000 +0800" stop="20260303140000 +0800" channel="龍華日韓台">
+    <title>奔跑吧薔薇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303140000 +0800" stop="20260303160000 +0800" channel="龍華日韓台">
+    <title>紙之月</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303160000 +0800" stop="20260303170000 +0800" channel="龍華日韓台">
+    <title>韓國小姐</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303170000 +0800" stop="20260303190000 +0800" channel="龍華日韓台">
+    <title>只屬於我的你</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303190000 +0800" stop="20260303200000 +0800" channel="龍華日韓台">
+    <title>奶酪陷阱</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303200000 +0800" stop="20260303220000 +0800" channel="龍華日韓台">
+    <title>奔跑吧薔薇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303220000 +0800" stop="20260303230000 +0800" channel="龍華日韓台">
+    <title>奶酪陷阱</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303230000 +0800" stop="20260304000000 +0800" channel="龍華日韓台">
     <title>韓國小姐</title>
     <desc></desc>
   </programme>
   <channel id="龍華偶像台">
     <display-name>龍華偶像台</display-name>
   </channel>
-  <programme start="20260301220000 +0800" stop="20260302000000 +0800" channel="龍華偶像台">
-    <title>時光之城</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302000000 +0800" stop="20260302020000 +0800" channel="龍華偶像台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302020000 +0800" stop="20260302030000 +0800" channel="龍華偶像台">
-    <title>現在開始是Showtime！</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302030000 +0800" stop="20260302040000 +0800" channel="龍華偶像台">
-    <title>落花時節又逢君</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302040000 +0800" stop="20260302060000 +0800" channel="龍華偶像台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302060000 +0800" stop="20260302080000 +0800" channel="龍華偶像台">
-    <title>小歡喜</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302080000 +0800" stop="20260302090000 +0800" channel="龍華偶像台">
-    <title>現在開始是Showtime！</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302090000 +0800" stop="20260302110000 +0800" channel="龍華偶像台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302110000 +0800" stop="20260302120000 +0800" channel="龍華偶像台">
-    <title>落花時節又逢君</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302120000 +0800" stop="20260302140000 +0800" channel="龍華偶像台">
-    <title>小歡喜</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302140000 +0800" stop="20260302150000 +0800" channel="龍華偶像台">
-    <title>現在開始是Showtime！</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302150000 +0800" stop="20260302160000 +0800" channel="龍華偶像台">
-    <title>現在開始是Showtime！</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302160000 +0800" stop="20260302180000 +0800" channel="龍華偶像台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302180000 +0800" stop="20260302200000 +0800" channel="龍華偶像台">
-    <title>小歡喜</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302200000 +0800" stop="20260302210000 +0800" channel="龍華偶像台">
-    <title>現在開始是Showtime！</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302210000 +0800" stop="20260302220000 +0800" channel="龍華偶像台">
-    <title>落花時節又逢君</title>
-    <desc></desc>
-  </programme>
   <programme start="20260302220000 +0800" stop="20260303000000 +0800" channel="龍華偶像台">
+    <title>小歡喜</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303000000 +0800" stop="20260303020000 +0800" channel="龍華偶像台">
+    <title>奔跑吧薔薇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303020000 +0800" stop="20260303030000 +0800" channel="龍華偶像台">
+    <title>現在開始是Showtime！</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303030000 +0800" stop="20260303040000 +0800" channel="龍華偶像台">
+    <title>落花時節又逢君</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303040000 +0800" stop="20260303060000 +0800" channel="龍華偶像台">
+    <title>奔跑吧薔薇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303060000 +0800" stop="20260303080000 +0800" channel="龍華偶像台">
+    <title>小歡喜</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303080000 +0800" stop="20260303090000 +0800" channel="龍華偶像台">
+    <title>現在開始是Showtime！</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303090000 +0800" stop="20260303110000 +0800" channel="龍華偶像台">
+    <title>奔跑吧薔薇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303110000 +0800" stop="20260303120000 +0800" channel="龍華偶像台">
+    <title>落花時節又逢君</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303120000 +0800" stop="20260303140000 +0800" channel="龍華偶像台">
+    <title>小歡喜</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303140000 +0800" stop="20260303150000 +0800" channel="龍華偶像台">
+    <title>現在開始是Showtime！</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303150000 +0800" stop="20260303160000 +0800" channel="龍華偶像台">
+    <title>現在開始是Showtime！</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303160000 +0800" stop="20260303180000 +0800" channel="龍華偶像台">
+    <title>奔跑吧薔薇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303180000 +0800" stop="20260303200000 +0800" channel="龍華偶像台">
+    <title>小歡喜</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303200000 +0800" stop="20260303210000 +0800" channel="龍華偶像台">
+    <title>現在開始是Showtime！</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303210000 +0800" stop="20260303220000 +0800" channel="龍華偶像台">
+    <title>落花時節又逢君</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260303220000 +0800" stop="20260304000000 +0800" channel="龍華偶像台">
     <title>小歡喜</title>
     <desc></desc>
   </programme>
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260302000000 +0800" stop="20260302013500 +0800" channel="LS-Time電影台">
+  <programme start="20260303000000 +0800" stop="20260303012000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302013500 +0800" stop="20260302034000 +0800" channel="LS-Time電影台">
-    <title>東方不敗2風雲再起</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302013500 +0800" stop="20260302063500 +0800" channel="LS-Time電影台">
-    <title>黃飛鴻之鐵雞鬥蜈蚣</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302034000 +0800" stop="20260302060000 +0800" channel="LS-Time電影台">
-    <title>北京樂與路</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302060000 +0800" stop="20260302083000 +0800" channel="LS-Time電影台">
-    <title>監獄風雲2大逃犯</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302063500 +0800" stop="20260302094000 +0800" channel="LS-Time電影台">
-    <title>成吉思汗-征服到地與海的盡頭</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302083000 +0800" stop="20260302110000 +0800" channel="LS-Time電影台">
-    <title>八二三炮戰</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302094000 +0800" stop="20260302121000 +0800" channel="LS-Time電影台">
-    <title>黃飛鴻2男兒當自強</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302110000 +0800" stop="20260302133000 +0800" channel="LS-Time電影台">
-    <title>再戰江湖</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302121000 +0800" stop="20260302142000 +0800" channel="LS-Time電影台">
-    <title>監獄風雲</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302133000 +0800" stop="20260302155000 +0800" channel="LS-Time電影台">
-    <title>賭俠</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302142000 +0800" stop="20260302163500 +0800" channel="LS-Time電影台">
-    <title>咖喱辣椒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302155000 +0800" stop="20260302181000 +0800" channel="LS-Time電影台">
-    <title>魔幻廚房</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302163500 +0800" stop="20260302190000 +0800" channel="LS-Time電影台">
-    <title>功夫瑜伽</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302181000 +0800" stop="20260302210000 +0800" channel="LS-Time電影台">
-    <title>賭神</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302190000 +0800" stop="20260302205500 +0800" channel="LS-Time電影台">
-    <title>九命貓的奇幻旅程</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302205500 +0800" stop="20260302235000 +0800" channel="LS-Time電影台">
-    <title>車頂上的玄天上帝</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302210000 +0800" stop="20260302231500 +0800" channel="LS-Time電影台">
-    <title>英雄本色2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260302235500 +0800" stop="20260303000000 +0800" channel="LS-Time電影台">
-    <title>鎌倉物語</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260303000000 +0800" stop="20260303024500 +0800" channel="LS-Time電影台">
-    <title>鎌倉物語</title>
     <desc></desc>
   </programme>
   <programme start="20260303012000 +0800" stop="20260303035500 +0800" channel="LS-Time電影台">
@@ -696,67 +620,111 @@
     <title>拆彈專家</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20260302000000 +0800" stop="20260302002500 +0800" channel="天映頻道">
+  <programme start="20260308231500 +0800" stop="20260309000000 +0800" channel="LS-Time電影台">
+    <title>陰果</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260309000000 +0800" stop="20260309011000 +0800" channel="LS-Time電影台">
+    <title>陰果</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260309000000 +0800" stop="20260309020000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260302002500 +0800" stop="20260302022500 +0800" channel="天映頻道">
-    <title>窄路微塵</title>
-    <desc>獨力經營清潔公司的窄哥，面對疫情來襲，百業蕭條。因為需要幫手，他僱用了單親媽媽Candy，而Candy竟能化解窄哥工作上的困難。正當二人以為生活漸入佳境，開始恢復正常時，卻再次面對疫情所帶來的殘酷現實。儘管人如微塵，他們也能在窄路上稍作依偎。</desc>
+  <programme start="20260309020000 +0800" stop="20260309053000 +0800" channel="LS-Time電影台">
+    <title>太陽的孩子</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302022500 +0800" stop="20260302043000 +0800" channel="天映頻道">
-    <title>談判專家</title>
-    <desc>談判專家卓文偉被陷害成殺警案的主腦，於是他冒著一切風險綁架員警，堅稱要與前談判專家謝家俊進行對話。在這場智力與心理的激烈對決中，兩人的思維逐漸交錯，展開了一場高智商的鬥智鬥力較量。</desc>
+  <programme start="20260309053000 +0800" stop="20260309075000 +0800" channel="LS-Time電影台">
+    <title>我老婆是老大2</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302043000 +0800" stop="20260302062000 +0800" channel="天映頻道">
-    <title>白日之下</title>
-    <desc>故事改編自真實事件。報社接獲一宗有關殘疾院舍「彩橋之家」虐待院友的線報，偵查小組為揭露殘疾院舍監管問題，派記者曉琪潛入院舍，揭發內裡的非人道生活，尋找日光之下的殘酷真相。</desc>
+  <programme start="20260309075000 +0800" stop="20260309100500 +0800" channel="LS-Time電影台">
+    <title>同謀</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302062000 +0800" stop="20260302081000 +0800" channel="天映頻道">
-    <title>鸚鵡殺</title>
-    <desc>都市白領週冉在一次網戀中，被騙走了55萬。循著騙子留下的蛛絲馬跡，週冉來到沿海小城，並意外結識了兩名青年。週冉漸漸發現二人身上隱藏著自己受騙的線索，一場復仇之計也由此展開.</desc>
+  <programme start="20260309100500 +0800" stop="20260309122500 +0800" channel="LS-Time電影台">
+    <title>火龍</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302081000 +0800" stop="20260302094500 +0800" channel="天映頻道">
-    <title>白髮魔女傳</title>
-    <desc>武當掌門命令弟子卓一航對抗魔宮時，意外遇上曾救過他的練霓裳，兩人再次重燃愛火。原來，練霓裳是魔宮的弟子，為了與卓一航相守，她願意承受酷刑離開魔宮。然而，當卓一航在混亂中重傷了練霓裳，讓她心如死灰。正邪之戰一觸即發！</desc>
+  <programme start="20260309122500 +0800" stop="20260309145500 +0800" channel="LS-Time電影台">
+    <title>黃飛鴻3之獅王爭霸</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302094500 +0800" stop="20260302114000 +0800" channel="天映頻道">
-    <title>阿索的故事</title>
-    <desc>天生樂觀的阿索與志高已到談婚論嫁，但志高竟與她好友琪琪出軌。分手後，阿索發奮實現夢想，成為巴士司機。一年後，阿索收到志高與琪琪的喜帖，同時琪琪的前男友振民亦找阿索加入他的復仇大計去揭發琪琪是騙子。究竟阿索會否借著復仇機會來個中女大翻新?</desc>
+  <programme start="20260309145500 +0800" stop="20260309165000 +0800" channel="LS-Time電影台">
+    <title>大丈夫日記</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302114000 +0800" stop="20260302132500 +0800" channel="天映頻道">
-    <title>全員嫌疑人</title>
-    <desc>一名員警趁休假入住民宿，同宿的還有偵探小說家、流浪漢和鋼琴師。然而，當民宿主人和接待員相繼遇害，這片原本寧靜的地方頓時籠罩在重重疑雲之中。如今，每位住客既是嫌疑人，也是偵探——他們各自隱藏的秘密，都足以揭開整個謎團的真相。</desc>
+  <programme start="20260309165000 +0800" stop="20260309190000 +0800" channel="LS-Time電影台">
+    <title>大小不良</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302132500 +0800" stop="20260302150500 +0800" channel="天映頻道">
-    <title>Z風暴</title>
-    <desc>廉政公署首席調查主任陸志廉接手調查一宗警司貪污案，當調查漸有頭緒時，重要證人一一被殺。但陸志廉並未放棄，追查下發現事件與一個龐大的貪污集團有關，更牽涉香港政府的150億「關懷基金」。廉政公署誓要跟幕後黑手鬥智鬥力，還香港一個廉潔都市的稱號。</desc>
+  <programme start="20260309190000 +0800" stop="20260309210000 +0800" channel="LS-Time電影台">
+    <title>大搜查之女</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302150500 +0800" stop="20260302170000 +0800" channel="天映頻道">
-    <title>鹿鼎記</title>
-    <desc>韋小寶被反清複明的“天地會”被派到皇宮當臥底，受命查探四十二章經下落。韋小寶很快成為康熙皇帝的心腹，但他既要執行天地會的任務，最後陷入兩難的狀態。</desc>
+  <programme start="20260309210000 +0800" stop="20260309231500 +0800" channel="LS-Time電影台">
+    <title>八婆遇見鬼</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302170000 +0800" stop="20260302184500 +0800" channel="天映頻道">
-    <title>龍虎門</title>
-    <desc>改編自著名香港漫畫，王小虎誤取羅剎令後慘被伏擊，幸得兄長王小龍所救，同時亦與少年石黑龍結成生死之交。為報龍虎門師傅被殺之痛，三人潛心修煉，誓要與羅剎教教主火雲邪神決一死戰。</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20260303000000 +0800" stop="20260303005000 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20260302184500 +0800" stop="20260302210000 +0800" channel="天映頻道">
-    <title>阿媽有咗第二個</title>
-    <desc>當紅的金牌經理人美鳳退休後相夫教子，某天決定重操故業，藉以尋回人生價值。一次偶然的機會讓她成功發掘茶餐廳送外賣的方晴，令他成為大眾的年輕偶像。然而這卻令兒子感到被冷落，從而非常妒忌方晴。</desc>
+  <programme start="20260303005000 +0800" stop="20260303031000 +0800" channel="天映頻道">
+    <title>緊急救援</title>
+    <desc>⼀座海上鑽井平臺發⽣嚴重事故，隨時可能傾覆沉沒，交通海上應急反應特勤隊全體隊員迅速前往救援。時間緊迫，隊長⾼謙率領搜救直升機迎著此起彼伏的爆炸和沖天咆哮的⽕龍，飛進平臺範圍，⽤最危險的⽅式深⼊絕境，拯救倖存者。</desc>
   </programme>
-  <programme start="20260302210000 +0800" stop="20260302231000 +0800" channel="天映頻道">
-    <title>龍馬精神</title>
-    <desc>一位生活落魄的武師訓練愛馬為一匹可表演特技的馬，但為抵償欠債，他可能會失去愛馬。武師唯有向疏離多年的女兒求助，兩人也因此得到一次和解的機會。</desc>
+  <programme start="20260303031000 +0800" stop="20260303050500 +0800" channel="天映頻道">
+    <title>命案</title>
+    <desc>命理大師遇上嗜血成狂的小東，並算出他會因殺人而有牢獄之災，於是竭盡所能為他改命。但目擊小東殺貓的老警官堅信他是心理變態的連環兇手而步步進逼。最終命理大師能否改變小東的命運？</desc>
   </programme>
-  <programme start="20260302231000 +0800" stop="20260303000000 +0800" channel="天映頻道">
-    <title>多樂路</title>
-    <desc>東北某小城，一家麻辣湯館每天都迎來不同的客人。這些客人中有如膠似漆的小情侶，兩名放蕩不羈的青年和一位的士司機。他們本是毫無交集的人，卻因為一場交通事故牽扯在一起…</desc>
+  <programme start="20260303050500 +0800" stop="20260303065500 +0800" channel="天映頻道">
+    <title>男人四十</title>
+    <desc>40歲的中學老師林耀國正面對中年危機，婚姻問題，還有與主動送愛的熱情學生胡彩藍發生的師生戀。但林耀國的太太卻只關心其身患重病的前度，原來他們當中有段複雜的過去一直影響著林氏夫婦…</desc>
   </programme>
-  <programme start="20260303000000 +0800" stop="20260303011000 +0800" channel="天映頻道">
-    <title>多樂路</title>
-    <desc>東北某小城，一家麻辣湯館每天都迎來不同的客人。這些客人中有如膠似漆的小情侶，兩名放蕩不羈的青年和一位的士司機。他們本是毫無交集的人，卻因為一場交通事故牽扯在一起…</desc>
+  <programme start="20260303065500 +0800" stop="20260303090500 +0800" channel="天映頻道">
+    <title>死屍死時四十四</title>
+    <desc>這部黑色喜劇始於一具來歷不明的屍體被發現在一個住宅單位門前，同層的四家人擔心屍體會令居所變成兇宅，使樓價大跌，從而捲入了將屍體運走的大混亂中。</desc>
+  </programme>
+  <programme start="20260303090500 +0800" stop="20260303112000 +0800" channel="天映頻道">
+    <title>金手指</title>
+    <desc>電影取材自80年代香港最大宗的財經醜聞，講述程一言由一個寂寂無名的小嘍囉一躍而成為億萬富豪，並擔任上市公司主席的故事。然而，當程一言的財富瘋狂飆升，勢力日益壯大時，廉署高級調查主任劉啟源決定介入調查，即使花了長達15年時間，也誓要找出真相。</desc>
+  </programme>
+  <programme start="20260303112000 +0800" stop="20260303132500 +0800" channel="天映頻道">
+    <title>海關戰線</title>
+    <desc>香港海關查獲一艘非法貨船，發現所有船員已經遇難，船上藏有大量與國際衝突相關的非法武器。海關調查員週正禮與國際刑警阿盈攜手潛入該組織，揭露香港與這跨國行動之間的驚人內幕。</desc>
+  </programme>
+  <programme start="20260303132500 +0800" stop="20260303152500 +0800" channel="天映頻道">
+    <title>犀利人妻最終回: 幸福男·不難</title>
+    <desc>安真與出軌的丈夫離婚，四年後卻面臨關鍵的抉擇：究竟是回到前夫身邊試著重燃昔日的愛火，還是與新歡一起踏入人生新的一頁？</desc>
+  </programme>
+  <programme start="20260303152500 +0800" stop="20260303171000 +0800" channel="天映頻道">
+    <title>困獸</title>
+    <desc>為了整頓已經紛亂不堪的地下博彩業，警方聯合博彩協會展開打擊地下賭場的嚴厲行動，並將新建賭場經營權以拍賣的形式處理，重新整頓博彩業。由於不一樣的拍賣引發賭城風雲變遷，不為人知的利益和秘密跟著被揭露，更引起各方人馬的衝突…</desc>
+  </programme>
+  <programme start="20260303171000 +0800" stop="20260303192000 +0800" channel="天映頻道">
+    <title>拯救嫌疑人</title>
+    <desc>女律師陳智琪在女兒被綁架後，接到神秘電話要求她為一位元謀殺案嫌疑犯辯護，只有官司勝訴後才可救回女兒。陳智琪聯同警員展開調查並找出證據，最終成功揭露事情的真相及幕後黑手的身份。陳智琪最後能否及時營救女兒？</desc>
+  </programme>
+  <programme start="20260303192000 +0800" stop="20260303210000 +0800" channel="天映頻道">
+    <title>無間行者之生死潛行</title>
+    <desc>黑幫丁卓飛與反黑隊督察段一凡是雙方安插對方陣營的臥底。經歷了十年臥底，丁開始厭倦臥底工作，而段在反黑組步步高升，反開始想做一個真正的員警，並計畫要擺脫黑幫。黑幫老大設騙局找出雙方叛徒，一黑一白兩個員警，各自為自己的正義之途，走上你死我亡的對峙局面。</desc>
+  </programme>
+  <programme start="20260303210000 +0800" stop="20260303230500 +0800" channel="天映頻道">
+    <title>遊龍戲鳳</title>
+    <desc>世上，每個人都在尋找一顆屬於自己的星星，讓它能照亮自己的生命，也照亮身邊所有人。程仲森(劉德華飾)，盛傳26歲的他因為會「執垃圾」，而考進了美國頂級基金公司。未夠二十年，已躍登首位華人主席，他本身就是一個傳奇！曾三度結婚，三度離婚。仲森多年來，身邊都有一班忠心的智囊團伴隨左右，當他以為"愛情"不會再在他身上發生，他竟在澳門碰上了他的"星星"米蘭。米蘭(舒淇飾)，生長在單親家庭，與爛賭阿姨、姨丈同住。自少過著獨立生活，她從小就有一個心願，就是儲錢去紐約學跳舞，平日在賭場做荷官，閒時兼職為舞蹈團做一些樂而不淫的"豔舞表演"。每段情都有它們的"第一次"。賭場的大廳是仲森第一次遇上米蘭的地方，二人間的火花在瞬間爆發。無心的相遇，卻換來理所當然的相愛，望著米蘭的舞姿，仲森為她第一次的心動，縱使當時米蘭還以為仲森是一名普通的爛賭仔...</desc>
+  </programme>
+  <programme start="20260303230500 +0800" stop="20260304000000 +0800" channel="天映頻道">
+    <title>混世四猴：神猴歸來</title>
+    <desc>世人心目中的救世主靈明石猴，曾給一位絕望中的小女孩一個從沒兌現的希望，讓她一直深深牽掛。直至多年後，靈明石猴在與三眼戰神激戰後，被打破金身墮入凡塵，因而喪失神力。靈明石猴能否補償當年小女孩的承諾？又可會破壞木神禍亂人間的陰謀？</desc>
+  </programme>
+  <programme start="20260304000000 +0800" stop="20260304010500 +0800" channel="天映頻道">
+    <title>混世四猴：神猴歸來</title>
+    <desc>世人心目中的救世主靈明石猴，曾給一位絕望中的小女孩一個從沒兌現的希望，讓她一直深深牽掛。直至多年後，靈明石猴在與三眼戰神激戰後，被打破金身墮入凡塵，因而喪失神力。靈明石猴能否補償當年小女孩的承諾？又可會破壞木神禍亂人間的陰謀？</desc>
   </programme>
 </tv>
