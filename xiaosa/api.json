@@ -68,6 +68,16 @@
             "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
         },
         {
+            "key": "久久",
+            "name": "久久｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://99cms.jj99.icu:8199/api.php/app/"
+        },
+        {
             "key": "奴娜",
             "name": "奴娜丨APP",
             "type": 3,
@@ -117,40 +127,6 @@
             "filterable": 1,
             "playerType": 2,
             "ext": "http://chaoqianys.top:91/api.php/app/"
-        },
-        {
-            "key": "恋鱼",
-            "name": "恋鱼｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "http://103.117.137.33:2443",
-                "ver": 2
-            }
-        },
-        {
-            "key": "云播",
-            "name": "云播｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "http://app.hktvyb.cc"
-            }
-        },
-        {
-            "key": "火猫",
-            "name": "火猫｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/fox.json"
-            }
         },
         {
             "key": "云朵",
@@ -399,19 +375,6 @@
                 "site": "https://bind.315999.xyz/89.txt",
                 "dataKey": "#getapp@TMD@2025",
                 "dataIv": "#getapp@TMD@2025"
-            }
-        },
-        {
-            "key": "驿站",
-            "name": "驿站｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
-                "dataKey": "dyyztvapiappyyds",
-                "dataIv": "dyyztvapiappyyds"
             }
         },
         {
@@ -1253,7 +1216,7 @@
             "key": "UC云盘",
             "name": "我的｜UC",
             "type": 3,
-            "api": "csp_PanUc",
+            "api": "csp_PanUC",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -1266,7 +1229,7 @@
             "key": "百度云盘",
             "name": "我的｜百度",
             "type": 3,
-            "api": "csp_PanBaiDu",
+            "api": "csp_PanBaidu",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
