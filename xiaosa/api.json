@@ -55,12 +55,6 @@
             "api": "csp_App3Q"
         },
         {
-            "key": "坚果影视",
-            "name": "坚果｜APP",
-            "type": 3,
-            "api": "csp_AppJg"
-        },
-        {
             "key": "韩圈",
             "name": "韩圈｜APP",
             "type": 3,
@@ -96,16 +90,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
-        },
-        {
-            "key": "极影",
-            "name": "极影｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://101.201.171.207:802/api.php/app/"
         },
         {
             "key": "超前",
@@ -760,17 +744,6 @@
             "genre": "shortdrama"
         },
         {
-            "key": "星阁短剧",
-            "name": "星阁｜短剧",
-            "type": 3,
-            "api": "csp_XinggeDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "genre": "shortdrama"
-        },
-        {
             "key": "星芽短剧",
             "name": "星芽｜短剧",
             "type": 3,
@@ -791,6 +764,12 @@
             "quickSearch": 1,
             "filterable": 1,
             "genre": "shortdrama"
+        },
+        {
+            "key": "独播影视",
+            "name": "独播｜影视",
+            "type": 3,
+            "api": "csp_Duboku"
         },
         {
             "key": "厂长影视",
@@ -815,12 +794,6 @@
             "type": 3,
             "api": "csp_Tvyb",
             "ext": "http://www.tvyb03.com"
-        },
-        {
-            "key": "饺子影视",
-            "name": "饺子｜影视",
-            "type": 3,
-            "api": "csp_Jiaozi"
         },
         {
             "key": "瓜子影视",
@@ -1202,16 +1175,6 @@
             "timeout": 60
         },
         {
-            "key": "酷乐",
-            "name": "酷乐｜搜索",
-            "type": 3,
-            "api": "csp_KuLe",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
             "key": "鬼鬼",
             "name": "鬼鬼｜搜索",
             "type": 3,
@@ -1226,16 +1189,6 @@
             "name": "混合｜搜索",
             "type": 3,
             "api": "csp_HunHePan",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
-            "key": "兄弟",
-            "name": "兄弟｜搜索",
-            "type": 3,
-            "api": "csp_XiongDiPan",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
