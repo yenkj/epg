@@ -3,391 +3,323 @@
   <channel id="龍華卡通台">
     <display-name>龍華卡通台</display-name>
   </channel>
-  <programme start="20260423233000 +0800" stop="20260424000000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424000000 +0800" stop="20260424003000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424003000 +0800" stop="20260424010000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424010000 +0800" stop="20260424013000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424013000 +0800" stop="20260424020000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424020000 +0800" stop="20260424023000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424023000 +0800" stop="20260424030000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424030000 +0800" stop="20260424033000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424033000 +0800" stop="20260424040000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424040000 +0800" stop="20260424043000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424043000 +0800" stop="20260424050000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424050000 +0800" stop="20260424053000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424053000 +0800" stop="20260424060000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424060000 +0800" stop="20260424063000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424063000 +0800" stop="20260424070000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424070000 +0800" stop="20260424073000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424073000 +0800" stop="20260424080000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424080000 +0800" stop="20260424083000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424083000 +0800" stop="20260424090000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424090000 +0800" stop="20260424093000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424093000 +0800" stop="20260424100000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424100000 +0800" stop="20260424103000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424103000 +0800" stop="20260424110000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424110000 +0800" stop="20260424113000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424113000 +0800" stop="20260424120000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424120000 +0800" stop="20260424123000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424123000 +0800" stop="20260424130000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424130000 +0800" stop="20260424133000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424133000 +0800" stop="20260424140000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424140000 +0800" stop="20260424143000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424143000 +0800" stop="20260424150000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424150000 +0800" stop="20260424153000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424153000 +0800" stop="20260424160000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424160000 +0800" stop="20260424163000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424163000 +0800" stop="20260424170000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424170000 +0800" stop="20260424173000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424173000 +0800" stop="20260424180000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424180000 +0800" stop="20260424183000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424183000 +0800" stop="20260424190000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424190000 +0800" stop="20260424193000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424193000 +0800" stop="20260424200000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424200000 +0800" stop="20260424203000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424203000 +0800" stop="20260424210000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424210000 +0800" stop="20260424213000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424213000 +0800" stop="20260424220000 +0800" channel="龍華卡通台">
-    <title>搗蛋拉茶鋪</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424220000 +0800" stop="20260424223000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424223000 +0800" stop="20260424230000 +0800" channel="龍華卡通台">
-    <title>夢怪護衛隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424230000 +0800" stop="20260424233000 +0800" channel="龍華卡通台">
-    <title>森林偵探</title>
-    <desc></desc>
-  </programme>
   <programme start="20260424233000 +0800" stop="20260425000000 +0800" channel="龍華卡通台">
     <title>森林偵探</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425000000 +0800" stop="20260425003000 +0800" channel="龍華卡通台">
+    <title>酷奇銀河遊騎隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425003000 +0800" stop="20260425010000 +0800" channel="龍華卡通台">
+    <title>酷奇銀河遊騎隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425010000 +0800" stop="20260425013000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425013000 +0800" stop="20260425020000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425020000 +0800" stop="20260425023000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425023000 +0800" stop="20260425030000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425030000 +0800" stop="20260425033000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425033000 +0800" stop="20260425040000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425040000 +0800" stop="20260425043000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425043000 +0800" stop="20260425050000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425050000 +0800" stop="20260425053000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425053000 +0800" stop="20260425060000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425060000 +0800" stop="20260425063000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425063000 +0800" stop="20260425070000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425070000 +0800" stop="20260425073000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425073000 +0800" stop="20260425080000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425080000 +0800" stop="20260425083000 +0800" channel="龍華卡通台">
+    <title>酷奇銀河遊騎隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425083000 +0800" stop="20260425090000 +0800" channel="龍華卡通台">
+    <title>酷奇銀河遊騎隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425090000 +0800" stop="20260425093000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425093000 +0800" stop="20260425100000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425100000 +0800" stop="20260425103000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425103000 +0800" stop="20260425110000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425110000 +0800" stop="20260425113000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425113000 +0800" stop="20260425120000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425120000 +0800" stop="20260425123000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425123000 +0800" stop="20260425130000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425130000 +0800" stop="20260425133000 +0800" channel="龍華卡通台">
+    <title>酷奇銀河遊騎隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425133000 +0800" stop="20260425140000 +0800" channel="龍華卡通台">
+    <title>酷奇銀河遊騎隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425140000 +0800" stop="20260425143000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425143000 +0800" stop="20260425150000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425150000 +0800" stop="20260425153000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425153000 +0800" stop="20260425160000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425160000 +0800" stop="20260425163000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425163000 +0800" stop="20260425170000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425170000 +0800" stop="20260425173000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425173000 +0800" stop="20260425180000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425180000 +0800" stop="20260425183000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425183000 +0800" stop="20260425190000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425190000 +0800" stop="20260425193000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425193000 +0800" stop="20260425200000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425200000 +0800" stop="20260425203000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425203000 +0800" stop="20260425210000 +0800" channel="龍華卡通台">
+    <title>百變校巴之超學先鋒S3</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425210000 +0800" stop="20260425213000 +0800" channel="龍華卡通台">
+    <title>酷奇銀河遊騎隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425213000 +0800" stop="20260425220000 +0800" channel="龍華卡通台">
+    <title>酷奇銀河遊騎隊</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425220000 +0800" stop="20260425223000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425223000 +0800" stop="20260425230000 +0800" channel="龍華卡通台">
+    <title>小小動物歷險記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425230000 +0800" stop="20260425233000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425233000 +0800" stop="20260426000000 +0800" channel="龍華卡通台">
+    <title>魔法小廚師</title>
     <desc></desc>
   </programme>
   <channel id="龍華日韓台">
     <display-name>龍華日韓台</display-name>
   </channel>
-  <programme start="20260423230000 +0800" stop="20260424000000 +0800" channel="龍華日韓台">
-    <title>暖陽之下</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424000000 +0800" stop="20260424020000 +0800" channel="龍華日韓台">
-    <title>人偶之家</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424020000 +0800" stop="20260424030000 +0800" channel="龍華日韓台">
-    <title>優雅的朋友們</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424030000 +0800" stop="20260424040000 +0800" channel="龍華日韓台">
-    <title>暖陽之下</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424040000 +0800" stop="20260424060000 +0800" channel="龍華日韓台">
-    <title>白夜童話</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424060000 +0800" stop="20260424080000 +0800" channel="龍華日韓台">
-    <title>吹吧微風</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424080000 +0800" stop="20260424100000 +0800" channel="龍華日韓台">
-    <title>白夜童話</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424100000 +0800" stop="20260424120000 +0800" channel="龍華日韓台">
-    <title>優雅的朋友們</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424120000 +0800" stop="20260424140000 +0800" channel="龍華日韓台">
-    <title>吹吧微風</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424140000 +0800" stop="20260424160000 +0800" channel="龍華日韓台">
-    <title>人偶之家</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424160000 +0800" stop="20260424170000 +0800" channel="龍華日韓台">
-    <title>暖陽之下</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424170000 +0800" stop="20260424190000 +0800" channel="龍華日韓台">
-    <title>白夜童話</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424190000 +0800" stop="20260424200000 +0800" channel="龍華日韓台">
-    <title>優雅的朋友們</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424200000 +0800" stop="20260424220000 +0800" channel="龍華日韓台">
-    <title>吹吧微風</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424220000 +0800" stop="20260424230000 +0800" channel="龍華日韓台">
-    <title>優雅的朋友們</title>
-    <desc></desc>
-  </programme>
   <programme start="20260424230000 +0800" stop="20260425000000 +0800" channel="龍華日韓台">
     <title>暖陽之下</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425000000 +0800" stop="20260425030000 +0800" channel="龍華日韓台">
+    <title>粉紅色口紅</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425030000 +0800" stop="20260425050000 +0800" channel="龍華日韓台">
+    <title>家宴</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425050000 +0800" stop="20260425070000 +0800" channel="龍華日韓台">
+    <title>生活家</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425070000 +0800" stop="20260425093000 +0800" channel="龍華日韓台">
+    <title>絕妙的遺產</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425093000 +0800" stop="20260425100000 +0800" channel="龍華日韓台">
+    <title>名人初乃玩</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425100000 +0800" stop="20260425120000 +0800" channel="龍華日韓台">
+    <title>家宴</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425120000 +0800" stop="20260425133000 +0800" channel="龍華日韓台">
+    <title>生活家</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425133000 +0800" stop="20260425140000 +0800" channel="龍華日韓台">
+    <title>名人初乃玩</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425140000 +0800" stop="20260425170000 +0800" channel="龍華日韓台">
+    <title>粉紅色口紅</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425170000 +0800" stop="20260425200000 +0800" channel="龍華日韓台">
+    <title>絕妙的遺產</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425200000 +0800" stop="20260425213000 +0800" channel="龍華日韓台">
+    <title>生活家</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425213000 +0800" stop="20260425220000 +0800" channel="龍華日韓台">
+    <title>名人初乃玩</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425220000 +0800" stop="20260426000000 +0800" channel="龍華日韓台">
+    <title>家宴</title>
     <desc></desc>
   </programme>
   <channel id="龍華偶像台">
     <display-name>龍華偶像台</display-name>
   </channel>
-  <programme start="20260423220000 +0800" stop="20260424000000 +0800" channel="龍華偶像台">
-    <title>兩個人的小森林(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424000000 +0800" stop="20260424020000 +0800" channel="龍華偶像台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424020000 +0800" stop="20260424030000 +0800" channel="龍華偶像台">
-    <title>先熱情地打掃吧(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424030000 +0800" stop="20260424040000 +0800" channel="龍華偶像台">
-    <title>君九齡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424040000 +0800" stop="20260424060000 +0800" channel="龍華偶像台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424060000 +0800" stop="20260424080000 +0800" channel="龍華偶像台">
-    <title>兩個人的小森林(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424080000 +0800" stop="20260424090000 +0800" channel="龍華偶像台">
-    <title>先熱情地打掃吧(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424090000 +0800" stop="20260424110000 +0800" channel="龍華偶像台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424110000 +0800" stop="20260424120000 +0800" channel="龍華偶像台">
-    <title>君九齡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424120000 +0800" stop="20260424140000 +0800" channel="龍華偶像台">
-    <title>兩個人的小森林(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424140000 +0800" stop="20260424150000 +0800" channel="龍華偶像台">
-    <title>先熱情地打掃吧</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424150000 +0800" stop="20260424160000 +0800" channel="龍華偶像台">
-    <title>先熱情地打掃吧(完)</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424160000 +0800" stop="20260424180000 +0800" channel="龍華偶像台">
-    <title>奔跑吧薔薇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424180000 +0800" stop="20260424200000 +0800" channel="龍華偶像台">
-    <title>請叫我總監</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424200000 +0800" stop="20260424210000 +0800" channel="龍華偶像台">
-    <title>我把社長解鎖了</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424210000 +0800" stop="20260424220000 +0800" channel="龍華偶像台">
-    <title>君九齡</title>
-    <desc></desc>
-  </programme>
   <programme start="20260424220000 +0800" stop="20260425000000 +0800" channel="龍華偶像台">
     <title>請叫我總監</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425000000 +0800" stop="20260425020000 +0800" channel="龍華偶像台">
+    <title>當你沉睡時</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425020000 +0800" stop="20260425040000 +0800" channel="龍華偶像台">
+    <title>另一種藍(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425040000 +0800" stop="20260425060000 +0800" channel="龍華偶像台">
+    <title>南風知我意</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425060000 +0800" stop="20260425083000 +0800" channel="龍華偶像台">
+    <title>六龍飛天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425083000 +0800" stop="20260425100000 +0800" channel="龍華偶像台">
+    <title>大學成人式-被不良少年迷住3-</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425100000 +0800" stop="20260425120000 +0800" channel="龍華偶像台">
+    <title>南風知我意</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425120000 +0800" stop="20260425140000 +0800" channel="龍華偶像台">
+    <title>當你沉睡時</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425140000 +0800" stop="20260425160000 +0800" channel="龍華偶像台">
+    <title>玉面桃花總相逢</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425160000 +0800" stop="20260425173000 +0800" channel="龍華偶像台">
+    <title>大學成人式-被不良少年迷住3-</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425173000 +0800" stop="20260425203000 +0800" channel="龍華偶像台">
+    <title>六龍飛天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425203000 +0800" stop="20260425210000 +0800" channel="龍華偶像台">
+    <title>大學成人式-被不良少年迷住3-(完)</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425210000 +0800" stop="20260425220000 +0800" channel="龍華偶像台">
+    <title>人氣封鎖中:User Not Found</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260425220000 +0800" stop="20260426000000 +0800" channel="龍華偶像台">
+    <title>南風知我意</title>
     <desc></desc>
   </programme>
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260424000000 +0800" stop="20260424013000 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424013000 +0800" stop="20260424041000 +0800" channel="LS-Time電影台">
-    <title>告別單身</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424041000 +0800" stop="20260424063000 +0800" channel="LS-Time電影台">
-    <title>法內情完結篇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424063000 +0800" stop="20260424092500 +0800" channel="LS-Time電影台">
-    <title>詐欺獵人</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424092500 +0800" stop="20260424114500 +0800" channel="LS-Time電影台">
-    <title>刀馬旦</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424114500 +0800" stop="20260424141000 +0800" channel="LS-Time電影台">
-    <title>神探蒲松齡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424141000 +0800" stop="20260424162500 +0800" channel="LS-Time電影台">
-    <title>合家歡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424162500 +0800" stop="20260424184500 +0800" channel="LS-Time電影台">
-    <title>黃埔軍魂</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424184500 +0800" stop="20260424210000 +0800" channel="LS-Time電影台">
-    <title>威龍闖天關</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424210000 +0800" stop="20260424232500 +0800" channel="LS-Time電影台">
-    <title>笑傲江湖2東方不敗</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260424235500 +0800" stop="20260425000000 +0800" channel="LS-Time電影台">
-    <title>赤裸武器</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260425000000 +0800" stop="20260425015000 +0800" channel="LS-Time電影台">
-    <title>赤裸武器</title>
-    <desc></desc>
-  </programme>
   <programme start="20260425000000 +0800" stop="20260425015000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
@@ -480,92 +412,176 @@
     <title>香港第一凶宅</title>
     <desc></desc>
   </programme>
+  <programme start="20260426233500 +0800" stop="20260427000000 +0800" channel="LS-Time電影台">
+    <title>藍色霹靂火</title>
+    <desc></desc>
+  </programme>
   <programme start="20260427000000 +0800" stop="20260427010000 +0800" channel="LS-Time電影台">
     <title>香港第一凶宅</title>
     <desc></desc>
   </programme>
-  <programme start="20260427000000 +0800" stop="20260427011500 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
+  <programme start="20260427000000 +0800" stop="20260427013500 +0800" channel="LS-Time電影台">
+    <title>藍色霹靂火</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260427011500 +0800" stop="20260427032000 +0800" channel="LS-Time電影台">
+    <title>精靈變</title>
     <desc></desc>
   </programme>
   <programme start="20260427011500 +0800" stop="20260427032500 +0800" channel="LS-Time電影台">
     <title>鬼抓人</title>
     <desc></desc>
   </programme>
+  <programme start="20260427032000 +0800" stop="20260427054000 +0800" channel="LS-Time電影台">
+    <title>大追擊</title>
+    <desc></desc>
+  </programme>
   <programme start="20260427032500 +0800" stop="20260427062500 +0800" channel="LS-Time電影台">
     <title>我是路人甲</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260427054000 +0800" stop="20260427074500 +0800" channel="LS-Time電影台">
+    <title>咖哩玫瑰</title>
     <desc></desc>
   </programme>
   <programme start="20260427062500 +0800" stop="20260427085500 +0800" channel="LS-Time電影台">
     <title>功夫棒球</title>
     <desc></desc>
   </programme>
+  <programme start="20260427074500 +0800" stop="20260427103500 +0800" channel="LS-Time電影台">
+    <title>風雲雄霸天下</title>
+    <desc></desc>
+  </programme>
   <programme start="20260427085500 +0800" stop="20260427113000 +0800" channel="LS-Time電影台">
     <title>這個殺手演很大</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260427103500 +0800" stop="20260427123500 +0800" channel="LS-Time電影台">
+    <title>親家過年</title>
     <desc></desc>
   </programme>
   <programme start="20260427113000 +0800" stop="20260427134500 +0800" channel="LS-Time電影台">
     <title>最佳損友</title>
     <desc></desc>
   </programme>
+  <programme start="20260427123500 +0800" stop="20260427143500 +0800" channel="LS-Time電影台">
+    <title>小生怕怕</title>
+    <desc></desc>
+  </programme>
   <programme start="20260427134500 +0800" stop="20260427161500 +0800" channel="LS-Time電影台">
     <title>金枝玉葉2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260427143500 +0800" stop="20260427163500 +0800" channel="LS-Time電影台">
+    <title>老么真命苦</title>
     <desc></desc>
   </programme>
   <programme start="20260427161500 +0800" stop="20260427183000 +0800" channel="LS-Time電影台">
     <title>人妖打排球</title>
     <desc></desc>
   </programme>
+  <programme start="20260427163500 +0800" stop="20260427184500 +0800" channel="LS-Time電影台">
+    <title>芭啦芭啦櫻之花</title>
+    <desc></desc>
+  </programme>
   <programme start="20260427183000 +0800" stop="20260427210000 +0800" channel="LS-Time電影台">
     <title>殭屍家族</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260427184500 +0800" stop="20260427210000 +0800" channel="LS-Time電影台">
+    <title>逃學威龍</title>
     <desc></desc>
   </programme>
   <programme start="20260427210000 +0800" stop="20260427231000 +0800" channel="LS-Time電影台">
     <title>報告班長</title>
     <desc></desc>
   </programme>
+  <programme start="20260427210000 +0800" stop="20260427233500 +0800" channel="LS-Time電影台">
+    <title>八百壯士</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260427230000 +0800" stop="20260428000000 +0800" channel="LS-Time電影台">
+    <title>四月四日鬼故事</title>
+    <desc></desc>
+  </programme>
   <programme start="20260427231000 +0800" stop="20260428000000 +0800" channel="LS-Time電影台">
     <title>驚魂記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260428000000 +0800" stop="20260428005500 +0800" channel="LS-Time電影台">
+    <title>四月四日鬼故事</title>
     <desc></desc>
   </programme>
   <programme start="20260428000000 +0800" stop="20260428011000 +0800" channel="LS-Time電影台">
     <title>驚魂記</title>
     <desc></desc>
   </programme>
-  <programme start="20260428000000 +0800" stop="20260428010000 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
   <programme start="20260428010000 +0800" stop="20260428031000 +0800" channel="LS-Time電影台">
     <title>狂賭一族出頭天</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260428013500 +0800" stop="20260428034500 +0800" channel="LS-Time電影台">
+    <title>開心鬼</title>
     <desc></desc>
   </programme>
   <programme start="20260428031000 +0800" stop="20260428045000 +0800" channel="LS-Time電影台">
     <title>人肉香腸</title>
     <desc></desc>
   </programme>
+  <programme start="20260428034500 +0800" stop="20260428054500 +0800" channel="LS-Time電影台">
+    <title>藍煙火</title>
+    <desc></desc>
+  </programme>
   <programme start="20260428045000 +0800" stop="20260428070000 +0800" channel="LS-Time電影台">
     <title>新天生一對</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260428054500 +0800" stop="20260428075000 +0800" channel="LS-Time電影台">
+    <title>吉屋藏嬌</title>
     <desc></desc>
   </programme>
   <programme start="20260428070000 +0800" stop="20260428085500 +0800" channel="LS-Time電影台">
     <title>刀劍笑</title>
     <desc></desc>
   </programme>
+  <programme start="20260428075000 +0800" stop="20260428095000 +0800" channel="LS-Time電影台">
+    <title>正牌韋小寶之奉旨溝女</title>
+    <desc></desc>
+  </programme>
   <programme start="20260428085500 +0800" stop="20260428111500 +0800" channel="LS-Time電影台">
     <title>我的志願</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260428095000 +0800" stop="20260428115500 +0800" channel="LS-Time電影台">
+    <title>光頭神探賊狀元</title>
     <desc></desc>
   </programme>
   <programme start="20260428111500 +0800" stop="20260428135000 +0800" channel="LS-Time電影台">
     <title>我知女人心</title>
     <desc></desc>
   </programme>
+  <programme start="20260428115500 +0800" stop="20260428135500 +0800" channel="LS-Time電影台">
+    <title>人鬼神</title>
+    <desc></desc>
+  </programme>
   <programme start="20260428135000 +0800" stop="20260428162500 +0800" channel="LS-Time電影台">
     <title>大上海</title>
     <desc></desc>
   </programme>
+  <programme start="20260428135500 +0800" stop="20260428162000 +0800" channel="LS-Time電影台">
+    <title>菜鳥警校生</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260428162000 +0800" stop="20260428182500 +0800" channel="LS-Time電影台">
+    <title>單身貴族</title>
+    <desc></desc>
+  </programme>
   <programme start="20260428162500 +0800" stop="20260428185500 +0800" channel="LS-Time電影台">
     <title>八二三炮戰</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260428182500 +0800" stop="20260428210000 +0800" channel="LS-Time電影台">
+    <title>花木蘭</title>
     <desc></desc>
   </programme>
   <programme start="20260428185500 +0800" stop="20260428210000 +0800" channel="LS-Time電影台">
@@ -576,111 +592,259 @@
     <title>春秋茶室</title>
     <desc></desc>
   </programme>
+  <programme start="20260428210000 +0800" stop="20260428230000 +0800" channel="LS-Time電影台">
+    <title>螢火蟲之墓</title>
+    <desc></desc>
+  </programme>
   <programme start="20260428231000 +0800" stop="20260429000000 +0800" channel="LS-Time電影台">
     <title>進擊的巨人2-世界終結</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260428232000 +0800" stop="20260429000000 +0800" channel="LS-Time電影台">
+    <title>追夢人</title>
     <desc></desc>
   </programme>
   <programme start="20260429000000 +0800" stop="20260429011000 +0800" channel="LS-Time電影台">
     <title>進擊的巨人2-世界終結</title>
     <desc></desc>
   </programme>
+  <programme start="20260429000000 +0800" stop="20260429012000 +0800" channel="LS-Time電影台">
+    <title>追夢人</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260429005500 +0800" stop="20260429031500 +0800" channel="LS-Time電影台">
+    <title>刺客聶隱娘</title>
+    <desc></desc>
+  </programme>
   <programme start="20260429011000 +0800" stop="20260429035000 +0800" channel="LS-Time電影台">
     <title>兩個油漆匠</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260429031500 +0800" stop="20260429054000 +0800" channel="LS-Time電影台">
+    <title>伊莎貝拉</title>
     <desc></desc>
   </programme>
   <programme start="20260429035000 +0800" stop="20260429064500 +0800" channel="LS-Time電影台">
     <title>死亡預告</title>
     <desc></desc>
   </programme>
+  <programme start="20260429054000 +0800" stop="20260429081000 +0800" channel="LS-Time電影台">
+    <title>錦衣衛</title>
+    <desc></desc>
+  </programme>
   <programme start="20260429064500 +0800" stop="20260429095000 +0800" channel="LS-Time電影台">
     <title>讓子彈飛</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260429081000 +0800" stop="20260429101500 +0800" channel="LS-Time電影台">
+    <title>0099大發財</title>
     <desc></desc>
   </programme>
   <programme start="20260429095000 +0800" stop="20260429114500 +0800" channel="LS-Time電影台">
     <title>校園大作戰</title>
     <desc></desc>
   </programme>
+  <programme start="20260429101500 +0800" stop="20260429123000 +0800" channel="LS-Time電影台">
+    <title>又見阿郎</title>
+    <desc></desc>
+  </programme>
   <programme start="20260429114500 +0800" stop="20260429142000 +0800" channel="LS-Time電影台">
     <title>八百壯士</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260429123000 +0800" stop="20260429144000 +0800" channel="LS-Time電影台">
+    <title>龍鳳鬥</title>
     <desc></desc>
   </programme>
   <programme start="20260429142000 +0800" stop="20260429164500 +0800" channel="LS-Time電影台">
     <title>浪漫風暴</title>
     <desc></desc>
   </programme>
+  <programme start="20260429144000 +0800" stop="20260429164500 +0800" channel="LS-Time電影台">
+    <title>同根生</title>
+    <desc></desc>
+  </programme>
   <programme start="20260429164500 +0800" stop="20260429185000 +0800" channel="LS-Time電影台">
     <title>吉屋藏嬌</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260429164500 +0800" stop="20260429191000 +0800" channel="LS-Time電影台">
+    <title>英雄會少林</title>
     <desc></desc>
   </programme>
   <programme start="20260429185000 +0800" stop="20260429210000 +0800" channel="LS-Time電影台">
     <title>夏日的麼麼茶</title>
     <desc></desc>
   </programme>
+  <programme start="20260429191000 +0800" stop="20260429210000 +0800" channel="LS-Time電影台">
+    <title>大話西遊3</title>
+    <desc></desc>
+  </programme>
   <programme start="20260429210000 +0800" stop="20260429231000 +0800" channel="LS-Time電影台">
     <title>進擊的巨人</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260429210000 +0800" stop="20260429232000 +0800" channel="LS-Time電影台">
+    <title>情癲大聖</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260429232000 +0800" stop="20260430000000 +0800" channel="LS-Time電影台">
+    <title>再世豪哥</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430000000 +0800" stop="20260430011500 +0800" channel="LS-Time電影台">
+    <title>再世豪哥</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430000000 +0800" stop="20260430012000 +0800" channel="LS-Time電影台">
+    <title>無節目資料</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430012000 +0800" stop="20260430031000 +0800" channel="LS-Time電影台">
+    <title>夜驚魂</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430031000 +0800" stop="20260430052500 +0800" channel="LS-Time電影台">
+    <title>我老婆係明星</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430052500 +0800" stop="20260430072500 +0800" channel="LS-Time電影台">
+    <title>重案組之非常任務</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430072500 +0800" stop="20260430093500 +0800" channel="LS-Time電影台">
+    <title>胭脂雙響炮</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430093500 +0800" stop="20260430120500 +0800" channel="LS-Time電影台">
+    <title>四大家族之龍虎兄弟</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430120500 +0800" stop="20260430141500 +0800" channel="LS-Time電影台">
+    <title>水滸傳之英雄本色</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430141500 +0800" stop="20260430162500 +0800" channel="LS-Time電影台">
+    <title>香港教父</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430162500 +0800" stop="20260430184000 +0800" channel="LS-Time電影台">
+    <title>電車男</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430184000 +0800" stop="20260430210000 +0800" channel="LS-Time電影台">
+    <title>王牌神棍</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430210000 +0800" stop="20260430232000 +0800" channel="LS-Time電影台">
+    <title>同謀</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260430233500 +0800" stop="20260501000000 +0800" channel="LS-Time電影台">
+    <title>荷魯斯之眼-王者爭霸</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501000000 +0800" stop="20260501022500 +0800" channel="LS-Time電影台">
+    <title>荷魯斯之眼-王者爭霸</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501011500 +0800" stop="20260501031500 +0800" channel="LS-Time電影台">
+    <title>紙盒藏屍</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501031500 +0800" stop="20260501051500 +0800" channel="LS-Time電影台">
+    <title>創業玩家</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501051500 +0800" stop="20260501072500 +0800" channel="LS-Time電影台">
+    <title>洗黑錢</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501072500 +0800" stop="20260501104000 +0800" channel="LS-Time電影台">
+    <title>太極旗-生死兄弟</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501104000 +0800" stop="20260501123500 +0800" channel="LS-Time電影台">
+    <title>新暫時停止呼吸</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501123500 +0800" stop="20260501143000 +0800" channel="LS-Time電影台">
+    <title>蠻荒的童話</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501143000 +0800" stop="20260501163500 +0800" channel="LS-Time電影台">
+    <title>老表，你好嘢！</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501163500 +0800" stop="20260501185000 +0800" channel="LS-Time電影台">
+    <title>又見阿郎</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501185000 +0800" stop="20260501210000 +0800" channel="LS-Time電影台">
+    <title>逃學威龍2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260501210000 +0800" stop="20260501233500 +0800" channel="LS-Time電影台">
+    <title>富都青年</title>
     <desc></desc>
   </programme>
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20260424000000 +0800" stop="20260424004000 +0800" channel="天映頻道">
+  <programme start="20260425000000 +0800" stop="20260425004000 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260424004000 +0800" stop="20260424021500 +0800" channel="天映頻道">
-    <title>搗破法蘭克</title>
-    <desc>四名戴著兔子面具的年輕劫匪策劃了針對上流社會的搶劫行動。他們自稱「Frank」，目的不是為了金錢，而是透過塗鴉和瘋傳影片揭露貪污的真相。當他們與一個涉及洗黑錢的強大教會組織發生衝突時，行動迅速演變成一場致命的博弈。</desc>
+  <programme start="20260425004000 +0800" stop="20260425030000 +0800" channel="天映頻道">
+    <title>唐探1900</title>
+    <desc>1900年代，美國三藩市唐人街發生白人女子命案，疑兇為一名中國男子。此案引發社會公憤，並有人呼籲封閉唐人街。唐人街神探孖寶秦與福阿鬼在危機四伏的環境中爭分奪秒，誓揭真兇，還原真相。</desc>
   </programme>
-  <programme start="20260424021500 +0800" stop="20260424043000 +0800" channel="天映頻道">
-    <title>前任4: 英年早婚</title>
-    <desc>孟雲和餘飛這對難兄難弟已屆適婚年齡，二人在愛情路上都遭遇挑戰。孟雲經歷分手後被家人催婚，而餘飛和女友為應對婚後挑戰，創立了「結婚冷靜期」以應付可能出現的問題.</desc>
+  <programme start="20260425030000 +0800" stop="20260425050000 +0800" channel="天映頻道">
+    <title>別叫我"賭神"</title>
+    <desc>週潤發飾演倒楣賭場常客吹水輝。他的前女友要求他照顧他們患有自閉症的兒子。隨著吹水輝與兒子一起生活，他也彷佛找到了人生目標。當兒子逐漸展現跑步的天賦時，吹水輝亦下定決心脫離過去的荒唐人生，陪伴兒子展翅圓夢。</desc>
   </programme>
-  <programme start="20260424043000 +0800" stop="20260424061000 +0800" channel="天映頻道">
-    <title>困獸</title>
-    <desc>為了整頓已經紛亂不堪的地下博彩業，警方聯合博彩協會展開打擊地下賭場的嚴厲行動，並將新建賭場經營權以拍賣的形式處理，重新整頓博彩業。由於不一樣的拍賣引發賭城風雲變遷，不為人知的利益和秘密跟著被揭露，更引起各方人馬的衝突…</desc>
+  <programme start="20260425050000 +0800" stop="20260425064500 +0800" channel="天映頻道">
+    <title>鸚鵡殺</title>
+    <desc>都市白領週冉在一次網戀中，被騙走了55萬。循著騙子留下的蛛絲馬跡，週冉來到沿海小城，並意外結識了兩名青年。週冉漸漸發現二人身上隱藏著自己受騙的線索，一場復仇之計也由此展開.</desc>
   </programme>
-  <programme start="20260424061000 +0800" stop="20260424075000 +0800" channel="天映頻道">
-    <title>我們的十八歲</title>
-    <desc>香港八十年代，Elaine與好友李羨英為脫貧而踏入娛樂圈，李羨英成為當年紅極一時的豔星，Elaine則在演員與自我身份上迷失。十年後，娛樂事業的風光漸退，兩人也因彼此的選擇而走上了兩條截然不同的人生路。</desc>
+  <programme start="20260425064500 +0800" stop="20260425083500 +0800" channel="天映頻道">
+    <title>望月</title>
+    <desc>美珍的家庭表面看似和睦，實則每個人都隱藏著秘密。美珍在工作中遭遇經理的無理對待，弟弟與妻子分居，卻在家人面前假裝恩愛，而母親仍對多年前一件導致丈夫離去的事情感到遺憾。中秋將至，這一家人能否撫平傷口，重新檢視家庭和團聚的真正意義？</desc>
   </programme>
-  <programme start="20260424075000 +0800" stop="20260424093000 +0800" channel="天映頻道">
-    <title>無間行者之生死潛行</title>
-    <desc>黑幫丁卓飛與反黑隊督察段一凡是雙方安插對方陣營的臥底。經歷了十年臥底，丁開始厭倦臥底工作，而段在反黑組步步高升，反開始想做一個真正的員警，並計畫要擺脫黑幫。黑幫老大設騙局找出雙方叛徒，一黑一白兩個員警，各自為自己的正義之途，走上你死我亡的對峙局面。</desc>
+  <programme start="20260425083500 +0800" stop="20260425103500 +0800" channel="天映頻道">
+    <title>命案</title>
+    <desc>命理大師遇上嗜血成狂的小東，並算出他會因殺人而有牢獄之災，於是竭盡所能為他改命。但目擊小東殺貓的老警官堅信他是心理變態的連環兇手而步步進逼。最終命理大師能否改變小東的命運？</desc>
   </programme>
-  <programme start="20260424093000 +0800" stop="20260424111500 +0800" channel="天映頻道">
-    <title>感動她77次</title>
-    <desc>回复單身的Eva寄情工作，但Adam仍對她念念不忘，希望藉著感動她77次以彌補過失。可是Eva遇上泰國男神展開追求，讓本已復雜的關係節外生枝。此時Eva的媽媽突然病危，Eva為成全母親的心願，考慮走進婚姻。Ａdam能否趁機挽回真愛？</desc>
+  <programme start="20260425103500 +0800" stop="20260425124000 +0800" channel="天映頻道">
+    <title>海關戰線</title>
+    <desc>香港海關查獲一艘非法貨船，發現所有船員已經遇難，船上藏有大量與國際衝突相關的非法武器。海關調查員週正禮與國際刑警阿盈攜手潛入該組織，揭露香港與這跨國行動之間的驚人內幕。</desc>
   </programme>
-  <programme start="20260424111500 +0800" stop="20260424133500 +0800" channel="天映頻道">
-    <title>無雙</title>
-    <desc>警方追緝一個以“畫家”為神秘首腦的偽鈔集團，集團用高超的造假技術製作出真假難辨的偽鈔，並在全球進行交易獲取利益。然而“畫家”的身份一直成謎，警方唯有聘請擅長繪畫的李問助其找出他的真實身份。</desc>
+  <programme start="20260425124000 +0800" stop="20260425145500 +0800" channel="天映頻道">
+    <title>悟空傳</title>
+    <desc>在孫悟空未成為齊天大聖前，天庭蓄意毀掉花果山，圖以掌控眾生命運，悟空在屠殺中得以殘存，決心餘生要跟天庭對抗到底。悟空在天庭遇到一生不能愛卻深深愛上的阿紫和一生最強的宿敵楊戩，各人都不甘命運的擺佈，卻沒想到反抗只會帶來更大的浩劫。他們所做的一切，究竟是不知天高地厚的輕狂，還是無懼宿命抗戰到底的熱血！</desc>
   </programme>
-  <programme start="20260424133500 +0800" stop="20260424151000 +0800" channel="天映頻道">
-    <title>意外人生</title>
-    <desc>潘義銘收到父親的遺囑，告知他有一筆巨額遺產，卻要回鄉參加葬禮才能繼承。回鄉後，潘義銘重遇前度女友林悅，更遇見她的丈夫華琪和素未謀面的女兒。當潘義銘發現華琪長期對女兒家暴時，一心要拯救女兒，卻逐步陷入他們設的陷阱…</desc>
+  <programme start="20260425145500 +0800" stop="20260425164500 +0800" channel="天映頻道">
+    <title>暗戀·橘生淮南</title>
+    <desc>洛枳暗戀著幼時有過一面之緣的同學盛淮南。高中畢業後，洛枳發現自己和盛淮南竟在同一所大學。兩人意外相識並越走越近，但洛枳依然不敢表白心跡。這場漫長的暗戀最後能否開花結果？</desc>
   </programme>
-  <programme start="20260424151000 +0800" stop="20260424170000 +0800" channel="天映頻道">
-    <title>熊貓計劃</title>
-    <desc>國際功夫巨星 Jackie Chan 受邀認養超人氣熊貓幼崽呼呼後，國際犯罪組織懸賞天價企圖奪走呼呼。Jackie 聯手金牌經紀人及熊貓保育員，展開一場驚險的營救行動，對抗壞蛋。</desc>
+  <programme start="20260425164500 +0800" stop="20260425190500 +0800" channel="天映頻道">
+    <title>狂舞派3</title>
+    <desc>這電影是「狂舞派」的延續，故事描述一羣香港草根演藝工作者的困境。他們因所處的舊式工業區被政府推出的市區重建計畫打壓，於是一起竭力抗衡地產霸權。</desc>
   </programme>
-  <programme start="20260424170000 +0800" stop="20260424185500 +0800" channel="天映頻道">
-    <title>私家偵探</title>
-    <desc>私家偵探歐陽偉業在辦案途中意外發現妻子出軌，震驚之下，他放棄了另一宗失蹤人口案的追查。不久，該失蹤者被發現遇害，警員陳康民懷疑背後潛藏連環殺手。為阻止兇手再次犯案，歐陽偉業必須憑藉偵探直覺，力挽狂瀾。</desc>
+  <programme start="20260425190500 +0800" stop="20260425210000 +0800" channel="天映頻道">
+    <title>臨時決鬥</title>
+    <desc>澳門拳王鐘磊在現實夾縫中苦撐拳館，堅持培訓職業拳手。廣告總監林雪發現男友外遇物件竟是當紅拳擊冠軍，怒火中燒發出戰書，約定擂臺一決高下。她拜入鐘磊門下，投身艱苦訓練。在汗水與傷痛的洗禮中，林雪逐步蛻變，明白這場戰鬥，不再為復仇，而是自我重生。</desc>
   </programme>
-  <programme start="20260424185500 +0800" stop="20260424210000 +0800" channel="天映頻道">
-    <title>我談的那場戀愛</title>
-    <desc>婦科名醫餘笑琴抱著一試無妨的心態下載交友軟體，卻在網上邂逅一位自稱法籍工程師的對象。殊不知，這位元物件其實是一名綽號「少年」的新手騙子，並且是網路詐騙集團的一員。隨著時間流逝，少年的愧疚感與笑琴的期望日益增強，這段關係愈演愈烈，真假難以區分。</desc>
+  <programme start="20260425210000 +0800" stop="20260425224500 +0800" channel="天映頻道">
+    <title>觸電</title>
+    <desc>陷入中年危機的網吧老板車仔，面臨租金暴漲與客源減少的困境，決定招募女兒、一位過氣動作巨星和一名剛被解僱的電競高手，組隊參加獎金高達50萬港元的全港電競大賽。這是一場看似不可能的挑戰，卻也讓這群追夢者，終於有機會為自己奮力一搏，不留遺憾。</desc>
   </programme>
-  <programme start="20260424210000 +0800" stop="20260424225000 +0800" channel="天映頻道">
-    <title>臨時劫案</title>
-    <desc>悍匪梅藍天策動了「閃電械劫」，陰差陽錯撞上也正在籌畫打劫的慕容輝及笠水，於是三人結盟。最後這宗臨時械劫卻惹來員警追捕，並展開一場激烈的追逐戰，三人的性命也危在旦夕！</desc>
+  <programme start="20260425224500 +0800" stop="20260426000000 +0800" channel="天映頻道">
+    <title>被消失的兇案</title>
+    <desc>警長駱英財被派往調查被埋沒八年的屍體發現案。隨著警長鎖定疑犯，一名檢控官也參與調查想要找出案件的真相。在質問警長之下，檢控官更發現他的行為有疑，因他對案件的陳述前後不一，充滿疑點...</desc>
   </programme>
-  <programme start="20260424225000 +0800" stop="20260425000000 +0800" channel="天映頻道">
-    <title>久彆重逢</title>
-    <desc>那年盛夏，少女夏文萱和少年蘇昇華因一張唱片相遇相戀，當時他們最想知道這清澀的愛情能走多遠。轉眼數十年，音樂人蘇昇華在醫院意外重逢初戀夏文萱，兩人都身處人生低谷。夏文萱病重，看穿蘇昇華的內心掙扎，決定送他一段最後的旅程，希望能重燃他對生命的熱情與希望。</desc>
-  </programme>
-  <programme start="20260425000000 +0800" stop="20260425005000 +0800" channel="天映頻道">
-    <title>久彆重逢</title>
-    <desc>那年盛夏，少女夏文萱和少年蘇昇華因一張唱片相遇相戀，當時他們最想知道這清澀的愛情能走多遠。轉眼數十年，音樂人蘇昇華在醫院意外重逢初戀夏文萱，兩人都身處人生低谷。夏文萱病重，看穿蘇昇華的內心掙扎，決定送他一段最後的旅程，希望能重燃他對生命的熱情與希望。</desc>
+  <programme start="20260426000000 +0800" stop="20260426004500 +0800" channel="天映頻道">
+    <title>被消失的兇案</title>
+    <desc>警長駱英財被派往調查被埋沒八年的屍體發現案。隨著警長鎖定疑犯，一名檢控官也參與調查想要找出案件的真相。在質問警長之下，檢控官更發現他的行為有疑，因他對案件的陳述前後不一，充滿疑點...</desc>
   </programme>
 </tv>
