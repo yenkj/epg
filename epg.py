@@ -450,12 +450,6 @@ channels_api = [
   "npr|News&Culture"
 ]
 
-channels_ottltv = {
-    "ott-animation": "龍華卡通台",
-    "ott-motion": "龍華日韓台",
-    "ott-idol": "龍華偶像台"
-}
-
 channels_celestial = {
     "celestial-movies-hd": {
         "name": "天映頻道",
@@ -568,47 +562,6 @@ def parse_time_range(date_str_slash, time_range_str):
         return start_epg, end_epg
     except Exception:
         return None, None
-
-def fetch_ottltv_programmes():
-    url = "https://www.ltv.com.tw/ott%e7%af%80%e7%9b%ae%e8%a1%a8/"
-    res = requests.get(url)
-    res.raise_for_status()
-    soup = BeautifulSoup(res.text, 'html.parser')
-    all_programmes = {}
-    for cid in channels_ottltv:
-        all_programmes[cid] = []
-        div = soup.find("div", id=cid)
-        if not div:
-            continue
-        items = div.select(".timetable-item")
-        for item in items:
-            title_tag = item.select_one(".timetable-name")
-            time_tag = item.select_one(".timetable-time")
-            popup_href = item.select_one("a")["href"] if item.select_one("a") else None
-            if not title_tag or not time_tag or not popup_href:
-                continue
-            title = title_tag.get_text(strip=True)
-            time_range = time_tag.get_text(strip=True)
-            popup_id = popup_href.lstrip("#")
-            popup = soup.find("div", id=popup_id)
-            if not popup:
-                continue
-            time_info_tag = popup.select_one(".timetable-time")
-            if not time_info_tag:
-                continue
-            date_part = time_info_tag.get_text(strip=True).split()[0].strip()
-            start_epg, end_epg = parse_time_range(date_part, time_range)
-            if start_epg and end_epg:
-                all_programmes[cid].append({
-                    "channel": cid,
-                    "start": start_epg,
-                    "end": end_epg,
-                    "title": title,
-                    "desc": ""
-                })
-    for cid in all_programmes:
-        all_programmes[cid].sort(key=lambda x: x["start"])
-    return all_programmes
 
 def fetch_ls_time_programmes():
     url = "https://tvking.funorange.com.tw/channel/108"
@@ -875,7 +828,6 @@ def write_channel_and_programmes(xml_root, ch_id, ch_name, programmes, with_desc
 def main():
     # --- FETCH DATA (API now fetches 3 days) ---
     epg_programmes = fetch_api_programmes(channels_api, channel_map, three_day_list)
-    ottltv_programmes = fetch_ottltv_programmes()
     ls_time = fetch_ls_time_programmes()
     celestial_programmes = fetch_celestial_programmes()
 
@@ -901,9 +853,6 @@ def main():
         all_channels.append((real_id, name, programmes, True))
 
     # --- AGGREGATE OTHER CHANNELS ---
-    for cid, cname in channels_ottltv.items():
-        programmes = ottltv_programmes.get(cid, [])
-        all_channels.append((cid, cname, programmes, False))
 
     if ls_time:
         all_channels.append((ls_time['id'], ls_time['name'], ls_time['programmes'], True))
@@ -920,8 +869,7 @@ def main():
 
     for ch_id, ch_name, programmes, with_desc in all_channels:
         if (
-            ch_id in channels_ottltv
-            or ch_id == "LS-Time"
+            ch_id == "LS-Time"
             or ch_id in celestial_programmes
         ):
             write_channel_and_programmes(tv_boss, ch_id, ch_name, programmes, with_desc)
