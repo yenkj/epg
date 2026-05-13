@@ -3,54 +3,6 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260513000000 +0800" stop="20260513015000 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513015000 +0800" stop="20260513044500 +0800" channel="LS-Time電影台">
-    <title>武士</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513044500 +0800" stop="20260513071000 +0800" channel="LS-Time電影台">
-    <title>生命奇蹟-小狐狸</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513071000 +0800" stop="20260513094000 +0800" channel="LS-Time電影台">
-    <title>魂魄唔齊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513094000 +0800" stop="20260513114500 +0800" channel="LS-Time電影台">
-    <title>全職大盜</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513114500 +0800" stop="20260513140000 +0800" channel="LS-Time電影台">
-    <title>倩女幽魂2人間道</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513140000 +0800" stop="20260513165500 +0800" channel="LS-Time電影台">
-    <title>新少林寺</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513165500 +0800" stop="20260513185500 +0800" channel="LS-Time電影台">
-    <title>表哥你好</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513185500 +0800" stop="20260513210000 +0800" channel="LS-Time電影台">
-    <title>老大人</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513210000 +0800" stop="20260513233000 +0800" channel="LS-Time電影台">
-    <title>殭屍家族</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260513232500 +0800" stop="20260514000000 +0800" channel="LS-Time電影台">
-    <title>高校惡靈-富江</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260514000000 +0800" stop="20260514013000 +0800" channel="LS-Time電影台">
-    <title>高校惡靈-富江</title>
-    <desc></desc>
-  </programme>
   <programme start="20260514000000 +0800" stop="20260514014500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
@@ -363,63 +315,119 @@
     <title>進擊的巨人2-世界終結</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20260513000000 +0800" stop="20260513004500 +0800" channel="天映頻道">
+  <programme start="20260519235500 +0800" stop="20260520000000 +0800" channel="LS-Time電影台">
+    <title>鐵三角</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260520000000 +0800" stop="20260520020000 +0800" channel="LS-Time電影台">
+    <title>鐵三角</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260520000000 +0800" stop="20260520012000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260513004500 +0800" stop="20260513024000 +0800" channel="天映頻道">
-    <title>慌心假期</title>
-    <desc>Michele正面臨婚姻破裂的危機，於是她獨自到歐洲散心。旅途中，Michele結識了日本女子Miki，二人結伴遊玩後，Michele發現對方竟是自己婚姻裡的第三者。然而，當Miki在摩洛哥失蹤， Michele卻傾盡一切把她尋回，最後更要付上沉重的代價…</desc>
+  <programme start="20260520012000 +0800" stop="20260520035000 +0800" channel="LS-Time電影台">
+    <title>驗身</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513024000 +0800" stop="20260513050000 +0800" channel="天映頻道">
-    <title>緊急救援</title>
-    <desc>⼀座海上鑽井平臺發⽣嚴重事故，隨時可能傾覆沉沒，交通海上應急反應特勤隊全體隊員迅速前往救援。時間緊迫，隊長⾼謙率領搜救直升機迎著此起彼伏的爆炸和沖天咆哮的⽕龍，飛進平臺範圍，⽤最危險的⽅式深⼊絕境，拯救倖存者。</desc>
+  <programme start="20260520035000 +0800" stop="20260520055500 +0800" channel="LS-Time電影台">
+    <title>至尊無上之永霸天下</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513050000 +0800" stop="20260513070500 +0800" channel="天映頻道">
-    <title>西遊記之大鬧天宮</title>
-    <desc>女媧娘娘化成萬千五彩晶石補天，其中一顆晶石迸出了孫悟空。孫悟空武功高強，不知天高地厚竟挑戰玉皇大帝，搞得天宮一片混亂，無意間讓牛魔王乘虛而入，欲攻陷天宮重振魔族聲威。</desc>
+  <programme start="20260520055500 +0800" stop="20260520081500 +0800" channel="LS-Time電影台">
+    <title>整人專家</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513070500 +0800" stop="20260513092000 +0800" channel="天映頻道">
-    <title>不日成婚 2</title>
-    <desc>阿佳和可怡二人終於要結婚，卻遇到佳母施加壓力，令二人產生種種摩擦。另一邊，灰熊又懷疑妻子紅杏出牆。而當阿健的女友 Jessica意外懷孕時，他陷入人生最迷茫而不知應該如何做決定的時候。眾人最後可否化解他們感情上的衝突？</desc>
+  <programme start="20260520081500 +0800" stop="20260520110000 +0800" channel="LS-Time電影台">
+    <title>我的野蠻女友2-蠻風再現</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513092000 +0800" stop="20260513111000 +0800" channel="天映頻道">
-    <title>熊貓計劃</title>
-    <desc>國際功夫巨星 Jackie Chan 受邀認養超人氣熊貓幼崽呼呼後，國際犯罪組織懸賞天價企圖奪走呼呼。Jackie 聯手金牌經紀人及熊貓保育員，展開一場驚險的營救行動，對抗壞蛋。</desc>
+  <programme start="20260520110000 +0800" stop="20260520130000 +0800" channel="LS-Time電影台">
+    <title>龍鳳茶樓</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513111000 +0800" stop="20260513125500 +0800" channel="天映頻道">
-    <title>微交少女</title>
-    <desc>電影以智能電話「微交網絡」作爲主題，刻劃出2010年代，三個不同階層和背景的少女，素未謀面各自有著自己的煩惱和問題，郤不約而同走上了歪路，爲錢和愛情來出賣身體，糜爛迷失的生活故事。</desc>
+  <programme start="20260520130000 +0800" stop="20260520150000 +0800" channel="LS-Time電影台">
+    <title>難兄難弟</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513125500 +0800" stop="20260513150500 +0800" channel="天映頻道">
-    <title>戴假髮的人</title>
-    <desc>法律系大專生孟中連續三次未能通過律師資格考試，心中充滿深深的挫敗與沮喪。某個狂風暴雨的夜晚，他將壓抑已久的情緒發洩在一名醉酒乘客身上。二十年後，孟中終於成為一名成功的律師。然而，在調查一起女孩遭受性侵的案件時，那段揮之不去的恐怖記憶再次籠罩他的心頭。</desc>
+  <programme start="20260520150000 +0800" stop="20260520170000 +0800" channel="LS-Time電影台">
+    <title>女子監獄</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513150500 +0800" stop="20260513164000 +0800" channel="天映頻道">
-    <title>OMG! 阿媽有喜</title>
-    <desc>53歲的Rita和丈夫計畫退休，卻意外懷孕，打亂了原本平靜的家庭生活。面對這突如其來的新生命，一場安胎之戰帶來連串笑料與混亂，讓一家人重拾理解與包容。正當一切看似平靜，Rita得知胎兒疑似患有唐氏綜合症，她將面臨人生最艱難抉擇。</desc>
+  <programme start="20260520170000 +0800" stop="20260520185500 +0800" channel="LS-Time電影台">
+    <title>肝膽豪情</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513164000 +0800" stop="20260513184500 +0800" channel="天映頻道">
-    <title>窄路微塵</title>
-    <desc>獨力經營清潔公司的窄哥，面對疫情來襲，百業蕭條。因為需要幫手，他僱用了單親媽媽Candy，而Candy竟能化解窄哥工作上的困難。正當二人以為生活漸入佳境，開始恢復正常時，卻再次面對疫情所帶來的殘酷現實。儘管人如微塵，他們也能在窄路上稍作依偎。</desc>
+  <programme start="20260520185500 +0800" stop="20260520210000 +0800" channel="LS-Time電影台">
+    <title>鬼抓人</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513184500 +0800" stop="20260513210000 +0800" channel="天映頻道">
-    <title>怒火</title>
-    <desc>警方圍捕毒梟時，竟突然殺出一群蒙面神秘悍匪，他們不但劫走毒品，更屠殺在場眾警！重案組督察張祟邦親睹屍橫遍野，悲憤交雜。連夜調查下，發現殺警辣手的主謀竟是昔日戰友邱剛敖。而當日將他推入罪惡深淵的人，卻正是邦！二人的恩怨，也是時候來個了斷……</desc>
+  <programme start="20260520210000 +0800" stop="20260520235500 +0800" channel="LS-Time電影台">
+    <title>阿修羅-正邪頑殺</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513210000 +0800" stop="20260513231000 +0800" channel="天映頻道">
-    <title>死屍死時四十四</title>
-    <desc>這部黑色喜劇始於一具來歷不明的屍體被發現在一個住宅單位門前，同層的四家人擔心屍體會令居所變成兇宅，使樓價大跌，從而捲入了將屍體運走的大混亂中。</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20260514000000 +0800" stop="20260514010500 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20260513231000 +0800" stop="20260514000000 +0800" channel="天映頻道">
-    <title>逆鱗</title>
-    <desc>尊非投身黑白兩道通吃的富商黃朝晉門下，成為其左右手。他既要面對幫派廝殺與權力暗鬥，還陷於人性的複雜博弈，更在情義與道義之間反復掙扎。最終，他被迫捲入一場以生命為籌碼的生死賭局。</desc>
+  <programme start="20260514010500 +0800" stop="20260514025500 +0800" channel="天映頻道">
+    <title>不日成婚</title>
+    <desc>阿佳與可怡在一個婚禮上相識，兩人一拍即合，相愛五年，終於迎來最大的感情危機－「結婚」！女方視結婚為愛的證明，男方則視結婚為愛的墳墓。二人能否解決雙方在結婚問題的矛盾? 最後又能否成婚?</desc>
   </programme>
-  <programme start="20260514000000 +0800" stop="20260514011000 +0800" channel="天映頻道">
-    <title>逆鱗</title>
-    <desc>尊非投身黑白兩道通吃的富商黃朝晉門下，成為其左右手。他既要面對幫派廝殺與權力暗鬥，還陷於人性的複雜博弈，更在情義與道義之間反復掙扎。最終，他被迫捲入一場以生命為籌碼的生死賭局。</desc>
+  <programme start="20260514025500 +0800" stop="20260514044500 +0800" channel="天映頻道">
+    <title>狼群</title>
+    <desc>老刁率領的「狼群小隊」是一隊長期在外國行事的僱傭兵，某次執行任務的過程中，意外發現一股恐怖勢力企圖炸毀國家能源命脈！老刁臨危受命，率領隊員出擊。危機迫在眉睫，「狼群小隊」能否化險為夷？</desc>
+  </programme>
+  <programme start="20260514044500 +0800" stop="20260514063000 +0800" channel="天映頻道">
+    <title>異度空間</title>
+    <desc>當昔日的創傷成為章昕的記憶烙印後，恐怖的幻象反復出現。於是，章昕向精神科醫生羅本良求助，好讓她回復正常，並解開多年來的心結。然而，隨著章昕逐漸康復，羅本良卻讓自己埋藏多年的心魔釋放，更被幻象所困擾。</desc>
+  </programme>
+  <programme start="20260514063000 +0800" stop="20260514082500 +0800" channel="天映頻道">
+    <title>葉問 3</title>
+    <desc>無恥的美藉地產商人指派黑幫武力迫使一所學校賣地，葉問挺身而出與主腦展開對決以保學校。此時，另一詠春傳人張天志又向葉問挑戰「詠春正宗」之名。葉問為了家人朋友和徒弟，只好應戰，並透過武術實踐一代宗師的風範。</desc>
+  </programme>
+  <programme start="20260514082500 +0800" stop="20260514103000 +0800" channel="天映頻道">
+    <title>內幕</title>
+    <desc>慈善基金會「濟拔堂」的首席財務官被發現自縊，兩億港元的捐款亦不翼而飛。為揭開真相，基金會律師馬迎風被迫與探員柯定邦聯手調查。他們不惜一切代價，誓要揭露「濟拔堂」背後的黑幕，捍衛正義。</desc>
+  </programme>
+  <programme start="20260514103000 +0800" stop="20260514122500 +0800" channel="天映頻道">
+    <title>九品芝麻官</title>
+    <desc>包龍星起初為清朝九品候補知縣《九品芝麻官》，號稱青天的包拯後裔，卻無包拯維護公義的精神，接受地方土豪的賄賂而誣害忠良，以至人人喊打。後來痛改前非，為一名含冤被判處死刑的女子申冤，歷盡千辛萬苦上燕京告禦狀，最後被封為八府巡按，在公堂辯論打敗惡勢力，告大白於天下。</desc>
+  </programme>
+  <programme start="20260514122500 +0800" stop="20260514141000 +0800" channel="天映頻道">
+    <title>除暴</title>
+    <desc>根據真實故事改編，刑警鐘誠受命追捕以張隼為首的悍匪集團“老鷹幫”，首領張隼以高超的技術多次犯下無數搶劫殺人大案，並成功逃脫。十年後，「老鷹」始終未能落網，警方的限期破案指令面臨巨大挑戰！究竟最後刑警鐘誠能否成功將“老鷹幫”一網打盡？</desc>
+  </programme>
+  <programme start="20260514141000 +0800" stop="20260514155500 +0800" channel="天映頻道">
+    <title>出埃及記</title>
+    <desc>一位元軍裝警員發現有個女人組織，正進行殲滅全世界男人的計畫，而他的上司方子晴督察和妻子竟也是組織成員…</desc>
+  </programme>
+  <programme start="20260514155500 +0800" stop="20260514172500 +0800" channel="天映頻道">
+    <title>婚前試愛</title>
+    <desc>琪琪與拍拖七年的男友阿澤在一星期後便結婚，他們卻在婚前三天雙雙出軌。這對年輕情侶各自面對自己完美的新伴侶，拋開一切責任，走上了各自的愛情岔路…</desc>
+  </programme>
+  <programme start="20260514172500 +0800" stop="20260514190500 +0800" channel="天映頻道">
+    <title>Lelio 婆婆</title>
+    <desc>KK與Ah Luke曾經是紅極一時的電台主持人，卻因為不良態度與古怪性格而遭辭退，甚至連友台都拒他們於門外。兩人在潦倒之虞，決定參加一間新電台的主持人徵選活動。但是這間電台要徵選的是阿婆級的主持人，於是兩人假扮成老婆婆成功錄取，而展開一連串的趣事。</desc>
+  </programme>
+  <programme start="20260514190500 +0800" stop="20260514210000 +0800" channel="天映頻道">
+    <title>BBS鄉民的正義</title>
+    <desc>記者藍苡晴授命在網路上找新聞，意外闖入超紅的BBS網路論壇。李澄湘是創立夢想板的板主，原意是讓網友們分享彼此的夢想，卻因為一段不該外流的影片而成為人肉搜索的主角。苡晴一路追查下去，發現事實的真相越來越複雜…</desc>
+  </programme>
+  <programme start="20260514210000 +0800" stop="20260514231000 +0800" channel="天映頻道">
+    <title>新警察故事</title>
+    <desc>榮是警隊的精英,但自從他的手下在一次行動中被犯罪五人組襲擊，全部殉職後，他終日借酒消愁。一年過去，年青幹探阿鋒被派與榮合作，背景複雜的阿鋒令榮重新振作，誓要捉拿犯罪五人組歸案。</desc>
+  </programme>
+  <programme start="20260514231000 +0800" stop="20260515000000 +0800" channel="天映頻道">
+    <title>全員嫌疑人</title>
+    <desc>一名員警趁休假入住民宿，同宿的還有偵探小說家、流浪漢和鋼琴師。然而，當民宿主人和接待員相繼遇害，這片原本寧靜的地方頓時籠罩在重重疑雲之中。如今，每位住客既是嫌疑人，也是偵探——他們各自隱藏的秘密，都足以揭開整個謎團的真相。</desc>
+  </programme>
+  <programme start="20260515000000 +0800" stop="20260515011000 +0800" channel="天映頻道">
+    <title>全員嫌疑人</title>
+    <desc>一名員警趁休假入住民宿，同宿的還有偵探小說家、流浪漢和鋼琴師。然而，當民宿主人和接待員相繼遇害，這片原本寧靜的地方頓時籠罩在重重疑雲之中。如今，每位住客既是嫌疑人，也是偵探——他們各自隱藏的秘密，都足以揭開整個謎團的真相。</desc>
   </programme>
 </tv>
