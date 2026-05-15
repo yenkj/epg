@@ -3,54 +3,6 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260515000000 +0800" stop="20260515013000 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515013000 +0800" stop="20260515035000 +0800" channel="LS-Time電影台">
-    <title>英雄本色2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515035000 +0800" stop="20260515064000 +0800" channel="LS-Time電影台">
-    <title>鬼鄉</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515064000 +0800" stop="20260515090500 +0800" channel="LS-Time電影台">
-    <title>辣椒教室</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515090500 +0800" stop="20260515112500 +0800" channel="LS-Time電影台">
-    <title>棋王</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515112500 +0800" stop="20260515141500 +0800" channel="LS-Time電影台">
-    <title>五億探長雷洛傳</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515141500 +0800" stop="20260515163500 +0800" channel="LS-Time電影台">
-    <title>最後判決</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515163500 +0800" stop="20260515185000 +0800" channel="LS-Time電影台">
-    <title>新不了情</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515185000 +0800" stop="20260515210000 +0800" channel="LS-Time電影台">
-    <title>翻天鵝</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515210000 +0800" stop="20260515232000 +0800" channel="LS-Time電影台">
-    <title>解救吾先生</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260515233000 +0800" stop="20260516000000 +0800" channel="LS-Time電影台">
-    <title>洩密者們</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260516000000 +0800" stop="20260516015000 +0800" channel="LS-Time電影台">
-    <title>洩密者們</title>
-    <desc></desc>
-  </programme>
   <programme start="20260516000000 +0800" stop="20260516015500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
@@ -319,63 +271,115 @@
     <title>阿修羅-正邪頑殺</title>
     <desc></desc>
   </programme>
+  <programme start="20260520230000 +0800" stop="20260521000000 +0800" channel="LS-Time電影台">
+    <title>上身</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521000000 +0800" stop="20260521005500 +0800" channel="LS-Time電影台">
+    <title>上身</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521020000 +0800" stop="20260521040000 +0800" channel="LS-Time電影台">
+    <title>讓我活下去</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521040000 +0800" stop="20260521062500 +0800" channel="LS-Time電影台">
+    <title>港囧</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521062500 +0800" stop="20260521085500 +0800" channel="LS-Time電影台">
+    <title>雲水謠</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521085500 +0800" stop="20260521105500 +0800" channel="LS-Time電影台">
+    <title>橫財三千萬</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521105500 +0800" stop="20260521124000 +0800" channel="LS-Time電影台">
+    <title>命懸800公里</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521124000 +0800" stop="20260521144500 +0800" channel="LS-Time電影台">
+    <title>最佳女婿</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521144500 +0800" stop="20260521163500 +0800" channel="LS-Time電影台">
+    <title>心跳一百</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521163500 +0800" stop="20260521183500 +0800" channel="LS-Time電影台">
+    <title>少年黃飛鴻之鐵猴子</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521183500 +0800" stop="20260521210000 +0800" channel="LS-Time電影台">
+    <title>喋血雙雄</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260521210000 +0800" stop="20260521230000 +0800" channel="LS-Time電影台">
+    <title>搭錯車</title>
+    <desc></desc>
+  </programme>
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20260515000000 +0800" stop="20260515005000 +0800" channel="天映頻道">
+  <programme start="20260516000000 +0800" stop="20260516004000 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260515005000 +0800" stop="20260515025500 +0800" channel="天映頻道">
-    <title>西遊記之孫悟空三打白骨精</title>
-    <desc>孫悟空受命於觀音娘娘，護送唐僧取西經。途中遇到性感美艶兼法力高強的白骨精，要吃下潔淨軀體的唐僧以求長生不老。孫悟空為保護唐僧，將與白骨精展開連場激戰！</desc>
+  <programme start="20260516004000 +0800" stop="20260516021500 +0800" channel="天映頻道">
+    <title>我們的十八歲</title>
+    <desc>香港八十年代，Elaine與好友李羨英為脫貧而踏入娛樂圈，李羨英成為當年紅極一時的豔星，Elaine則在演員與自我身份上迷失。十年後，娛樂事業的風光漸退，兩人也因彼此的選擇而走上了兩條截然不同的人生路。</desc>
   </programme>
-  <programme start="20260515025500 +0800" stop="20260515050500 +0800" channel="天映頻道">
-    <title>龍馬精神</title>
-    <desc>一位生活落魄的武師訓練愛馬為一匹可表演特技的馬，但為抵償欠債，他可能會失去愛馬。武師唯有向疏離多年的女兒求助，兩人也因此得到一次和解的機會。</desc>
+  <programme start="20260516021500 +0800" stop="20260516040000 +0800" channel="天映頻道">
+    <title>速命道</title>
+    <desc>小樂曾經是個專業賽車手，在一場賽車中令哥哥阿傑意外死亡後，從此自暴自棄，直到他遇上女醫生慧慧，轉念成為救護車司機，誓言要「以速度救人」。然而，在小樂三位好友的調查下，小樂哥哥意外的真相逐漸浮現…</desc>
   </programme>
-  <programme start="20260515050500 +0800" stop="20260515071000 +0800" channel="天映頻道">
-    <title>世間有她</title>
-    <desc>2020年新冠疫情來襲，三位女性在前景不明朗的困境中，各自與朋友和家人找尋出路。從家裡的難題到感情關係的掙扎，還有工作上的鬥爭，這三位女性都堅強地在困境中找尋出路。</desc>
+  <programme start="20260516040000 +0800" stop="20260516053500 +0800" channel="天映頻道">
+    <title>闔家辣</title>
+    <desc>新冠病毒疫情爆發，令Coba在家工作，成天與家人發生爭執。Coba決定將母親的手工辣椒醬變成潮物，企圖轉移家人視線避免爭吵。Coba的父母和姑媽一起製作手工辣椒醬，並在社交平臺上放售，其後辣椒醬大賣，成績更令大家喜出望外。</desc>
   </programme>
-  <programme start="20260515071000 +0800" stop="20260515085000 +0800" channel="天映頻道">
-    <title>紅豆</title>
-    <desc>張家經營著位於九龍城的中式甜品店，然而母親突發中風，令一家人陷入劇變。女兒為了維持甜品店的生意，不得不放棄成為空姐的夢想，卻在過程中與父親產生衝突。他們一家能否齊心協力，克服重重難關？</desc>
+  <programme start="20260516053500 +0800" stop="20260516074500 +0800" channel="天映頻道">
+    <title>人潮洶湧</title>
+    <desc>澡堂內的一場意外令劇場演員小萌和殺手週全交換了人生。小萌被迫要完成週全未完成的殺人任務，與此同時週全亦失去記憶，並誤以為自己是個走投無路的劇場演員。當週全重新立志成為成功的演員時，他的記憶也逐漸恢復過來…</desc>
   </programme>
-  <programme start="20260515085000 +0800" stop="20260515105000 +0800" channel="天映頻道">
-    <title>不說話的愛</title>
-    <desc>木木是一名開朗的七歲女孩，與失聰的父親小馬一同生活在聾人社區中。她是父親與外界溝通的唯一橋樑。然而，當失散多年的母親突然出現時，他們平靜的生活被打擾，木木也被迫進入聽人的世界。與此同時，小馬卻遭到犯罪集團的誘騙，意外捲入一個專門利用聾人從事犯罪的陷阱中。</desc>
+  <programme start="20260516074500 +0800" stop="20260516092500 +0800" channel="天映頻道">
+    <title>流水落花</title>
+    <desc>為擺脫喪兒所帶來的傷痛，天美成為寄養父母。十三年間，天美因醉心於照顧小孩而忽略丈夫的感受，甚至忘卻了寄養孩子的真正需要。最終靠著寄養小孩有意無意的啟發，才幫助夫婦二人挽回這段關係。</desc>
   </programme>
-  <programme start="20260515105000 +0800" stop="20260515122500 +0800" channel="天映頻道">
-    <title>紮職</title>
-    <desc>阿霆 (陳偉霆 飾)與阿祥 (曾國祥 飾)及阿楝 (徐偉棟 飾) 屬同輩兄弟，三人十六歲開始在油麻地跟隨四九耀文 (譚耀文 飾)，情如手足。阿霆由舊同學搭路幫富豪收數，賺到錢之餘而開始起朵，終於得罪了同字頭的火爆明 (林利 飾)，招來一頓虐打，自此他對火爆明恨之入骨。身為黑社會，阿霆卻與千金小姐Michelle (詩雅 飾)相戀，愛得轟烈。Michelle的父親王老闆 (盧海鵬 飾) 要她離開阿霆，和她輸賭阿霆一定不肯為愛情放棄黑社會事業，Michelle唯有孤注一擲。社團下令要剷除火爆明，負責出手的阿霆三子受耀文所托，要放他一條生路，但最後關頭，阿霆毫不猶豫一刀捅死火爆明報仇，亦為自己坐上龍頭之位鋪路。但他萬料不到，火爆明的遺孀Irene 姐 (溫碧霞 飾)正蠢蠢欲動，既要和阿霆爭做龍頭大佬，更要他血債血償...</desc>
+  <programme start="20260516092500 +0800" stop="20260516113000 +0800" channel="天映頻道">
+    <title>倚天屠龍記之九陽神功</title>
+    <desc>武當派張翠山之子張無忌無意中捲入因屠龍刀而起的江湖紛爭中，卻又因緣際會從九陰真經練得一身蓋世武功，協助六大門派對抗腐朽的朝廷。</desc>
   </programme>
-  <programme start="20260515122500 +0800" stop="20260515142500 +0800" channel="天映頻道">
-    <title>犀利人妻最終回: 幸福男·不難</title>
-    <desc>安真與出軌的丈夫離婚，四年後卻面臨關鍵的抉擇：究竟是回到前夫身邊試著重燃昔日的愛火，還是與新歡一起踏入人生新的一頁？</desc>
+  <programme start="20260516113000 +0800" stop="20260516130500 +0800" channel="天映頻道">
+    <title>長江七號</title>
+    <desc>週星馳強勢回歸的作品，講述一對父子在垃圾桶裡發現可愛外星人後，出現一連串既搞笑又溫馨的故事。</desc>
   </programme>
-  <programme start="20260515142500 +0800" stop="20260515164500 +0800" channel="天映頻道">
-    <title>看我今天怎麼說</title>
-    <desc>這是一個關於三位年輕人探索自我的故事。子信、素恩和Alan各自面對不同形式的聽障，他們通過手語建立了深厚的情誼，彼此扶持。在愛與友誼的牽引下，他們共同踏上一段尋找自我、克服挑戰的成長之旅。</desc>
+  <programme start="20260516130500 +0800" stop="20260516152000 +0800" channel="天映頻道">
+    <title>風林火山</title>
+    <desc>故事發生在被白雪覆蓋、彌漫超現實氛圍的香港，一場爆炸奪去了暗中操控販毒集團的藥業大亨的性命，令整座城市陷入混亂。警方束手無策，家族企業瀕臨崩潰。富商的小兒子誓言摧毀這個建立在罪惡之上的商業王國，卻同時要面對在逃兄長的阻撓，以及父親舊部為爭奪勢力版圖而展開的激烈角逐。</desc>
   </programme>
-  <programme start="20260515164500 +0800" stop="20260515184500 +0800" channel="天映頻道">
-    <title>逆鱗</title>
-    <desc>尊非投身黑白兩道通吃的富商黃朝晉門下，成為其左右手。他既要面對幫派廝殺與權力暗鬥，還陷於人性的複雜博弈，更在情義與道義之間反復掙扎。最終，他被迫捲入一場以生命為籌碼的生死賭局。</desc>
+  <programme start="20260516152000 +0800" stop="20260516171000 +0800" channel="天映頻道">
+    <title>出租家人</title>
+    <desc>沉迷於演戲的臨時演員志光，加入由家聰與立志成為女演員的佩怡一起成立的「出租家人公司」，變成出租臨時家人。當他們出演臨時家人服務時，發現家庭成員間的複雜關係，並建立更深入的聯繫。</desc>
   </programme>
-  <programme start="20260515184500 +0800" stop="20260515210000 +0800" channel="天映頻道">
-    <title>悟空傳</title>
-    <desc>在孫悟空未成為齊天大聖前，天庭蓄意毀掉花果山，圖以掌控眾生命運，悟空在屠殺中得以殘存，決心餘生要跟天庭對抗到底。悟空在天庭遇到一生不能愛卻深深愛上的阿紫和一生最強的宿敵楊戩，各人都不甘命運的擺佈，卻沒想到反抗只會帶來更大的浩劫。他們所做的一切，究竟是不知天高地厚的輕狂，還是無懼宿命抗戰到底的熱血！</desc>
+  <programme start="20260516171000 +0800" stop="20260516190000 +0800" channel="天映頻道">
+    <title>神探大戰</title>
+    <desc>香港接連出現多宗殘忍至極的兇殺案，死者全是逍遙法外的嫌疑犯，兇手們自稱「神探」。前警隊的皇牌李俊，為了正義及證明自己不是瘋子而是真正的「神探」，誓要將這群殺人犯緝拿歸案。</desc>
   </programme>
-  <programme start="20260515210000 +0800" stop="20260515230000 +0800" channel="天映頻道">
-    <title>媽媽!</title>
-    <desc>85歲媽媽和65歲女兒共同生活，但女兒不幸患上阿爾茨海默氏症，令她記憶力衰退及精神錯亂。結果年邁的媽媽要重新扛起照顧者的重擔，即使如此媽媽仍堅持要與女兒相伴一生。</desc>
+  <programme start="20260516190000 +0800" stop="20260516210000 +0800" channel="天映頻道">
+    <title>虎毒不</title>
+    <desc>淑珍在生下女兒後，生活逐漸走向崩潰的邊緣。她獨自扛起育兒的重擔，丈夫郤始終冷眼旁觀。家庭的緊張關系、產後的身體變化，以及排山倒海般的工作壓力，讓她身心俱疲。漫漫長夜裡，她只能獨自苦苦煎熬。對她而言，明天究竟意味著希望，還是絕望？</desc>
   </programme>
-  <programme start="20260515230000 +0800" stop="20260516000000 +0800" channel="天映頻道">
-    <title>拳道</title>
-    <desc>阿牛從小向拳館師傅興叔拜師學拳，自始每逢遇到有人受到欺淩，他都會出手教訓壞人，並藉此鍛煉拳術。不久因拳館收入大減，興叔的兒子為維持拳館生計竟答應為對頭拳館運毒，卻因交易失敗被打至不成人形。阿牛為了替他報仇，決定殺上擂臺上決一死戰。</desc>
+  <programme start="20260516210000 +0800" stop="20260516230500 +0800" channel="天映頻道">
+    <title>內幕</title>
+    <desc>慈善基金會「濟拔堂」的首席財務官被發現自縊，兩億港元的捐款亦不翼而飛。為揭開真相，基金會律師馬迎風被迫與探員柯定邦聯手調查。他們不惜一切代價，誓要揭露「濟拔堂」背後的黑幕，捍衛正義。</desc>
   </programme>
-  <programme start="20260516000000 +0800" stop="20260516010000 +0800" channel="天映頻道">
-    <title>拳道</title>
-    <desc>阿牛從小向拳館師傅興叔拜師學拳，自始每逢遇到有人受到欺淩，他都會出手教訓壞人，並藉此鍛煉拳術。不久因拳館收入大減，興叔的兒子為維持拳館生計竟答應為對頭拳館運毒，卻因交易失敗被打至不成人形。阿牛為了替他報仇，決定殺上擂臺上決一死戰。</desc>
+  <programme start="20260516230500 +0800" stop="20260517000000 +0800" channel="天映頻道">
+    <title>多樂路</title>
+    <desc>東北某小城，一家麻辣湯館每天都迎來不同的客人。這些客人中有如膠似漆的小情侶，兩名放蕩不羈的青年和一位的士司機。他們本是毫無交集的人，卻因為一場交通事故牽扯在一起…</desc>
+  </programme>
+  <programme start="20260517000000 +0800" stop="20260517010500 +0800" channel="天映頻道">
+    <title>多樂路</title>
+    <desc>東北某小城，一家麻辣湯館每天都迎來不同的客人。這些客人中有如膠似漆的小情侶，兩名放蕩不羈的青年和一位的士司機。他們本是毫無交集的人，卻因為一場交通事故牽扯在一起…</desc>
   </programme>
 </tv>
