@@ -3,60 +3,8 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260517000000 +0800" stop="20260517015000 +0800" channel="LS-Time電影台">
+  <programme start="20260518000000 +0800" stop="20260518023000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517015000 +0800" stop="20260517044500 +0800" channel="LS-Time電影台">
-    <title>阿修羅-正邪頑殺</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517044500 +0800" stop="20260517064500 +0800" channel="LS-Time電影台">
-    <title>黑貓</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517064500 +0800" stop="20260517085000 +0800" channel="LS-Time電影台">
-    <title>臨終囧事</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517085000 +0800" stop="20260517110500 +0800" channel="LS-Time電影台">
-    <title>唐伯虎點秋香</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517110500 +0800" stop="20260517134000 +0800" channel="LS-Time電影台">
-    <title>花木蘭</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517134000 +0800" stop="20260517154000 +0800" channel="LS-Time電影台">
-    <title>猛鬼入侵黑社會</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517154000 +0800" stop="20260517180000 +0800" channel="LS-Time電影台">
-    <title>英雄會少林</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517180000 +0800" stop="20260517210000 +0800" channel="LS-Time電影台">
-    <title>來自雪國的遺書</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517210000 +0800" stop="20260517235500 +0800" channel="LS-Time電影台">
-    <title>猛鬼大學-第2學期</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517231000 +0800" stop="20260518000000 +0800" channel="LS-Time電影台">
-    <title>讓我活下去</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260517231500 +0800" stop="20260518000000 +0800" channel="LS-Time電影台">
-    <title>浪漫風暴</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518000000 +0800" stop="20260518011000 +0800" channel="LS-Time電影台">
-    <title>讓我活下去</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518000000 +0800" stop="20260518014000 +0800" channel="LS-Time電影台">
-    <title>浪漫風暴</title>
     <desc></desc>
   </programme>
   <programme start="20260518023000 +0800" stop="20260518061000 +0800" channel="LS-Time電影台">
@@ -363,63 +311,115 @@
     <title>警賊黑白衝</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20260517000000 +0800" stop="20260517004500 +0800" channel="天映頻道">
+  <programme start="20260523234000 +0800" stop="20260524000000 +0800" channel="LS-Time電影台">
+    <title>最佳損友</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260524000000 +0800" stop="20260524015000 +0800" channel="LS-Time電影台">
+    <title>最佳損友</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260524000000 +0800" stop="20260524014000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260517004500 +0800" stop="20260517025000 +0800" channel="天映頻道">
-    <title>拆彈專家2</title>
-    <desc>香港發生連環爆炸案，令全城人心惶惶。前拆彈專家潘乘風因昏迷於案發現場，被警方列為頭號嫌疑犯，蘇醒後更被扣留。他決定逃走並親自查明真相，在孤立無援之際只好找舊拍檔董卓文協助。縱使文決定要助風證明他的清白，但要揭破真相就如拆除炸彈般危險艱巨…</desc>
+  <programme start="20260524014000 +0800" stop="20260524040500 +0800" channel="LS-Time電影台">
+    <title>新宿事件</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517025000 +0800" stop="20260517043500 +0800" channel="天映頻道">
-    <title>望月</title>
-    <desc>美珍的家庭表面看似和睦，實則每個人都隱藏著秘密。美珍在工作中遭遇經理的無理對待，弟弟與妻子分居，卻在家人面前假裝恩愛，而母親仍對多年前一件導致丈夫離去的事情感到遺憾。中秋將至，這一家人能否撫平傷口，重新檢視家庭和團聚的真正意義？</desc>
+  <programme start="20260524040500 +0800" stop="20260524064000 +0800" channel="LS-Time電影台">
+    <title>英雄本色3</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517043500 +0800" stop="20260517063000 +0800" channel="天映頻道">
-    <title>邊緣行者</title>
-    <desc>1997年香港回歸前夕，多方勢力矛盾激化，黑幫暴力事件頻生。巨變當前，黑幫龍頭委派親信阿駱主理毒品生意，但原來阿駱是警方的臥底。調查毒品案期間，他更揭發一場驚人的政治陰謀。</desc>
+  <programme start="20260524064000 +0800" stop="20260524092000 +0800" channel="LS-Time電影台">
+    <title>戰鼓</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517063000 +0800" stop="20260517085500 +0800" channel="天映頻道">
-    <title>焚城</title>
-    <desc>因非法偷運廢料引發的一場大火，香港陷入輻射洩漏危機。為了應對這場毀滅性的災難，專家範偉立加入由署理行政長官領導的緊急應變小組。一支消防隊伍臨危受命，深入輻射區，拼盡全力阻止輻射擴散。在面對前所未見的浩劫時，他們能否拯救這座城市？</desc>
+  <programme start="20260524092000 +0800" stop="20260524113500 +0800" channel="LS-Time電影台">
+    <title>蝶龍魔斯拉</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517085500 +0800" stop="20260517111500 +0800" channel="天映頻道">
-    <title>前任4: 英年早婚</title>
-    <desc>孟雲和餘飛這對難兄難弟已屆適婚年齡，二人在愛情路上都遭遇挑戰。孟雲經歷分手後被家人催婚，而餘飛和女友為應對婚後挑戰，創立了「結婚冷靜期」以應付可能出現的問題.</desc>
+  <programme start="20260524113500 +0800" stop="20260524142000 +0800" channel="LS-Time電影台">
+    <title>龍門飛甲</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517111500 +0800" stop="20260517132000 +0800" channel="天映頻道">
-    <title>倚天屠龍記之聖火雄風</title>
-    <desc>承上集，張無忌成功在大都營救出六大掌門。隨後，張無忌與三位紅顏知己一起出發到冰火島繼續尋找屠龍刀下落。經過連番惡鬥後，他們最終揭開倚天劍及屠龍刀背後的秘密。</desc>
+  <programme start="20260524142000 +0800" stop="20260524164000 +0800" channel="LS-Time電影台">
+    <title>家有囍事</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517132000 +0800" stop="20260517151500 +0800" channel="天映頻道">
-    <title>得寵先生</title>
-    <desc>獨居的佳叔脾氣暴躁。他因被迫退休、婚姻失敗以及與女兒關係疏離而感到人生無望，最終決定結束自己的生命。然而，他意外地被一隻流浪狗和一位動物義工所救，並重新找回了人生的意義。</desc>
+  <programme start="20260524164000 +0800" stop="20260524185500 +0800" channel="LS-Time電影台">
+    <title>又見阿郎</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517151500 +0800" stop="20260517171000 +0800" channel="天映頻道">
-    <title>刺蝟</title>
-    <desc>王戰團行為古怪，偶爾顯得瘋癲。他的侄兒因口吃而深感自卑，兩人卻因此成為彼此唯一的依靠。這對不被理解的異類攜手挑戰傳統家庭的期望與社會偏見，在尋找各自人生道路的過程中，彼此支持和激勵。</desc>
+  <programme start="20260524185500 +0800" stop="20260524210000 +0800" channel="LS-Time電影台">
+    <title>劇場版城市獵人-天使之淚</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517171000 +0800" stop="20260517185500 +0800" channel="天映頻道">
-    <title>紮職 2</title>
-    <desc>黑幫成員阿齊發現伏擊黑幫老大的竟是兒時好兄弟阿貓，但他仍協助阿貓逃離香港。17年後，阿齊已是黑幫內舉足輕重的分子。一天，阿齊重遇阿貓，知道若黑幫兄弟發現阿貓的行蹤，他定必死無疑。阿齊在黑幫與兄弟情間，最後會如何選擇？</desc>
+  <programme start="20260524210000 +0800" stop="20260524234000 +0800" channel="LS-Time電影台">
+    <title>通靈少年2020</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517185500 +0800" stop="20260517210000 +0800" channel="天映頻道">
-    <title>但願人長久</title>
-    <desc>新移民圓圓及妹妹兩個人來到香港，面對身份認同及貧窮的問題，還有一個長年吸毒的父親。姊妹倆小時候會試圖討好父親，但到了青春期，她們決定要反抗、掙扎並逃離。即使他們最後徹底掙脫父親，圓圓發現自己喜歡的所有人，原來都帶著父親的影子。</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20260518000000 +0800" stop="20260518004000 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20260517210000 +0800" stop="20260517224000 +0800" channel="天映頻道">
+  <programme start="20260518004000 +0800" stop="20260518023500 +0800" channel="天映頻道">
+    <title>老狐狸</title>
+    <desc>1989年，年輕的廖傑和他的父親為購房而存錢，卻不知道房價正在飆升。飽受貧困之苦，他向房東老狐狸學會在社會中求生存。廖傑最終以所學傷害了老狐狸，但他的同情心終究使他沒有成為另一個老狐狸。</desc>
+  </programme>
+  <programme start="20260518023500 +0800" stop="20260518043000 +0800" channel="天映頻道">
+    <title>盜月者</title>
+    <desc>一家賊贓手錶店的老闆策劃一組盜竊團隊，成員包括大賊、爆破專家、開鎖天才和二手錶專家，飛往東京盜取三隻名貴手錶。然而，當他們偶然發現了更珍貴的手錶「Moonwatch」後，行動起了變化，被日本黑幫追殺。他們必須合作力圖脫身，並把手錶帶回香港。</desc>
+  </programme>
+  <programme start="20260518043000 +0800" stop="20260518061000 +0800" channel="天映頻道">
+    <title>熱血合唱團</title>
+    <desc>「熱血合唱團試驗計畫」打算特訓由三流學校學生組成的古典音樂合唱團去參加「校際合唱團比賽」。外界對這次計畫一致不看好，但美國著名華裔指揮家嚴梓朗，消聲匿跡一年後竟答應來港擔任合唱團指揮。「熱血合唱團」與嚴指揮最終能否排除萬難，完成這個不可能的任務？</desc>
+  </programme>
+  <programme start="20260518061000 +0800" stop="20260518080000 +0800" channel="天映頻道">
+    <title>搜救</title>
+    <desc>寒冬季節，阿德一家自駕遊到長白山旅行，途中卻因走失其八歲兒子而樂極生悲。阿德向當地派出所求助，可惜孩子仍未找到。即使黃金救援時間已過去，阿德和救援隊伍仍堅持繼續搜救任務。最後又能否順利拯救兒子？</desc>
+  </programme>
+  <programme start="20260518080000 +0800" stop="20260518100000 +0800" channel="天映頻道">
+    <title>慌心假期</title>
+    <desc>Michele正面臨婚姻破裂的危機，於是她獨自到歐洲散心。旅途中，Michele結識了日本女子Miki，二人結伴遊玩後，Michele發現對方竟是自己婚姻裡的第三者。然而，當Miki在摩洛哥失蹤， Michele卻傾盡一切把她尋回，最後更要付上沉重的代價…</desc>
+  </programme>
+  <programme start="20260518100000 +0800" stop="20260518115500 +0800" channel="天映頻道">
+    <title>瞞天過海</title>
+    <desc>年輕貌美的企業家喬文娜被控為一宗密室殺人案的疑兇，而死者正是她的情夫。喬文娜找來一名員警協助她洗脫罪名，調查期間他們揭發另一牽涉喬文娜和她情夫的兇殺案，真相逐漸浮出水面。</desc>
+  </programme>
+  <programme start="20260518115500 +0800" stop="20260518133500 +0800" channel="天映頻道">
     <title>無名指</title>
     <desc>前壁球冠軍鄧叔彥與妻子正面臨人生的嚴峻考驗，就是女兒罹患罕見脊椎疾病，母親也同時確診癌症。多年後，當這個家庭在堅持與放棄之間掙扎時，一個微小卻充滿力量的希望悄然出現 — 女兒尾指輕輕顫動，讓他們重新找回了彼此的連結。</desc>
   </programme>
-  <programme start="20260517224000 +0800" stop="20260518000000 +0800" channel="天映頻道">
-    <title>誤判</title>
-    <desc>根據真實案件改編，青年馬家傑在辯護律師的壓力下承認販運毒品，以換取減刑。然而，從警員轉任檢控官的霍子豪深信他是無辜的，於是毅然展開調查。儘管面臨生命威脅和失去工作的風險，霍子豪誓言揭露幕後真兇。</desc>
+  <programme start="20260518133500 +0800" stop="20260518151500 +0800" channel="天映頻道">
+    <title>無間行者之生死潛行</title>
+    <desc>黑幫丁卓飛與反黑隊督察段一凡是雙方安插對方陣營的臥底。經歷了十年臥底，丁開始厭倦臥底工作，而段在反黑組步步高升，反開始想做一個真正的員警，並計畫要擺脫黑幫。黑幫老大設騙局找出雙方叛徒，一黑一白兩個員警，各自為自己的正義之途，走上你死我亡的對峙局面。</desc>
   </programme>
-  <programme start="20260518000000 +0800" stop="20260518004000 +0800" channel="天映頻道">
-    <title>誤判</title>
-    <desc>根據真實案件改編，青年馬家傑在辯護律師的壓力下承認販運毒品，以換取減刑。然而，從警員轉任檢控官的霍子豪深信他是無辜的，於是毅然展開調查。儘管面臨生命威脅和失去工作的風險，霍子豪誓言揭露幕後真兇。</desc>
+  <programme start="20260518151500 +0800" stop="20260518165500 +0800" channel="天映頻道">
+    <title>Lelio 婆婆</title>
+    <desc>KK與Ah Luke曾經是紅極一時的電台主持人，卻因為不良態度與古怪性格而遭辭退，甚至連友台都拒他們於門外。兩人在潦倒之虞，決定參加一間新電台的主持人徵選活動。但是這間電台要徵選的是阿婆級的主持人，於是兩人假扮成老婆婆成功錄取，而展開一連串的趣事。</desc>
+  </programme>
+  <programme start="20260518165500 +0800" stop="20260518183500 +0800" channel="天映頻道">
+    <title>紅豆</title>
+    <desc>張家經營著位於九龍城的中式甜品店，然而母親突發中風，令一家人陷入劇變。女兒為了維持甜品店的生意，不得不放棄成為空姐的夢想，卻在過程中與父親產生衝突。他們一家能否齊心協力，克服重重難關？</desc>
+  </programme>
+  <programme start="20260518183500 +0800" stop="20260518210000 +0800" channel="天映頻道">
+    <title>爆裂點</title>
+    <desc>毒品調查科總督察李振邦派出警方臥底江銘滲入販毒集團希望能搗破首腦韓洋。一次警方突襲失敗後，激起韓洋復仇怒火。而在金三角供應毒品原料的膺秀亦被迫要與警方合作，搗破毒犯巢穴。一場警匪大戰旋即展開！</desc>
+  </programme>
+  <programme start="20260518210000 +0800" stop="20260518231000 +0800" channel="天映頻道">
+    <title>戴假髮的人</title>
+    <desc>法律系大專生孟中連續三次未能通過律師資格考試，心中充滿深深的挫敗與沮喪。某個狂風暴雨的夜晚，他將壓抑已久的情緒發洩在一名醉酒乘客身上。二十年後，孟中終於成為一名成功的律師。然而，在調查一起女孩遭受性侵的案件時，那段揮之不去的恐怖記憶再次籠罩他的心頭。</desc>
+  </programme>
+  <programme start="20260518231000 +0800" stop="20260519000000 +0800" channel="天映頻道">
+    <title>狂舞派</title>
+    <desc>天才街舞少女阿花(顏卓靈 飾)加入大學舞隊BombA，與萬人迷隊長Dave(LokmaN 飾)挑戰令人聞風喪膽的舞壇惡霸Rooftoppers，卻被隊友Rebecca(Janice 飾)橫刀奪愛及嘲笑舞技。憤然離隊的阿花此時碰上騎呢太極男阿良(蔡瀚億 飾)，竟受太極啟發創出全新舞招。阿花決定重返BombA，與宿敵Rooftoppers決一死戰，卻遇上意外導致嚴重腳傷。正當阿花覺得夢想幻滅之時，Rooftoppers的隊長Stormy(Tommy Guns 飾)竟突然現身她的輪椅前，揭開Rooftoppers稱霸舞壇的最大秘密...</desc>
+  </programme>
+  <programme start="20260519000000 +0800" stop="20260519011000 +0800" channel="天映頻道">
+    <title>狂舞派</title>
+    <desc>天才街舞少女阿花(顏卓靈 飾)加入大學舞隊BombA，與萬人迷隊長Dave(LokmaN 飾)挑戰令人聞風喪膽的舞壇惡霸Rooftoppers，卻被隊友Rebecca(Janice 飾)橫刀奪愛及嘲笑舞技。憤然離隊的阿花此時碰上騎呢太極男阿良(蔡瀚億 飾)，竟受太極啟發創出全新舞招。阿花決定重返BombA，與宿敵Rooftoppers決一死戰，卻遇上意外導致嚴重腳傷。正當阿花覺得夢想幻滅之時，Rooftoppers的隊長Stormy(Tommy Guns 飾)竟突然現身她的輪椅前，揭開Rooftoppers稱霸舞壇的最大秘密...</desc>
   </programme>
 </tv>
