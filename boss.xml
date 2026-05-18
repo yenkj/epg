@@ -3,84 +3,8 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260518000000 +0800" stop="20260518023000 +0800" channel="LS-Time電影台">
+  <programme start="20260519000000 +0800" stop="20260519014000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518023000 +0800" stop="20260518061000 +0800" channel="LS-Time電影台">
-    <title>太陽武神</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518023000 +0800" stop="20260518044500 +0800" channel="LS-Time電影台">
-    <title>鐵膽雄風</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518044500 +0800" stop="20260518072500 +0800" channel="LS-Time電影台">
-    <title>第三凶間</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518061000 +0800" stop="20260518084500 +0800" channel="LS-Time電影台">
-    <title>一個好爸爸</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518072500 +0800" stop="20260518095500 +0800" channel="LS-Time電影台">
-    <title>魂魄唔齊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518084500 +0800" stop="20260518114500 +0800" channel="LS-Time電影台">
-    <title>多羅羅天下之戰</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518095500 +0800" stop="20260518114500 +0800" channel="LS-Time電影台">
-    <title>大話西遊3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518114500 +0800" stop="20260518140000 +0800" channel="LS-Time電影台">
-    <title>沒女神探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518114500 +0800" stop="20260518134000 +0800" channel="LS-Time電影台">
-    <title>飛虎</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518134000 +0800" stop="20260518163500 +0800" channel="LS-Time電影台">
-    <title>死亡預告</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518140000 +0800" stop="20260518162500 +0800" channel="LS-Time電影台">
-    <title>玻璃之城</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518162500 +0800" stop="20260518185000 +0800" channel="LS-Time電影台">
-    <title>賭俠</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518163500 +0800" stop="20260518184000 +0800" channel="LS-Time電影台">
-    <title>警察鬥小偷</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518184000 +0800" stop="20260518210000 +0800" channel="LS-Time電影台">
-    <title>急先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518185000 +0800" stop="20260518210000 +0800" channel="LS-Time電影台">
-    <title>霹靂先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518210000 +0800" stop="20260518231000 +0800" channel="LS-Time電影台">
-    <title>超級市民</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518210000 +0800" stop="20260518231500 +0800" channel="LS-Time電影台">
-    <title>海峽兩岸</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260518225500 +0800" stop="20260519000000 +0800" channel="LS-Time電影台">
-    <title>辣椒教室</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260519000000 +0800" stop="20260519012000 +0800" channel="LS-Time電影台">
-    <title>辣椒教室</title>
     <desc></desc>
   </programme>
   <programme start="20260519014000 +0800" stop="20260519042000 +0800" channel="LS-Time電影台">
@@ -359,67 +283,107 @@
     <title>通靈少年2020</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20260518000000 +0800" stop="20260518004000 +0800" channel="天映頻道">
+  <programme start="20260524225000 +0800" stop="20260525000000 +0800" channel="LS-Time電影台">
+    <title>女士復仇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260525000000 +0800" stop="20260525010000 +0800" channel="LS-Time電影台">
+    <title>女士復仇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260525000000 +0800" stop="20260525015000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260518004000 +0800" stop="20260518023500 +0800" channel="天映頻道">
-    <title>老狐狸</title>
-    <desc>1989年，年輕的廖傑和他的父親為購房而存錢，卻不知道房價正在飆升。飽受貧困之苦，他向房東老狐狸學會在社會中求生存。廖傑最終以所學傷害了老狐狸，但他的同情心終究使他沒有成為另一個老狐狸。</desc>
+  <programme start="20260525015000 +0800" stop="20260525072500 +0800" channel="LS-Time電影台">
+    <title>火力拳開</title>
+    <desc></desc>
   </programme>
-  <programme start="20260518023500 +0800" stop="20260518043000 +0800" channel="天映頻道">
-    <title>盜月者</title>
-    <desc>一家賊贓手錶店的老闆策劃一組盜竊團隊，成員包括大賊、爆破專家、開鎖天才和二手錶專家，飛往東京盜取三隻名貴手錶。然而，當他們偶然發現了更珍貴的手錶「Moonwatch」後，行動起了變化，被日本黑幫追殺。他們必須合作力圖脫身，並把手錶帶回香港。</desc>
+  <programme start="20260525072500 +0800" stop="20260525094500 +0800" channel="LS-Time電影台">
+    <title>整人專家</title>
+    <desc></desc>
   </programme>
-  <programme start="20260518043000 +0800" stop="20260518061000 +0800" channel="天映頻道">
-    <title>熱血合唱團</title>
-    <desc>「熱血合唱團試驗計畫」打算特訓由三流學校學生組成的古典音樂合唱團去參加「校際合唱團比賽」。外界對這次計畫一致不看好，但美國著名華裔指揮家嚴梓朗，消聲匿跡一年後竟答應來港擔任合唱團指揮。「熱血合唱團」與嚴指揮最終能否排除萬難，完成這個不可能的任務？</desc>
+  <programme start="20260525094500 +0800" stop="20260525115500 +0800" channel="LS-Time電影台">
+    <title>每當變幻時</title>
+    <desc></desc>
   </programme>
-  <programme start="20260518061000 +0800" stop="20260518080000 +0800" channel="天映頻道">
-    <title>搜救</title>
-    <desc>寒冬季節，阿德一家自駕遊到長白山旅行，途中卻因走失其八歲兒子而樂極生悲。阿德向當地派出所求助，可惜孩子仍未找到。即使黃金救援時間已過去，阿德和救援隊伍仍堅持繼續搜救任務。最後又能否順利拯救兒子？</desc>
+  <programme start="20260525115500 +0800" stop="20260525140000 +0800" channel="LS-Time電影台">
+    <title>摩登笑探</title>
+    <desc></desc>
   </programme>
-  <programme start="20260518080000 +0800" stop="20260518100000 +0800" channel="天映頻道">
-    <title>慌心假期</title>
-    <desc>Michele正面臨婚姻破裂的危機，於是她獨自到歐洲散心。旅途中，Michele結識了日本女子Miki，二人結伴遊玩後，Michele發現對方竟是自己婚姻裡的第三者。然而，當Miki在摩洛哥失蹤， Michele卻傾盡一切把她尋回，最後更要付上沉重的代價…</desc>
+  <programme start="20260525140000 +0800" stop="20260525155500 +0800" channel="LS-Time電影台">
+    <title>蠻荒的童話</title>
+    <desc></desc>
   </programme>
-  <programme start="20260518100000 +0800" stop="20260518115500 +0800" channel="天映頻道">
-    <title>瞞天過海</title>
-    <desc>年輕貌美的企業家喬文娜被控為一宗密室殺人案的疑兇，而死者正是她的情夫。喬文娜找來一名員警協助她洗脫罪名，調查期間他們揭發另一牽涉喬文娜和她情夫的兇殺案，真相逐漸浮出水面。</desc>
+  <programme start="20260525155500 +0800" stop="20260525181000 +0800" channel="LS-Time電影台">
+    <title>搶錢夫妻</title>
+    <desc></desc>
   </programme>
-  <programme start="20260518115500 +0800" stop="20260518133500 +0800" channel="天映頻道">
-    <title>無名指</title>
-    <desc>前壁球冠軍鄧叔彥與妻子正面臨人生的嚴峻考驗，就是女兒罹患罕見脊椎疾病，母親也同時確診癌症。多年後，當這個家庭在堅持與放棄之間掙扎時，一個微小卻充滿力量的希望悄然出現 — 女兒尾指輕輕顫動，讓他們重新找回了彼此的連結。</desc>
+  <programme start="20260525181000 +0800" stop="20260525210000 +0800" channel="LS-Time電影台">
+    <title>虛擬城市</title>
+    <desc></desc>
   </programme>
-  <programme start="20260518133500 +0800" stop="20260518151500 +0800" channel="天映頻道">
-    <title>無間行者之生死潛行</title>
-    <desc>黑幫丁卓飛與反黑隊督察段一凡是雙方安插對方陣營的臥底。經歷了十年臥底，丁開始厭倦臥底工作，而段在反黑組步步高升，反開始想做一個真正的員警，並計畫要擺脫黑幫。黑幫老大設騙局找出雙方叛徒，一黑一白兩個員警，各自為自己的正義之途，走上你死我亡的對峙局面。</desc>
+  <programme start="20260525210000 +0800" stop="20260525225000 +0800" channel="LS-Time電影台">
+    <title>暗夜門徒</title>
+    <desc></desc>
   </programme>
-  <programme start="20260518151500 +0800" stop="20260518165500 +0800" channel="天映頻道">
-    <title>Lelio 婆婆</title>
-    <desc>KK與Ah Luke曾經是紅極一時的電台主持人，卻因為不良態度與古怪性格而遭辭退，甚至連友台都拒他們於門外。兩人在潦倒之虞，決定參加一間新電台的主持人徵選活動。但是這間電台要徵選的是阿婆級的主持人，於是兩人假扮成老婆婆成功錄取，而展開一連串的趣事。</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20260519000000 +0800" stop="20260519010000 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20260518165500 +0800" stop="20260518183500 +0800" channel="天映頻道">
-    <title>紅豆</title>
-    <desc>張家經營著位於九龍城的中式甜品店，然而母親突發中風，令一家人陷入劇變。女兒為了維持甜品店的生意，不得不放棄成為空姐的夢想，卻在過程中與父親產生衝突。他們一家能否齊心協力，克服重重難關？</desc>
+  <programme start="20260519010000 +0800" stop="20260519025500 +0800" channel="天映頻道">
+    <title>白日青春</title>
+    <desc>巴基斯坦裔難民男孩哈山的父親因車禍死亡，於是計程車司機陳白日助他偷渡離港。漸漸二人的相處就如父子一樣，直至男孩駭然發現父親意外身亡的真相…</desc>
   </programme>
-  <programme start="20260518183500 +0800" stop="20260518210000 +0800" channel="天映頻道">
-    <title>爆裂點</title>
-    <desc>毒品調查科總督察李振邦派出警方臥底江銘滲入販毒集團希望能搗破首腦韓洋。一次警方突襲失敗後，激起韓洋復仇怒火。而在金三角供應毒品原料的膺秀亦被迫要與警方合作，搗破毒犯巢穴。一場警匪大戰旋即展開！</desc>
+  <programme start="20260519025500 +0800" stop="20260519043000 +0800" channel="天映頻道">
+    <title>團圓飯</title>
+    <desc>朝陽和子虹終於到了談婚論嫁的階段，但未造訪彼此家長。在一次客戶的要求下，他們倆必須在年除夕當晚與家人共用團圓飯，以直播方式來推銷客戶的產品。可是朝陽和媽媽關係不好，長年不相往來，於是突發奇想請了一群演員來扮「家人」出席飯局。本該喜氣洋洋的聚會，卻變得啼笑皆非！</desc>
   </programme>
-  <programme start="20260518210000 +0800" stop="20260518231000 +0800" channel="天映頻道">
-    <title>戴假髮的人</title>
-    <desc>法律系大專生孟中連續三次未能通過律師資格考試，心中充滿深深的挫敗與沮喪。某個狂風暴雨的夜晚，他將壓抑已久的情緒發洩在一名醉酒乘客身上。二十年後，孟中終於成為一名成功的律師。然而，在調查一起女孩遭受性侵的案件時，那段揮之不去的恐怖記憶再次籠罩他的心頭。</desc>
+  <programme start="20260519043000 +0800" stop="20260519061500 +0800" channel="天映頻道">
+    <title>神探大戰</title>
+    <desc>香港接連出現多宗殘忍至極的兇殺案，死者全是逍遙法外的嫌疑犯，兇手們自稱「神探」。前警隊的皇牌李俊，為了正義及證明自己不是瘋子而是真正的「神探」，誓要將這群殺人犯緝拿歸案。</desc>
   </programme>
-  <programme start="20260518231000 +0800" stop="20260519000000 +0800" channel="天映頻道">
-    <title>狂舞派</title>
-    <desc>天才街舞少女阿花(顏卓靈 飾)加入大學舞隊BombA，與萬人迷隊長Dave(LokmaN 飾)挑戰令人聞風喪膽的舞壇惡霸Rooftoppers，卻被隊友Rebecca(Janice 飾)橫刀奪愛及嘲笑舞技。憤然離隊的阿花此時碰上騎呢太極男阿良(蔡瀚億 飾)，竟受太極啟發創出全新舞招。阿花決定重返BombA，與宿敵Rooftoppers決一死戰，卻遇上意外導致嚴重腳傷。正當阿花覺得夢想幻滅之時，Rooftoppers的隊長Stormy(Tommy Guns 飾)竟突然現身她的輪椅前，揭開Rooftoppers稱霸舞壇的最大秘密...</desc>
+  <programme start="20260519061500 +0800" stop="20260519084500 +0800" channel="天映頻道">
+    <title>第一爐香</title>
+    <desc>電影由許鞍華導演，改編自張愛玲的首部短篇小說。三十年代，年青女學生葛薇龍離鄉別背井從上海到香港求學，因生活拮據，求助姑媽代交學費，卻被姑媽利用，成為上流社會社交遊戲的誘餌。當她愛上花花公子喬琪喬時，正是她墮落的開始。</desc>
   </programme>
-  <programme start="20260519000000 +0800" stop="20260519011000 +0800" channel="天映頻道">
-    <title>狂舞派</title>
-    <desc>天才街舞少女阿花(顏卓靈 飾)加入大學舞隊BombA，與萬人迷隊長Dave(LokmaN 飾)挑戰令人聞風喪膽的舞壇惡霸Rooftoppers，卻被隊友Rebecca(Janice 飾)橫刀奪愛及嘲笑舞技。憤然離隊的阿花此時碰上騎呢太極男阿良(蔡瀚億 飾)，竟受太極啟發創出全新舞招。阿花決定重返BombA，與宿敵Rooftoppers決一死戰，卻遇上意外導致嚴重腳傷。正當阿花覺得夢想幻滅之時，Rooftoppers的隊長Stormy(Tommy Guns 飾)竟突然現身她的輪椅前，揭開Rooftoppers稱霸舞壇的最大秘密...</desc>
+  <programme start="20260519084500 +0800" stop="20260519105500 +0800" channel="天映頻道">
+    <title>新警察故事</title>
+    <desc>榮是警隊的精英,但自從他的手下在一次行動中被犯罪五人組襲擊，全部殉職後，他終日借酒消愁。一年過去，年青幹探阿鋒被派與榮合作，背景複雜的阿鋒令榮重新振作，誓要捉拿犯罪五人組歸案。</desc>
+  </programme>
+  <programme start="20260519105500 +0800" stop="20260519124000 +0800" channel="天映頻道">
+    <title>微交少女</title>
+    <desc>電影以智能電話「微交網絡」作爲主題，刻劃出2010年代，三個不同階層和背景的少女，素未謀面各自有著自己的煩惱和問題，郤不約而同走上了歪路，爲錢和愛情來出賣身體，糜爛迷失的生活故事。</desc>
+  </programme>
+  <programme start="20260519124000 +0800" stop="20260519145000 +0800" channel="天映頻道">
+    <title>危機航線</title>
+    <desc>一架A380航班在首航中遭到槍手劫持。國際保安專家高皓軍恰巧身在機上，而他的女兒不幸成為人質，生命危在旦夕。為了救回女兒，高皓軍挺身而出，與劫匪展開生死對決。面對這場生死攸關的危機，高皓軍能否成功拯救所有乘客，化解這場空中浩劫？</desc>
+  </programme>
+  <programme start="20260519145000 +0800" stop="20260519165000 +0800" channel="天映頻道">
+    <title>超神經械劫案下</title>
+    <desc>一宗鑽石搶劫案中，其中一名保安人員啫喱偷走了鑽石後逃跑。同為保安人員的有成和企鵝被劫匪威迫下協助追查鑽石的下落。在途中，他們發現一個與世隔絕的村莊，碰到怪裡怪氣的村民和遇到連串靈異事件。他們最終能否找到啫喱和鑽石的下落？</desc>
+  </programme>
+  <programme start="20260519165000 +0800" stop="20260519184500 +0800" channel="天映頻道">
+    <title>金錢帝國: 追虎擒龍</title>
+    <desc>七十年代初，香港貪污情況氾濫，廉政公署致力打擊。華探長與黑道首領跛豪聯手多年，其貪污金額更達到百億之多。任職律師的陳克遇上舊友，被邀加入廉政公署，二人合力剷除華探長與跛豪這兩隻大老虎，打擊貪污。一場正義與邪惡的爭鬥也隨之拉開了帷幕。</desc>
+  </programme>
+  <programme start="20260519184500 +0800" stop="20260519210000 +0800" channel="天映頻道">
+    <title>熱辣滾燙</title>
+    <desc>樂瑩感到迷失和無所事事，在短暫的工作經歷後，她選擇退出社會。某天，經歷了一連串意外事件後，她決定全新開始，擁抱生活的可能性。當她遇見一位拳擊教練時，心中燃起了對新生活的希望。然而，隨之而來的挑戰卻超出了她的想像，開啟了她熱血沸騰的人生旅程。</desc>
+  </programme>
+  <programme start="20260519210000 +0800" stop="20260519224500 +0800" channel="天映頻道">
+    <title>深宵閃避球</title>
+    <desc>社工楊琦為不願歸家的少女們而開辨的「深宵體育館」計畫面臨缺乏經費的危機。於是，她組織了一支閃避球隊參加比賽，若勝出便可挽救計畫。在一位前明星運動員劉志聰幫助當教練下，少女們終於明白到逃避不是辨法，只有學習勇敢面對才可克服挑戰。他們最後能否贏得比賽？</desc>
+  </programme>
+  <programme start="20260519224500 +0800" stop="20260520000000 +0800" channel="天映頻道">
+    <title>OMG! 阿媽有喜</title>
+    <desc>53歲的Rita和丈夫計畫退休，卻意外懷孕，打亂了原本平靜的家庭生活。面對這突如其來的新生命，一場安胎之戰帶來連串笑料與混亂，讓一家人重拾理解與包容。正當一切看似平靜，Rita得知胎兒疑似患有唐氏綜合症，她將面臨人生最艱難抉擇。</desc>
+  </programme>
+  <programme start="20260520000000 +0800" stop="20260520004500 +0800" channel="天映頻道">
+    <title>OMG! 阿媽有喜</title>
+    <desc>53歲的Rita和丈夫計畫退休，卻意外懷孕，打亂了原本平靜的家庭生活。面對這突如其來的新生命，一場安胎之戰帶來連串笑料與混亂，讓一家人重拾理解與包容。正當一切看似平靜，Rita得知胎兒疑似患有唐氏綜合症，她將面臨人生最艱難抉擇。</desc>
   </programme>
 </tv>
