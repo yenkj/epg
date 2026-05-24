@@ -3,60 +3,8 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260524000000 +0800" stop="20260524014000 +0800" channel="LS-Time電影台">
+  <programme start="20260525000000 +0800" stop="20260525015000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524014000 +0800" stop="20260524040500 +0800" channel="LS-Time電影台">
-    <title>新宿事件</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524040500 +0800" stop="20260524064000 +0800" channel="LS-Time電影台">
-    <title>英雄本色3</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524064000 +0800" stop="20260524092000 +0800" channel="LS-Time電影台">
-    <title>戰鼓</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524092000 +0800" stop="20260524113500 +0800" channel="LS-Time電影台">
-    <title>蝶龍魔斯拉</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524113500 +0800" stop="20260524142000 +0800" channel="LS-Time電影台">
-    <title>龍門飛甲</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524142000 +0800" stop="20260524164000 +0800" channel="LS-Time電影台">
-    <title>家有囍事</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524164000 +0800" stop="20260524185500 +0800" channel="LS-Time電影台">
-    <title>又見阿郎</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524185500 +0800" stop="20260524210000 +0800" channel="LS-Time電影台">
-    <title>劇場版城市獵人-天使之淚</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524210000 +0800" stop="20260524234000 +0800" channel="LS-Time電影台">
-    <title>通靈少年2020</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524225000 +0800" stop="20260525000000 +0800" channel="LS-Time電影台">
-    <title>女士復仇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260524232500 +0800" stop="20260525000000 +0800" channel="LS-Time電影台">
-    <title>猛鬼大學-第2學期</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260525000000 +0800" stop="20260525010000 +0800" channel="LS-Time電影台">
-    <title>女士復仇</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260525000000 +0800" stop="20260525022000 +0800" channel="LS-Time電影台">
-    <title>猛鬼大學-第2學期</title>
     <desc></desc>
   </programme>
   <programme start="20260525015000 +0800" stop="20260525072500 +0800" channel="LS-Time電影台">
@@ -315,63 +263,119 @@
     <title>不可思異</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20260524000000 +0800" stop="20260524002500 +0800" channel="天映頻道">
+  <programme start="20260529230000 +0800" stop="20260530000000 +0800" channel="LS-Time電影台">
+    <title>菜鳥警校生</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260530000000 +0800" stop="20260530012500 +0800" channel="LS-Time電影台">
+    <title>菜鳥警校生</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260530000000 +0800" stop="20260530011000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260524002500 +0800" stop="20260524021000 +0800" channel="天映頻道">
-    <title>出租家人</title>
-    <desc>沉迷於演戲的臨時演員志光，加入由家聰與立志成為女演員的佩怡一起成立的「出租家人公司」，變成出租臨時家人。當他們出演臨時家人服務時，發現家庭成員間的複雜關係，並建立更深入的聯繫。</desc>
+  <programme start="20260530011000 +0800" stop="20260530030000 +0800" channel="LS-Time電影台">
+    <title>天生舞男</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524021000 +0800" stop="20260524043000 +0800" channel="天映頻道">
-    <title>飯戲攻心2</title>
-    <desc>這是《飯戲攻心》的續集，講述二哥和三哥在大哥離家之際，計畫要結婚。最後，他們的婚宴成為一個混亂的戰場，婚宴升級為家族鬥獸場，造成一場喜上加喜的飯戲！</desc>
+  <programme start="20260530030000 +0800" stop="20260530052500 +0800" channel="LS-Time電影台">
+    <title>放逐</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524043000 +0800" stop="20260524061500 +0800" channel="天映頻道">
-    <title>臨時劫案</title>
-    <desc>悍匪梅藍天策動了「閃電械劫」，陰差陽錯撞上也正在籌畫打劫的慕容輝及笠水，於是三人結盟。最後這宗臨時械劫卻惹來員警追捕，並展開一場激烈的追逐戰，三人的性命也危在旦夕！</desc>
+  <programme start="20260530052500 +0800" stop="20260530072000 +0800" channel="LS-Time電影台">
+    <title>神仙龍虎豹</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524061500 +0800" stop="20260524082000 +0800" channel="天映頻道">
-    <title>窄路微塵</title>
-    <desc>獨力經營清潔公司的窄哥，面對疫情來襲，百業蕭條。因為需要幫手，他僱用了單親媽媽Candy，而Candy竟能化解窄哥工作上的困難。正當二人以為生活漸入佳境，開始恢復正常時，卻再次面對疫情所帶來的殘酷現實。儘管人如微塵，他們也能在窄路上稍作依偎。</desc>
+  <programme start="20260530072000 +0800" stop="20260530091500 +0800" channel="LS-Time電影台">
+    <title>麻吉妖怪島</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524082000 +0800" stop="20260524101500 +0800" channel="天映頻道">
-    <title>不日成婚</title>
-    <desc>阿佳與可怡在一個婚禮上相識，兩人一拍即合，相愛五年，終於迎來最大的感情危機－「結婚」！女方視結婚為愛的證明，男方則視結婚為愛的墳墓。二人能否解決雙方在結婚問題的矛盾? 最後又能否成婚?</desc>
+  <programme start="20260530091500 +0800" stop="20260530113500 +0800" channel="LS-Time電影台">
+    <title>六度空間大水怪</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524101500 +0800" stop="20260524123000 +0800" channel="天映頻道">
-    <title>古董局中局</title>
-    <desc>儘管家族是中國古董鑒定的權威，但許願卻寧可在電器店當小老闆，為要脫離家族的惡名。當一件古董將要歸還中國時，許願發現此古董的歷史謎團，可因此挽回家族的名聲，便旋即追查真相，但也同時要冒著生命的危險。</desc>
+  <programme start="20260530113500 +0800" stop="20260530141000 +0800" channel="LS-Time電影台">
+    <title>非誠勿擾</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524123000 +0800" stop="20260524143500 +0800" channel="天映頻道">
-    <title>過時.過節</title>
-    <desc>八年前，一個傳統客家家庭在冬至飯局上的一場爭吵，令一家人難以原諒彼此，從此未曾一起過節。直至八年後，表妹忽然從英國回港，希望促成一場冬至飯局。面臨瓦解的危局，這飯局或許也是這個家庭修補關係的契機。</desc>
+  <programme start="20260530141000 +0800" stop="20260530161000 +0800" channel="LS-Time電影台">
+    <title>正牌韋小寶之奉旨溝女</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524143500 +0800" stop="20260524170000 +0800" channel="天映頻道">
-    <title>爆裂點</title>
-    <desc>毒品調查科總督察李振邦派出警方臥底江銘滲入販毒集團希望能搗破首腦韓洋。一次警方突襲失敗後，激起韓洋復仇怒火。而在金三角供應毒品原料的膺秀亦被迫要與警方合作，搗破毒犯巢穴。一場警匪大戰旋即展開！</desc>
+  <programme start="20260530161000 +0800" stop="20260530183500 +0800" channel="LS-Time電影台">
+    <title>整人專家</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524170000 +0800" stop="20260524190500 +0800" channel="天映頻道">
-    <title>內幕</title>
-    <desc>慈善基金會「濟拔堂」的首席財務官被發現自縊，兩億港元的捐款亦不翼而飛。為揭開真相，基金會律師馬迎風被迫與探員柯定邦聯手調查。他們不惜一切代價，誓要揭露「濟拔堂」背後的黑幕，捍衛正義。</desc>
+  <programme start="20260530183500 +0800" stop="20260530210000 +0800" channel="LS-Time電影台">
+    <title>通靈少年2020</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524190500 +0800" stop="20260524210000 +0800" channel="天映頻道">
-    <title>小曉</title>
-    <desc>小曉是一個患有過度活躍症的女孩，在學校經常遭到同學的霸淩。她的父親在國外辛勤工作，而母親則認為她總是製造麻煩。唯有班導保羅似乎能理解她的困擾，並舒緩她的情緒。某個颱風夜晚，小曉目睹了媽媽與保羅之間的秘密。此時，她不僅要面對自己複雜的情感，還感受到人生的無助與孤獨。</desc>
+  <programme start="20260530210000 +0800" stop="20260530230000 +0800" channel="LS-Time電影台">
+    <title>冤鴦大盜</title>
+    <desc></desc>
   </programme>
-  <programme start="20260524210000 +0800" stop="20260524224000 +0800" channel="天映頻道">
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20260525000000 +0800" stop="20260525001500 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260525001500 +0800" stop="20260525015500 +0800" channel="天映頻道">
+    <title>紮職 2</title>
+    <desc>黑幫成員阿齊發現伏擊黑幫老大的竟是兒時好兄弟阿貓，但他仍協助阿貓逃離香港。17年後，阿齊已是黑幫內舉足輕重的分子。一天，阿齊重遇阿貓，知道若黑幫兄弟發現阿貓的行蹤，他定必死無疑。阿齊在黑幫與兄弟情間，最後會如何選擇？</desc>
+  </programme>
+  <programme start="20260525015500 +0800" stop="20260525034500 +0800" channel="天映頻道">
+    <title>想見你</title>
+    <desc>電影是同名劇集的延續，講述黃雨萱在哀悼男友過世的同時，收到一台神秘的答錄機，竟可以讓她回到過去。回到過去後，她重遇深愛的男朋友，但她最後能否改變他的命運？</desc>
+  </programme>
+  <programme start="20260525034500 +0800" stop="20260525055500 +0800" channel="天映頻道">
+    <title>熱辣滾燙</title>
+    <desc>樂瑩感到迷失和無所事事，在短暫的工作經歷後，她選擇退出社會。某天，經歷了一連串意外事件後，她決定全新開始，擁抱生活的可能性。當她遇見一位拳擊教練時，心中燃起了對新生活的希望。然而，隨之而來的挑戰卻超出了她的想像，開啟了她熱血沸騰的人生旅程。</desc>
+  </programme>
+  <programme start="20260525055500 +0800" stop="20260525075000 +0800" channel="天映頻道">
+    <title>4拍4家族</title>
+    <desc>獨立樂隊Band Four主歌手決心踏上國際舞臺，在媽媽病逝後與失散多年的吉他手父親重逢。父女二人加上同父異母的妹妹及9歲兒子，一家四口通過對音樂的愛與熱忱，一起締造充滿愛的家庭。</desc>
+  </programme>
+  <programme start="20260525075000 +0800" stop="20260525101000 +0800" channel="天映頻道">
+    <title>海角七號</title>
+    <desc>一位台灣歌手要將七封送錯地址的久遠情書送到收件人友子手中。當他愛上也名叫友子的年輕日藉模特兒時，隨即發現當中偶然的時空連繫。</desc>
+  </programme>
+  <programme start="20260525101000 +0800" stop="20260525122000 +0800" channel="天映頻道">
+    <title>人潮洶湧</title>
+    <desc>澡堂內的一場意外令劇場演員小萌和殺手週全交換了人生。小萌被迫要完成週全未完成的殺人任務，與此同時週全亦失去記憶，並誤以為自己是個走投無路的劇場演員。當週全重新立志成為成功的演員時，他的記憶也逐漸恢復過來…</desc>
+  </programme>
+  <programme start="20260525122000 +0800" stop="20260525140000 +0800" channel="天映頻道">
     <title>赴湯蹈火</title>
     <desc>暗影小隊隊長林朗率領僱傭兵團隊，接獲高危任務，要護送一名神秘女子平安返家。她是暗網史上懸賞最高的目標，重賞之下，全球頂尖殺手蠢蠢欲動，惡名昭彰的國際通緝犯Roy亦現身追殺。如今，林朗與隊友們唯有拼死一搏，才能完成任務。</desc>
   </programme>
-  <programme start="20260524224000 +0800" stop="20260525000000 +0800" channel="天映頻道">
-    <title>闔家辣</title>
-    <desc>新冠病毒疫情爆發，令Coba在家工作，成天與家人發生爭執。Coba決定將母親的手工辣椒醬變成潮物，企圖轉移家人視線避免爭吵。Coba的父母和姑媽一起製作手工辣椒醬，並在社交平臺上放售，其後辣椒醬大賣，成績更令大家喜出望外。</desc>
+  <programme start="20260525140000 +0800" stop="20260525153000 +0800" channel="天映頻道">
+    <title>婚前試愛</title>
+    <desc>琪琪與拍拖七年的男友阿澤在一星期後便結婚，他們卻在婚前三天雙雙出軌。這對年輕情侶各自面對自己完美的新伴侶，拋開一切責任，走上了各自的愛情岔路…</desc>
   </programme>
-  <programme start="20260525000000 +0800" stop="20260525004000 +0800" channel="天映頻道">
-    <title>闔家辣</title>
-    <desc>新冠病毒疫情爆發，令Coba在家工作，成天與家人發生爭執。Coba決定將母親的手工辣椒醬變成潮物，企圖轉移家人視線避免爭吵。Coba的父母和姑媽一起製作手工辣椒醬，並在社交平臺上放售，其後辣椒醬大賣，成績更令大家喜出望外。</desc>
+  <programme start="20260525153000 +0800" stop="20260525170500 +0800" channel="天映頻道">
+    <title>長江七號</title>
+    <desc>週星馳強勢回歸的作品，講述一對父子在垃圾桶裡發現可愛外星人後，出現一連串既搞笑又溫馨的故事。</desc>
+  </programme>
+  <programme start="20260525170500 +0800" stop="20260525191500 +0800" channel="天映頻道">
+    <title>危機航線</title>
+    <desc>一架A380航班在首航中遭到槍手劫持。國際保安專家高皓軍恰巧身在機上，而他的女兒不幸成為人質，生命危在旦夕。為了救回女兒，高皓軍挺身而出，與劫匪展開生死對決。面對這場生死攸關的危機，高皓軍能否成功拯救所有乘客，化解這場空中浩劫？</desc>
+  </programme>
+  <programme start="20260525191500 +0800" stop="20260525210000 +0800" channel="天映頻道">
+    <title>多樂路</title>
+    <desc>東北某小城，一家麻辣湯館每天都迎來不同的客人。這些客人中有如膠似漆的小情侶，兩名放蕩不羈的青年和一位的士司機。他們本是毫無交集的人，卻因為一場交通事故牽扯在一起…</desc>
+  </programme>
+  <programme start="20260525210000 +0800" stop="20260525224500 +0800" channel="天映頻道">
+    <title>除暴</title>
+    <desc>根據真實故事改編，刑警鐘誠受命追捕以張隼為首的悍匪集團“老鷹幫”，首領張隼以高超的技術多次犯下無數搶劫殺人大案，並成功逃脫。十年後，「老鷹」始終未能落網，警方的限期破案指令面臨巨大挑戰！究竟最後刑警鐘誠能否成功將“老鷹幫”一網打盡？</desc>
+  </programme>
+  <programme start="20260525224500 +0800" stop="20260526000000 +0800" channel="天映頻道">
+    <title>8塊錢富豪</title>
+    <desc>一名落魄的畫家意外獲得一個能無限產生8塊錢鈔票的神奇錢包，讓他從生活窘迫一躍成為暴富。這個奇跡究竟是福還是禍？</desc>
+  </programme>
+  <programme start="20260526000000 +0800" stop="20260526004500 +0800" channel="天映頻道">
+    <title>8塊錢富豪</title>
+    <desc>一名落魄的畫家意外獲得一個能無限產生8塊錢鈔票的神奇錢包，讓他從生活窘迫一躍成為暴富。這個奇跡究竟是福還是禍？</desc>
   </programme>
 </tv>
