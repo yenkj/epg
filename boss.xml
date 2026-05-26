@@ -3,54 +3,6 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260526000000 +0800" stop="20260526022000 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526022000 +0800" stop="20260526045000 +0800" channel="LS-Time電影台">
-    <title>這個殺手演很大</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526045000 +0800" stop="20260526064000 +0800" channel="LS-Time電影台">
-    <title>猛鬼佛跳牆</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526064000 +0800" stop="20260526084000 +0800" channel="LS-Time電影台">
-    <title>兩屋一妻</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526084000 +0800" stop="20260526105000 +0800" channel="LS-Time電影台">
-    <title>東京攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526105000 +0800" stop="20260526134000 +0800" channel="LS-Time電影台">
-    <title>皇天后土</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526134000 +0800" stop="20260526161000 +0800" channel="LS-Time電影台">
-    <title>監獄風雲2大逃犯</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526161000 +0800" stop="20260526180000 +0800" channel="LS-Time電影台">
-    <title>開心鬼救開心鬼</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526180000 +0800" stop="20260526210000 +0800" channel="LS-Time電影台">
-    <title>假面飯店</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526210000 +0800" stop="20260526234000 +0800" channel="LS-Time電影台">
-    <title>拆彈專家</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260526232500 +0800" stop="20260527000000 +0800" channel="LS-Time電影台">
-    <title>劍雨</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260527000000 +0800" stop="20260527021000 +0800" channel="LS-Time電影台">
-    <title>劍雨</title>
-    <desc></desc>
-  </programme>
   <programme start="20260527000000 +0800" stop="20260527014000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
@@ -331,67 +283,111 @@
     <title>海峽兩岸</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20260526000000 +0800" stop="20260526003500 +0800" channel="天映頻道">
+  <programme start="20260601225500 +0800" stop="20260602000000 +0800" channel="LS-Time電影台">
+    <title>辣椒教室</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260602000000 +0800" stop="20260602012000 +0800" channel="LS-Time電影台">
+    <title>辣椒教室</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260602000000 +0800" stop="20260602014000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260526003500 +0800" stop="20260526024500 +0800" channel="天映頻道">
-    <title>阿媽有咗第二個</title>
-    <desc>當紅的金牌經理人美鳳退休後相夫教子，某天決定重操故業，藉以尋回人生價值。一次偶然的機會讓她成功發掘茶餐廳送外賣的方晴，令他成為大眾的年輕偶像。然而這卻令兒子感到被冷落，從而非常妒忌方晴。</desc>
+  <programme start="20260602014000 +0800" stop="20260602042000 +0800" channel="LS-Time電影台">
+    <title>鬼亂5</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526024500 +0800" stop="20260526042500 +0800" channel="天映頻道">
-    <title>深宵閃避球</title>
-    <desc>社工楊琦為不願歸家的少女們而開辨的「深宵體育館」計畫面臨缺乏經費的危機。於是，她組織了一支閃避球隊參加比賽，若勝出便可挽救計畫。在一位前明星運動員劉志聰幫助當教練下，少女們終於明白到逃避不是辨法，只有學習勇敢面對才可克服挑戰。他們最後能否贏得比賽？</desc>
+  <programme start="20260602042000 +0800" stop="20260602071000 +0800" channel="LS-Time電影台">
+    <title>五億探長雷洛傳</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526042500 +0800" stop="20260526055500 +0800" channel="天映頻道">
-    <title>意外人生</title>
-    <desc>潘義銘收到父親的遺囑，告知他有一筆巨額遺產，卻要回鄉參加葬禮才能繼承。回鄉後，潘義銘重遇前度女友林悅，更遇見她的丈夫華琪和素未謀面的女兒。當潘義銘發現華琪長期對女兒家暴時，一心要拯救女兒，卻逐步陷入他們設的陷阱…</desc>
+  <programme start="20260602071000 +0800" stop="20260602094000 +0800" channel="LS-Time電影台">
+    <title>汪洋中的一條船</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526055500 +0800" stop="20260526075000 +0800" channel="天映頻道">
-    <title>得寵先生</title>
-    <desc>獨居的佳叔脾氣暴躁。他因被迫退休、婚姻失敗以及與女兒關係疏離而感到人生無望，最終決定結束自己的生命。然而，他意外地被一隻流浪狗和一位動物義工所救，並重新找回了人生的意義。</desc>
+  <programme start="20260602094000 +0800" stop="20260602122000 +0800" channel="LS-Time電影台">
+    <title>喬瑟與老虎、魚</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526075000 +0800" stop="20260526093500 +0800" channel="天映頻道">
-    <title>緣路山旮旯</title>
-    <desc>28歲的阿厚是一名宅男資訊科技員，雖只有一次戀愛經驗，卻在這一年內分別與五名女子談戀愛，而她們的共通點都是住在香港的偏遠地區。完成五堂愛情速成班後，阿厚最終能否修成正果？</desc>
+  <programme start="20260602122000 +0800" stop="20260602142500 +0800" channel="LS-Time電影台">
+    <title>通天大盜</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526093500 +0800" stop="20260526114000 +0800" channel="天映頻道">
-    <title>西遊記之大鬧天宮</title>
-    <desc>女媧娘娘化成萬千五彩晶石補天，其中一顆晶石迸出了孫悟空。孫悟空武功高強，不知天高地厚竟挑戰玉皇大帝，搞得天宮一片混亂，無意間讓牛魔王乘虛而入，欲攻陷天宮重振魔族聲威。</desc>
+  <programme start="20260602142500 +0800" stop="20260602164500 +0800" channel="LS-Time電影台">
+    <title>想飛之傲空神鷹</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526114000 +0800" stop="20260526133000 +0800" channel="天映頻道">
-    <title>神探大戰</title>
-    <desc>香港接連出現多宗殘忍至極的兇殺案，死者全是逍遙法外的嫌疑犯，兇手們自稱「神探」。前警隊的皇牌李俊，為了正義及證明自己不是瘋子而是真正的「神探」，誓要將這群殺人犯緝拿歸案。</desc>
+  <programme start="20260602164500 +0800" stop="20260602185500 +0800" channel="LS-Time電影台">
+    <title>夏日的麼麼茶</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526133000 +0800" stop="20260526153500 +0800" channel="天映頻道">
-    <title>世間有她</title>
-    <desc>2020年新冠疫情來襲，三位女性在前景不明朗的困境中，各自與朋友和家人找尋出路。從家裡的難題到感情關係的掙扎，還有工作上的鬥爭，這三位女性都堅強地在困境中找尋出路。</desc>
+  <programme start="20260602185500 +0800" stop="20260602210000 +0800" channel="LS-Time電影台">
+    <title>進擊的巨人</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526153500 +0800" stop="20260526171500 +0800" channel="天映頻道">
-    <title>無間行者之生死潛行</title>
-    <desc>黑幫丁卓飛與反黑隊督察段一凡是雙方安插對方陣營的臥底。經歷了十年臥底，丁開始厭倦臥底工作，而段在反黑組步步高升，反開始想做一個真正的員警，並計畫要擺脫黑幫。黑幫老大設騙局找出雙方叛徒，一黑一白兩個員警，各自為自己的正義之途，走上你死我亡的對峙局面。</desc>
+  <programme start="20260602210000 +0800" stop="20260602225500 +0800" channel="LS-Time電影台">
+    <title>進擊的巨人2-世界終結</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526171500 +0800" stop="20260526190500 +0800" channel="天映頻道">
-    <title>臨時劫案</title>
-    <desc>悍匪梅藍天策動了「閃電械劫」，陰差陽錯撞上也正在籌畫打劫的慕容輝及笠水，於是三人結盟。最後這宗臨時械劫卻惹來員警追捕，並展開一場激烈的追逐戰，三人的性命也危在旦夕！</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20260527000000 +0800" stop="20260527005000 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20260526190500 +0800" stop="20260526210000 +0800" channel="天映頻道">
-    <title>說笑之人</title>
-    <desc>文少從小已察覺父親華哥的智力比正常人低，母親更因此離家出走，留下文少照顧父親。一次偶然機會，文少迷上了脫口秀。在找尋靈感中，他發現終極的歡笑其實只是苦中作樂，從自己在校時被同學恥笑，到影響全球的世紀疫症，生活之苦也可以是歡笑之源！</desc>
+  <programme start="20260527005000 +0800" stop="20260527024000 +0800" channel="天映頻道">
+    <title>像我這樣的愛情</title>
+    <desc>腦麻痺的阿妹，因身體限制從未體驗愛情。面對母親強迫她要進行子宮切除手術的壓力，她求助殘疾人士親密服務組織，結識義工Ken。二人相處中日益滋長的情感，悄然跨越世俗道德與身體限制的界線。</desc>
   </programme>
-  <programme start="20260526210000 +0800" stop="20260526224000 +0800" channel="天映頻道">
-    <title>團圓飯</title>
-    <desc>朝陽和子虹終於到了談婚論嫁的階段，但未造訪彼此家長。在一次客戶的要求下，他們倆必須在年除夕當晚與家人共用團圓飯，以直播方式來推銷客戶的產品。可是朝陽和媽媽關係不好，長年不相往來，於是突發奇想請了一群演員來扮「家人」出席飯局。本該喜氣洋洋的聚會，卻變得啼笑皆非！</desc>
+  <programme start="20260527024000 +0800" stop="20260527043500 +0800" channel="天映頻道">
+    <title>老狐狸</title>
+    <desc>1989年，年輕的廖傑和他的父親為購房而存錢，卻不知道房價正在飆升。飽受貧困之苦，他向房東老狐狸學會在社會中求生存。廖傑最終以所學傷害了老狐狸，但他的同情心終究使他沒有成為另一個老狐狸。</desc>
   </programme>
-  <programme start="20260526224000 +0800" stop="20260527000000 +0800" channel="天映頻道">
-    <title>悟空傳</title>
-    <desc>在孫悟空未成為齊天大聖前，天庭蓄意毀掉花果山，圖以掌控眾生命運，悟空在屠殺中得以殘存，決心餘生要跟天庭對抗到底。悟空在天庭遇到一生不能愛卻深深愛上的阿紫和一生最強的宿敵楊戩，各人都不甘命運的擺佈，卻沒想到反抗只會帶來更大的浩劫。他們所做的一切，究竟是不知天高地厚的輕狂，還是無懼宿命抗戰到底的熱血！</desc>
+  <programme start="20260527043500 +0800" stop="20260527062500 +0800" channel="天映頻道">
+    <title>葉問 3</title>
+    <desc>無恥的美藉地產商人指派黑幫武力迫使一所學校賣地，葉問挺身而出與主腦展開對決以保學校。此時，另一詠春傳人張天志又向葉問挑戰「詠春正宗」之名。葉問為了家人朋友和徒弟，只好應戰，並透過武術實踐一代宗師的風範。</desc>
   </programme>
-  <programme start="20260527000000 +0800" stop="20260527004000 +0800" channel="天映頻道">
-    <title>悟空傳</title>
-    <desc>在孫悟空未成為齊天大聖前，天庭蓄意毀掉花果山，圖以掌控眾生命運，悟空在屠殺中得以殘存，決心餘生要跟天庭對抗到底。悟空在天庭遇到一生不能愛卻深深愛上的阿紫和一生最強的宿敵楊戩，各人都不甘命運的擺佈，卻沒想到反抗只會帶來更大的浩劫。他們所做的一切，究竟是不知天高地厚的輕狂，還是無懼宿命抗戰到底的熱血！</desc>
+  <programme start="20260527062500 +0800" stop="20260527084500 +0800" channel="天映頻道">
+    <title>前任4: 英年早婚</title>
+    <desc>孟雲和餘飛這對難兄難弟已屆適婚年齡，二人在愛情路上都遭遇挑戰。孟雲經歷分手後被家人催婚，而餘飛和女友為應對婚後挑戰，創立了「結婚冷靜期」以應付可能出現的問題.</desc>
+  </programme>
+  <programme start="20260527084500 +0800" stop="20260527103500 +0800" channel="天映頻道">
+    <title>美國女孩</title>
+    <desc>2003年初，移民洛杉磯的芳儀因母親罹患乳癌，要回到臺北迎接新生活。面對新學校和疏離多年的父親，只有13歲的芳儀十分憂慮，亦因此與母親的關係變差。當芳儀的妹妹被誤診感染SARS的時候，一家人被迫隔離，進而解開彼此的心結。</desc>
+  </programme>
+  <programme start="20260527103500 +0800" stop="20260527130000 +0800" channel="天映頻道">
+    <title>焚城</title>
+    <desc>因非法偷運廢料引發的一場大火，香港陷入輻射洩漏危機。為了應對這場毀滅性的災難，專家範偉立加入由署理行政長官領導的緊急應變小組。一支消防隊伍臨危受命，深入輻射區，拼盡全力阻止輻射擴散。在面對前所未見的浩劫時，他們能否拯救這座城市？</desc>
+  </programme>
+  <programme start="20260527130000 +0800" stop="20260527144500 +0800" channel="天映頻道">
+    <title>熱血合唱團</title>
+    <desc>「熱血合唱團試驗計畫」打算特訓由三流學校學生組成的古典音樂合唱團去參加「校際合唱團比賽」。外界對這次計畫一致不看好，但美國著名華裔指揮家嚴梓朗，消聲匿跡一年後竟答應來港擔任合唱團指揮。「熱血合唱團」與嚴指揮最終能否排除萬難，完成這個不可能的任務？</desc>
+  </programme>
+  <programme start="20260527144500 +0800" stop="20260527164000 +0800" channel="天映頻道">
+    <title>瞞天過海</title>
+    <desc>年輕貌美的企業家喬文娜被控為一宗密室殺人案的疑兇，而死者正是她的情夫。喬文娜找來一名員警協助她洗脫罪名，調查期間他們揭發另一牽涉喬文娜和她情夫的兇殺案，真相逐漸浮出水面。</desc>
+  </programme>
+  <programme start="20260527164000 +0800" stop="20260527191000 +0800" channel="天映頻道">
+    <title>第一爐香</title>
+    <desc>電影由許鞍華導演，改編自張愛玲的首部短篇小說。三十年代，年青女學生葛薇龍離鄉別背井從上海到香港求學，因生活拮據，求助姑媽代交學費，卻被姑媽利用，成為上流社會社交遊戲的誘餌。當她愛上花花公子喬琪喬時，正是她墮落的開始。</desc>
+  </programme>
+  <programme start="20260527191000 +0800" stop="20260527210000 +0800" channel="天映頻道">
+    <title>熊貓計劃</title>
+    <desc>國際功夫巨星 Jackie Chan 受邀認養超人氣熊貓幼崽呼呼後，國際犯罪組織懸賞天價企圖奪走呼呼。Jackie 聯手金牌經紀人及熊貓保育員，展開一場驚險的營救行動，對抗壞蛋。</desc>
+  </programme>
+  <programme start="20260527210000 +0800" stop="20260527231000 +0800" channel="天映頻道">
+    <title>西遊記之孫悟空三打白骨精</title>
+    <desc>孫悟空受命於觀音娘娘，護送唐僧取西經。途中遇到性感美艶兼法力高強的白骨精，要吃下潔淨軀體的唐僧以求長生不老。孫悟空為保護唐僧，將與白骨精展開連場激戰！</desc>
+  </programme>
+  <programme start="20260527231000 +0800" stop="20260528000000 +0800" channel="天映頻道">
+    <title>赴湯蹈火</title>
+    <desc>暗影小隊隊長林朗率領僱傭兵團隊，接獲高危任務，要護送一名神秘女子平安返家。她是暗網史上懸賞最高的目標，重賞之下，全球頂尖殺手蠢蠢欲動，惡名昭彰的國際通緝犯Roy亦現身追殺。如今，林朗與隊友們唯有拼死一搏，才能完成任務。</desc>
+  </programme>
+  <programme start="20260528000000 +0800" stop="20260528011000 +0800" channel="天映頻道">
+    <title>赴湯蹈火</title>
+    <desc>暗影小隊隊長林朗率領僱傭兵團隊，接獲高危任務，要護送一名神秘女子平安返家。她是暗網史上懸賞最高的目標，重賞之下，全球頂尖殺手蠢蠢欲動，惡名昭彰的國際通緝犯Roy亦現身追殺。如今，林朗與隊友們唯有拼死一搏，才能完成任務。</desc>
   </programme>
 </tv>
