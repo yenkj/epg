@@ -3,54 +3,6 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260604000000 +0800" stop="20260604013000 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604013000 +0800" stop="20260604040500 +0800" channel="LS-Time電影台">
-    <title>勝者為王</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604040500 +0800" stop="20260604065500 +0800" channel="LS-Time電影台">
-    <title>五億探長雷洛傳</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604065500 +0800" stop="20260604094500 +0800" channel="LS-Time電影台">
-    <title>喋血街頭</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604094500 +0800" stop="20260604115000 +0800" channel="LS-Time電影台">
-    <title>咖哩玫瑰</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604115000 +0800" stop="20260604135000 +0800" channel="LS-Time電影台">
-    <title>水玲瓏</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604135000 +0800" stop="20260604161500 +0800" channel="LS-Time電影台">
-    <title>親愛的房客</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604161500 +0800" stop="20260604182500 +0800" channel="LS-Time電影台">
-    <title>神算鯊鯊鯊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604182500 +0800" stop="20260604210000 +0800" channel="LS-Time電影台">
-    <title>第22年的告白-我是殺人犯</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604210000 +0800" stop="20260604231500 +0800" channel="LS-Time電影台">
-    <title>竊聽風雲</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260604232500 +0800" stop="20260605000000 +0800" channel="LS-Time電影台">
-    <title>火龍</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260605000000 +0800" stop="20260605014500 +0800" channel="LS-Time電影台">
-    <title>火龍</title>
-    <desc></desc>
-  </programme>
   <programme start="20260605000000 +0800" stop="20260605014500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
@@ -323,67 +275,107 @@
     <title>超級班長</title>
     <desc></desc>
   </programme>
+  <programme start="20260609235500 +0800" stop="20260610000000 +0800" channel="LS-Time電影台">
+    <title>長恨歌</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610000000 +0800" stop="20260610022000 +0800" channel="LS-Time電影台">
+    <title>長恨歌</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610013000 +0800" stop="20260610034000 +0800" channel="LS-Time電影台">
+    <title>夏日的麼麼茶</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610034000 +0800" stop="20260610055000 +0800" channel="LS-Time電影台">
+    <title>等待黎明</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610055000 +0800" stop="20260610083500 +0800" channel="LS-Time電影台">
+    <title>天咒</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610083500 +0800" stop="20260610112500 +0800" channel="LS-Time電影台">
+    <title>賭神</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610112500 +0800" stop="20260610132500 +0800" channel="LS-Time電影台">
+    <title>赤膽情</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610132500 +0800" stop="20260610160500 +0800" channel="LS-Time電影台">
+    <title>神話</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610160500 +0800" stop="20260610184500 +0800" channel="LS-Time電影台">
+    <title>非誠勿擾</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610184500 +0800" stop="20260610210000 +0800" channel="LS-Time電影台">
+    <title>逃學威龍2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260610210000 +0800" stop="20260610235500 +0800" channel="LS-Time電影台">
+    <title>盲探</title>
+    <desc></desc>
+  </programme>
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20260604000000 +0800" stop="20260604010000 +0800" channel="天映頻道">
+  <programme start="20260605000000 +0800" stop="20260605015000 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260604010000 +0800" stop="20260604030000 +0800" channel="天映頻道">
-    <title>但願人長久</title>
-    <desc>新移民圓圓及妹妹兩個人來到香港，面對身份認同及貧窮的問題，還有一個長年吸毒的父親。姊妹倆小時候會試圖討好父親，但到了青春期，她們決定要反抗、掙扎並逃離。即使他們最後徹底掙脫父親，圓圓發現自己喜歡的所有人，原來都帶著父親的影子。</desc>
+  <programme start="20260605015000 +0800" stop="20260605033000 +0800" channel="天映頻道">
+    <title>深宵閃避球</title>
+    <desc>社工楊琦為不願歸家的少女們而開辨的「深宵體育館」計畫面臨缺乏經費的危機。於是，她組織了一支閃避球隊參加比賽，若勝出便可挽救計畫。在一位前明星運動員劉志聰幫助當教練下，少女們終於明白到逃避不是辨法，只有學習勇敢面對才可克服挑戰。他們最後能否贏得比賽？</desc>
   </programme>
-  <programme start="20260604030000 +0800" stop="20260604051000 +0800" channel="天映頻道">
-    <title>怒火</title>
-    <desc>警方圍捕毒梟時，竟突然殺出一群蒙面神秘悍匪，他們不但劫走毒品，更屠殺在場眾警！重案組督察張祟邦親睹屍橫遍野，悲憤交雜。連夜調查下，發現殺警辣手的主謀竟是昔日戰友邱剛敖。而當日將他推入罪惡深淵的人，卻正是邦！二人的恩怨，也是時候來個了斷……</desc>
+  <programme start="20260605033000 +0800" stop="20260605054000 +0800" channel="天映頻道">
+    <title>掃毒3:人在天涯</title>
+    <desc>香港員警張建行一直在康素差販毒集團作臥底，而另一名臥底員警歐志遠在一宗意外中亦取得他們的信任，從此三人情同手足。當康素差的販毒生意被警方查處後，他逃到金三角發展，卻意外發現身邊藏有臥底…</desc>
   </programme>
-  <programme start="20260604051000 +0800" stop="20260604064000 +0800" channel="天映頻道">
-    <title>曾經擁有</title>
-    <desc>港產片影癡吳少金患有阿茲海默症，依靠弟弟撐起兩人合辦的電器維修店。節目監製細姜對吳少金的古靈精怪行為感到好奇，懷疑他可能是個以尖酸刻薄的影評謀利的影評人。於是，細姜假扮朋友接近吳少金和他的家人，卻漸漸發現他的秘密和辛酸故事。</desc>
+  <programme start="20260605054000 +0800" stop="20260605074500 +0800" channel="天映頻道">
+    <title>別叫我"賭神"</title>
+    <desc>嗜賭成性的吹水輝因前女友託付，照顧患有自閉症的兒子。這段突如其來的父子生活，由混亂至彼此救贖，他逐漸找回自我。當發現兒子擁有跑步天賦後，他決心告別過去，陪伴兒子追逐夢想。</desc>
   </programme>
-  <programme start="20260604064000 +0800" stop="20260604082500 +0800" channel="天映頻道">
-    <title>速戰</title>
-    <desc>一對同父異母的兄弟阿楠和阿火，同是賽車界的頂尖車神。在賽車場上，阿楠因為受到日本車手挑戰，而意外地導致另一位年青車手重傷，變得意志消沉。阿火為鼓勵阿楠，遂參加非法街頭賽車與日本車手在街頭一決高下。最終誰會勝出？阿楠又能否重新振作？</desc>
+  <programme start="20260605074500 +0800" stop="20260605094000 +0800" channel="天映頻道">
+    <title>像我這樣的愛情</title>
+    <desc>腦麻痺的阿妹，因身體限制從未體驗愛情。面對母親強迫她要進行子宮切除手術的壓力，她求助殘疾人士親密服務組織，結識義工Ken。二人相處中日益滋長的情感，悄然跨越世俗道德與身體限制的界線。</desc>
   </programme>
-  <programme start="20260604082500 +0800" stop="20260604100500 +0800" channel="天映頻道">
-    <title>無名指</title>
-    <desc>前壁球冠軍鄧叔彥與妻子正面臨人生的嚴峻考驗，就是女兒罹患罕見脊椎疾病，母親也同時確診癌症。多年後，當這個家庭在堅持與放棄之間掙扎時，一個微小卻充滿力量的希望悄然出現 — 女兒尾指輕輕顫動，讓他們重新找回了彼此的連結。</desc>
+  <programme start="20260605094000 +0800" stop="20260605113500 +0800" channel="天映頻道">
+    <title>被消失的兇案</title>
+    <desc>警長駱英財被派往調查被埋沒八年的屍體發現案。隨著警長鎖定疑犯，一名檢控官也參與調查想要找出案件的真相。在質問警長之下，檢控官更發現他的行為有疑，因他對案件的陳述前後不一，充滿疑點...</desc>
   </programme>
-  <programme start="20260604100500 +0800" stop="20260604115500 +0800" channel="天映頻道">
-    <title>熊貓計劃</title>
-    <desc>國際功夫巨星 Jackie Chan 受邀認養超人氣熊貓幼崽呼呼後，國際犯罪組織懸賞天價企圖奪走呼呼。Jackie 聯手金牌經紀人及熊貓保育員，展開一場驚險的營救行動，對抗壞蛋。</desc>
+  <programme start="20260605113500 +0800" stop="20260605133000 +0800" channel="天映頻道">
+    <title>怒潮</title>
+    <desc>冷血殺手陳安為要替遭到犯罪集團害死的妹妹報仇，與員警及黑幫份子展開一場正邪交鋒的復仇行動。</desc>
   </programme>
-  <programme start="20260604115500 +0800" stop="20260604135000 +0800" channel="天映頻道">
-    <title>想見你</title>
-    <desc>電影是同名劇集的延續，講述黃雨萱在哀悼男友過世的同時，收到一台神秘的答錄機，竟可以讓她回到過去。回到過去後，她重遇深愛的男朋友，但她最後能否改變他的命運？</desc>
+  <programme start="20260605133000 +0800" stop="20260605152500 +0800" channel="天映頻道">
+    <title>男人四十</title>
+    <desc>40歲的中學老師林耀國正面對中年危機，婚姻問題，還有與主動送愛的熱情學生胡彩藍發生的師生戀。但林耀國的太太卻只關心其身患重病的前度，原來他們當中有段複雜的過去一直影響著林氏夫婦…</desc>
   </programme>
-  <programme start="20260604135000 +0800" stop="20260604153500 +0800" channel="天映頻道">
-    <title>L風暴</title>
-    <desc>廉政公署首席調查主任陸志廉與總督察劉保強分別偵查貪污及洗黑錢案，但苦無線索。陸志廉因洗黑錢集團誣陷而被控受賄。為表清白，他不惜冒生命危險搜集洗黑錢集團的罪證。</desc>
+  <programme start="20260605152500 +0800" stop="20260605171500 +0800" channel="天映頻道">
+    <title>手捲煙</title>
+    <desc>退役華籍英軍關超收留為躲避仇人的南亞裔流氓文尼。文尼身上藏有偷來的毒品，導致關超亦被黑幫追捕。兩人住在同一屋簷下，縱有文化及種族的差異，但他們竟轉化為相知相遇的好朋友，更成為一對忠誠的好兄弟。</desc>
   </programme>
-  <programme start="20260604153500 +0800" stop="20260604171500 +0800" channel="天映頻道">
-    <title>神槍手與智多星</title>
-    <desc>九年前，兩個傳奇人物“神槍手”和“智多星”發誓不再開槍殺人和永不再說謊。現在，他們卻為同一個目的回來 — 保護江湖老大的孫女兒小雨。最終他們能否信守承諾完成任務？</desc>
+  <programme start="20260605171500 +0800" stop="20260605185500 +0800" channel="天映頻道">
+    <title>金童</title>
+    <desc>昔日拳壇「金童」張力，因一場意外入獄，失去一切。十年後刑滿出獄，他與素未謀面的兒子方圓重逢。經歷衝突與慢慢的相互和解，張力尋回人生的目標。他決意重返擂臺，要成為兒子敬仰的父親。</desc>
   </programme>
-  <programme start="20260604171500 +0800" stop="20260604185500 +0800" channel="天映頻道">
-    <title>搗破法蘭克</title>
-    <desc>四名戴著兔子面具的年輕劫匪策劃了針對上流社會的搶劫行動。他們自稱「Frank」，目的不是為了金錢，而是透過塗鴉和瘋傳影片揭露貪污的真相。當他們與一個涉及洗黑錢的強大教會組織發生衝突時，行動迅速演變成一場致命的博弈。</desc>
+  <programme start="20260605185500 +0800" stop="20260605210000 +0800" channel="天映頻道">
+    <title>分手說愛你</title>
+    <desc>Joe 是一個十分懶散的人，但為了與女友 Flora復合，認真地透過神秘網站 BreakUpClub.Asia 來拆散其他情侶，同時私下拍了他們從相戀、分手再復合的故事，交給黃真真導演作為她的電影題材。另一方面，本來打算助 Joe 與 Flora 復合的好友，也與女友鬧得情海翻波。可惜 Flora 因工作的關係與型男畫家搭上，二人再一次面臨分手...</desc>
   </programme>
-  <programme start="20260604185500 +0800" stop="20260604210000 +0800" channel="天映頻道">
-    <title>消失的兇手</title>
-    <desc>故事發生在1932年中國北方，女囚犯傅源利用一把銀匙在牢中挖掘隧道，成功逃脫。警官松東路奉命調查此案，通過傅源寄來的信件追蹤到香城，揭開她失蹤背後的神秘故事，並逐步發現隱藏的陰謀與真相。</desc>
+  <programme start="20260605210000 +0800" stop="20260605230500 +0800" channel="天映頻道">
+    <title>大上海</title>
+    <desc>黑幫頭目成大器步步攀升至權力巔峰，卻深陷兩名女子的情感糾葛與特務機關的陰謀算計，並在戰爭逼近的威脅下掙扎求生。</desc>
   </programme>
-  <programme start="20260604210000 +0800" stop="20260604230500 +0800" channel="天映頻道">
-    <title>西遊記·女兒國</title>
-    <desc>孫悟空、豬八戒和沙僧一路保護師傅唐僧去西天取經，不料偶然闖進了神秘的女兒國。女兒國女皇對唐僧一見鍾情，國師卻下令要處死唐僧一行人。師徒四人的闖進也引來了河神現身，令女兒國陷入了危機！</desc>
+  <programme start="20260605230500 +0800" stop="20260606000000 +0800" channel="天映頻道">
+    <title>猛鬼3寶</title>
+    <desc>這是由三個都市猛鬼故事合集的電影：劇組拍攝時集體撞鬼，導演異想天開，請女鬼飾演女鬼；的士司機約女友渡假，結果引來色鬼纏身；小鬼流連在快要清拆的商場不願投胎，一眾租戶合力送她上路。</desc>
   </programme>
-  <programme start="20260604230500 +0800" stop="20260605000000 +0800" channel="天映頻道">
-    <title>狂野時代</title>
-    <desc>在這個無人做夢的世界，唯有最後一頭怪物，仍沉溺於日漸消散的夢境。它默默守護的幻象，無人能見。直到一名能夠窺視夢境的女子，決定潛入夢之領域。她誓要奪回的，是一個隱密的真相。</desc>
-  </programme>
-  <programme start="20260605000000 +0800" stop="20260605010500 +0800" channel="天映頻道">
-    <title>狂野時代</title>
-    <desc>在這個無人做夢的世界，唯有最後一頭怪物，仍沉溺於日漸消散的夢境。它默默守護的幻象，無人能見。直到一名能夠窺視夢境的女子，決定潛入夢之領域。她誓要奪回的，是一個隱密的真相。</desc>
+  <programme start="20260606000000 +0800" stop="20260606010500 +0800" channel="天映頻道">
+    <title>猛鬼3寶</title>
+    <desc>這是由三個都市猛鬼故事合集的電影：劇組拍攝時集體撞鬼，導演異想天開，請女鬼飾演女鬼；的士司機約女友渡假，結果引來色鬼纏身；小鬼流連在快要清拆的商場不願投胎，一眾租戶合力送她上路。</desc>
   </programme>
 </tv>
