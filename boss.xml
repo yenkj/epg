@@ -3,84 +3,8 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260608000000 +0800" stop="20260608020000 +0800" channel="LS-Time電影台">
+  <programme start="20260609000000 +0800" stop="20260609011000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608020000 +0800" stop="20260608034000 +0800" channel="LS-Time電影台">
-    <title>滿清十大酷刑之赤裸凌遲</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608020000 +0800" stop="20260608065000 +0800" channel="LS-Time電影台">
-    <title>韓城攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608034000 +0800" stop="20260608054500 +0800" channel="LS-Time電影台">
-    <title>老大人</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608054500 +0800" stop="20260608084000 +0800" channel="LS-Time電影台">
-    <title>鬼鄉</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608065000 +0800" stop="20260608092500 +0800" channel="LS-Time電影台">
-    <title>中華英雄</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608084000 +0800" stop="20260608110500 +0800" channel="LS-Time電影台">
-    <title>金枝玉葉2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608092500 +0800" stop="20260608120500 +0800" channel="LS-Time電影台">
-    <title>無間道II</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608110500 +0800" stop="20260608133000 +0800" channel="LS-Time電影台">
-    <title>再見，在也不見</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608120500 +0800" stop="20260608144500 +0800" channel="LS-Time電影台">
-    <title>玻璃樽</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608133000 +0800" stop="20260608160500 +0800" channel="LS-Time電影台">
-    <title>笑傲江湖</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608144500 +0800" stop="20260608165000 +0800" channel="LS-Time電影台">
-    <title>光頭神探賊狀元</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608160500 +0800" stop="20260608182000 +0800" channel="LS-Time電影台">
-    <title>東京攻略</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608165000 +0800" stop="20260608185000 +0800" channel="LS-Time電影台">
-    <title>出土奇兵</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608182000 +0800" stop="20260608210000 +0800" channel="LS-Time電影台">
-    <title>告別單身</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608185000 +0800" stop="20260608210000 +0800" channel="LS-Time電影台">
-    <title>霹靂先鋒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608210000 +0800" stop="20260608232500 +0800" channel="LS-Time電影台">
-    <title>八二三炮戰</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608210000 +0800" stop="20260608224500 +0800" channel="LS-Time電影台">
-    <title>那年夏天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260608231000 +0800" stop="20260609000000 +0800" channel="LS-Time電影台">
-    <title>火燒紅蓮寺</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260609000000 +0800" stop="20260609013000 +0800" channel="LS-Time電影台">
-    <title>火燒紅蓮寺</title>
     <desc></desc>
   </programme>
   <programme start="20260609011000 +0800" stop="20260609033500 +0800" channel="LS-Time電影台">
@@ -363,67 +287,115 @@
     <title>頭文字D</title>
     <desc></desc>
   </programme>
+  <programme start="20260614230500 +0800" stop="20260615000000 +0800" channel="LS-Time電影台">
+    <title>阿金</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615000000 +0800" stop="20260615011500 +0800" channel="LS-Time電影台">
+    <title>阿金</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615012500 +0800" stop="20260615042000 +0800" channel="LS-Time電影台">
+    <title>武術</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615042000 +0800" stop="20260615061000 +0800" channel="LS-Time電影台">
+    <title>上天救命</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615061000 +0800" stop="20260615081000 +0800" channel="LS-Time電影台">
+    <title>瘦身</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615081000 +0800" stop="20260615100000 +0800" channel="LS-Time電影台">
+    <title>國產凌凌漆</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615100000 +0800" stop="20260615114500 +0800" channel="LS-Time電影台">
+    <title>街角的小王子</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615114500 +0800" stop="20260615140500 +0800" channel="LS-Time電影台">
+    <title>六度空間大水怪</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615140500 +0800" stop="20260615161000 +0800" channel="LS-Time電影台">
+    <title>水雞鬥老虎</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615161000 +0800" stop="20260615184500 +0800" channel="LS-Time電影台">
+    <title>輝煌年代</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615184500 +0800" stop="20260615210000 +0800" channel="LS-Time電影台">
+    <title>新最佳拍檔兵馬俑風雲</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260615210000 +0800" stop="20260615230500 +0800" channel="LS-Time電影台">
+    <title>百日告別</title>
+    <desc></desc>
+  </programme>
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20260608000000 +0800" stop="20260608003500 +0800" channel="天映頻道">
+  <programme start="20260609000000 +0800" stop="20260609011500 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260608003500 +0800" stop="20260608023500 +0800" channel="天映頻道">
-    <title>智齒</title>
-    <desc>一宗兇殘的連環殺人案震驚全港，經驗豐富的員警斬哥與年輕督察任凱被委派調查此案。在調查過程中，他們遇到了王桃，並發現她意外害死了斬哥的妻子。為了贖回過失，王桃決定協助他們追捕連環殺手，卻最終將自己置於極大的危險之中。</desc>
+  <programme start="20260609011500 +0800" stop="20260609030000 +0800" channel="天映頻道">
+    <title>反貪風暴之加密危機</title>
+    <desc>廉政公署調查主任駱一峰成立一支特別小組，調查銀行高層利用加密貨幣造市貪污的案件。當銀行主席遭綁架，綁匪要求以造市案有關的加密貨幣來支付贖金時，駱一峰相信造市案的幕後黑手與綁匪為同一人，於是誓要全力緝兇。</desc>
   </programme>
-  <programme start="20260608023500 +0800" stop="20260608042500 +0800" channel="天映頻道">
-    <title>久彆重逢</title>
-    <desc>那年盛夏，少女夏文萱和少年蘇昇華因一張唱片相遇相戀，當時他們最想知道這清澀的愛情能走多遠。轉眼數十年，音樂人蘇昇華在醫院意外重逢初戀夏文萱，兩人都身處人生低谷。夏文萱病重，看穿蘇昇華的內心掙扎，決定送他一段最後的旅程，希望能重燃他對生命的熱情與希望。</desc>
+  <programme start="20260609030000 +0800" stop="20260609050000 +0800" channel="天映頻道">
+    <title>武替道</title>
+    <desc>因昔日拍檔導演希望完成其人生最後一部作品，過氣動作導演李森重出江湖擔任動作指導。他與一位雄心壯志的年輕動作演員，兩代人為了重振名聲，甘願賠上一切。同時，李森必須克服自己的壞脾氣，面對過去的錯誤，並努力修補與疏離女兒之間破裂的關係。</desc>
   </programme>
-  <programme start="20260608042500 +0800" stop="20260608060500 +0800" channel="天映頻道">
-    <title>困獸</title>
-    <desc>為了整頓已經紛亂不堪的地下博彩業，警方聯合博彩協會展開打擊地下賭場的嚴厲行動，並將新建賭場經營權以拍賣的形式處理，重新整頓博彩業。由於不一樣的拍賣引發賭城風雲變遷，不為人知的利益和秘密跟著被揭露，更引起各方人馬的衝突…</desc>
+  <programme start="20260609050000 +0800" stop="20260609065000 +0800" channel="天映頻道">
+    <title>小曉</title>
+    <desc>小曉是一個患有過度活躍症的女孩，在學校經常遭到同學的霸淩。她的父親在國外辛勤工作，而母親則認為她總是製造麻煩。唯有班導保羅似乎能理解她的困擾，並舒緩她的情緒。某個颱風夜晚，小曉目睹了媽媽與保羅之間的秘密。此時，她不僅要面對自己複雜的情感，還感受到人生的無助與孤獨。</desc>
   </programme>
-  <programme start="20260608060500 +0800" stop="20260608074500 +0800" channel="天映頻道">
-    <title>人約離婚後</title>
-    <desc>在寶和強的婚宴上，投影機原本正播著他們相戀過程，突然畫面閃出強跟性感女子的做愛片段寶冷靜地走到台上宣佈離婚並將婚禮即時取消，這件事迅速成為網上熱話。一年來，回復單身的寶與風流快活強繼續保持友好關係，一天爛滾愛玩的強竟帶寶參加換妻派對，保守的寶本想離開，但遭強威迫利誘下無奈參與。在換妻派對上，兩人遇上傑與妻子曼麗，四人發展出浪漫而火辣的關係...這邊廂，在另一個婚宴上當投影機又是播著新郎與新娘的溫馨片段時，畫面又閃出意想不到...</desc>
+  <programme start="20260609065000 +0800" stop="20260609083000 +0800" channel="天映頻道">
+    <title>神槍手與智多星</title>
+    <desc>九年前，兩個傳奇人物“神槍手”和“智多星”發誓不再開槍殺人和永不再說謊。現在，他們卻為同一個目的回來 — 保護江湖老大的孫女兒小雨。最終他們能否信守承諾完成任務？</desc>
   </programme>
-  <programme start="20260608074500 +0800" stop="20260608093500 +0800" channel="天映頻道">
-    <title>迷城</title>
-    <desc>天民原本是一名員警，後來轉行經營酒吧。一天深夜，正當他準備關門時，遇見了一位醉酒女子，卻因此招惹上她的前任情人及其手下的追殺。隨著天民的弟弟和一箱現金捲入其中，這場致命的追逐變得愈發危險。</desc>
+  <programme start="20260609083000 +0800" stop="20260609104000 +0800" channel="天映頻道">
+    <title>談判專家</title>
+    <desc>談判專家卓文偉被陷害成殺警案的主腦，於是他冒著一切風險綁架員警，堅稱要與前談判專家謝家俊進行對話。在這場智力與心理的激烈對決中，兩人的思維逐漸交錯，展開了一場高智商的鬥智鬥力較量。</desc>
   </programme>
-  <programme start="20260608093500 +0800" stop="20260608115500 +0800" channel="天映頻道">
-    <title>獵金遊戲</title>
-    <desc>野心勃勃的金融高材生高寒，適逢好友的家族企業正籌備在香港上市，因而被引薦進入投行實習。在首席分析師張陶德的帶領下，高迅速嶄露頭角，卻因野心作祟而背叛恩師，轉投競爭對手。當好友的家族企業被敵意收購時，為了彌補過失，高懇求張相助，聯手阻止這場惡意收購。</desc>
+  <programme start="20260609104000 +0800" stop="20260609123500 +0800" channel="天映頻道">
+    <title>臨時決鬥</title>
+    <desc>澳門拳王鐘磊在現實夾縫中苦撐拳館，堅持培訓職業拳手。廣告總監林雪發現男友外遇物件竟是當紅拳擊冠軍，怒火中燒發出戰書，約定擂臺一決高下。她拜入鐘磊門下，投身艱苦訓練。在汗水與傷痛的洗禮中，林雪逐步蛻變，明白這場戰鬥，不再為復仇，而是自我重生。</desc>
   </programme>
-  <programme start="20260608115500 +0800" stop="20260608134500 +0800" channel="天映頻道">
-    <title>天堂旅行團</title>
-    <desc>失意的青年與樂觀活潑的小女孩意外相遇，共同開啟了一段療愈心靈的未知旅程。兩人在人生的起落中患難與共，用彼此的陪伴縫合生命的傷口。在這段笑淚交織的徵途中，他們不僅尋獲了生存的勇氣，更在黑暗的人生盡頭，為彼此點燃了希望的微光。</desc>
+  <programme start="20260609123500 +0800" stop="20260609141500 +0800" channel="天映頻道">
+    <title>靠近我一點.</title>
+    <desc>等了初戀男友10年的林楚楚，最終等來的是男友和別人的婚禮。正當她對感情失去信心的時候，一位婚禮策劃師和一位高富帥男神同時出現在楚楚的生活中，陪她走出了這段黑暗時光。面對同樣真摯的兩個人，楚楚的感情也來到了必須抉擇的十字路口，她最後會如何抉擇？</desc>
   </programme>
-  <programme start="20260608134500 +0800" stop="20260608153500 +0800" channel="天映頻道">
-    <title>遇見你之後</title>
-    <desc>著名偶像藝人彭柏楊到羅馬拍攝真人秀時，遇到平凡的女孩黃曼曼。曼曼移民義大利後，一直夢想成為出色的廚師。本無交集的二人，卻在羅馬度過了一個神奇的晚上。彭柏楊和黃曼曼悄悄墜入愛河，更因此改變了他們的人生。</desc>
+  <programme start="20260609141500 +0800" stop="20260609155000 +0800" channel="天映頻道">
+    <title>紮職</title>
+    <desc>阿霆 (陳偉霆 飾)與阿祥 (曾國祥 飾)及阿楝 (徐偉棟 飾) 屬同輩兄弟，三人十六歲開始在油麻地跟隨四九耀文 (譚耀文 飾)，情如手足。阿霆由舊同學搭路幫富豪收數，賺到錢之餘而開始起朵，終於得罪了同字頭的火爆明 (林利 飾)，招來一頓虐打，自此他對火爆明恨之入骨。身為黑社會，阿霆卻與千金小姐Michelle (詩雅 飾)相戀，愛得轟烈。Michelle的父親王老闆 (盧海鵬 飾) 要她離開阿霆，和她輸賭阿霆一定不肯為愛情放棄黑社會事業，Michelle唯有孤注一擲。社團下令要剷除火爆明，負責出手的阿霆三子受耀文所托，要放他一條生路，但最後關頭，阿霆毫不猶豫一刀捅死火爆明報仇，亦為自己坐上龍頭之位鋪路。但他萬料不到，火爆明的遺孀Irene 姐 (溫碧霞 飾)正蠢蠢欲動，既要和阿霆爭做龍頭大佬，更要他血債血償...</desc>
   </programme>
-  <programme start="20260608153500 +0800" stop="20260608173000 +0800" channel="天映頻道">
-    <title>葉問 3</title>
-    <desc>無恥的美藉地產商人指派黑幫武力迫使一所學校賣地，葉問挺身而出與主腦展開對決以保學校。此時，另一詠春傳人張天志又向葉問挑戰「詠春正宗」之名。葉問為了家人朋友和徒弟，只好應戰，並透過武術實踐一代宗師的風範。</desc>
+  <programme start="20260609155000 +0800" stop="20260609173500 +0800" channel="天映頻道">
+    <title>速戰</title>
+    <desc>一對同父異母的兄弟阿楠和阿火，同是賽車界的頂尖車神。在賽車場上，阿楠因為受到日本車手挑戰，而意外地導致另一位年青車手重傷，變得意志消沉。阿火為鼓勵阿楠，遂參加非法街頭賽車與日本車手在街頭一決高下。最終誰會勝出？阿楠又能否重新振作？</desc>
   </programme>
-  <programme start="20260608173000 +0800" stop="20260608191500 +0800" channel="天映頻道">
-    <title>深宵閃避球</title>
-    <desc>社工楊琦為不願歸家的少女們而開辨的「深宵體育館」計畫面臨缺乏經費的危機。於是，她組織了一支閃避球隊參加比賽，若勝出便可挽救計畫。在一位前明星運動員劉志聰幫助當教練下，少女們終於明白到逃避不是辨法，只有學習勇敢面對才可克服挑戰。他們最後能否贏得比賽？</desc>
+  <programme start="20260609173500 +0800" stop="20260609190500 +0800" channel="天映頻道">
+    <title>惡行之外</title>
+    <desc>督察樂一言的獨生女慘遭殺害，她的同班同學邱俊文因此被捕。樂一言原以為案件已告一段落，於是黯然離開警隊。然而，邱俊文入獄後，接連又有多名女孩遭遇不測。此時，樂一言開始懷疑真正的兇手仍逍遙法外，並誓要查明真相。</desc>
   </programme>
-  <programme start="20260608191500 +0800" stop="20260608210000 +0800" channel="天映頻道">
-    <title>拳道</title>
-    <desc>阿牛從小向拳館師傅興叔拜師學拳，自始每逢遇到有人受到欺淩，他都會出手教訓壞人，並藉此鍛煉拳術。不久因拳館收入大減，興叔的兒子為維持拳館生計竟答應為對頭拳館運毒，卻因交易失敗被打至不成人形。阿牛為了替他報仇，決定殺上擂臺上決一死戰。</desc>
+  <programme start="20260609190500 +0800" stop="20260609210000 +0800" channel="天映頻道">
+    <title>BBS鄉民的正義</title>
+    <desc>記者藍苡晴授命在網路上找新聞，意外闖入超紅的BBS網路論壇。李澄湘是創立夢想板的板主，原意是讓網友們分享彼此的夢想，卻因為一段不該外流的影片而成為人肉搜索的主角。苡晴一路追查下去，發現事實的真相越來越複雜…</desc>
   </programme>
-  <programme start="20260608210000 +0800" stop="20260608230500 +0800" channel="天映頻道">
-    <title>一樣的天空</title>
-    <desc>此片是慶祝香港回歸25週年的獻禮電影，描述四位不同背景年青港人的故事，包括一名自閉症的青年追尋藝術夢、父子兩代矛盾如何和好、粵劇名伶突破自己協助年輕人發展流行音樂事業、一名尼泊爾青年成為醒獅隊員的文化共融故事。</desc>
+  <programme start="20260609210000 +0800" stop="20260609225000 +0800" channel="天映頻道">
+    <title>精武風雲 - 陳真</title>
+    <desc>1920年代的上海，陳真以年輕實業家身份潛伏，欲揭露黑社會頭目與日軍的勾結。他不僅要取得頭目的信任，還需應對日軍將領麾下殺手的重重狙殺。為隱匿行跡，他戴起黑色面具，聯手警局隊長，以威猛鐵拳守護這座城市的愛國志士。</desc>
   </programme>
-  <programme start="20260608230500 +0800" stop="20260609000000 +0800" channel="天映頻道">
-    <title>紅毯先生</title>
-    <desc>劉偉馳是一位渴望贏得電影獎項的香港天王巨星。他與導演林浩合作拍攝以中國農村為題材的影片，希望在國際電影節能贏得榮譽。於是，劉偉馳為農夫的角色體驗當地鄉村生活，結果卻是笑話連篇的一場鬧劇。</desc>
+  <programme start="20260609225000 +0800" stop="20260610000000 +0800" channel="天映頻道">
+    <title>不要忘記我愛你</title>
+    <desc>陸堯患上了失憶症，每天醒來都會忘記昨天發生的一切。當陸堯遇上心理治療師星玥，兩人墜入愛河，雖知沒有未來也願意為了彼此勇敢愛一次。</desc>
   </programme>
-  <programme start="20260609000000 +0800" stop="20260609010500 +0800" channel="天映頻道">
-    <title>紅毯先生</title>
-    <desc>劉偉馳是一位渴望贏得電影獎項的香港天王巨星。他與導演林浩合作拍攝以中國農村為題材的影片，希望在國際電影節能贏得榮譽。於是，劉偉馳為農夫的角色體驗當地鄉村生活，結果卻是笑話連篇的一場鬧劇。</desc>
+  <programme start="20260610000000 +0800" stop="20260610005000 +0800" channel="天映頻道">
+    <title>不要忘記我愛你</title>
+    <desc>陸堯患上了失憶症，每天醒來都會忘記昨天發生的一切。當陸堯遇上心理治療師星玥，兩人墜入愛河，雖知沒有未來也願意為了彼此勇敢愛一次。</desc>
   </programme>
 </tv>
