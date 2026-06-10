@@ -3,54 +3,6 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260610000000 +0800" stop="20260610013000 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610013000 +0800" stop="20260610034000 +0800" channel="LS-Time電影台">
-    <title>夏日的麼麼茶</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610034000 +0800" stop="20260610055000 +0800" channel="LS-Time電影台">
-    <title>等待黎明</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610055000 +0800" stop="20260610083500 +0800" channel="LS-Time電影台">
-    <title>天咒</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610083500 +0800" stop="20260610112500 +0800" channel="LS-Time電影台">
-    <title>賭神</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610112500 +0800" stop="20260610132500 +0800" channel="LS-Time電影台">
-    <title>赤膽情</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610132500 +0800" stop="20260610160500 +0800" channel="LS-Time電影台">
-    <title>神話</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610160500 +0800" stop="20260610184500 +0800" channel="LS-Time電影台">
-    <title>非誠勿擾</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610184500 +0800" stop="20260610210000 +0800" channel="LS-Time電影台">
-    <title>逃學威龍2</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610210000 +0800" stop="20260610235500 +0800" channel="LS-Time電影台">
-    <title>盲探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260610234500 +0800" stop="20260611000000 +0800" channel="LS-Time電影台">
-    <title>旺角卡門</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260611000000 +0800" stop="20260611015500 +0800" channel="LS-Time電影台">
-    <title>旺角卡門</title>
-    <desc></desc>
-  </programme>
   <programme start="20260611000000 +0800" stop="20260611022000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
@@ -379,67 +331,119 @@
     <title>報告班長2</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20260610000000 +0800" stop="20260610010000 +0800" channel="天映頻道">
+  <programme start="20260616232500 +0800" stop="20260617000000 +0800" channel="LS-Time電影台">
+    <title>放逐</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260617000000 +0800" stop="20260617015000 +0800" channel="LS-Time電影台">
+    <title>放逐</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260617000000 +0800" stop="20260617011500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260610010000 +0800" stop="20260610023500 +0800" channel="天映頻道">
-    <title>無名指</title>
-    <desc>前壁球冠軍鄧叔彥與妻子正面臨人生的嚴峻考驗，就是女兒罹患罕見脊椎疾病，母親也同時確診癌症。多年後，當這個家庭在堅持與放棄之間掙扎時，一個微小卻充滿力量的希望悄然出現 — 女兒尾指輕輕顫動，讓他們重新找回了彼此的連結。</desc>
+  <programme start="20260617011500 +0800" stop="20260617032500 +0800" channel="LS-Time電影台">
+    <title>流氓大亨</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610023500 +0800" stop="20260610041000 +0800" channel="天映頻道">
-    <title>無間行者之生死潛行</title>
-    <desc>黑幫丁卓飛與反黑隊督察段一凡是雙方安插對方陣營的臥底。經歷了十年臥底，丁開始厭倦臥底工作，而段在反黑組步步高升，反開始想做一個真正的員警，並計畫要擺脫黑幫。黑幫老大設騙局找出雙方叛徒，一黑一白兩個員警，各自為自己的正義之途，走上你死我亡的對峙局面。</desc>
+  <programme start="20260617032500 +0800" stop="20260617051500 +0800" channel="LS-Time電影台">
+    <title>猛鬼駕到</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610041000 +0800" stop="20260610062500 +0800" channel="天映頻道">
-    <title>狂舞派3</title>
-    <desc>這電影是「狂舞派」的延續，故事描述一羣香港草根演藝工作者的困境。他們因所處的舊式工業區被政府推出的市區重建計畫打壓，於是一起竭力抗衡地產霸權。</desc>
+  <programme start="20260617051500 +0800" stop="20260617070500 +0800" channel="LS-Time電影台">
+    <title>我們倆</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610062500 +0800" stop="20260610084000 +0800" channel="天映頻道">
-    <title>龍馬精神</title>
-    <desc>一位生活落魄的武師訓練愛馬為一匹可表演特技的馬，但為抵償欠債，他可能會失去愛馬。武師唯有向疏離多年的女兒求助，兩人也因此得到一次和解的機會。</desc>
+  <programme start="20260617070500 +0800" stop="20260617085500 +0800" channel="LS-Time電影台">
+    <title>七年之癢</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610084000 +0800" stop="20260610101500 +0800" channel="天映頻道">
-    <title>意外人生</title>
-    <desc>潘義銘收到父親的遺囑，告知他有一筆巨額遺產，卻要回鄉參加葬禮才能繼承。回鄉後，潘義銘重遇前度女友林悅，更遇見她的丈夫華琪和素未謀面的女兒。當潘義銘發現華琪長期對女兒家暴時，一心要拯救女兒，卻逐步陷入他們設的陷阱…</desc>
+  <programme start="20260617085500 +0800" stop="20260617110500 +0800" channel="LS-Time電影台">
+    <title>蓬萊之戰</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610101500 +0800" stop="20260610121000 +0800" channel="天映頻道">
-    <title>像我這樣的愛情</title>
-    <desc>腦麻痺的阿妹，因身體限制從未體驗愛情。面對母親強迫她要進行子宮切除手術的壓力，她求助殘疾人士親密服務組織，結識義工Ken。二人相處中日益滋長的情感，悄然跨越世俗道德與身體限制的界線。</desc>
+  <programme start="20260617110500 +0800" stop="20260617131000 +0800" channel="LS-Time電影台">
+    <title>廟街十二少</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610121000 +0800" stop="20260610140000 +0800" channel="天映頻道">
-    <title>大奉打更人之世間無我這般人</title>
-    <desc>司天監三弟子楊千幻，曾是世人眼中的天之驕子。自許七安橫空出世後，他的光芒漸被掩去。面對命運的嘲諷與無力，他苦尋出路，卻終究敵不過那殘酷的真相：天命使然，早已算定。即便如此，他仍在沉淪中奮起，以一股「不信命」的意志逆抗天道。</desc>
+  <programme start="20260617131000 +0800" stop="20260617162000 +0800" channel="LS-Time電影台">
+    <title>宋家皇朝</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610140000 +0800" stop="20260610153000 +0800" channel="天映頻道">
-    <title>婚前試愛</title>
-    <desc>琪琪與拍拖七年的男友阿澤在一星期後便結婚，他們卻在婚前三天雙雙出軌。這對年輕情侶各自面對自己完美的新伴侶，拋開一切責任，走上了各自的愛情岔路…</desc>
+  <programme start="20260617162000 +0800" stop="20260617183500 +0800" channel="LS-Time電影台">
+    <title>又見阿郎</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610153000 +0800" stop="20260610171500 +0800" channel="天映頻道">
-    <title>二次人生</title>
-    <desc>地產經紀李志行做事得過且過，一直過著沒有目標和志向的平凡人生。直至一天，志行重遇小學的體育老師黃Sir，他看到黃Sir為了承諾離世妻子的10公裡跑約定，即使患病也要練習參賽，激發了要為自己歡呼一次的勇氣。</desc>
+  <programme start="20260617183500 +0800" stop="20260617210000 +0800" channel="LS-Time電影台">
+    <title>通靈少年2020</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610171500 +0800" stop="20260610190500 +0800" channel="天映頻道">
-    <title>暗戀·橘生淮南</title>
-    <desc>洛枳暗戀著幼時有過一面之緣的同學盛淮南。高中畢業後，洛枳發現自己和盛淮南竟在同一所大學。兩人意外相識並越走越近，但洛枳依然不敢表白心跡。這場漫長的暗戀最後能否開花結果？</desc>
+  <programme start="20260617210000 +0800" stop="20260617232500 +0800" channel="LS-Time電影台">
+    <title>頭文字D</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610190500 +0800" stop="20260610210000 +0800" channel="天映頻道">
-    <title>私家偵探</title>
-    <desc>私家偵探歐陽偉業在辦案途中意外發現妻子出軌，震驚之下，他放棄了另一宗失蹤人口案的追查。不久，該失蹤者被發現遇害，警員陳康民懷疑背後潛藏連環殺手。為阻止兇手再次犯案，歐陽偉業必須憑藉偵探直覺，力挽狂瀾。</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20260611000000 +0800" stop="20260611005000 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20260610210000 +0800" stop="20260610230500 +0800" channel="天映頻道">
-    <title>潛行</title>
-    <desc>隱蔽的暗網成為新一代毒品販賣的溫床，並將目光瞄準了位於亞太中心的香港。為找出亞洲其中最有名的暗網大毒梟，警方展開了一項危險的秘密誘捕行動。</desc>
+  <programme start="20260611005000 +0800" stop="20260611025000 +0800" channel="天映頻道">
+    <title>我談的那場戀愛</title>
+    <desc>婦科名醫餘笑琴抱著一試無妨的心態下載交友軟體，卻在網上邂逅一位自稱法籍工程師的對象。殊不知，這位元物件其實是一名綽號「少年」的新手騙子，並且是網路詐騙集團的一員。隨著時間流逝，少年的愧疚感與笑琴的期望日益增強，這段關係愈演愈烈，真假難以區分。</desc>
   </programme>
-  <programme start="20260610230500 +0800" stop="20260611000000 +0800" channel="天映頻道">
-    <title>天堂旅行團</title>
-    <desc>失意的青年與樂觀活潑的小女孩意外相遇，共同開啟了一段療愈心靈的未知旅程。兩人在人生的起落中患難與共，用彼此的陪伴縫合生命的傷口。在這段笑淚交織的徵途中，他們不僅尋獲了生存的勇氣，更在黑暗的人生盡頭，為彼此點燃了希望的微光。</desc>
+  <programme start="20260611025000 +0800" stop="20260611042000 +0800" channel="天映頻道">
+    <title>熱血燃燒</title>
+    <desc>緝毒隊成員泰樺、老米、阿峰和阿棠共同參與抓捕毒梟的行動。然而，因黑警洩密，阿峰遇難，上司犧牲，阿棠也隨之消失。為了揭開真相，泰樺與老米在剿滅毒梟的過程中，必須在忠誠與背叛之間掙扎。</desc>
   </programme>
-  <programme start="20260611000000 +0800" stop="20260611010500 +0800" channel="天映頻道">
-    <title>天堂旅行團</title>
-    <desc>失意的青年與樂觀活潑的小女孩意外相遇，共同開啟了一段療愈心靈的未知旅程。兩人在人生的起落中患難與共，用彼此的陪伴縫合生命的傷口。在這段笑淚交織的徵途中，他們不僅尋獲了生存的勇氣，更在黑暗的人生盡頭，為彼此點燃了希望的微光。</desc>
+  <programme start="20260611042000 +0800" stop="20260611055500 +0800" channel="天映頻道">
+    <title>倒數回擊</title>
+    <desc>天才拳擊手徐佳陽為了替父親還賭債在地下酒館打黑拳時被舉報，痛失奧運資格賽，隕落拳壇。十年後，鐵血教練陳麗月決要助她實現父親的遺願，重回拳壇找回昔日的自己。當拳擊的熱血碰上責任時，曾經失落的拳擊夢能否再度燃燒？</desc>
+  </programme>
+  <programme start="20260611055500 +0800" stop="20260611074000 +0800" channel="天映頻道">
+    <title>催眠·裁決</title>
+    <desc>轟動全港的兇殺案來到審訊最後一天。就在陪審團準備退庭商議時，身為陪審員的著名催眠治療師收到一段顯示女兒被綁架的影片。綁匪威脅他必須催眠陪審團，操控最終裁決。夾在正義與親情之間，他必須做出抉擇，拯救女兒。</desc>
+  </programme>
+  <programme start="20260611074000 +0800" stop="20260611091500 +0800" channel="天映頻道">
+    <title>雀聖3</title>
+    <desc>賭業鉅子萬半拍忽然與新歡二索成婚，讓其獨子金遊非常愕然。直至萬半拍突然心臟病發，二索馬上遊說他死後要將其「雀爺」稱號傳給她時，金遊決定要與二索展開一場麻雀大戰，以保家族賭業。</desc>
+  </programme>
+  <programme start="20260611091500 +0800" stop="20260611105500 +0800" channel="天映頻道">
+    <title>赴湯蹈火</title>
+    <desc>暗影小隊隊長林朗率領僱傭兵團隊，接獲高危任務，要護送一名神秘女子平安返家。她是暗網史上懸賞最高的目標，重賞之下，全球頂尖殺手蠢蠢欲動，惡名昭彰的國際通緝犯Roy亦現身追殺。如今，林朗與隊友們唯有拼死一搏，才能完成任務。</desc>
+  </programme>
+  <programme start="20260611105500 +0800" stop="20260611125000 +0800" channel="天映頻道">
+    <title>鹿鼎記</title>
+    <desc>韋小寶被反清複明的“天地會”被派到皇宮當臥底，受命查探四十二章經下落。韋小寶很快成為康熙皇帝的心腹，但他既要執行天地會的任務，最後陷入兩難的狀態。</desc>
+  </programme>
+  <programme start="20260611125000 +0800" stop="20260611151000 +0800" channel="天映頻道">
+    <title>莫斯科行動</title>
+    <desc>根據1993年「中俄列車大劫案」的真實故事改編，講述一群匪徒如何持械行劫，從過境列車中搶走現金及貨物。一名偽裝成商人的中國員警率領這次逮捕行動，當中卻揭發另一個更龐大的陰謀…</desc>
+  </programme>
+  <programme start="20260611151000 +0800" stop="20260611171000 +0800" channel="天映頻道">
+    <title>第八個嫌疑人</title>
+    <desc>一九九五年，警方成功逮捕了五名持械銀行劫匪，但兩名幕後主腦獲通風報訊後，順利逃脫，從此銷聲匿跡。數十年後，已經退休的王守月被新聞片段中的一個模糊身影所吸引，重燃對這宗未解之案的探求。一場正邪對決由此展開！</desc>
+  </programme>
+  <programme start="20260611171000 +0800" stop="20260611184500 +0800" channel="天映頻道">
+    <title>曾經擁有</title>
+    <desc>港產片影癡吳少金患有阿茲海默症，依靠弟弟撐起兩人合辦的電器維修店。節目監製細姜對吳少金的古靈精怪行為感到好奇，懷疑他可能是個以尖酸刻薄的影評謀利的影評人。於是，細姜假扮朋友接近吳少金和他的家人，卻漸漸發現他的秘密和辛酸故事。</desc>
+  </programme>
+  <programme start="20260611184500 +0800" stop="20260611210000 +0800" channel="天映頻道">
+    <title>熱烈</title>
+    <desc>街舞老手丁雷力邀熱衷街舞的陳爍加入自己經營的街舞團。舞團內高手如雲，訓練期間與陳爍碰撞出不同的火花。陳爍熱烈追夢，並期待著上場的機會，卻發現丁雷邀請他其實另有目的。丁雷和陳爍各自面對人生接二連三的沉重打擊。他們能否逆風翻盤，回擊人生難題？</desc>
+  </programme>
+  <programme start="20260611210000 +0800" stop="20260611230000 +0800" channel="天映頻道">
+    <title>Leio</title>
+    <desc>一名過氣歌手回鄉奔喪並順道參加一場鑽井大賽，除了拯救家鄉乾旱的土地，更希望贏得百萬現金大獎。但他和其他參賽者都不知道，在這片乾涸的土地下，竟潛藏著兇猛無比的致命巨獸，準備將人類生吞活剝！</desc>
+  </programme>
+  <programme start="20260611230000 +0800" stop="20260612000000 +0800" channel="天映頻道">
+    <title>失眠</title>
+    <desc>林醒在香港日佔時期替日本人當翻譯，在慰安所目擊婦女被強姦，但卻沒勇氣和能力拯救她們，因此受到一位被殺慰安婦的咒詛。四十五年後，林醒的兒子成為醫學教授，他始終不相信父親失眠後的行徑是因為受了詛咒，為了研究這種致命性家族失眠症，教授開始了恐怖的實驗…</desc>
+  </programme>
+  <programme start="20260612000000 +0800" stop="20260612010000 +0800" channel="天映頻道">
+    <title>失眠</title>
+    <desc>林醒在香港日佔時期替日本人當翻譯，在慰安所目擊婦女被強姦，但卻沒勇氣和能力拯救她們，因此受到一位被殺慰安婦的咒詛。四十五年後，林醒的兒子成為醫學教授，他始終不相信父親失眠後的行徑是因為受了詛咒，為了研究這種致命性家族失眠症，教授開始了恐怖的實驗…</desc>
   </programme>
 </tv>
