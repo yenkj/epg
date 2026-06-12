@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write   # ⬅️ 关键：授权 GitHub Actions 推送代码
-
+  actions: write    # ⬅️ 必须加上这行！授权 Mattraks/delete-workflow-runs 删除历史记录
 jobs:
   build:
     runs-on: ubuntu-latest
