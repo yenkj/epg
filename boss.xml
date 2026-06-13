@@ -3,54 +3,6 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260613000000 +0800" stop="20260613012500 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613012500 +0800" stop="20260613042000 +0800" channel="LS-Time電影台">
-    <title>鬼鄉</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613042000 +0800" stop="20260613064500 +0800" channel="LS-Time電影台">
-    <title>特務迷城</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613064500 +0800" stop="20260613091000 +0800" channel="LS-Time電影台">
-    <title>四大探長</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613091000 +0800" stop="20260613110000 +0800" channel="LS-Time電影台">
-    <title>飛虎</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613110000 +0800" stop="20260613135500 +0800" channel="LS-Time電影台">
-    <title>忽然20歲</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613135500 +0800" stop="20260613160500 +0800" channel="LS-Time電影台">
-    <title>笑拳怪招</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613160500 +0800" stop="20260613180500 +0800" channel="LS-Time電影台">
-    <title>天生一對</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613180500 +0800" stop="20260613210000 +0800" channel="LS-Time電影台">
-    <title>盲探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613210000 +0800" stop="20260613230500 +0800" channel="LS-Time電影台">
-    <title>綁架</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260613232500 +0800" stop="20260614000000 +0800" channel="LS-Time電影台">
-    <title>八星報喜</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260614000000 +0800" stop="20260614012500 +0800" channel="LS-Time電影台">
-    <title>八星報喜</title>
-    <desc></desc>
-  </programme>
   <programme start="20260614000000 +0800" stop="20260614020000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
@@ -379,63 +331,115 @@
     <title>娜娜</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20260613000000 +0800" stop="20260613005500 +0800" channel="天映頻道">
+  <programme start="20260619233500 +0800" stop="20260620000000 +0800" channel="LS-Time電影台">
+    <title>急先鋒</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260620000000 +0800" stop="20260620020000 +0800" channel="LS-Time電影台">
+    <title>急先鋒</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260620000000 +0800" stop="20260620013000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260613005500 +0800" stop="20260613024000 +0800" channel="天映頻道">
-    <title>七月返歸</title>
-    <desc>自幼有陰陽眼的向榮，某日收到母親自殺不遂的消息。已移居外地的他返回香港舊居，卻又看到比從前更恐怖的怪事。徘徊在人鬼當中，向榮決意要看清真相，走出恐懼的陰霾。</desc>
+  <programme start="20260620013000 +0800" stop="20260620033000 +0800" channel="LS-Time電影台">
+    <title>大事件</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613024000 +0800" stop="20260613045500 +0800" channel="天映頻道">
-    <title>傳說</title>
-    <desc>考古專家房教授發現冰川考察中的出土文物與他夢中見到的玉佩極為相似。為揭開夢中的真相，房教授帶領考察團隊深入冰川，共同踏上一場奇幻冒險之旅。</desc>
+  <programme start="20260620033000 +0800" stop="20260620054000 +0800" channel="LS-Time電影台">
+    <title>財神客棧</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613045500 +0800" stop="20260613064500 +0800" channel="天映頻道">
-    <title>狂舞派</title>
-    <desc>天才街舞少女阿花(顏卓靈 飾)加入大學舞隊BombA，與萬人迷隊長Dave(LokmaN 飾)挑戰令人聞風喪膽的舞壇惡霸Rooftoppers，卻被隊友Rebecca(Janice 飾)橫刀奪愛及嘲笑舞技。憤然離隊的阿花此時碰上騎呢太極男阿良(蔡瀚億 飾)，竟受太極啟發創出全新舞招。阿花決定重返BombA，與宿敵Rooftoppers決一死戰，卻遇上意外導致嚴重腳傷。正當阿花覺得夢想幻滅之時，Rooftoppers的隊長Stormy(Tommy Guns 飾)竟突然現身她的輪椅前，揭開Rooftoppers稱霸舞壇的最大秘密...</desc>
+  <programme start="20260620054000 +0800" stop="20260620075000 +0800" channel="LS-Time電影台">
+    <title>雙城故事</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613064500 +0800" stop="20260613085000 +0800" channel="天映頻道">
-    <title>西遊記·女兒國</title>
-    <desc>孫悟空、豬八戒和沙僧一路保護師傅唐僧去西天取經，不料偶然闖進了神秘的女兒國。女兒國女皇對唐僧一見鍾情，國師卻下令要處死唐僧一行人。師徒四人的闖進也引來了河神現身，令女兒國陷入了危機！</desc>
+  <programme start="20260620075000 +0800" stop="20260620101000 +0800" channel="LS-Time電影台">
+    <title>火燒紅蓮寺</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613085000 +0800" stop="20260613105000 +0800" channel="天映頻道">
-    <title>失衡兇間</title>
-    <desc>電影由三個發生於城市森林暗黑角落的詭異短篇故事組成。年輕歌手搬到新居後，感到有靈異生物在角落，導致抑鬱症復發；一位網紅來到商場表演，最後卻變成一場死亡直播；唐樓租客聯手對抗樓梯出現的神秘怪客。</desc>
+  <programme start="20260620101000 +0800" stop="20260620121500 +0800" channel="LS-Time電影台">
+    <title>龍在哪裡</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613105000 +0800" stop="20260613124500 +0800" channel="天映頻道">
-    <title>不日成婚</title>
-    <desc>阿佳與可怡在一個婚禮上相識，兩人一拍即合，相愛五年，終於迎來最大的感情危機－「結婚」！女方視結婚為愛的證明，男方則視結婚為愛的墳墓。二人能否解決雙方在結婚問題的矛盾? 最後又能否成婚?</desc>
+  <programme start="20260620121500 +0800" stop="20260620143000 +0800" channel="LS-Time電影台">
+    <title>鬼咬鬼</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613124500 +0800" stop="20260613142500 +0800" channel="天映頻道">
-    <title>生死危機</title>
-    <desc>前特種部隊軍官張智勇與妻子在返國航班遇上國際恐怖分子的劫持事件。危在旦夕之際，他憑著卓越的軍事智慧與英勇無懼的精神，拯救妻子與全體乘客，成功摧毀敵人的恐怖計畫，帶領眾人化險為夷。</desc>
+  <programme start="20260620143000 +0800" stop="20260620163000 +0800" channel="LS-Time電影台">
+    <title>陰陽錯</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613142500 +0800" stop="20260613163500 +0800" channel="天映頻道">
-    <title>拯救嫌疑人</title>
-    <desc>女律師陳智琪在女兒被綁架後，接到神秘電話要求她為一位元謀殺案嫌疑犯辯護，只有官司勝訴後才可救回女兒。陳智琪聯同警員展開調查並找出證據，最終成功揭露事情的真相及幕後黑手的身份。陳智琪最後能否及時營救女兒？</desc>
+  <programme start="20260620163000 +0800" stop="20260620183500 +0800" channel="LS-Time電影台">
+    <title>伴我縱橫</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613163500 +0800" stop="20260613184000 +0800" channel="天映頻道">
-    <title>別叫我"賭神"</title>
-    <desc>嗜賭成性的吹水輝因前女友託付，照顧患有自閉症的兒子。這段突如其來的父子生活，由混亂至彼此救贖，他逐漸找回自我。當發現兒子擁有跑步天賦後，他決心告別過去，陪伴兒子追逐夢想。</desc>
+  <programme start="20260620183500 +0800" stop="20260620210000 +0800" channel="LS-Time電影台">
+    <title>G4特工</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613184000 +0800" stop="20260613210000 +0800" channel="天映頻道">
-    <title>海角七號</title>
-    <desc>一位台灣歌手要將七封送錯地址的久遠情書送到收件人友子手中。當他愛上也名叫友子的年輕日藉模特兒時，隨即發現當中偶然的時空連繫。</desc>
+  <programme start="20260620210000 +0800" stop="20260620233500 +0800" channel="LS-Time電影台">
+    <title>老娘也要當間諜</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613210000 +0800" stop="20260613224000 +0800" channel="天映頻道">
-    <title>赴湯蹈火</title>
-    <desc>暗影小隊隊長林朗率領僱傭兵團隊，接獲高危任務，要護送一名神秘女子平安返家。她是暗網史上懸賞最高的目標，重賞之下，全球頂尖殺手蠢蠢欲動，惡名昭彰的國際通緝犯Roy亦現身追殺。如今，林朗與隊友們唯有拼死一搏，才能完成任務。</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20260614000000 +0800" stop="20260614004500 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20260613224000 +0800" stop="20260614000000 +0800" channel="天映頻道">
-    <title>我的印度男友</title>
-    <desc>這是關於一個香港女子和一個印度青年的愛情故事, 更是首部港產的寶萊塢電影。當中充滿著由於不同文化背景，生活方式，價值觀，以及少數族裔在港生活所產生的矛盾。載歌載舞之餘，更有笑有淚。</desc>
+  <programme start="20260614004500 +0800" stop="20260614024000 +0800" channel="天映頻道">
+    <title>老狐狸</title>
+    <desc>1989年，年輕的廖傑和他的父親為購房而存錢，卻不知道房價正在飆升。飽受貧困之苦，他向房東老狐狸學會在社會中求生存。廖傑最終以所學傷害了老狐狸，但他的同情心終究使他沒有成為另一個老狐狸。</desc>
   </programme>
-  <programme start="20260614000000 +0800" stop="20260614004000 +0800" channel="天映頻道">
-    <title>我的印度男友</title>
-    <desc>這是關於一個香港女子和一個印度青年的愛情故事, 更是首部港產的寶萊塢電影。當中充滿著由於不同文化背景，生活方式，價值觀，以及少數族裔在港生活所產生的矛盾。載歌載舞之餘，更有笑有淚。</desc>
+  <programme start="20260614024000 +0800" stop="20260614050000 +0800" channel="天映頻道">
+    <title>少年的你</title>
+    <desc>本片入圍角逐奧斯卡最佳國際影片獎。當陳念忙著面對高考的壓力時，卻被同學的霸淩煎熬。命運使陳念遇上邊緣少年小北，二人正要重過新生活時，不幸捲入一宗謀殺案中，亦因此改變了他們的一生。</desc>
+  </programme>
+  <programme start="20260614050000 +0800" stop="20260614064000 +0800" channel="天映頻道">
+    <title>感動她77次</title>
+    <desc>回复單身的Eva寄情工作，但Adam仍對她念念不忘，希望藉著感動她77次以彌補過失。可是Eva遇上泰國男神展開追求，讓本已復雜的關係節外生枝。此時Eva的媽媽突然病危，Eva為成全母親的心願，考慮走進婚姻。Ａdam能否趁機挽回真愛？</desc>
+  </programme>
+  <programme start="20260614064000 +0800" stop="20260614090000 +0800" channel="天映頻道">
+    <title>狂舞派3</title>
+    <desc>這電影是「狂舞派」的延續，故事描述一羣香港草根演藝工作者的困境。他們因所處的舊式工業區被政府推出的市區重建計畫打壓，於是一起竭力抗衡地產霸權。</desc>
+  </programme>
+  <programme start="20260614090000 +0800" stop="20260614111000 +0800" channel="天映頻道">
+    <title>賭神２</title>
+    <desc>賭神高進退出賭壇，與妻子過著隱居生活。但野心勃勃的臺灣幫主蓄意要成為新賭神，不惜殺害其懷孕的妻子，迫高進重出江湖，然後消滅他。高進懷著悲憤的心情，決定與幫主決戰，替妻兒報仇。</desc>
+  </programme>
+  <programme start="20260614111000 +0800" stop="20260614130000 +0800" channel="天映頻道">
+    <title>遇見你之後</title>
+    <desc>著名偶像藝人彭柏楊到羅馬拍攝真人秀時，遇到平凡的女孩黃曼曼。曼曼移民義大利後，一直夢想成為出色的廚師。本無交集的二人，卻在羅馬度過了一個神奇的晚上。彭柏楊和黃曼曼悄悄墜入愛河，更因此改變了他們的人生。</desc>
+  </programme>
+  <programme start="20260614130000 +0800" stop="20260614150500 +0800" channel="天映頻道">
+    <title>峰爆</title>
+    <desc>一座修建十年的隧道即將竣工之際，受地震引發連串的地裂和山泥傾瀉所影響，隧道與附近的縣城危在旦夕。一位退休軍人和兒子倆，於絕境挺身而出，積極救援。為了守護縣城16萬人的安危，基建的代表人會否炸毀承載了十年心血的隧道呢?</desc>
+  </programme>
+  <programme start="20260614150500 +0800" stop="20260614164500 +0800" channel="天映頻道">
+    <title>無名指</title>
+    <desc>前壁球冠軍鄧叔彥與妻子正面臨人生的嚴峻考驗，就是女兒罹患罕見脊椎疾病，母親也同時確診癌症。多年後，當這個家庭在堅持與放棄之間掙扎時，一個微小卻充滿力量的希望悄然出現 — 女兒尾指輕輕顫動，讓他們重新找回了彼此的連結。</desc>
+  </programme>
+  <programme start="20260614164500 +0800" stop="20260614185000 +0800" channel="天映頻道">
+    <title>遊龍戲鳳</title>
+    <desc>英俊瀟灑的富商程仲森曾有過三段失敗的婚姻。當他遇見在賭場擔任荷官、閒暇時兼職舞蹈表演的米蘭，兩人迅速墜入愛河。然而，當他提出簽署婚前協議書的那一刻，這段剛萌芽的戀情隨即面臨嚴峻考驗。</desc>
+  </programme>
+  <programme start="20260614185000 +0800" stop="20260614210000 +0800" channel="天映頻道">
+    <title>懸崖之上</title>
+    <desc>本片是名導演張藝謀的第一部間諜懸疑片，講述1932年四名共產黨特工小組，在日本偽滿洲國內執行秘密任務的故事。由於叛徒的出賣，特工小組被敵人布下羅網，四人分組行動，可惜都被四面八方的威脅所包圍。立於“懸崖之上”的行動小組能完成任務嗎？</desc>
+  </programme>
+  <programme start="20260614210000 +0800" stop="20260614223500 +0800" channel="天映頻道">
+    <title>不赦之罪</title>
+    <desc>女兒慘遭淩辱致死，多年後，兇手竟現身教會，懇求寬恕。面對仍未癒合的傷痛，梁牧師在信仰與仇恨之間苦苦掙扎；是堅守寬恕，還是走向復仇？隨著真相與情緒層層逼近，一場關於人性、信仰與善惡邊界的終極拷問就此展開。</desc>
+  </programme>
+  <programme start="20260614223500 +0800" stop="20260615000000 +0800" channel="天映頻道">
+    <title>鬼才之道</title>
+    <desc>新晉女鬼「同學」必須在陰間證明自己的生存價值，因為每只鬼魂都必須有「嚇人業績」才能在鬼界生存。無法嚇人的鬼不僅拿不到猛鬼證，還可能會消失在陰間。過氣人氣女鬼Catherine和她的經理人Makoto聯手，想把「同學」訓練成鬼界新星，讓她施展最驚心動魄的嚇人技倆。</desc>
+  </programme>
+  <programme start="20260615000000 +0800" stop="20260615003500 +0800" channel="天映頻道">
+    <title>鬼才之道</title>
+    <desc>新晉女鬼「同學」必須在陰間證明自己的生存價值，因為每只鬼魂都必須有「嚇人業績」才能在鬼界生存。無法嚇人的鬼不僅拿不到猛鬼證，還可能會消失在陰間。過氣人氣女鬼Catherine和她的經理人Makoto聯手，想把「同學」訓練成鬼界新星，讓她施展最驚心動魄的嚇人技倆。</desc>
   </programme>
 </tv>
