@@ -1,16 +1,4 @@
 [
-	{
-	  "id":"test",
-      "url": "https://vod.199301.xyz",
-      "name": "test",
-	  "isEnabled":true
-    },
-	{
-	  "id":"test2",
-      "url": "https://vod-api.vercel.app/vod1",
-      "name": "test2",
-	  "isEnabled":true
-    },
     { 
       "id":"dyttzy",
 	  "name": "电影天堂",
