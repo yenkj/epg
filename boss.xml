@@ -3,54 +3,6 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260811000000 +0800" stop="20260811020000 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811020000 +0800" stop="20260811042500 +0800" channel="LS-Time電影台">
-    <title>天涯海角</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811042500 +0800" stop="20260811065000 +0800" channel="LS-Time電影台">
-    <title>催眠</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811065000 +0800" stop="20260811091500 +0800" channel="LS-Time電影台">
-    <title>劫後英雄傳</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811091500 +0800" stop="20260811114000 +0800" channel="LS-Time電影台">
-    <title>我老婆是老大</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811114000 +0800" stop="20260811140000 +0800" channel="LS-Time電影台">
-    <title>縱橫四海</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811140000 +0800" stop="20260811162500 +0800" channel="LS-Time電影台">
-    <title>海南雞飯</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811162500 +0800" stop="20260811183500 +0800" channel="LS-Time電影台">
-    <title>千年等一天</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811183500 +0800" stop="20260811210000 +0800" channel="LS-Time電影台">
-    <title>黃飛鴻之鐵雞鬥蜈蚣</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811210000 +0800" stop="20260811230500 +0800" channel="LS-Time電影台">
-    <title>不可思異</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260811231000 +0800" stop="20260812000000 +0800" channel="LS-Time電影台">
-    <title>G4特工</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260812000000 +0800" stop="20260812013500 +0800" channel="LS-Time電影台">
-    <title>G4特工</title>
-    <desc></desc>
-  </programme>
   <programme start="20260812000000 +0800" stop="20260812012000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
@@ -287,63 +239,107 @@
     <title>特警新人類2機動任務</title>
     <desc></desc>
   </programme>
+  <programme start="20260816230500 +0800" stop="20260817000000 +0800" channel="LS-Time電影台">
+    <title>証人</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817000000 +0800" stop="20260817013500 +0800" channel="LS-Time電影台">
+    <title>証人</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817021000 +0800" stop="20260817055500 +0800" channel="LS-Time電影台">
+    <title>血腥星期五</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817055500 +0800" stop="20260817081000 +0800" channel="LS-Time電影台">
+    <title>龍騰四海</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817081000 +0800" stop="20260817101500 +0800" channel="LS-Time電影台">
+    <title>楚漢爭霸</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817101500 +0800" stop="20260817123000 +0800" channel="LS-Time電影台">
+    <title>沒女神探</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817123000 +0800" stop="20260817144000 +0800" channel="LS-Time電影台">
+    <title>鐵甲無敵瑪利亞</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817144000 +0800" stop="20260817164500 +0800" channel="LS-Time電影台">
+    <title>拳道</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817164500 +0800" stop="20260817184500 +0800" channel="LS-Time電影台">
+    <title>人咬鬼</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817184500 +0800" stop="20260817210000 +0800" channel="LS-Time電影台">
+    <title>賭聖2之街頭賭聖</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260817210000 +0800" stop="20260817230500 +0800" channel="LS-Time電影台">
+    <title>PG戀愛指引</title>
+    <desc></desc>
+  </programme>
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20260811000000 +0800" stop="20260811012000 +0800" channel="天映頻道">
+  <programme start="20260812000000 +0800" stop="20260812013000 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260811012000 +0800" stop="20260811033000 +0800" channel="天映頻道">
-    <title>龍馬精神</title>
-    <desc>一位生活落魄的武師訓練愛馬為一匹可表演特技的馬，但為抵償欠債，他可能會失去愛馬。武師唯有向疏離多年的女兒求助，兩人也因此得到一次和解的機會。</desc>
+  <programme start="20260812013000 +0800" stop="20260812034000 +0800" channel="天映頻道">
+    <title>長安的荔枝</title>
+    <desc>一「荔」千金，盛唐爆笑開跑！小吏李善德奉命運送嶺南貢果，須在荔枝變壞前的三日內，將鮮果跨越千裡送達長安，只為滿足貴妃一嘗其鮮。沿途關卡重重、阻礙不斷，在權力與荒誕交織下，這場「不可能任務」既驚險又諷刺，最終迎來一段笑淚交織的結局。</desc>
   </programme>
-  <programme start="20260811033000 +0800" stop="20260811050500 +0800" channel="天映頻道">
-    <title>最佳拍檔之醉街拍檔</title>
-    <desc>浩式在父親被美麗的騙子萬玲所殺後，繼承了黑幫之首一職。專業槍手醉槍被安排協助浩式為父報仇，同時萬玲也因騙取了黑幫大哥雷雨揚二百萬元而被追殺。行動中，浩式與醉槍在誤打誤撞下竟擒獲雷雨揚…</desc>
+  <programme start="20260812034000 +0800" stop="20260812052500 +0800" channel="天映頻道">
+    <title>異度空間</title>
+    <desc>當昔日的創傷成為章昕的記憶烙印後，恐怖的幻象反復出現。於是，章昕向精神科醫生羅本良求助，好讓她回復正常，並解開多年來的心結。然而，隨著章昕逐漸康復，羅本良卻讓自己埋藏多年的心魔釋放，更被幻象所困擾。</desc>
   </programme>
-  <programme start="20260811050500 +0800" stop="20260811065000 +0800" channel="天映頻道">
-    <title>韓城攻略</title>
-    <desc>特工林貴仁隸屬日本國防外務科特別偵緝組，他與一名飛賊聯手，試圖竊取兩塊美金偽鈔電版。然而，當電版被美國大使館人員盜走並帶到韓國後，整個事件變得更加複雜棘手。</desc>
+  <programme start="20260812052500 +0800" stop="20260812073000 +0800" channel="天映頻道">
+    <title>驚天救援</title>
+    <desc>本片以真實事件改編。一場突如其來的地震波及整個化工園區，管道洩漏觸發爆炸不斷，鄰近地區更是火光沖天。消防救援站一眾隊員第一時間奔赴重災區，危難時刻爭分奪秒，用生命守護生命。</desc>
   </programme>
-  <programme start="20260811065000 +0800" stop="20260811085500 +0800" channel="天映頻道">
-    <title>飯戲攻心</title>
-    <desc>本喜劇的三兄弟同住在已故父母所留給他們的屋簷下。大哥堅持每晚都要一家人一起吃飯，而當他們開始邀請各自的女朋友同住時，關係也變得非常緊張，從而引發出愛情與友情的矛盾和妒忌，及各種錯綜複雜的感情問題。六位主角將一同飯戲攻心！</desc>
+  <programme start="20260812073000 +0800" stop="20260812091000 +0800" channel="天映頻道">
+    <title>無名指</title>
+    <desc>前壁球冠軍鄧叔彥與妻子正面臨人生的嚴峻考驗，就是女兒罹患罕見脊椎疾病，母親也同時確診癌症。多年後，當這個家庭在堅持與放棄之間掙扎時，一個微小卻充滿力量的希望悄然出現 — 女兒尾指輕輕顫動，讓他們重新找回了彼此的連結。</desc>
   </programme>
-  <programme start="20260811085500 +0800" stop="20260811105500 +0800" channel="天映頻道">
-    <title>媽媽!</title>
-    <desc>85歲媽媽和65歲女兒共同生活，但女兒不幸患上阿爾茨海默氏症，令她記憶力衰退及精神錯亂。結果年邁的媽媽要重新扛起照顧者的重擔，即使如此媽媽仍堅持要與女兒相伴一生。</desc>
+  <programme start="20260812091000 +0800" stop="20260812110500 +0800" channel="天映頻道">
+    <title>不日成婚</title>
+    <desc>阿佳與可怡在一個婚禮上相識，兩人一拍即合，相愛五年，終於迎來最大的感情危機－「結婚」！女方視結婚為愛的證明，男方則視結婚為愛的墳墓。二人能否解決雙方在結婚問題的矛盾? 最後又能否成婚?</desc>
   </programme>
-  <programme start="20260811105500 +0800" stop="20260811125500 +0800" channel="天映頻道">
-    <title>逆鱗</title>
-    <desc>尊非投身黑白兩道通吃的富商黃朝晉門下，成為其左右手。他既要面對幫派廝殺與權力暗鬥，還陷於人性的複雜博弈，更在情義與道義之間反復掙扎。最終，他被迫捲入一場以生命為籌碼的生死賭局。</desc>
+  <programme start="20260812110500 +0800" stop="20260812131500 +0800" channel="天映頻道">
+    <title>龍門飛甲</title>
+    <desc>本片重拍自1966年經典武俠片《龍門客棧》，當時東廠與西廠宦官掌控朝政，腐敗橫行。俠客趙懷安與一群刺客聯手，秘密剷除宦官勢力，維護忠良與國家安定。</desc>
   </programme>
-  <programme start="20260811125500 +0800" stop="20260811144000 +0800" channel="天映頻道">
-    <title>把幸福拉近一點</title>
-    <desc>被母親拋棄但依然性格開朗的少女小菲，偶遇身患罕見病症、才華橫溢的年輕男子子威，兩人因此結下不解之緣。小菲決心幫助子威尋回失去的愛人，過程中卻發現子威長期等待的治療新藥竟無效。儘管遭受沉重打擊，兩人依然決心攜手，用愛與希望點亮彼此的生命。</desc>
+  <programme start="20260812131500 +0800" stop="20260812150000 +0800" channel="天映頻道">
+    <title>觸電</title>
+    <desc>陷入中年危機的網吧老板車仔，面臨租金暴漲與客源減少的困境，決定招募女兒、一位過氣動作巨星和一名剛被解僱的電競高手，組隊參加獎金高達50萬港元的全港電競大賽。這是一場看似不可能的挑戰，卻也讓這群追夢者，終於有機會為自己奮力一搏，不留遺憾。</desc>
   </programme>
-  <programme start="20260811144000 +0800" stop="20260811165000 +0800" channel="天映頻道">
-    <title>死屍死時四十四</title>
-    <desc>這部黑色喜劇始於一具來歷不明的屍體被發現在一個住宅單位門前，同層的四家人擔心屍體會令居所變成兇宅，使樓價大跌，從而捲入了將屍體運走的大混亂中。</desc>
+  <programme start="20260812150000 +0800" stop="20260812165500 +0800" channel="天映頻道">
+    <title>狼群</title>
+    <desc>老刁率領的「狼群小隊」是一隊長期在外國行事的僱傭兵，某次執行任務的過程中，意外發現一股恐怖勢力企圖炸毀國家能源命脈！老刁臨危受命，率領隊員出擊。危機迫在眉睫，「狼群小隊」能否化險為夷？</desc>
   </programme>
-  <programme start="20260811165000 +0800" stop="20260811185000 +0800" channel="天映頻道">
-    <title>邊緣行者</title>
-    <desc>1997年香港回歸前夕，多方勢力矛盾激化，黑幫暴力事件頻生。巨變當前，黑幫龍頭委派親信阿駱主理毒品生意，但原來阿駱是警方的臥底。調查毒品案期間，他更揭發一場驚人的政治陰謀。</desc>
+  <programme start="20260812165500 +0800" stop="20260812183500 +0800" channel="天映頻道">
+    <title>倒數回擊</title>
+    <desc>天才拳擊手徐佳陽為了替父親還賭債在地下酒館打黑拳時被舉報，痛失奧運資格賽，隕落拳壇。十年後，鐵血教練陳麗月決要助她實現父親的遺願，重回拳壇找回昔日的自己。當拳擊的熱血碰上責任時，曾經失落的拳擊夢能否再度燃燒？</desc>
   </programme>
-  <programme start="20260811185000 +0800" stop="20260811210000 +0800" channel="天映頻道">
-    <title>戴假髮的人</title>
-    <desc>孟中是一位成功的律師。在調查一宗案件時，他遇見一名神秘女孩，從而喚醒二十年前一個雨夜的記憶，也逐步揭開一段塵封多年的驚人秘密......</desc>
+  <programme start="20260812183500 +0800" stop="20260812210000 +0800" channel="天映頻道">
+    <title>飯戲攻心2</title>
+    <desc>這是《飯戲攻心》的續集，講述二哥和三哥在大哥離家之際，計畫要結婚。最後，他們的婚宴成為一個混亂的戰場，婚宴升級為家族鬥獸場，造成一場喜上加喜的飯戲！</desc>
   </programme>
-  <programme start="20260811210000 +0800" stop="20260811232500 +0800" channel="天映頻道">
-    <title>毒舌大狀</title>
-    <desc>大律師林涼水以毒舌見稱，因一時大意而令無辜的被告人被判謀殺，並蒙受17年冤獄。直至幾年後出現了一次翻案的機會，林涼水為要將功補過，決要力抗香港其中一個聲名顯赫的家族，為被告人討回公道。</desc>
+  <programme start="20260812210000 +0800" stop="20260812230500 +0800" channel="天映頻道">
+    <title>潛行</title>
+    <desc>隱蔽的暗網成為新一代毒品販賣的溫床，並將目光瞄準了位於亞太中心的香港。為找出亞洲其中最有名的暗網大毒梟，警方展開了一項危險的秘密誘捕行動。</desc>
   </programme>
-  <programme start="20260811232500 +0800" stop="20260812000000 +0800" channel="天映頻道">
-    <title>危機航線</title>
-    <desc>一架A380航班在首航中遭到槍手劫持。國際保安專家高皓軍恰巧身在機上，而他的女兒不幸成為人質，生命危在旦夕。為了救回女兒，高皓軍挺身而出，與劫匪展開生死對決。面對這場生死攸關的危機，高皓軍能否成功拯救所有乘客，化解這場空中浩劫？</desc>
+  <programme start="20260812230500 +0800" stop="20260813000000 +0800" channel="天映頻道">
+    <title>奪冠</title>
+    <desc>2008年北京奧運會，昔日中國女排傳奇郎平竟以美國隊主教練身份擊敗中國隊，深陷輿論漩渦。多年後，當中國女排陷入低谷之際，她毅然回歸，執教新一代女排新力軍。她以鐵腕改革打破常規，帶領球員們絕地突圍，最終在2016年裡約奧運上演驚天逆襲，重奪奧運金牌。</desc>
   </programme>
-  <programme start="20260812000000 +0800" stop="20260812012500 +0800" channel="天映頻道">
-    <title>危機航線</title>
-    <desc>一架A380航班在首航中遭到槍手劫持。國際保安專家高皓軍恰巧身在機上，而他的女兒不幸成為人質，生命危在旦夕。為了救回女兒，高皓軍挺身而出，與劫匪展開生死對決。面對這場生死攸關的危機，高皓軍能否成功拯救所有乘客，化解這場空中浩劫？</desc>
+  <programme start="20260813000000 +0800" stop="20260813010500 +0800" channel="天映頻道">
+    <title>奪冠</title>
+    <desc>2008年北京奧運會，昔日中國女排傳奇郎平竟以美國隊主教練身份擊敗中國隊，深陷輿論漩渦。多年後，當中國女排陷入低谷之際，她毅然回歸，執教新一代女排新力軍。她以鐵腕改革打破常規，帶領球員們絕地突圍，最終在2016年裡約奧運上演驚天逆襲，重奪奧運金牌。</desc>
   </programme>
 </tv>
