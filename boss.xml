@@ -3,56 +3,8 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260911000000 +0800" stop="20260911014000 +0800" channel="LS-Time電影台">
+  <programme start="20260912000000 +0800" stop="20260912014000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911014000 +0800" stop="20260911034000 +0800" channel="LS-Time電影台">
-    <title>再見舞男</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911034000 +0800" stop="20260911054000 +0800" channel="LS-Time電影台">
-    <title>大行動</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911054000 +0800" stop="20260911075000 +0800" channel="LS-Time電影台">
-    <title>解碼遊戲</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911075000 +0800" stop="20260911100000 +0800" channel="LS-Time電影台">
-    <title>暴雨驕陽</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911100000 +0800" stop="20260911121000 +0800" channel="LS-Time電影台">
-    <title>新天生一對</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911121000 +0800" stop="20260911142000 +0800" channel="LS-Time電影台">
-    <title>傲氣雄鷹</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911142000 +0800" stop="20260911164500 +0800" channel="LS-Time電影台">
-    <title>神探蒲松齡</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911164500 +0800" stop="20260911185500 +0800" channel="LS-Time電影台">
-    <title>大話神探</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911185500 +0800" stop="20260911210000 +0800" channel="LS-Time電影台">
-    <title>阿飛正傳</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911210000 +0800" stop="20260911230500 +0800" channel="LS-Time電影台">
-    <title>火鍋英雄</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260911232500 +0800" stop="20260912000000 +0800" channel="LS-Time電影台">
-    <title>色情男女</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260912000000 +0800" stop="20260912013000 +0800" channel="LS-Time電影台">
-    <title>色情男女</title>
     <desc></desc>
   </programme>
   <programme start="20260912014000 +0800" stop="20260912032500 +0800" channel="LS-Time電影台">
@@ -335,63 +287,163 @@
     <title>又見阿郎</title>
     <desc></desc>
   </programme>
+  <programme start="20260916231000 +0800" stop="20260917000000 +0800" channel="LS-Time電影台">
+    <title>再戰天涯</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917000000 +0800" stop="20260917011000 +0800" channel="LS-Time電影台">
+    <title>再戰天涯</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917012000 +0800" stop="20260917034000 +0800" channel="LS-Time電影台">
+    <title>人妖打排球2鐵娘子</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917034000 +0800" stop="20260917053000 +0800" channel="LS-Time電影台">
+    <title>香港第一凶宅</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917053000 +0800" stop="20260917074500 +0800" channel="LS-Time電影台">
+    <title>流氓醫生</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917074500 +0800" stop="20260917100000 +0800" channel="LS-Time電影台">
+    <title>開心鬼放暑假</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917100000 +0800" stop="20260917121000 +0800" channel="LS-Time電影台">
+    <title>買兇拍人</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917121000 +0800" stop="20260917143000 +0800" channel="LS-Time電影台">
+    <title>新英雄本色</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917143000 +0800" stop="20260917165000 +0800" channel="LS-Time電影台">
+    <title>魔幻廚房</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917165000 +0800" stop="20260917185000 +0800" channel="LS-Time電影台">
+    <title>天生一條蟲</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917185000 +0800" stop="20260917210000 +0800" channel="LS-Time電影台">
+    <title>不二神探</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917210000 +0800" stop="20260917231000 +0800" channel="LS-Time電影台">
+    <title>女士復仇</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260917232000 +0800" stop="20260918000000 +0800" channel="LS-Time電影台">
+    <title>看不見的證人</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918000000 +0800" stop="20260918013500 +0800" channel="LS-Time電影台">
+    <title>看不見的證人</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918011000 +0800" stop="20260918031500 +0800" channel="LS-Time電影台">
+    <title>汽水炸彈</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918031500 +0800" stop="20260918050500 +0800" channel="LS-Time電影台">
+    <title>猛鬼佛跳牆</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918050500 +0800" stop="20260918070500 +0800" channel="LS-Time電影台">
+    <title>驚魂記</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918070500 +0800" stop="20260918090000 +0800" channel="LS-Time電影台">
+    <title>重案組之非常任務</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918090000 +0800" stop="20260918114000 +0800" channel="LS-Time電影台">
+    <title>兼職特務</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918114000 +0800" stop="20260918143500 +0800" channel="LS-Time電影台">
+    <title>火力拳開</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918143500 +0800" stop="20260918163500 +0800" channel="LS-Time電影台">
+    <title>聽不到的說話</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918163500 +0800" stop="20260918183500 +0800" channel="LS-Time電影台">
+    <title>出土奇兵</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918183500 +0800" stop="20260918210000 +0800" channel="LS-Time電影台">
+    <title>使徒行者</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260918210000 +0800" stop="20260918232000 +0800" channel="LS-Time電影台">
+    <title>志明與春嬌</title>
+    <desc></desc>
+  </programme>
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20260911000000 +0800" stop="20260911010500 +0800" channel="天映頻道">
+  <programme start="20260912000000 +0800" stop="20260912003500 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260911010500 +0800" stop="20260911024500 +0800" channel="天映頻道">
-    <title>失眠</title>
-    <desc>林醒在香港日佔時期替日本人當翻譯，在慰安所目擊婦女被強姦，但卻沒勇氣和能力拯救她們，因此受到一位被殺慰安婦的咒詛。四十五年後，林醒的兒子成為醫學教授，他始終不相信父親失眠後的行徑是因為受了詛咒，為了研究這種致命性家族失眠症，教授開始了恐怖的實驗…</desc>
+  <programme start="20260912003500 +0800" stop="20260912021500 +0800" channel="天映頻道">
+    <title>神奇俠侶</title>
+    <desc>能以雙眼放電的的炯炯俠聶歡(古天樂飾)及以香味迷暈敵人的香香俠小紅(吳君如飾)，對打打殺殺的江湖日子極感厭倦，結婚後兩人毅然退隱，匿居於南方小島彩虹村之內，過著無無聊聊的日子。但一日是英雄，終生是英雄。隱居數年，一身好武功只能用於家頭細務之上，平淡的普通人生活已令他們悶得發慌。當他們心癢難止之際，新一屆武林大會竟然於彩虹村舉行；原本已經手痕的神奇俠侶，開始磨拳擦掌，決定出山趁熱鬧！各路江湖人馬紛紛聚集，彩虹村卻變得殺氣騰騰；不但多位武林高手被離奇殺害，矛頭更逐步指向聶歡與小紅夫婦！究竟暗殺背後，隱藏甚麼驚世陰謀？不甘做兇手的替死鬼，更不忍越來越多人無辜被殺，神奇俠侶誓要重出江湖，找出幕後真兇，為自己洗脫污名！！</desc>
   </programme>
-  <programme start="20260911024500 +0800" stop="20260911044000 +0800" channel="天映頻道">
-    <title>媽媽!</title>
-    <desc>85歲媽媽和65歲女兒共同生活，但女兒不幸患上阿爾茨海默氏症，令她記憶力衰退及精神錯亂。結果年邁的媽媽要重新扛起照顧者的重擔，即使如此媽媽仍堅持要與女兒相伴一生。</desc>
+  <programme start="20260912021500 +0800" stop="20260912040500 +0800" channel="天映頻道">
+    <title>不日成婚</title>
+    <desc>阿佳與可怡在一個婚禮上相識，兩人一拍即合，相愛五年，終於迎來最大的感情危機－「結婚」！女方視結婚為愛的證明，男方則視結婚為愛的墳墓。二人能否解決雙方在結婚問題的矛盾? 最後又能否成婚?</desc>
   </programme>
-  <programme start="20260911044000 +0800" stop="20260911064000 +0800" channel="天映頻道">
-    <title>武替道</title>
-    <desc>因昔日拍檔導演希望完成其人生最後一部作品，過氣動作導演李森重出江湖擔任動作指導。他與一位雄心壯志的年輕動作演員，兩代人為了重振名聲，甘願賠上一切。同時，李森必須克服自己的壞脾氣，面對過去的錯誤，並努力修補與疏離女兒之間破裂的關係。</desc>
+  <programme start="20260912040500 +0800" stop="20260912054500 +0800" channel="天映頻道">
+    <title>龍虎門</title>
+    <desc>改編自著名香港漫畫，王小虎誤取羅剎令後慘被伏擊，幸得兄長王小龍所救，同時亦與少年石黑龍結成生死之交。為報龍虎門師傅被殺之痛，三人潛心修煉，誓要與羅剎教教主火雲邪神決一死戰。</desc>
   </programme>
-  <programme start="20260911064000 +0800" stop="20260911083500 +0800" channel="天映頻道">
-    <title>魂魄唔齊</title>
-    <desc>一直飾演文武生角的雲飛，決定為自己喜歡的男人蔣浩風演出，演出的時候不料出現意外，魂斷戲臺。而路初八是六十年後戲臺的一個小角，在機緣巧合下，被雲飛給附身，幫助她演完那場還沒完成的戲。</desc>
+  <programme start="20260912054500 +0800" stop="20260912073500 +0800" channel="天映頻道">
+    <title>望月</title>
+    <desc>美珍的家庭表面看似和睦，實則每個人都隱藏著秘密。美珍在工作中遭遇經理的無理對待，弟弟與妻子分居，卻在家人面前假裝恩愛，而母親仍對多年前一件導致丈夫離去的事情感到遺憾。中秋將至，這一家人能否撫平傷口，重新檢視家庭和團聚的真正意義？</desc>
   </programme>
-  <programme start="20260911083500 +0800" stop="20260911104000 +0800" channel="天映頻道">
-    <title>我談的那場戀愛</title>
-    <desc>婦科名醫餘笑琴抱著一試無妨的心態下載交友軟體，卻在網上邂逅一位自稱法籍工程師的對象。殊不知，這位元物件其實是一名綽號「少年」的新手騙子，並且是網路詐騙集團的一員。隨著時間流逝，少年的愧疚感與笑琴的期望日益增強，這段關係愈演愈烈，真假難以區分。</desc>
+  <programme start="20260912073500 +0800" stop="20260912092000 +0800" channel="天映頻道">
+    <title>72家租客</title>
+    <desc>哈公與石堅本為一對結拜兄弟，二人同時愛上小桃紅。最後，因為小桃紅下嫁於哈公，石堅因此懷恨在心，從此在生意上與哈公互不相讓，各出其謀鬥個你死我活。直至四十年後，二人的種種恩怨，最終因為大業主強收物業的問題，而漸漸得到化解。</desc>
   </programme>
-  <programme start="20260911104000 +0800" stop="20260911125500 +0800" channel="天映頻道">
-    <title>掃毒3:人在天涯</title>
-    <desc>香港員警張建行一直在康素差販毒集團作臥底，而另一名臥底員警歐志遠在一宗意外中亦取得他們的信任，從此三人情同手足。當康素差的販毒生意被警方查處後，他逃到金三角發展，卻意外發現身邊藏有臥底…</desc>
+  <programme start="20260912092000 +0800" stop="20260912112000 +0800" channel="天映頻道">
+    <title>秘密訪客</title>
+    <desc>一場慘烈的校車車禍，導致幾乎全部學童喪生。司機拼命救回一名男孩，卻令自己失去部分記憶。男孩的父親為答救命之恩，把司機帶到自家地下室裡與他們共同生活。司機漸漸發現這家人的行為詭秘，眾人的異常更似乎與那場車禍有關…</desc>
   </programme>
-  <programme start="20260911125500 +0800" stop="20260911144500 +0800" channel="天映頻道">
-    <title>家有囍事2009</title>
-    <desc>女強人餘珠性格暴躁，一直單身。她的弟弟餘寶因家中有「長女未嫁，弟妹不得嫁娶，否則多災多難」的嚴格家規，感到十分苦惱。為了打破這個困局，餘寶聘請了專門解決愛情問題的愛情治療師曹迪克，向餘珠展開熱烈追求。餘珠隨即對曹迪克一見鍾情，決心讓他永遠留在自己身邊…</desc>
+  <programme start="20260912112000 +0800" stop="20260912130000 +0800" channel="天映頻道">
+    <title>紅豆</title>
+    <desc>張家經營著位於九龍城的中式甜品店，然而母親突發中風，令一家人陷入劇變。女兒為了維持甜品店的生意，不得不放棄成為空姐的夢想，卻在過程中與父親產生衝突。他們一家能否齊心協力，克服重重難關？</desc>
   </programme>
-  <programme start="20260911144500 +0800" stop="20260911170500 +0800" channel="天映頻道">
-    <title>傳說</title>
-    <desc>考古專家房教授發現冰川考察中的出土文物與他夢中見到的玉佩極為相似。為揭開夢中的真相，房教授帶領考察團隊深入冰川，共同踏上一場奇幻冒險之旅。</desc>
+  <programme start="20260912130000 +0800" stop="20260912145500 +0800" channel="天映頻道">
+    <title>私家偵探</title>
+    <desc>私家偵探歐陽偉業在辦案途中意外發現妻子出軌，震驚之下，他放棄了另一宗失蹤人口案的追查。不久，該失蹤者被發現遇害，警員陳康民懷疑背後潛藏連環殺手。為阻止兇手再次犯案，歐陽偉業必須憑藉偵探直覺，力挽狂瀾。</desc>
   </programme>
-  <programme start="20260911170500 +0800" stop="20260911185500 +0800" channel="天映頻道">
-    <title>歡迎來到我身邊</title>
-    <desc>失戀後的陳小舟因一場意外，從此被一群不斷「嘎嘎」叫的橡皮鴨糾纏，生活陷入混亂。直到年輕女孩馮佳楠出現，神奇地驅散鴨群，也闖入了他的世界。兩人在朝夕相處中漸生情愫，一段荒誕逗趣又溫馨治癒的浪漫愛情由此展開。</desc>
+  <programme start="20260912145500 +0800" stop="20260912165500 +0800" channel="天映頻道">
+    <title>加害者、被害者</title>
+    <desc>一名兇殘的吉隆玻高中生殺害了同班同學，隨著受害者的母親與兇手的母親揭開自己兒子隱藏的秘密，她們各自陷入截然不同的痛苦與掙扎之中，更一步步逼近令人心碎的真相。</desc>
   </programme>
-  <programme start="20260911185500 +0800" stop="20260911210000 +0800" channel="天映頻道">
-    <title>搖籃凡世</title>
-    <desc>設立於馬來西亞的一間神秘棄嬰保護艙，瞬間在保守社會中掀起激烈爭議。面對鋪天蓋地的譴責與質疑聲浪，麗心、法蒂瑪、琴姐與努魯四位來自不同背景的堅毅女性，依然選擇堅守崗位。她們默默化身黑夜中的守護天使，用溫柔雙手守護那些走投無路的未婚母親，以及她們脆弱無助的新生嬰孩。</desc>
+  <programme start="20260912165500 +0800" stop="20260912184500 +0800" channel="天映頻道">
+    <title>迷城</title>
+    <desc>天民原本是一名員警，後來轉行經營酒吧。一天深夜，正當他準備關門時，遇見了一位醉酒女子，卻因此招惹上她的前任情人及其手下的追殺。隨著天民的弟弟和一箱現金捲入其中，這場致命的追逐變得愈發危險。</desc>
   </programme>
-  <programme start="20260911210000 +0800" stop="20260911225500 +0800" channel="天映頻道">
-    <title>冰封俠重生之門</title>
-    <desc>明朝錦衣衛賀英被誣陷為弒君逆賊，三位結義兄弟奉命追殺。在生死對決之際，四人意外被冰封於時空裂隙。四百年後，他們在現代香港蘇醒。一場跨越時代的宿命之戰，於陌生都市再度引爆。</desc>
+  <programme start="20260912184500 +0800" stop="20260912210000 +0800" channel="天映頻道">
+    <title>破·地獄</title>
+    <desc>在疫情肆虐生意蕭條的情況下，債臺高築的婚禮策劃師道生轉型為葬禮經紀人，尋求新的出路。憑藉創新且獨特的經營策略，道生意外獲得成功；在德高望重的喃嘸師傅文哥的啟發下，他的職業觀與人生態度隨之逐漸蛻變。</desc>
   </programme>
-  <programme start="20260911225500 +0800" stop="20260912000000 +0800" channel="天映頻道">
-    <title>出埃及記</title>
-    <desc>一位元軍裝警員發現有個女人組織，正進行殲滅全世界男人的計畫，而他的上司方子晴督察和妻子竟也是組織成員…</desc>
+  <programme start="20260912210000 +0800" stop="20260912231500 +0800" channel="天映頻道">
+    <title>浴火之路</title>
+    <desc>三位因孩子被拐而痛失半條命的絕望家長，在尋親路上滿腔怒火地結成生死同盟。面對窮兇極惡，喪盡天良的跨國拐賣犯罪集團，他們徹底拋開一切顧忌，深入大西北荒漠展開一場以暴制暴的血性搏殺。他們究竟能否擊碎黑暗販賣網，活著把孩子帶回家？</desc>
   </programme>
-  <programme start="20260912000000 +0800" stop="20260912005500 +0800" channel="天映頻道">
-    <title>出埃及記</title>
-    <desc>一位元軍裝警員發現有個女人組織，正進行殲滅全世界男人的計畫，而他的上司方子晴督察和妻子竟也是組織成員…</desc>
+  <programme start="20260912231500 +0800" stop="20260913000000 +0800" channel="天映頻道">
+    <title>鬼才之道</title>
+    <desc>新晉女鬼「同學」必須在陰間證明自己的生存價值，因為每只鬼魂都必須有「嚇人業績」才能在鬼界生存。無法嚇人的鬼不僅拿不到猛鬼證，還可能會消失在陰間。過氣人氣女鬼Catherine和她的經理人Makoto聯手，想把「同學」訓練成鬼界新星，讓她施展最驚心動魄的嚇人技倆。</desc>
+  </programme>
+  <programme start="20260913000000 +0800" stop="20260913011500 +0800" channel="天映頻道">
+    <title>鬼才之道</title>
+    <desc>新晉女鬼「同學」必須在陰間證明自己的生存價值，因為每只鬼魂都必須有「嚇人業績」才能在鬼界生存。無法嚇人的鬼不僅拿不到猛鬼證，還可能會消失在陰間。過氣人氣女鬼Catherine和她的經理人Makoto聯手，想把「同學」訓練成鬼界新星，讓她施展最驚心動魄的嚇人技倆。</desc>
   </programme>
 </tv>
