@@ -3,54 +3,6 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260929000000 +0800" stop="20260929013000 +0800" channel="LS-Time電影台">
-    <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929013000 +0800" stop="20260929034000 +0800" channel="LS-Time電影台">
-    <title>常在你左右</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929034000 +0800" stop="20260929053000 +0800" channel="LS-Time電影台">
-    <title>擋不住的風情</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929053000 +0800" stop="20260929073000 +0800" channel="LS-Time電影台">
-    <title>一見發財</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929073000 +0800" stop="20260929092500 +0800" channel="LS-Time電影台">
-    <title>70,80,90</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929092500 +0800" stop="20260929114500 +0800" channel="LS-Time電影台">
-    <title>賭俠</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929114500 +0800" stop="20260929140500 +0800" channel="LS-Time電影台">
-    <title>倚天屠龍記之魔教教主</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929140500 +0800" stop="20260929163000 +0800" channel="LS-Time電影台">
-    <title>長恨歌</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929163000 +0800" stop="20260929182500 +0800" channel="LS-Time電影台">
-    <title>西楚霸王</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929182500 +0800" stop="20260929210000 +0800" channel="LS-Time電影台">
-    <title>笑傲江湖</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260929233000 +0800" stop="20260930000000 +0800" channel="LS-Time電影台">
-    <title>流氓遇到兵</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930000000 +0800" stop="20260930013000 +0800" channel="LS-Time電影台">
-    <title>流氓遇到兵</title>
-    <desc></desc>
-  </programme>
   <programme start="20260930000000 +0800" stop="20260930004500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
@@ -283,63 +235,167 @@
     <title>賭聖2之街頭賭聖</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20260929000000 +0800" stop="20260929011500 +0800" channel="天映頻道">
+  <programme start="20261004230000 +0800" stop="20261005000000 +0800" channel="LS-Time電影台">
+    <title>金枝玉葉2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261005000000 +0800" stop="20261005012500 +0800" channel="LS-Time電影台">
+    <title>金枝玉葉2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261005000000 +0800" stop="20261005014000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260929011500 +0800" stop="20260929030000 +0800" channel="天映頻道">
-    <title>遇見你之後</title>
-    <desc>著名偶像藝人彭柏楊到羅馬拍攝真人秀時，遇到平凡的女孩黃曼曼。曼曼移民義大利後，一直夢想成為出色的廚師。本無交集的二人，卻在羅馬度過了一個神奇的晚上。彭柏楊和黃曼曼悄悄墜入愛河，更因此改變了他們的人生。</desc>
+  <programme start="20261005014000 +0800" stop="20261005040500 +0800" channel="LS-Time電影台">
+    <title>浪漫風暴</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929030000 +0800" stop="20260929045000 +0800" channel="天映頻道">
-    <title>冰封俠重生之門</title>
-    <desc>明朝錦衣衛賀英被誣陷為弒君逆賊，三位結義兄弟奉命追殺。在生死對決之際，四人意外被冰封於時空裂隙。四百年後，他們在現代香港蘇醒。一場跨越時代的宿命之戰，於陌生都市再度引爆。</desc>
+  <programme start="20261005040500 +0800" stop="20261005063500 +0800" channel="LS-Time電影台">
+    <title>月亮的秘密</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929045000 +0800" stop="20260929063000 +0800" channel="天映頻道">
-    <title>全員嫌疑人</title>
-    <desc>一名員警趁休假入住民宿，同宿的還有偵探小說家、流浪漢和鋼琴師。然而，當民宿主人和接待員相繼遇害，這片原本寧靜的地方頓時籠罩在重重疑雲之中。如今，每位住客既是嫌疑人，也是偵探——他們各自隱藏的秘密，都足以揭開整個謎團的真相。</desc>
+  <programme start="20261005063500 +0800" stop="20261005090000 +0800" channel="LS-Time電影台">
+    <title>辣椒教室</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929063000 +0800" stop="20260929081500 +0800" channel="天映頻道">
-    <title>催眠·裁決</title>
-    <desc>轟動全港的兇殺案來到審訊最後一天。就在陪審團準備退庭商議時，身為陪審員的著名催眠治療師收到一段顯示女兒被綁架的影片。綁匪威脅他必須催眠陪審團，操控最終裁決。夾在正義與親情之間，他必須做出抉擇，拯救女兒。</desc>
+  <programme start="20261005090000 +0800" stop="20261005111000 +0800" channel="LS-Time電影台">
+    <title>雞同鴨講</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929081500 +0800" stop="20260929102000 +0800" channel="天映頻道">
-    <title>我談的那場戀愛</title>
-    <desc>婦科名醫餘笑琴抱著一試無妨的心態下載交友軟體，卻在網上邂逅一位自稱法籍工程師的對象。殊不知，這位元物件其實是一名綽號「少年」的新手騙子，並且是網路詐騙集團的一員。隨著時間流逝，少年的愧疚感與笑琴的期望日益增強，這段關係愈演愈烈，真假難以區分。</desc>
+  <programme start="20261005111000 +0800" stop="20261005133500 +0800" channel="LS-Time電影台">
+    <title>喋血雙雄</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929102000 +0800" stop="20260929124000 +0800" channel="天映頻道">
-    <title>莫斯科行動</title>
-    <desc>根據1993年「中俄列車大劫案」的真實故事改編，講述一群匪徒如何持械行劫，從過境列車中搶走現金及貨物。一名偽裝成商人的中國員警率領這次逮捕行動，當中卻揭發另一個更龐大的陰謀…</desc>
+  <programme start="20261005133500 +0800" stop="20261005161500 +0800" channel="LS-Time電影台">
+    <title>猜猜我是誰</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929124000 +0800" stop="20260929143500 +0800" channel="天映頻道">
-    <title>鹿鼎記</title>
-    <desc>韋小寶被反清複明的“天地會”被派到皇宮當臥底，受命查探四十二章經下落。韋小寶很快成為康熙皇帝的心腹，但他既要執行天地會的任務，最後陷入兩難的狀態。</desc>
+  <programme start="20261005161500 +0800" stop="20261005185000 +0800" channel="LS-Time電影台">
+    <title>功夫棒球</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929143500 +0800" stop="20260929165500 +0800" channel="天映頻道">
-    <title>傳說</title>
-    <desc>考古專家房教授發現冰川考察中的出土文物與他夢中見到的玉佩極為相似。為揭開夢中的真相，房教授帶領考察團隊深入冰川，共同踏上一場奇幻冒險之旅。</desc>
+  <programme start="20261005185000 +0800" stop="20261005210000 +0800" channel="LS-Time電影台">
+    <title>霹靂大神探</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929165500 +0800" stop="20260929185500 +0800" channel="天映頻道">
-    <title>命案</title>
-    <desc>命理大師遇上嗜血成狂的小東，並算出他會因殺人而有牢獄之災，於是竭盡所能為他改命。但目擊小東殺貓的老警官堅信他是心理變態的連環兇手而步步進逼。最終命理大師能否改變小東的命運？</desc>
+  <programme start="20261005210000 +0800" stop="20261005230000 +0800" channel="LS-Time電影台">
+    <title>天生一對</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929185500 +0800" stop="20260929210000 +0800" channel="天映頻道">
-    <title>大上海</title>
-    <desc>黑幫頭目成大器步步攀升至權力巔峰，卻深陷兩名女子的情感糾葛與特務機關的陰謀算計，並在戰爭逼近的威脅下掙扎求生。</desc>
+  <programme start="20261005232500 +0800" stop="20261006000000 +0800" channel="LS-Time電影台">
+    <title>累</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929210000 +0800" stop="20260929225500 +0800" channel="天映頻道">
-    <title>做個有錢人</title>
-    <desc>出身貧寒的阿華，肩負照顧嗜賭父母與年幼弟妹之重擔。憑著堅毅意志與過人決心，他於逆境中奮起，為家人開創更好生活，最終在房地產界闖出一片天，證明了堅持終有回報。</desc>
+  <programme start="20261006000000 +0800" stop="20261006015500 +0800" channel="LS-Time電影台">
+    <title>累</title>
+    <desc></desc>
   </programme>
-  <programme start="20260929225500 +0800" stop="20260930000000 +0800" channel="天映頻道">
-    <title>悟空傳</title>
-    <desc>在孫悟空未成為齊天大聖前，天庭蓄意毀掉花果山，圖以掌控眾生命運，悟空在屠殺中得以殘存，決心餘生要跟天庭對抗到底。悟空在天庭遇到一生不能愛卻深深愛上的阿紫和一生最強的宿敵楊戩，各人都不甘命運的擺佈，卻沒想到反抗只會帶來更大的浩劫。他們所做的一切，究竟是不知天高地厚的輕狂，還是無懼宿命抗戰到底的熱血！</desc>
+  <programme start="20261006000000 +0800" stop="20261006012500 +0800" channel="LS-Time電影台">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20260930000000 +0800" stop="20260930005500 +0800" channel="天映頻道">
-    <title>悟空傳</title>
-    <desc>在孫悟空未成為齊天大聖前，天庭蓄意毀掉花果山，圖以掌控眾生命運，悟空在屠殺中得以殘存，決心餘生要跟天庭對抗到底。悟空在天庭遇到一生不能愛卻深深愛上的阿紫和一生最強的宿敵楊戩，各人都不甘命運的擺佈，卻沒想到反抗只會帶來更大的浩劫。他們所做的一切，究竟是不知天高地厚的輕狂，還是無懼宿命抗戰到底的熱血！</desc>
+  <programme start="20261006012500 +0800" stop="20261006034000 +0800" channel="LS-Time電影台">
+    <title>頭七還魂夜</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261006034000 +0800" stop="20261006055500 +0800" channel="LS-Time電影台">
+    <title>看海的日子</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261006055500 +0800" stop="20261006075500 +0800" channel="LS-Time電影台">
+    <title>天生一條蟲</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261006075500 +0800" stop="20261006094500 +0800" channel="LS-Time電影台">
+    <title>江湖傳說</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261006094500 +0800" stop="20261006120000 +0800" channel="LS-Time電影台">
+    <title>鬼婆婆</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261006120000 +0800" stop="20261006141500 +0800" channel="LS-Time電影台">
+    <title>龍騰四海</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261006141500 +0800" stop="20261006162500 +0800" channel="LS-Time電影台">
+    <title>鐵甲無敵瑪利亞</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261006162500 +0800" stop="20261006185500 +0800" channel="LS-Time電影台">
+    <title>八二三炮戰</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261006185500 +0800" stop="20261006210000 +0800" channel="LS-Time電影台">
+    <title>草莽英雌</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261006210000 +0800" stop="20261006232500 +0800" channel="LS-Time電影台">
+    <title>伊莎貝拉</title>
+    <desc></desc>
+  </programme>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20260930000000 +0800" stop="20260930010500 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
+  </programme>
+  <programme start="20260930010500 +0800" stop="20260930025000 +0800" channel="天映頻道">
+    <title>歡迎來到我身邊</title>
+    <desc>失戀後的陳小舟因一場意外，從此被一群不斷「嘎嘎」叫的橡皮鴨糾纏，生活陷入混亂。直到年輕女孩馮佳楠出現，神奇地驅散鴨群，也闖入了他的世界。兩人在朝夕相處中漸生情愫，一段荒誕逗趣又溫馨治癒的浪漫愛情由此展開。</desc>
+  </programme>
+  <programme start="20260930025000 +0800" stop="20260930043000 +0800" channel="天映頻道">
+    <title>七擒七縱七色狼</title>
+    <desc>曾經紅極一時電影明星譚冠希，風光不再，更要為生計收下五個徒弟，教他們如何成為明星。當譚冠希重遇失散多年的女兒後，事業漸有起色，卻同時遭宿敵的打壓。這時，冠希的女兒和徒弟們決定合力助他度過難關…</desc>
+  </programme>
+  <programme start="20260930043000 +0800" stop="20260930063000 +0800" channel="天映頻道">
+    <title>搖籃凡世</title>
+    <desc>設立於馬來西亞的一間神秘棄嬰保護艙，瞬間在保守社會中掀起激烈爭議。面對鋪天蓋地的譴責與質疑聲浪，麗心、法蒂瑪、琴姐與努魯四位來自不同背景的堅毅女性，依然選擇堅守崗位。她們默默化身黑夜中的守護天使，用溫柔雙手守護那些走投無路的未婚母親，以及她們脆弱無助的新生嬰孩。</desc>
+  </programme>
+  <programme start="20260930063000 +0800" stop="20260930082000 +0800" channel="天映頻道">
+    <title>夜半歌聲</title>
+    <desc>1926年的中國，才華橫溢的歌手宋丹平與純真的富家少女杜雲嫣深陷愛河。然而，這段感情遭到雲嫣父親的強烈反對，並引發她家為她所選的未婚夫的嫉妒。這是一個關於歌手與富家女在傳統社會中共同追尋愛情的故事。</desc>
+  </programme>
+  <programme start="20260930082000 +0800" stop="20260930100000 +0800" channel="天映頻道">
+    <title>紅豆</title>
+    <desc>張家經營著位於九龍城的中式甜品店，然而母親突發中風，令一家人陷入劇變。女兒為了維持甜品店的生意，不得不放棄成為空姐的夢想，卻在過程中與父親產生衝突。他們一家能否齊心協力，克服重重難關？</desc>
+  </programme>
+  <programme start="20260930100000 +0800" stop="20260930120500 +0800" channel="天映頻道">
+    <title>武替道</title>
+    <desc>因昔日拍檔導演希望完成其人生最後一部作品，過氣動作導演李森重出江湖擔任動作指導。他與一位雄心壯志的年輕動作演員，兩代人為了重振名聲，甘願賠上一切。同時，李森必須克服自己的壞脾氣，面對過去的錯誤，並努力修補與疏離女兒之間破裂的關係。</desc>
+  </programme>
+  <programme start="20260930120500 +0800" stop="20260930140000 +0800" channel="天映頻道">
+    <title>鬼才之道</title>
+    <desc>新晉女鬼「同學」必須在陰間證明自己的生存價值，因為每只鬼魂都必須有「嚇人業績」才能在鬼界生存。無法嚇人的鬼不僅拿不到猛鬼證，還可能會消失在陰間。過氣人氣女鬼Catherine和她的經理人Makoto聯手，想把「同學」訓練成鬼界新星，讓她施展最驚心動魄的嚇人技倆。</desc>
+  </programme>
+  <programme start="20260930140000 +0800" stop="20260930154000 +0800" channel="天映頻道">
+    <title>大富之家</title>
+    <desc>香港富翁任大寬一家四代同堂，但三個兒子卻各有煩惱。一天，留學法國的女兒與朋友Roberto一起回港，Roberto的出現為任大寬一家帶來連串的變化，點燃了全家新的希望與機遇。</desc>
+  </programme>
+  <programme start="20260930154000 +0800" stop="20260930172500 +0800" channel="天映頻道">
+    <title>出埃及記</title>
+    <desc>一位元軍裝警員發現有個女人組織，正進行殲滅全世界男人的計畫，而他的上司方子晴督察和妻子竟也是組織成員…</desc>
+  </programme>
+  <programme start="20260930172500 +0800" stop="20260930190500 +0800" channel="天映頻道">
+    <title>金童</title>
+    <desc>昔日拳壇「金童」張力，因一場意外入獄，失去一切。十年後刑滿出獄，他與素未謀面的兒子方圓重逢。經歷衝突與慢慢的相互和解，張力尋回人生的目標。他決意重返擂臺，要成為兒子敬仰的父親。</desc>
+  </programme>
+  <programme start="20260930190500 +0800" stop="20260930210000 +0800" channel="天映頻道">
+    <title>4拍4家族</title>
+    <desc>獨立樂隊Band Four主歌手決心踏上國際舞臺，在媽媽病逝後與失散多年的吉他手父親重逢。父女二人加上同父異母的妹妹及9歲兒子，一家四口通過對音樂的愛與熱忱，一起締造充滿愛的家庭。</desc>
+  </programme>
+  <programme start="20260930210000 +0800" stop="20260930232500 +0800" channel="天映頻道">
+    <title>飯戲攻心2</title>
+    <desc>這是《飯戲攻心》的續集，講述二哥和三哥在大哥離家之際，計畫要結婚。最後，他們的婚宴成為一個混亂的戰場，婚宴升級為家族鬥獸場，造成一場喜上加喜的飯戲！</desc>
+  </programme>
+  <programme start="20260930232500 +0800" stop="20261001000000 +0800" channel="天映頻道">
+    <title>阿龍</title>
+    <desc>單親爸爸阿龍與女兒相依為命，生活清貧卻始終相信好人有好報。然而一次泰國之旅，女兒慘遭拐走，令他的信念徹底崩塌。為了尋回女兒，他不惜鋌而走險，與當地華僑再婚，只為留在異國追查拐賣集團，在復仇與救贖之間，最終化身雙手沾血的復仇者。</desc>
+  </programme>
+  <programme start="20261001000000 +0800" stop="20261001012500 +0800" channel="天映頻道">
+    <title>阿龍</title>
+    <desc>單親爸爸阿龍與女兒相依為命，生活清貧卻始終相信好人有好報。然而一次泰國之旅，女兒慘遭拐走，令他的信念徹底崩塌。為了尋回女兒，他不惜鋌而走險，與當地華僑再婚，只為留在異國追查拐賣集團，在復仇與救贖之間，最終化身雙手沾血的復仇者。</desc>
   </programme>
 </tv>
