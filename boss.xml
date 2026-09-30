@@ -3,56 +3,8 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20260930000000 +0800" stop="20260930004500 +0800" channel="LS-Time電影台">
+  <programme start="20261001000000 +0800" stop="20261001013000 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930004500 +0800" stop="20260930024000 +0800" channel="LS-Time電影台">
-    <title>江湖接班人</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930024000 +0800" stop="20260930044500 +0800" channel="LS-Time電影台">
-    <title>同根生</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930044500 +0800" stop="20260930072500 +0800" channel="LS-Time電影台">
-    <title>戰鼓</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930072500 +0800" stop="20260930092500 +0800" channel="LS-Time電影台">
-    <title>武狀元鐵橋三</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930092500 +0800" stop="20260930120500 +0800" channel="LS-Time電影台">
-    <title>大上海</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930120500 +0800" stop="20260930142000 +0800" channel="LS-Time電影台">
-    <title>犯罪現場</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930142000 +0800" stop="20260930165500 +0800" channel="LS-Time電影台">
-    <title>激戰-勇者不敗</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930165500 +0800" stop="20260930185500 +0800" channel="LS-Time電影台">
-    <title>求愛衝鋒隊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930185500 +0800" stop="20260930210000 +0800" channel="LS-Time電影台">
-    <title>我們未成年</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930210000 +0800" stop="20260930233000 +0800" channel="LS-Time電影台">
-    <title>天下無賊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20260930224500 +0800" stop="20261001000000 +0800" channel="LS-Time電影台">
-    <title>解救吾先生</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261001000000 +0800" stop="20261001010500 +0800" channel="LS-Time電影台">
-    <title>解救吾先生</title>
     <desc></desc>
   </programme>
   <programme start="20261001013000 +0800" stop="20261001032500 +0800" channel="LS-Time電影台">
@@ -335,67 +287,99 @@
     <title>伊莎貝拉</title>
     <desc></desc>
   </programme>
+  <programme start="20261006230500 +0800" stop="20261007000000 +0800" channel="LS-Time電影台">
+    <title>監獄風雲2大逃犯</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007000000 +0800" stop="20261007013500 +0800" channel="LS-Time電影台">
+    <title>監獄風雲2大逃犯</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007015500 +0800" stop="20261007040500 +0800" channel="LS-Time電影台">
+    <title>幽靈人間</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007040500 +0800" stop="20261007063500 +0800" channel="LS-Time電影台">
+    <title>上海1920</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007063500 +0800" stop="20261007090500 +0800" channel="LS-Time電影台">
+    <title>保持通話</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007090500 +0800" stop="20261007113000 +0800" channel="LS-Time電影台">
+    <title>傷城</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007113000 +0800" stop="20261007135500 +0800" channel="LS-Time電影台">
+    <title>一路有你</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007135500 +0800" stop="20261007161500 +0800" channel="LS-Time電影台">
+    <title>法海-白蛇傳說</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007161500 +0800" stop="20261007184500 +0800" channel="LS-Time電影台">
+    <title>跳水男孩</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007184500 +0800" stop="20261007210000 +0800" channel="LS-Time電影台">
+    <title>賭聖2之街頭賭聖</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261007210000 +0800" stop="20261007230500 +0800" channel="LS-Time電影台">
+    <title>城市戰爭</title>
+    <desc></desc>
+  </programme>
   <channel id="天映頻道">
     <display-name>天映頻道</display-name>
   </channel>
-  <programme start="20260930000000 +0800" stop="20260930010500 +0800" channel="天映頻道">
+  <programme start="20261001000000 +0800" stop="20261001044500 +0800" channel="天映頻道">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20260930010500 +0800" stop="20260930025000 +0800" channel="天映頻道">
-    <title>歡迎來到我身邊</title>
-    <desc>失戀後的陳小舟因一場意外，從此被一群不斷「嘎嘎」叫的橡皮鴨糾纏，生活陷入混亂。直到年輕女孩馮佳楠出現，神奇地驅散鴨群，也闖入了他的世界。兩人在朝夕相處中漸生情愫，一段荒誕逗趣又溫馨治癒的浪漫愛情由此展開。</desc>
+  <programme start="20261001044500 +0800" stop="20261001062000 +0800" channel="天映頻道">
+    <title>神槍手與智多星</title>
+    <desc>九年前，兩個傳奇人物“神槍手”和“智多星”發誓不再開槍殺人和永不再說謊。現在，他們卻為同一個目的回來 — 保護江湖老大的孫女兒小雨。最終他們能否信守承諾完成任務？</desc>
   </programme>
-  <programme start="20260930025000 +0800" stop="20260930043000 +0800" channel="天映頻道">
-    <title>七擒七縱七色狼</title>
-    <desc>曾經紅極一時電影明星譚冠希，風光不再，更要為生計收下五個徒弟，教他們如何成為明星。當譚冠希重遇失散多年的女兒後，事業漸有起色，卻同時遭宿敵的打壓。這時，冠希的女兒和徒弟們決定合力助他度過難關…</desc>
+  <programme start="20261001062000 +0800" stop="20261001082000 +0800" channel="天映頻道">
+    <title>陰目偵信</title>
+    <desc>「陰目偵信」是專門助人解決靈異問題的偵探社。當「陰目偵信」調查惡鬼在一棟舊樓出現的案件時，發現所謂的惡鬼都是由煉鬼師親自煉成，目的是要恐嚇居民以清空樓宇作重建之用。「陰目偵信」的偵探們最後能否找到打敗煉鬼師的方法？</desc>
   </programme>
-  <programme start="20260930043000 +0800" stop="20260930063000 +0800" channel="天映頻道">
-    <title>搖籃凡世</title>
-    <desc>設立於馬來西亞的一間神秘棄嬰保護艙，瞬間在保守社會中掀起激烈爭議。面對鋪天蓋地的譴責與質疑聲浪，麗心、法蒂瑪、琴姐與努魯四位來自不同背景的堅毅女性，依然選擇堅守崗位。她們默默化身黑夜中的守護天使，用溫柔雙手守護那些走投無路的未婚母親，以及她們脆弱無助的新生嬰孩。</desc>
+  <programme start="20261001082000 +0800" stop="20261001103000 +0800" channel="天映頻道">
+    <title>笑傲江湖</title>
+    <desc>一心退出江湖的華山派大弟子令狐沖意外捲入正邪紛爭，邂逅魔教新教主東方不敗，兩人情愫暗生。東方不敗多次暗中相助，卻在任我行挑撥與借刀殺人陰謀下，令狐沖誤以為她血洗華山派。同門情義與愛恨糾葛交織，一場生死難料的宿命對決就此展開。</desc>
   </programme>
-  <programme start="20260930063000 +0800" stop="20260930082000 +0800" channel="天映頻道">
-    <title>夜半歌聲</title>
-    <desc>1926年的中國，才華橫溢的歌手宋丹平與純真的富家少女杜雲嫣深陷愛河。然而，這段感情遭到雲嫣父親的強烈反對，並引發她家為她所選的未婚夫的嫉妒。這是一個關於歌手與富家女在傳統社會中共同追尋愛情的故事。</desc>
+  <programme start="20261001103000 +0800" stop="20261001124000 +0800" channel="天映頻道">
+    <title>熱搜</title>
+    <desc>網路媒體主編陳妙發佈一篇熱爆文章成為熱搜後，間接導致一名女孩自殺。隨後陳妙收到一個求助訊息，並發現事件的真相遠非表面所見。隨著事件的公眾輿論迅速改變風向，一場為弱者發聲之戰正式展開！</desc>
   </programme>
-  <programme start="20260930082000 +0800" stop="20260930100000 +0800" channel="天映頻道">
-    <title>紅豆</title>
-    <desc>張家經營著位於九龍城的中式甜品店，然而母親突發中風，令一家人陷入劇變。女兒為了維持甜品店的生意，不得不放棄成為空姐的夢想，卻在過程中與父親產生衝突。他們一家能否齊心協力，克服重重難關？</desc>
+  <programme start="20261001124000 +0800" stop="20261001145500 +0800" channel="天映頻道">
+    <title>獵金遊戲</title>
+    <desc>野心勃勃的金融高材生高寒，適逢好友的家族企業正籌備在香港上市，因而被引薦進入投行實習。在首席分析師張陶德的帶領下，高迅速嶄露頭角，卻因野心作祟而背叛恩師，轉投競爭對手。當好友的家族企業被敵意收購時，為了彌補過失，高懇求張相助，聯手阻止這場惡意收購。</desc>
   </programme>
-  <programme start="20260930100000 +0800" stop="20260930120500 +0800" channel="天映頻道">
-    <title>武替道</title>
-    <desc>因昔日拍檔導演希望完成其人生最後一部作品，過氣動作導演李森重出江湖擔任動作指導。他與一位雄心壯志的年輕動作演員，兩代人為了重振名聲，甘願賠上一切。同時，李森必須克服自己的壞脾氣，面對過去的錯誤，並努力修補與疏離女兒之間破裂的關係。</desc>
+  <programme start="20261001145500 +0800" stop="20261001165500 +0800" channel="天映頻道">
+    <title>秘密訪客</title>
+    <desc>一場慘烈的校車車禍，導致幾乎全部學童喪生。司機拼命救回一名男孩，卻令自己失去部分記憶。男孩的父親為答救命之恩，把司機帶到自家地下室裡與他們共同生活。司機漸漸發現這家人的行為詭秘，眾人的異常更似乎與那場車禍有關…</desc>
   </programme>
-  <programme start="20260930120500 +0800" stop="20260930140000 +0800" channel="天映頻道">
-    <title>鬼才之道</title>
-    <desc>新晉女鬼「同學」必須在陰間證明自己的生存價值，因為每只鬼魂都必須有「嚇人業績」才能在鬼界生存。無法嚇人的鬼不僅拿不到猛鬼證，還可能會消失在陰間。過氣人氣女鬼Catherine和她的經理人Makoto聯手，想把「同學」訓練成鬼界新星，讓她施展最驚心動魄的嚇人技倆。</desc>
+  <programme start="20261001165500 +0800" stop="20261001185000 +0800" channel="天映頻道">
+    <title>金錢帝國: 追虎擒龍</title>
+    <desc>七十年代初，香港貪污情況氾濫，廉政公署致力打擊。華探長與黑道首領跛豪聯手多年，其貪污金額更達到百億之多。任職律師的陳克遇上舊友，被邀加入廉政公署，二人合力剷除華探長與跛豪這兩隻大老虎，打擊貪污。一場正義與邪惡的爭鬥也隨之拉開了帷幕。</desc>
   </programme>
-  <programme start="20260930140000 +0800" stop="20260930154000 +0800" channel="天映頻道">
-    <title>大富之家</title>
-    <desc>香港富翁任大寬一家四代同堂，但三個兒子卻各有煩惱。一天，留學法國的女兒與朋友Roberto一起回港，Roberto的出現為任大寬一家帶來連串的變化，點燃了全家新的希望與機遇。</desc>
+  <programme start="20261001185000 +0800" stop="20261001210000 +0800" channel="天映頻道">
+    <title>水餃皇後</title>
+    <desc>七十年代，青島姑娘臧健和婚姻破裂後，帶著兩個女兒來到香港。她從洗碗、做雜工起步，在灣仔碼頭擺攤謀生，憑藉家傳水餃手藝與堅毅意志，一步步從街頭小販逆襲而上。創業之路艱辛曲折，在紅姐等街坊的互助下，她最終成為馳名中外的「水餃皇後」。</desc>
   </programme>
-  <programme start="20260930154000 +0800" stop="20260930172500 +0800" channel="天映頻道">
-    <title>出埃及記</title>
-    <desc>一位元軍裝警員發現有個女人組織，正進行殲滅全世界男人的計畫，而他的上司方子晴督察和妻子竟也是組織成員…</desc>
+  <programme start="20261001210000 +0800" stop="20261001230000 +0800" channel="天映頻道">
+    <title>激戰</title>
+    <desc>曾經叱吒世界拳壇的拳王程輝，在澳門遇見了熱血青年思齊。隨著他悉心訓練思齊備戰即將舉行的混合格鬥賽，兩人在挑戰極限的過程中共同成長。程輝不僅重燃了對拳擊的熱愛，也重新找回了對生命的熱情，並學會珍惜生命中真正重要的人。</desc>
   </programme>
-  <programme start="20260930172500 +0800" stop="20260930190500 +0800" channel="天映頻道">
-    <title>金童</title>
-    <desc>昔日拳壇「金童」張力，因一場意外入獄，失去一切。十年後刑滿出獄，他與素未謀面的兒子方圓重逢。經歷衝突與慢慢的相互和解，張力尋回人生的目標。他決意重返擂臺，要成為兒子敬仰的父親。</desc>
+  <programme start="20261001230000 +0800" stop="20261002000000 +0800" channel="天映頻道">
+    <title>天師鬥殭屍</title>
+    <desc>古惑仔烏蠅與好友奶油豬受AKTV老板週阿強之命，恐嚇一代玄學大師蔣天機為週太公搬棺。烏蠅一直認為鬼魂或殭屍只會在故事書或電影中出現，可是直至遇上美艷女鬼明天，他才相信靈異世界確實存在。而奶油豬的心儀女星Balla被殭屍所咬，他們組成滅屍敢死隊殺入電視台，便被一眾「喪屍兵團」包圍了！</desc>
   </programme>
-  <programme start="20260930190500 +0800" stop="20260930210000 +0800" channel="天映頻道">
-    <title>4拍4家族</title>
-    <desc>獨立樂隊Band Four主歌手決心踏上國際舞臺，在媽媽病逝後與失散多年的吉他手父親重逢。父女二人加上同父異母的妹妹及9歲兒子，一家四口通過對音樂的愛與熱忱，一起締造充滿愛的家庭。</desc>
-  </programme>
-  <programme start="20260930210000 +0800" stop="20260930232500 +0800" channel="天映頻道">
-    <title>飯戲攻心2</title>
-    <desc>這是《飯戲攻心》的續集，講述二哥和三哥在大哥離家之際，計畫要結婚。最後，他們的婚宴成為一個混亂的戰場，婚宴升級為家族鬥獸場，造成一場喜上加喜的飯戲！</desc>
-  </programme>
-  <programme start="20260930232500 +0800" stop="20261001000000 +0800" channel="天映頻道">
-    <title>阿龍</title>
-    <desc>單親爸爸阿龍與女兒相依為命，生活清貧卻始終相信好人有好報。然而一次泰國之旅，女兒慘遭拐走，令他的信念徹底崩塌。為了尋回女兒，他不惜鋌而走險，與當地華僑再婚，只為留在異國追查拐賣集團，在復仇與救贖之間，最終化身雙手沾血的復仇者。</desc>
-  </programme>
-  <programme start="20261001000000 +0800" stop="20261001012500 +0800" channel="天映頻道">
-    <title>阿龍</title>
-    <desc>單親爸爸阿龍與女兒相依為命，生活清貧卻始終相信好人有好報。然而一次泰國之旅，女兒慘遭拐走，令他的信念徹底崩塌。為了尋回女兒，他不惜鋌而走險，與當地華僑再婚，只為留在異國追查拐賣集團，在復仇與救贖之間，最終化身雙手沾血的復仇者。</desc>
+  <programme start="20261002000000 +0800" stop="20261002010000 +0800" channel="天映頻道">
+    <title>天師鬥殭屍</title>
+    <desc>古惑仔烏蠅與好友奶油豬受AKTV老板週阿強之命，恐嚇一代玄學大師蔣天機為週太公搬棺。烏蠅一直認為鬼魂或殭屍只會在故事書或電影中出現，可是直至遇上美艷女鬼明天，他才相信靈異世界確實存在。而奶油豬的心儀女星Balla被殭屍所咬，他們組成滅屍敢死隊殺入電視台，便被一眾「喪屍兵團」包圍了！</desc>
   </programme>
 </tv>
