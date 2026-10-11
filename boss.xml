@@ -3,60 +3,8 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20261011000000 +0800" stop="20261011021000 +0800" channel="LS-Time電影台">
+  <programme start="20261012000000 +0800" stop="20261012015500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011021000 +0800" stop="20261011043000 +0800" channel="LS-Time電影台">
-    <title>玻璃鎗的愛</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011043000 +0800" stop="20261011065000 +0800" channel="LS-Time電影台">
-    <title>藍色情人</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011065000 +0800" stop="20261011091500 +0800" channel="LS-Time電影台">
-    <title>我老婆是老大</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011091500 +0800" stop="20261011114000 +0800" channel="LS-Time電影台">
-    <title>海南雞飯</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011114000 +0800" stop="20261011140000 +0800" channel="LS-Time電影台">
-    <title>完美情人</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011140000 +0800" stop="20261011161000 +0800" channel="LS-Time電影台">
-    <title>東方不敗2風雲再起</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011161000 +0800" stop="20261011183500 +0800" channel="LS-Time電影台">
-    <title>靈魂出竅我愛你</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011183500 +0800" stop="20261011210000 +0800" channel="LS-Time電影台">
-    <title>極凍之城</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011210000 +0800" stop="20261011231000 +0800" channel="LS-Time電影台">
-    <title>黑白潛行</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011230000 +0800" stop="20261012000000 +0800" channel="LS-Time電影台">
-    <title>咒靈</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261011233500 +0800" stop="20261012000000 +0800" channel="LS-Time電影台">
-    <title>吉祥酒店</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261012000000 +0800" stop="20261012012500 +0800" channel="LS-Time電影台">
-    <title>咒靈</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261012000000 +0800" stop="20261012013000 +0800" channel="LS-Time電影台">
-    <title>吉祥酒店</title>
     <desc></desc>
   </programme>
   <programme start="20261012015500 +0800" stop="20261012050000 +0800" channel="LS-Time電影台">
@@ -327,67 +275,115 @@
     <title>黑社會2-以和為貴</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20261011000000 +0800" stop="20261011004000 +0800" channel="天映頻道">
+  <programme start="20261016231000 +0800" stop="20261017000000 +0800" channel="LS-Time電影台">
+    <title>第22年的告白-我是殺人犯</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261017000000 +0800" stop="20261017014500 +0800" channel="LS-Time電影台">
+    <title>第22年的告白-我是殺人犯</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261017000000 +0800" stop="20261017010500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20261011004000 +0800" stop="20261011021500 +0800" channel="天映頻道">
-    <title>失衡兇間之罪與殺</title>
-    <desc>「失衡兇間」的靈異驚栗短片系列回歸，三個驚嚇犯罪故事，分別圍繞著一名前美髮廣告模特兒，一位貓癡和一段牙科護士、牙醫、及法國菜廚師的三角關係。故事描述他們執念成狂的經過，最後甚至引發暗黑人性的失衡。</desc>
+  <programme start="20261017010500 +0800" stop="20261017031500 +0800" channel="LS-Time電影台">
+    <title>神偷燕子李三</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011021500 +0800" stop="20261011041000 +0800" channel="天映頻道">
-    <title>白日青春</title>
-    <desc>巴基斯坦裔難民男孩哈山的父親因車禍死亡，於是計程車司機陳白日助他偷渡離港。漸漸二人的相處就如父子一樣，直至男孩駭然發現父親意外身亡的真相…</desc>
+  <programme start="20261017031500 +0800" stop="20261017052000 +0800" channel="LS-Time電影台">
+    <title>精靈變</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011041000 +0800" stop="20261011062000 +0800" channel="天映頻道">
-    <title>不日成婚 2</title>
-    <desc>阿佳和可怡二人終於要結婚，卻遇到佳母施加壓力，令二人產生種種摩擦。另一邊，灰熊又懷疑妻子紅杏出牆。而當阿健的女友 Jessica意外懷孕時，他陷入人生最迷茫而不知應該如何做決定的時候。眾人最後可否化解他們感情上的衝突？</desc>
+  <programme start="20261017052000 +0800" stop="20261017072500 +0800" channel="LS-Time電影台">
+    <title>幽靈人間</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011062000 +0800" stop="20261011080500 +0800" channel="天映頻道">
-    <title>S風暴</title>
-    <desc>廉政公署首席調查主任陸志廉在調查非法足球搏彩集團時目擊嫌疑犯被殺。重案組督察劉保強急需陸志廉的口供，但因廉署的保密守則，陸志廉無法提供任何線索，阻礙劉保強的調查。二人由調查開始時的互不信任，到最後發展出默契，誓要將犯罪集團連根拔起。</desc>
+  <programme start="20261017072500 +0800" stop="20261017093000 +0800" channel="LS-Time電影台">
+    <title>有妻徒刑</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011080500 +0800" stop="20261011093500 +0800" channel="天映頻道">
-    <title>提防老千</title>
-    <desc>恆仔因虧空公款入獄，獄中遇上老千十四哥。十四哥也把千術及賭術傳授予恆仔。出獄後，他們與十四哥的情人羅拉聯手，準備向陷害十四哥入獄的仇人龍王報復。豈料，恆仔受不了羅拉的誘惑，竟與她搭上。恆仔是否會放棄與十四哥一起向龍王進行報復？</desc>
+  <programme start="20261017093000 +0800" stop="20261017113500 +0800" channel="LS-Time電影台">
+    <title>鐵三角</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011093500 +0800" stop="20261011114000 +0800" channel="天映頻道">
-    <title>“騙騙”喜歡你</title>
-    <desc>慘遭愛情騙子掏空真心與積蓄的林晴朗，不僅人財兩空，更被迫背負巨額債務。走投無路的她為了奪回尊嚴與血汗錢，果斷與詐騙首腦歐陽暉聯手設局，對渣男展開一場瞞天過海的華麗復仇。怎料兩個各懷心思的人，卻在做局鬥騙的過程中，意外譜出一段甜蜜浪漫的情緣。</desc>
+  <programme start="20261017113500 +0800" stop="20261017134500 +0800" channel="LS-Time電影台">
+    <title>夏日的麼麼茶</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011114000 +0800" stop="20261011134000 +0800" channel="天映頻道">
-    <title>寒戰2</title>
-    <desc>劇情講述經過「寒戰」行動後，劉傑輝雖然升任警務處處長，但昔日的兇徒不僅逍遙法外，甚至將行動進一步升級，綁架他的妻子。他不惜一切要拯救自己妻子，令他也要面對調查。</desc>
+  <programme start="20261017134500 +0800" stop="20261017160500 +0800" channel="LS-Time電影台">
+    <title>解救吾先生</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011134000 +0800" stop="20261011151500 +0800" channel="天映頻道">
-    <title>長江七號</title>
-    <desc>週星馳強勢回歸的作品，講述一對父子在垃圾桶裡發現可愛外星人後，出現一連串既搞笑又溫馨的故事。</desc>
+  <programme start="20261017160500 +0800" stop="20261017184000 +0800" channel="LS-Time電影台">
+    <title>閃爍的愛情</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011151500 +0800" stop="20261011172500 +0800" channel="天映頻道">
-    <title>笑傲江湖</title>
-    <desc>一心退出江湖的華山派大弟子令狐沖意外捲入正邪紛爭，邂逅魔教新教主東方不敗，兩人情愫暗生。東方不敗多次暗中相助，卻在任我行挑撥與借刀殺人陰謀下，令狐沖誤以為她血洗華山派。同門情義與愛恨糾葛交織，一場生死難料的宿命對決就此展開。</desc>
+  <programme start="20261017184000 +0800" stop="20261017210000 +0800" channel="LS-Time電影台">
+    <title>嫌疑人X的獻身</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011172500 +0800" stop="20261011190500 +0800" channel="天映頻道">
-    <title>天師鬥殭屍</title>
-    <desc>古惑仔烏蠅與好友奶油豬受AKTV老板週阿強之命，恐嚇一代玄學大師蔣天機為週太公搬棺。烏蠅一直認為鬼魂或殭屍只會在故事書或電影中出現，可是直至遇上美艷女鬼明天，他才相信靈異世界確實存在。而奶油豬的心儀女星Balla被殭屍所咬，他們組成滅屍敢死隊殺入電視台，便被一眾「喪屍兵團」包圍了！</desc>
+  <programme start="20261017210000 +0800" stop="20261017231000 +0800" channel="LS-Time電影台">
+    <title>黃蜂尾後針</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011190500 +0800" stop="20261011210000 +0800" channel="天映頻道">
-    <title>賞金獵人</title>
-    <desc>賞金獵人團，成員包括李山、阿Yo、Cat、Swan和Bobo，要揪出恐嚇國際酒店集團的連環爆炸案的始作俑者。但Swan、Cat和Bobo卻遭炸彈事件的幕後操縱者綁架，究竟李山和阿Yo可否將他們救出？賞金獵人團又能完成任務嗎？</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20261012000000 +0800" stop="20261012011500 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20261011210000 +0800" stop="20261011232500 +0800" channel="天映頻道">
+  <programme start="20261012011500 +0800" stop="20261012031000 +0800" channel="天映頻道">
+    <title>激戰</title>
+    <desc>曾經叱吒世界拳壇的拳王程輝，在澳門遇見了熱血青年思齊。隨著他悉心訓練思齊備戰即將舉行的混合格鬥賽，兩人在挑戰極限的過程中共同成長。程輝不僅重燃了對拳擊的熱愛，也重新找回了對生命的熱情，並學會珍惜生命中真正重要的人。</desc>
+  </programme>
+  <programme start="20261012031000 +0800" stop="20261012050500 +0800" channel="天映頻道">
+    <title>加害者、被害者</title>
+    <desc>一名兇殘的吉隆玻高中生殺害了同班同學，隨著受害者的母親與兇手的母親揭開自己兒子隱藏的秘密，她們各自陷入截然不同的痛苦與掙扎之中，更一步步逼近令人心碎的真相。</desc>
+  </programme>
+  <programme start="20261012050500 +0800" stop="20261012064500 +0800" channel="天映頻道">
+    <title>速戰</title>
+    <desc>一對同父異母的兄弟阿楠和阿火，同是賽車界的頂尖車神。在賽車場上，阿楠因為受到日本車手挑戰，而意外地導致另一位年青車手重傷，變得意志消沉。阿火為鼓勵阿楠，遂參加非法街頭賽車與日本車手在街頭一決高下。最終誰會勝出？阿楠又能否重新振作？</desc>
+  </programme>
+  <programme start="20261012064500 +0800" stop="20261012083500 +0800" channel="天映頻道">
+    <title>金玉滿堂</title>
+    <desc>趙港生希望以廚師身份在加拿大展開新生活，於是前往滿漢樓向歐兆豐學習廚藝。他將代表滿漢樓參加滿漢全席比賽，然而，由於廚藝尚未成熟，只能向一位廚神求助，以應對這場終極挑戰。</desc>
+  </programme>
+  <programme start="20261012083500 +0800" stop="20261012101000 +0800" channel="天映頻道">
+    <title>意外人生</title>
+    <desc>潘義銘收到父親的遺囑，告知他有一筆巨額遺產，卻要回鄉參加葬禮才能繼承。回鄉後，潘義銘重遇前度女友林悅，更遇見她的丈夫華琪和素未謀面的女兒。當潘義銘發現華琪長期對女兒家暴時，一心要拯救女兒，卻逐步陷入他們設的陷阱…</desc>
+  </programme>
+  <programme start="20261012101000 +0800" stop="20261012120500 +0800" channel="天映頻道">
+    <title>冰封俠重生之門</title>
+    <desc>明朝錦衣衛賀英被誣陷為弒君逆賊，三位結義兄弟奉命追殺。在生死對決之際，四人意外被冰封於時空裂隙。四百年後，他們在現代香港蘇醒。一場跨越時代的宿命之戰，於陌生都市再度引爆。</desc>
+  </programme>
+  <programme start="20261012120500 +0800" stop="20261012143000 +0800" channel="天映頻道">
     <title>南京照相館</title>
     <desc>1937年南京淪陷，一群躲在吉祥照相館避難的百姓，為了求生，被迫替日軍沖洗底片，卻意外發現記錄屠城暴行的罪證。面對隨時喪命的危險，他們決定冒死保存底片，並尋找機會設法將日軍屠殺的鐵證公諸於世，揭露這段慘絕人寰且不容抹滅的歷史真相。</desc>
   </programme>
-  <programme start="20261011232500 +0800" stop="20261012000000 +0800" channel="天映頻道">
-    <title>孤星計劃</title>
-    <desc>白色恐怖籠罩的1920年代上海，特工李一民肩負護送關鍵人物脫險的絕密任務。在孤立無援、步步追殺中，他與舊日同伴重逢，聯手突圍敵人的重重陷阱。一群熱血理想青年亦投身其中，在動盪時代中以犧牲與信念守護使命，找尋屬於自己的勇氣與方向。</desc>
+  <programme start="20261012143000 +0800" stop="20261012163500 +0800" channel="天映頻道">
+    <title>西遊記·女兒國</title>
+    <desc>孫悟空、豬八戒和沙僧一路保護師傅唐僧去西天取經，不料偶然闖進了神秘的女兒國。女兒國女皇對唐僧一見鍾情，國師卻下令要處死唐僧一行人。師徒四人的闖進也引來了河神現身，令女兒國陷入了危機！</desc>
   </programme>
-  <programme start="20261012000000 +0800" stop="20261012012500 +0800" channel="天映頻道">
-    <title>孤星計劃</title>
-    <desc>白色恐怖籠罩的1920年代上海，特工李一民肩負護送關鍵人物脫險的絕密任務。在孤立無援、步步追殺中，他與舊日同伴重逢，聯手突圍敵人的重重陷阱。一群熱血理想青年亦投身其中，在動盪時代中以犧牲與信念守護使命，找尋屬於自己的勇氣與方向。</desc>
+  <programme start="20261012163500 +0800" stop="20261012185000 +0800" channel="天映頻道">
+    <title>風林火山</title>
+    <desc>故事發生在被白雪覆蓋、彌漫超現實氛圍的香港，一場爆炸奪去了暗中操控販毒集團的藥業大亨的性命，令整座城市陷入混亂。警方束手無策，家族企業瀕臨崩潰。富商的小兒子誓言摧毀這個建立在罪惡之上的商業王國，卻同時要面對在逃兄長的阻撓，以及父親舊部為爭奪勢力版圖而展開的激烈角逐。</desc>
+  </programme>
+  <programme start="20261012185000 +0800" stop="20261012210000 +0800" channel="天映頻道">
+    <title>來福大酒店</title>
+    <desc>曾經是街頭混混的李清讓，為了籌措父親的心臟手術費，不斷四處尋找工作。為了賺錢，他潛入來福大酒店，偽裝成員工協助重建專案關閉酒店，卻意外與住客們建立了深厚而真摯的感情。隨著李清讓發現這裡其實是病友們的避風港，他不得不在責任感與同情心之間做出艱難抉擇。</desc>
+  </programme>
+  <programme start="20261012210000 +0800" stop="20261012231500 +0800" channel="天映頻道">
+    <title>龍馬精神</title>
+    <desc>一位生活落魄的武師訓練愛馬為一匹可表演特技的馬，但為抵償欠債，他可能會失去愛馬。武師唯有向疏離多年的女兒求助，兩人也因此得到一次和解的機會。</desc>
+  </programme>
+  <programme start="20261012231500 +0800" stop="20261013000000 +0800" channel="天映頻道">
+    <title>犀利人妻最終回: 幸福男·不難</title>
+    <desc>安真與出軌的丈夫離婚，四年後卻面臨關鍵的抉擇：究竟是回到前夫身邊試著重燃昔日的愛火，還是與新歡一起踏入人生新的一頁？</desc>
+  </programme>
+  <programme start="20261013000000 +0800" stop="20261013011500 +0800" channel="天映頻道">
+    <title>犀利人妻最終回: 幸福男·不難</title>
+    <desc>安真與出軌的丈夫離婚，四年後卻面臨關鍵的抉擇：究竟是回到前夫身邊試著重燃昔日的愛火，還是與新歡一起踏入人生新的一頁？</desc>
   </programme>
 </tv>
