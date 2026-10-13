@@ -3,56 +3,8 @@
   <channel id="LS-Time電影台">
     <display-name>LS-Time電影台</display-name>
   </channel>
-  <programme start="20261013000000 +0800" stop="20261013012500 +0800" channel="LS-Time電影台">
+  <programme start="20261014000000 +0800" stop="20261014011500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013012500 +0800" stop="20261013032000 +0800" channel="LS-Time電影台">
-    <title>神仙龍虎豹</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013032000 +0800" stop="20261013053500 +0800" channel="LS-Time電影台">
-    <title>瘋狂大家樂</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013053500 +0800" stop="20261013074500 +0800" channel="LS-Time電影台">
-    <title>天地雙尊</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013074500 +0800" stop="20261013095000 +0800" channel="LS-Time電影台">
-    <title>幻影特工</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013095000 +0800" stop="20261013120000 +0800" channel="LS-Time電影台">
-    <title>公元2000</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013120000 +0800" stop="20261013140500 +0800" channel="LS-Time電影台">
-    <title>開心鬼</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013140500 +0800" stop="20261013162000 +0800" channel="LS-Time電影台">
-    <title>電車男</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013162000 +0800" stop="20261013185500 +0800" channel="LS-Time電影台">
-    <title>緊急迫降</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013185500 +0800" stop="20261013210000 +0800" channel="LS-Time電影台">
-    <title>童夢奇緣</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013210000 +0800" stop="20261013224500 +0800" channel="LS-Time電影台">
-    <title>花椰菜</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261013231000 +0800" stop="20261014000000 +0800" channel="LS-Time電影台">
-    <title>單身男女</title>
-    <desc></desc>
-  </programme>
-  <programme start="20261014000000 +0800" stop="20261014014500 +0800" channel="LS-Time電影台">
-    <title>單身男女</title>
     <desc></desc>
   </programme>
   <programme start="20261014011500 +0800" stop="20261014032000 +0800" channel="LS-Time電影台">
@@ -283,63 +235,111 @@
     <title>盲女驚心</title>
     <desc></desc>
   </programme>
-  <channel id="天映頻道">
-    <display-name>天映頻道</display-name>
-  </channel>
-  <programme start="20261013000000 +0800" stop="20261013011000 +0800" channel="天映頻道">
+  <programme start="20261018230000 +0800" stop="20261019000000 +0800" channel="LS-Time電影台">
+    <title>金枝玉葉2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261019000000 +0800" stop="20261019012500 +0800" channel="LS-Time電影台">
+    <title>金枝玉葉2</title>
+    <desc></desc>
+  </programme>
+  <programme start="20261019000000 +0800" stop="20261019013500 +0800" channel="LS-Time電影台">
     <title>無節目資料</title>
     <desc></desc>
   </programme>
-  <programme start="20261013011000 +0800" stop="20261013025500 +0800" channel="天映頻道">
-    <title>異度空間</title>
-    <desc>當昔日的創傷成為章昕的記憶烙印後，恐怖的幻象反復出現。於是，章昕向精神科醫生羅本良求助，好讓她回復正常，並解開多年來的心結。然而，隨著章昕逐漸康復，羅本良卻讓自己埋藏多年的心魔釋放，更被幻象所困擾。</desc>
+  <programme start="20261019013500 +0800" stop="20261019040500 +0800" channel="LS-Time電影台">
+    <title>浪漫風暴</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013025500 +0800" stop="20261013044000 +0800" channel="天映頻道">
-    <title>那些年我們一起瘋狂的事</title>
-    <desc>嘉懿、Kopi、Uncle、娃娃和阿弟五名高中生好友決定在畢業前做一件瘋狂又難忘的事。在追逐青春與夢想的過程中，他們勇敢迎戰一場看似毫無勝算的籃球比賽。為了不服輸的信念與珍貴無價的兄弟情誼，眾人決定在全校矚目下拼盡全力，熱血一搏！</desc>
+  <programme start="20261019040500 +0800" stop="20261019063500 +0800" channel="LS-Time電影台">
+    <title>月亮的秘密</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013044000 +0800" stop="20261013062000 +0800" channel="天映頻道">
-    <title>神奇俠侶</title>
-    <desc>能以雙眼放電的的炯炯俠聶歡(古天樂飾)及以香味迷暈敵人的香香俠小紅(吳君如飾)，對打打殺殺的江湖日子極感厭倦，結婚後兩人毅然退隱，匿居於南方小島彩虹村之內，過著無無聊聊的日子。但一日是英雄，終生是英雄。隱居數年，一身好武功只能用於家頭細務之上，平淡的普通人生活已令他們悶得發慌。當他們心癢難止之際，新一屆武林大會竟然於彩虹村舉行；原本已經手痕的神奇俠侶，開始磨拳擦掌，決定出山趁熱鬧！各路江湖人馬紛紛聚集，彩虹村卻變得殺氣騰騰；不但多位武林高手被離奇殺害，矛頭更逐步指向聶歡與小紅夫婦！究竟暗殺背後，隱藏甚麼驚世陰謀？不甘做兇手的替死鬼，更不忍越來越多人無辜被殺，神奇俠侶誓要重出江湖，找出幕後真兇，為自己洗脫污名！！</desc>
+  <programme start="20261019063500 +0800" stop="20261019090000 +0800" channel="LS-Time電影台">
+    <title>辣椒教室</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013062000 +0800" stop="20261013081500 +0800" channel="天映頻道">
-    <title>金錢帝國: 追虎擒龍</title>
-    <desc>七十年代初，香港貪污情況氾濫，廉政公署致力打擊。華探長與黑道首領跛豪聯手多年，其貪污金額更達到百億之多。任職律師的陳克遇上舊友，被邀加入廉政公署，二人合力剷除華探長與跛豪這兩隻大老虎，打擊貪污。一場正義與邪惡的爭鬥也隨之拉開了帷幕。</desc>
+  <programme start="20261019090000 +0800" stop="20261019111000 +0800" channel="LS-Time電影台">
+    <title>雞同鴨講</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013081500 +0800" stop="20261013101000 +0800" channel="天映頻道">
-    <title>4拍4家族</title>
-    <desc>獨立樂隊Band Four主歌手決心踏上國際舞臺，在媽媽病逝後與失散多年的吉他手父親重逢。父女二人加上同父異母的妹妹及9歲兒子，一家四口通過對音樂的愛與熱忱，一起締造充滿愛的家庭。</desc>
+  <programme start="20261019111000 +0800" stop="20261019133500 +0800" channel="LS-Time電影台">
+    <title>喋血雙雄</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013101000 +0800" stop="20261013131500 +0800" channel="天映頻道">
-    <title>流浪地球2</title>
-    <desc>此前傳描述太陽即將毀滅，人類在地球表面建造出巨大的推進器，尋找新的家園。然而宇宙之路危機四伏，為了拯救地球，流浪地球時代的年輕人再次挺身而出，展開爭分奪秒的生死之戰。</desc>
+  <programme start="20261019133500 +0800" stop="20261019161500 +0800" channel="LS-Time電影台">
+    <title>猜猜我是誰</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013131500 +0800" stop="20261013154000 +0800" channel="天映頻道">
-    <title>正義迴廊</title>
-    <desc>改編自2013年轟動全港的「逆子弒親案」，一名青年聯同友人殺害並肢解父母，兩人皆否認謀殺，並上演一幕「魔鬼與白癡」戲碼。而分別代表二人的兩位資深大律師，各為其主下也在庭上突襲互攻。另一邊廂，九位陪審員在裁判室展開話語權角力，思辯案情真相。</desc>
+  <programme start="20261019161500 +0800" stop="20261019185000 +0800" channel="LS-Time電影台">
+    <title>功夫棒球</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013154000 +0800" stop="20261013172500 +0800" channel="天映頻道">
-    <title>龍虎門</title>
-    <desc>改編自著名香港漫畫，王小虎誤取羅剎令後慘被伏擊，幸得兄長王小龍所救，同時亦與少年石黑龍結成生死之交。為報龍虎門師傅被殺之痛，三人潛心修煉，誓要與羅剎教教主火雲邪神決一死戰。</desc>
+  <programme start="20261019185000 +0800" stop="20261019210000 +0800" channel="LS-Time電影台">
+    <title>霹靂大神探</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013172500 +0800" stop="20261013191000 +0800" channel="天映頻道">
-    <title>出埃及記</title>
-    <desc>一位元軍裝警員發現有個女人組織，正進行殲滅全世界男人的計畫，而他的上司方子晴督察和妻子竟也是組織成員…</desc>
+  <programme start="20261019210000 +0800" stop="20261019230000 +0800" channel="LS-Time電影台">
+    <title>天生一對</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013191000 +0800" stop="20261013210000 +0800" channel="天映頻道">
-    <title>手捲煙</title>
-    <desc>退役華籍英軍關超收留為躲避仇人的南亞裔流氓文尼。文尼身上藏有偷來的毒品，導致關超亦被黑幫追捕。兩人住在同一屋簷下，縱有文化及種族的差異，但他們竟轉化為相知相遇的好朋友，更成為一對忠誠的好兄弟。</desc>
+  <channel id="天映頻道">
+    <display-name>天映頻道</display-name>
+  </channel>
+  <programme start="20261014000000 +0800" stop="20261014010000 +0800" channel="天映頻道">
+    <title>無節目資料</title>
+    <desc></desc>
   </programme>
-  <programme start="20261013210000 +0800" stop="20261013231000 +0800" channel="天映頻道">
-    <title>水餃皇後</title>
-    <desc>七十年代，青島姑娘臧健和婚姻破裂後，帶著兩個女兒來到香港。她從洗碗、做雜工起步，在灣仔碼頭擺攤謀生，憑藉家傳水餃手藝與堅毅意志，一步步從街頭小販逆襲而上。創業之路艱辛曲折，在紅姐等街坊的互助下，她最終成為馳名中外的「水餃皇後」。</desc>
+  <programme start="20261014010000 +0800" stop="20261014025500 +0800" channel="天映頻道">
+    <title>他年她日</title>
+    <desc>一場大地震將世界分裂成時間流速不同的「優日區」與「長年區」。醫學生安晴在援助任務中結識少年薯仔，兩人逐漸萌生情愫。然而因時間流速不同，每次重逢他都迅速老去，而她容顏依舊。在不對等的生命長度中，他們攜手對抗時間與命運，守護這段跨越時空的愛情。</desc>
   </programme>
-  <programme start="20261013231000 +0800" stop="20261014000000 +0800" channel="天映頻道">
-    <title>私家偵探</title>
-    <desc>私家偵探歐陽偉業在辦案途中意外發現妻子出軌，震驚之下，他放棄了另一宗失蹤人口案的追查。不久，該失蹤者被發現遇害，警員陳康民懷疑背後潛藏連環殺手。為阻止兇手再次犯案，歐陽偉業必須憑藉偵探直覺，力挽狂瀾。</desc>
+  <programme start="20261014025500 +0800" stop="20261014052000 +0800" channel="天映頻道">
+    <title>十月圍城</title>
+    <desc>1906年10月15日，孫中山先生回到香港，籌畫另一波的革命起義，推翻淸朝。富商李玉堂及中國日報社長陳少白找來五個保鏢保護孫中山先生，逃避清朝的追殺。他們個個身懷絕技，捨命保護孫中山先生，對抗清朝派出的暗殺軍，展開一場又一場的血戰。</desc>
   </programme>
-  <programme start="20261014000000 +0800" stop="20261014011000 +0800" channel="天映頻道">
-    <title>私家偵探</title>
-    <desc>私家偵探歐陽偉業在辦案途中意外發現妻子出軌，震驚之下，他放棄了另一宗失蹤人口案的追查。不久，該失蹤者被發現遇害，警員陳康民懷疑背後潛藏連環殺手。為阻止兇手再次犯案，歐陽偉業必須憑藉偵探直覺，力挽狂瀾。</desc>
+  <programme start="20261014052000 +0800" stop="20261014074000 +0800" channel="天映頻道">
+    <title>海角七號</title>
+    <desc>一位台灣歌手要將七封送錯地址的久遠情書送到收件人友子手中。當他愛上也名叫友子的年輕日藉模特兒時，隨即發現當中偶然的時空連繫。</desc>
+  </programme>
+  <programme start="20261014074000 +0800" stop="20261014093000 +0800" channel="天映頻道">
+    <title>白蛇傳說</title>
+    <desc>這部奇幻動作片改編自中國經典傳說《白蛇傳》，講述郎中許仙愛上化身為女子的千年白蛇。白蛇的真實身份被揭露後，高僧法海為守護人類與超自然力量之間的平衡，不得不挺身而出，展開一場驚心動魄的對決。</desc>
+  </programme>
+  <programme start="20261014093000 +0800" stop="20261014111500 +0800" channel="天映頻道">
+    <title>困獸</title>
+    <desc>為了整頓已經紛亂不堪的地下博彩業，警方聯合博彩協會展開打擊地下賭場的嚴厲行動，並將新建賭場經營權以拍賣的形式處理，重新整頓博彩業。由於不一樣的拍賣引發賭城風雲變遷，不為人知的利益和秘密跟著被揭露，更引起各方人馬的衝突…</desc>
+  </programme>
+  <programme start="20261014111500 +0800" stop="20261014132000 +0800" channel="天映頻道">
+    <title>飯戲攻心</title>
+    <desc>本喜劇的三兄弟同住在已故父母所留給他們的屋簷下。大哥堅持每晚都要一家人一起吃飯，而當他們開始邀請各自的女朋友同住時，關係也變得非常緊張，從而引發出愛情與友情的矛盾和妒忌，及各種錯綜複雜的感情問題。六位主角將一同飯戲攻心！</desc>
+  </programme>
+  <programme start="20261014132000 +0800" stop="20261014151000 +0800" channel="天映頻道">
+    <title>寒戰</title>
+    <desc>警務處處長外訪期間，香港出現警車被脅持事件。署理警務處長李文彬以「寒戰」行動代號，展開拯救行動。而另一副處長劉傑輝認為李文彬因兒子被擄而影響判斷，於是引用警隊條例，暫時解除李文彬的職務，由自己直接指揮。惜行動中多番波折，致使他們的名譽受到嚴重的威脅。</desc>
+  </programme>
+  <programme start="20261014151000 +0800" stop="20261014164500 +0800" channel="天映頻道">
+    <title>我要做特務</title>
+    <desc>方妙齡對特務狂熱著迷至極度離地，雖看似不可能，她仍堅信夢想終會實現。一天，方妙齡竟誤打誤撞地救了一名負傷的特務，死纏爛打下，特務答應收她為徒，從此整個世界變得天翻地覆。</desc>
+  </programme>
+  <programme start="20261014164500 +0800" stop="20261014191000 +0800" channel="天映頻道">
+    <title>爆裂點</title>
+    <desc>毒品調查科總督察李振邦派出警方臥底江銘滲入販毒集團希望能搗破首腦韓洋。一次警方突襲失敗後，激起韓洋復仇怒火。而在金三角供應毒品原料的膺秀亦被迫要與警方合作，搗破毒犯巢穴。一場警匪大戰旋即展開！</desc>
+  </programme>
+  <programme start="20261014191000 +0800" stop="20261014210000 +0800" channel="天映頻道">
+    <title>天堂旅行團</title>
+    <desc>失意的青年與樂觀活潑的小女孩意外相遇，共同開啟了一段療愈心靈的未知旅程。兩人在人生的起落中患難與共，用彼此的陪伴縫合生命的傷口。在這段笑淚交織的徵途中，他們不僅尋獲了生存的勇氣，更在黑暗的人生盡頭，為彼此點燃了希望的微光。</desc>
+  </programme>
+  <programme start="20261014210000 +0800" stop="20261014230500 +0800" channel="天映頻道">
+    <title>新宿事件</title>
+    <desc>偷渡到東京的鐵頭與一幫華人在當地艱難求生，並逐漸建立起一股黑幫新勢力。當鐵頭取得居留權，決心退出江湖、展開新生活時，勢力的急速擴張卻引來各方勢力圍剿。面對警方大舉掃黑，加上兄弟無情出賣，他最終被迫重返江湖。</desc>
+  </programme>
+  <programme start="20261014230500 +0800" stop="20261015000000 +0800" channel="天映頻道">
+    <title>南京照相館</title>
+    <desc>1937年南京淪陷，一群躲在吉祥照相館避難的百姓，為了求生，被迫替日軍沖洗底片，卻意外發現記錄屠城暴行的罪證。面對隨時喪命的危險，他們決定冒死保存底片，並尋找機會設法將日軍屠殺的鐵證公諸於世，揭露這段慘絕人寰且不容抹滅的歷史真相。</desc>
+  </programme>
+  <programme start="20261015000000 +0800" stop="20261015010500 +0800" channel="天映頻道">
+    <title>南京照相館</title>
+    <desc>1937年南京淪陷，一群躲在吉祥照相館避難的百姓，為了求生，被迫替日軍沖洗底片，卻意外發現記錄屠城暴行的罪證。面對隨時喪命的危險，他們決定冒死保存底片，並尋找機會設法將日軍屠殺的鐵證公諸於世，揭露這段慘絕人寰且不容抹滅的歷史真相。</desc>
   </programme>
 </tv>
